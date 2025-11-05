@@ -10,7 +10,7 @@ import courseData from '../data/courseData.json';
 import styles from './page.module.css';
 
 export const metadata = {
-  title: "Welcome",
+  
   description: "Free introductory wine course, sommelier resources, and hospitality training. Learn wine fundamentals, service standards, and beverage knowledge from industry professionals.",
   openGraph: {
     title: "SOMM.SITE - Free Wine Education & Resources",
