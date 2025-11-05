@@ -43,7 +43,7 @@
   .splitSection {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    min-height: 400px;
+    min-height: 290px;
   }
 
   .leftSide {
@@ -55,14 +55,14 @@
   }
 
   .leftTitle {
-    font-size: 38px;
-    max-width: 700px;
+    font-size: 34px;
+    max-width: 500px;
     font-weight: 600;
   }
 
   .rightTitle {
-    font-size: 38px;
-    max-width: 700px;
+    font-size: 34px;
+    max-width: 500px;
     font-weight: 600;
   }
 }

@@ -72,11 +72,11 @@
 /* Desktop */
 @media (min-width: 1280px) {
   .heroCoursePreview {
-    padding: 40px 0px;
+    padding: 20px 0px;
   }
 
   .heading {
-    font-size: 28px;
+    font-size: 22px;
     margin-bottom: 24px;
   }
 
