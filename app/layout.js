@@ -22,6 +22,7 @@ export const metadata = {
   creator: "Derek Engles",
   publisher: "SOMM.SITE",
   metadataBase: new URL("https://somm.site"),
+  viewport: "width=device-width, initial-scale=1",
   openGraph: {
     type: "website",
     locale: "en_US",
