@@ -1,0 +1,50 @@
+/* REUSABLE COURSE PAGE STYLES - Use for all course landing pages */
+
+.coursePageMain {
+  background-color: #f5f5f5;
+  min-height: 100vh;
+  padding: 80px 40px;
+}
+
+.coursePageContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.coursePageTitle {
+  font-size: 48px;
+  font-weight: 700;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.coursePageDescription {
+  font-size: 20px;
+  color: #333333;
+  text-align: center;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto 60px;
+}
+
+.coursePageGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .coursePageTitle {
+    font-size: 36px;
+  }
+  
+  .coursePageDescription {
+    font-size: 16px;
+  }
+  
+  .coursePageGrid {
+    grid-template-columns: 1fr;
+  }
+}

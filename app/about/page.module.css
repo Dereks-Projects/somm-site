@@ -1,0 +1,340 @@
+/* MOBILE FIRST - ABOUT PAGE STYLES */
+
+.aboutMain {
+  background-color: #ffffff;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(to bottom, #000000, #00343d);
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.heroContent {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.heroTitle {
+  font-size: 36px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.heroSubtitle {
+  font-size: 18px;
+  font-weight: 400;
+  color: #cccccc;
+  line-height: 1.6;
+}
+
+/* Shared Container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Shared Section Title */
+.sectionTitle {
+  font-size: 32px;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+/* Mission Section */
+.missionSection {
+  background-color: #f5f5f5;
+  padding: 80px 20px;
+}
+
+.missionText {
+  font-size: 18px;
+  color: #333333;
+  line-height: 1.8;
+  margin-bottom: 24px;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Ecosystem Section - RENAMED CLASSES */
+.ecosystemSection {
+  background-color: #ffffff;
+  padding: 80px 20px;
+}
+
+.ecosystemIntro {
+  font-size: 18px;
+  color: #333333;
+  line-height: 1.8;
+  margin-bottom: 50px;
+  text-align: center;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ecosystemGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.ecoCard {
+  background-color: #1a1a1a;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 280px;
+}
+
+.ecoCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+.ecoTitle {
+  font-size: 24px;
+  font-weight: 700;
+  color: white;
+  padding: 30px 30px 16px 30px;
+  border-bottom: 3px solid #ffde59;
+  text-align: center;
+}
+
+.ecoDescription {
+  font-size: 16px;
+  color: #cccccc;
+  line-height: 1.7;
+  padding: 20px 30px;
+  text-align: center;
+}
+
+.ecoLink {
+  font-size: 16px;
+  color: #ffde59;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  padding: 0 30px 30px 30px;
+  display: block;
+  text-align: center;
+}
+
+.ecoLink:hover {
+  color: #ffffff;
+}
+
+/* Founder Section */
+.founderSection {
+  background-color: #f5f5f5;
+  padding: 80px 20px;
+}
+
+.founderContent {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.founderBio {
+  background-color: #ffffff;
+  padding: 20px 10px;
+  border-left: 6px solid #ffde59;
+  border-radius: 4px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.bioText {
+  font-size: 17px;
+  color: #333333;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.bioText strong {
+  font-weight: 700;
+  color: #000000;
+}
+
+.founderLink {
+  display: inline-block;
+  font-size: 18px;
+  color: #202020;
+  font-weight: 400;
+  text-decoration: none;
+  margin-top: 10px;
+  transition: all 0.3s ease;
+}
+
+.founderLink:hover {
+  text-decoration: underline;
+}
+
+/* CTA Section */
+.ctaSection {
+  background-color: #00343d;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.ctaTitle {
+  font-size: 32px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.ctaText {
+  font-size: 18px;
+  color: white;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ctaButton {
+  display: inline-block;
+  background-color: white;
+  color: #00343d;
+  padding: 16px 40px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: opacity 0.3s ease;
+}
+
+.ctaButton:hover {
+  opacity: 0.9;
+}
+
+/* DESKTOP */
+@media (min-width: 768px) {
+  /* Hero */
+  .hero {
+    padding: 120px 60px;
+  }
+
+  .heroTitle {
+    font-size: 56px;
+    margin-bottom: 24px;
+  }
+
+  .heroSubtitle {
+    font-size: 22px;
+  }
+
+  /* Container */
+  .container {
+    padding: 0 60px;
+  }
+
+  /* Section Title */
+  .sectionTitle {
+    font-size: 42px;
+    margin-bottom: 40px;
+  }
+
+  /* Mission */
+  .missionSection {
+    padding: 100px 60px;
+  }
+
+  .missionText {
+    font-size: 20px;
+    margin-bottom: 28px;
+  }
+
+  /* Ecosystem - DESKTOP WITH RENAMED CLASSES */
+  .ecosystemSection {
+    padding: 100px 60px;
+  }
+
+  .ecosystemIntro {
+    font-size: 20px;
+    margin-bottom: 60px;
+  }
+
+  .ecosystemGrid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+  }
+
+  .ecoCard {
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ecoTitle {
+    font-size: 26px;
+    padding: 40px 40px 20px 40px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ecoDescription {
+    font-size: 17px;
+    padding: 24px 40px;
+    line-height: 1.8;
+    height: 210px;
+  }
+
+  .ecoLink {
+    font-size: 17px;
+    padding: 20px 40px;
+    margin-top: auto;
+  }
+
+  /* Founder */
+  .founderSection {
+    padding: 100px 60px;
+  }
+
+  .founderBio {
+    padding: 60px 50px;
+  }
+
+  .bioText {
+    font-size: 19px;
+    margin-bottom: 24px;
+  }
+
+  .founderLink {
+    font-size: 20px;
+    margin-top: 16px;
+  }
+
+  /* CTA */
+  .ctaSection {
+    padding: 100px 60px;
+  }
+
+  .ctaTitle {
+    font-size: 46px;
+    margin-bottom: 24px;
+  }
+
+  .ctaText {
+    font-size: 22px;
+    margin-bottom: 40px;
+  }
+
+  .ctaButton {
+    font-size: 18px;
+    padding: 18px 50px;
+  }
+}

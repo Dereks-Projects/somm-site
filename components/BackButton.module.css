@@ -1,0 +1,31 @@
+.backButtonContainer {
+  padding: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.backButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 20px;
+  background-color: transparent;
+  border: 2px solid #333333;
+  border-radius: 4px;
+  color: #333333;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.backButton:hover {
+  background-color: #333333;
+  color: white;
+}
+
+.arrow {
+  font-size: 20px;
+  font-weight: 700;
+}

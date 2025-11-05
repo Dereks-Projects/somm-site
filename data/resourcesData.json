@@ -1,0 +1,57 @@
+{
+  "websites": [
+    {
+      "id": 1,
+      "title": "Beverage.fyi",
+      "subtitle": "From insightful articles to wine pairings and cocktail suggestions, Beverage.fyi covers it all.",
+      "link": "https://www.beverage.fyi",
+      "image": "/images/sites/bfyi-site.jpg",
+      "altImage": "Beverage.fyi website"
+    },
+    {
+      "id": 2,
+      "title": "RestaurantStandards.com",
+      "subtitle": "High-performance restaurant training site built for Michelin, AAA and Forbes 5 Star achievement.",
+      "link": "https://RestaurantStandards.com",
+      "image": "/images/sites/rs-site.jpg",
+      "altImage": "Restaurant Standards website"
+    },
+    {
+      "id": 3,
+      "title": "Somm.Tips",
+      "subtitle": "This recommendation engine helps you shop the restaurant list or the wine shop with confidence.",
+      "link": "https://www.Somm.Tips",
+      "image": "/images/sites/st-site.jpg",
+      "altImage": "Somm Tips website"
+    }
+  ],
+  "books": [
+    {
+      "id": 1,
+      "title": "The Beverage Compass",
+      "subtitle": "Your Guide to Navigating the World of Fine Wine, Spirits, Coffee, and More",
+      "about": "This comprehensive guide transforms intimidating wine lists and mysterious spirits into accessible, engaging education.",
+      "link": "https://www.amazon.com/dp/B0FQD4X2JT",
+      "image": "/images/books/tbc-book.jpg",
+      "altImage": "The Beverage Compass book"
+    },
+    {
+      "id": 2,
+      "title": "Restaurant Standards",
+      "subtitle": "A Framework for Excellence in Hospitality",
+      "about": "Transform your understanding of elevated dining service with this comprehensive guide to hospitality excellence.",
+      "link": "https://www.amazon.com/dp/B0FNDMTK5F",
+      "image": "/images/books/rs-book.jpg",
+      "altImage": "Restaurant Standards book"
+    },
+    {
+      "id": 3,
+      "title": "Wine Fundamentals",
+      "subtitle": "A Professional Reference for Aspiring Sommeliers and Wine Enthusiasts",
+      "about": "Wine Fundamentals delivers everything you need to understand wine from vineyard to glass",
+      "link": "https://www.amazon.com/dp/B0FMQMRSXZ",
+      "image": "/images/books/wf-book.jpg",
+      "altImage": "Wine Fundamentals book"
+    }
+  ]
+}

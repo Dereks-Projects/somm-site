@@ -1,0 +1,33 @@
+/* MOBILE FIRST - HEADER STYLES */
+
+.header {
+  background-color: #000000;
+  padding: 18px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.logoLink {
+  text-decoration: none;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: 700;
+  color: white;
+  margin: 0;
+}
+
+/* DESKTOP */
+@media (min-width: 768px) {
+  .header {
+    padding: 26px 60px 26px 120px;
+  }
+
+  .logo {
+    font-size: 48px;
+    
+  }
+}

@@ -1,0 +1,87 @@
+/* MOBILE FIRST - PROJECTS CTA STYLES */
+
+.ctaSection {
+  background-color: #00343d;
+  padding: 60px 20px;
+}
+
+.ctaContainer {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.ctaHeading {
+  font-size: 32px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.ctaDescription {
+  font-size: 18px;
+  color: white;
+  line-height: 1.6;
+  margin-bottom: 40px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.buttonGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.ctaButton {
+  background-color: white;
+  color: #00343d;
+  padding: 14px 32px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  display: inline-block;
+  width: 280px;
+  text-align: center;
+}
+
+.ctaButton:hover {
+  background-color: #00343d;
+  color: white;
+  border: 2px solid white;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.2);
+}
+
+/* DESKTOP */
+@media (min-width: 768px) {
+  .ctaSection {
+    padding: 80px 40px;
+  }
+
+  .ctaHeading {
+    font-size: 42px;
+    margin-bottom: 24px;
+  }
+
+  .ctaDescription {
+    font-size: 20px;
+    margin-bottom: 50px;
+  }
+
+  .buttonGroup {
+    flex-direction: row;
+    justify-content: center;
+    gap: 24px;
+  }
+
+  .ctaButton {
+    font-size: 17px;
+    padding: 16px 36px;
+    width: auto;
+  }
+}
