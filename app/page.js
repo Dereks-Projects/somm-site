@@ -8,6 +8,8 @@ import CTASection from '../components/CTASection';
 import CoursePreview from '../components/CoursePreview';
 import courseData from '../data/courseData.json';
 import styles from './page.module.css';
+import QuizSection from '../components/QuizSection';
+import questionData from '../data/questionData.json';
 
 export const metadata = {
   
@@ -23,7 +25,7 @@ export default function Home() {
     <div>
       <Header />
       <Hero />
-      <SplitSection />
+      <QuizSection questionData={questionData} />
       <div id="resources">
         <ResourceSection />
       </div>

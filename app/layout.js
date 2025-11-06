@@ -22,7 +22,6 @@ export const metadata = {
   creator: "Derek Engles",
   publisher: "SOMM.SITE",
   metadataBase: new URL("https://somm.site"),
-  viewport: "width=device-width, initial-scale=1",
   openGraph: {
     type: "website",
     locale: "en_US",
@@ -50,6 +49,10 @@ export const metadata = {
     apple: "/ss-favicon.png"
   }
 };
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
+}
 
 export default function RootLayout({ children }) {
   return (
