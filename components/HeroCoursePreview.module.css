@@ -80,18 +80,19 @@
     margin-bottom: 24px;
   }
 
-  .cardsContainer {
-    overflow-x: visible;
-    display: inline-flex;
-    align-items: center;
-    gap: 24px;
-    margin-bottom: 30px;
-  }
+.cardsContainer {
+  overflow-x: visible;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 30px;
+  max-width: 100%;
+}
 
-  .cardsContainer > * {
-    flex: 0 0 280px;
-    min-width: auto;
-  }
+ .cardsContainer > * {
+  flex: 0 0 260px;
+  min-width: auto;
+}
 
   .arrow {
     display: inline-block;
