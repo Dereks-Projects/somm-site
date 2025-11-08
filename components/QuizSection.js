@@ -47,6 +47,7 @@ export default function QuizSection({ questionData }) {
   };
 
   const handleAnswer = (selectedAnswer) => {
+  
     const currentQuestion = questions[currentQuestionIndex];
     const isCorrect = selectedAnswer === currentQuestion.answer;
     
@@ -129,7 +130,7 @@ export default function QuizSection({ questionData }) {
             <div className={styles.choicesGrid}>
               {currentQuestion.choices.map((choice, index) => (
                 <button
-                  key={index}
+                key={`${currentQuestionIndex}-${index}`}
                   onClick={() => handleAnswer(choice)}
                   className={styles.choiceButton}
                 >
