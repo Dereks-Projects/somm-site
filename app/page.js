@@ -18,7 +18,7 @@ export const metadata = {
 
 export default async function Home() {
   // Fetch all Wine articles from Sanity
-  const articles = await client.fetch(allArticlesQuery);
+  const articles = await client.fetch(allArticlesQuery, {}, { cache: 'no-store' });
 
   // Split articles: [0] = featured, [1,2] = sub-featured, [3+] = infinite scroll
   const featuredArticle = articles[0];
