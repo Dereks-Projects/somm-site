@@ -221,26 +221,36 @@
   color: #000000;
 }
 
+
 /* BACK BUTTON */
-.backButtonSection {
+/* NAVIGATION BUTTONS */
+.navigationSection {
   max-width: 896px;
   margin: 0 auto;
   padding: 32px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
 
-.backButton {
+.navButton {
   display: inline-block;
-  padding: 8px 24px;
+  padding: 12px 24px;
   background-color: #000000;
   color: #ffffff;
   border-radius: 8px;
   text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  width: 210px;
   transition: background-color 0.2s ease;
 }
 
-.backButton:hover {
-  background-color: #1f2937;
+.navButton:hover {
+  background-color: #333333;
 }
+
+
 
 /* DESKTOP */
 @media (min-width: 768px) {

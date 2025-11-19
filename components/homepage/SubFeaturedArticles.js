@@ -22,7 +22,9 @@ export default function SubFeaturedArticles({ articles }) {
           {/* Content */}
           <div className={styles.content}>
             {article.subcategory && (
-              <p className={styles.subcategory}>{article.subcategory.toUpperCase()}</p>
+              <Link href={`/articles?subcategory=${article.subcategory.toLowerCase()}`} className={styles.subcategory}>
+                {article.subcategory.toUpperCase()}
+              </Link>
             )}
             <Link href={`/articles/${article.slug.current}`} className={styles.titleLink}>
               <h2 className={styles.title}>{article.title}</h2>

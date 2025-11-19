@@ -2,6 +2,7 @@ import { client } from '../../../sanity/lib/client'
 import { PortableText } from '@portabletext/react'
 import Header from '../../../components/layout/Header'
 import Footer from '../../../components/layout/Footer'
+import BackButton from '../../../components/BackButton'
 import styles from './article.module.css'
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
@@ -275,9 +276,13 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
         )}
 
         {/* BACK BUTTON */}
-        <div className={styles.backButtonSection}>
-          <a href="/articles" className={styles.backButton}>
-            Back to Articles Page
+        {/* NAVIGATION BUTTONS */}
+        <div className={styles.navigationSection}>
+          <a href="/articles" className={styles.navButton}>
+            ← Back to Articles
+          </a>
+          <a href="/" className={styles.navButton}>
+            ← Back to Home
           </a>
         </div>
       </div>

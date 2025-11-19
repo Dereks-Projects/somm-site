@@ -22,7 +22,9 @@ export default function FeaturedArticle({ article }) {
       <div className={styles.content}>
         {/* Gray subcategory label */}
         {article.subcategory && (
-          <p className={styles.subcategory}>{article.subcategory.toUpperCase()}</p>
+          <Link href={`/articles?subcategory=${article.subcategory.toLowerCase()}`} className={styles.subcategory}>
+            {article.subcategory.toUpperCase()}
+          </Link>
         )}
         
         {/* Title */}
