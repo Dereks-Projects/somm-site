@@ -20,7 +20,7 @@ export const metadata = {
 // Query to get all articles or filtered by subcategory
 async function getArticles(subcategory = null) {
   const filter = subcategory 
-    ? `*[_type == "article" && category == "wine" && subcategory == "${subcategory}"] | order(publishedAt desc)`
+  ? `*[_type == "article" && category == "wine" && lower(subcategory) == lower("${subcategory}")] | order(publishedAt desc)`
     : `*[_type == "article" && category == "wine"] | order(publishedAt desc)`;
   
   const query = `${filter} {

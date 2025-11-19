@@ -79,14 +79,14 @@
 .mainNav {
   display: flex;
   flex-direction: column;
-  gap: 15px;
-  margin-top: 20px;
-  margin-bottom: 30px;
+  gap: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .mainLink {
   color: white;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
   text-decoration: none;
   transition: all 0.2s ease;
@@ -114,13 +114,13 @@
 .socialLinks {
   display: flex;
   flex-direction: column;
-  gap: 15px;
-  margin-bottom: 32px;
+  gap: 10px;
+  margin-bottom: 25px;
 }
 
 .socialLink {
   color: #cccccc;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 500;
   text-decoration: none;
   transition: all 0.2s ease;
@@ -153,8 +153,8 @@
 .legalLinks {
   display: flex;
   flex-direction: column;
-  gap: 11px;
-  margin-bottom: 32px;
+  gap: 9px;
+  margin-bottom: 30px;
 }
 
 .legalLink {
@@ -200,12 +200,12 @@
 .partnerSection {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 8px;
 }
 
 .partnerHeading {
   color: white;
-  font-size: 16px;
+  font-size: 13px;
   font-weight: 600;
   margin-bottom: 8px;
   text-transform: uppercase;
@@ -214,7 +214,7 @@
 
 .partnerLink {
   color: #cccccc;
-  font-size: 15px;
+  font-size: 13px;
   font-weight: 500;
   text-decoration: none;
   text-transform: lowercase;
