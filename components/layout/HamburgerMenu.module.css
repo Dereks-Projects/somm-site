@@ -1,0 +1,303 @@
+/* MOBILE FIRST - HAMBURGER MENU STYLES */
+
+/* Hamburger Button */
+.hamburgerButton {
+  position: relative;
+  z-index: 1001;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  transition: transform 0.3s ease;
+}
+
+.hamburgerButton:hover {
+  transform: scale(1.05);
+}
+
+.iconCircle {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 2px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.iconCircle:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.iconOpen {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+/* Overlay */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 999;
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Menu Panel */
+.menuPanel {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 320px;
+  height: 100vh;
+  background-color: #000000;
+  z-index: 1000;
+  padding: 90px 40px 40px 40px;
+  overflow-y: auto;
+  transition: right 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: -4px 0 24px rgba(0, 0, 0, 0.3);
+}
+
+.menuOpen {
+  right: 0;
+}
+
+/* Main Navigation Links */
+.mainNav {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.mainLink {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  position: relative;
+  display: inline-block;
+  width: fit-content;
+}
+
+.mainLink::after {
+  content: '';
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: white;
+  transition: width 0.3s ease;
+}
+
+.mainLink:hover::after {
+  width: 100%;
+}
+
+/* Social Links */
+.socialLinks {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 32px;
+}
+
+.socialLink {
+  color: #cccccc;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  position: relative;
+  display: inline-block;
+  width: fit-content;
+}
+
+.socialLink::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #cccccc;
+  transition: width 0.3s ease;
+}
+
+.socialLink:hover {
+  color: white;
+}
+
+.socialLink:hover::after {
+  width: 100%;
+  background-color: white;
+}
+
+/* Legal Links */
+.legalLinks {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+  margin-bottom: 32px;
+}
+
+.legalLink {
+  color: #999999;
+  font-size: 13px;
+  font-weight: 400;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  position: relative;
+  display: inline-block;
+  width: fit-content;
+}
+
+.legalLink::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background-color: #999999;
+  transition: width 0.3s ease;
+}
+
+.legalLink:hover {
+  color: #cccccc;
+}
+
+.legalLink:hover::after {
+  width: 100%;
+  background-color: #cccccc;
+}
+
+/* Yellow Divider */
+.divider {
+  width: 100%;
+  height: 1.5px;
+  background-color: #ffde59;
+  margin-bottom: 32px;
+}
+
+/* Partner Sites Section */
+.partnerSection {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.partnerHeading {
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.partnerLink {
+  color: #cccccc;
+  font-size: 15px;
+  font-weight: 500;
+  text-decoration: none;
+  text-transform: lowercase;
+  transition: all 0.2s ease;
+  position: relative;
+  display: inline-block;
+  width: fit-content;
+}
+
+.partnerLink::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #ffde59;
+  transition: width 0.3s ease;
+}
+
+.partnerLink:hover {
+  color: white;
+}
+
+.partnerLink:hover::after {
+  width: 100%;
+}
+
+/* DESKTOP */
+@media (min-width: 768px) {
+  
+
+  .iconCircle {
+    width: 35px;
+    height: 35px;
+  }
+
+  .menuPanel {
+    width: 400px;
+    padding: 80px 50px 50px 50px;
+  }
+
+  .mainNav {
+    gap: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+
+  .mainLink {
+    font-size: 20px;
+  }
+
+  .socialLinks {
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+
+  .socialLink {
+    font-size: 13px;
+  }
+
+  .legalLinks {
+    gap: 8px;
+    margin-bottom: 25px;
+  }
+
+  .legalLink {
+    font-size: 11px;
+  }
+
+  .divider {
+    margin-bottom: 25px;
+  }
+
+  .partnerSection {
+    gap: 10px;
+  }
+
+  .partnerHeading {
+    font-size: 15px;
+  }
+
+  .partnerLink {
+    font-size: 14px;
+  }
+}

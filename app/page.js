@@ -1,50 +1,47 @@
-import Header from '../components/Header';
-import Footer from '../components/Footer';
-import Hero from '../components/Hero';
-import SplitSection from '../components/SplitSection';
-import ResourceSection from '../components/ResourceSection';
-import BooksSection from '../components/BooksSection';
-import CTASection from '../components/CTASection';
-import CoursePreview from '../components/CoursePreview';
-import courseData from '../data/courseData.json';
-import styles from './page.module.css';
-import QuizSection from '../components/QuizSection';
-import questionData from '../data/questionData.json';
+import { client } from '../sanity/lib/client.ts';
+import { allArticlesQuery } from '../sanity/queries';
+import Header from '../components/layout/Header';
+import Footer from '../components/layout/Footer';
+import FeaturedArticle from '../components/homepage/FeaturedArticle';
+import SubFeaturedArticles from '../components/homepage/SubFeaturedArticles';
+import InfiniteArticleList from '../components/homepage/InfiniteArticleList';
 
 export const metadata = {
-  
-  description: "Free introductory wine course, sommelier resources, and hospitality training. Learn wine fundamentals, service standards, and beverage knowledge from industry professionals.",
+  title: "Wine Education | SOMM.SITE",
+  description: "Free wine education covering grape varieties, wine regions, winemaking techniques, tasting methods, and sommelier knowledge. Comprehensive articles on Cabernet Sauvignon, Pinot Noir, Chardonnay, Champagne, Bordeaux, Burgundy, Napa Valley, and world wine regions. Professional hospitality training for sommeliers, servers, and wine enthusiasts.",
+  keywords: "wine education, sommelier training, grape varieties, wine regions, wine tasting, Cabernet Sauvignon, Pinot Noir, Chardonnay, Bordeaux, Burgundy, Napa Valley, wine knowledge, free wine course, hospitality training",
   openGraph: {
-    title: "SOMM.SITE - Free Wine Education & Resources",
-    description: "Free introductory wine course and hospitality training resources"
+    title: "SOMM.SITE - Free Wine Education & Articles",
+    description: "Comprehensive wine education covering grape varieties, regions, and sommelier knowledge"
   }
 };
 
-export default function Home() {
+export default async function Home() {
+  // Fetch all Wine articles from Sanity
+  const articles = await client.fetch(allArticlesQuery);
+
+  // Split articles: [0] = featured, [1,2] = sub-featured, [3+] = infinite scroll
+  const featuredArticle = articles[0];
+  const subFeaturedArticles = articles.slice(1, 3);
+  const infiniteScrollArticles = articles.slice(3);
+
   return (
     <div>
       <Header />
-      <Hero />
-      <QuizSection questionData={questionData} />
-      <div id="resources">
-        <ResourceSection />
-      </div>
       
-      <section className={styles.courseSection}>
-        <div className={styles.courseContainer}>
-          <CoursePreview 
-            courses={courseData}
-            heading="Introductory Wine Course"
-            description="This introductory look into the world of wine is a great place to start for beginners, and the perfect place for professionals to brush up on their current knowledge."
-            buttonText="View Full Course"
-            buttonLink="/intro-course"
-            variant="highlighted"
-          />
-        </div>
-      </section>
+      {/* Featured Article - Latest */}
+      {featuredArticle && <FeaturedArticle article={featuredArticle} />}
       
-      <BooksSection />
-      <CTASection />
+      {/* Sub-Featured Articles - 2nd & 3rd Latest */}
+      {subFeaturedArticles.length > 0 && (
+        <SubFeaturedArticles articles={subFeaturedArticles} />
+      )}
+      
+      {/* Infinite Scroll - 4th Article Onward */}
+      {infiniteScrollArticles.length > 0 && (
+        <InfiniteArticleList articles={infiniteScrollArticles} />
+      )}
+      
       <Footer />
     </div>
   );

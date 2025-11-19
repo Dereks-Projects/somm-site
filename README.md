@@ -1,374 +1,358 @@
-# SOMM.SITE Redux
+# SOMM.SITE - Free Wine Education Platform
 
-A modern, SEO-optimized educational platform for wine and hospitality professionals, rebuilt with Next.js.
+**Live Site:** [https://somm.site](https://somm.site)
 
----
-
-## Overview
-
-SOMM.SITE is a comprehensive wine education platform that offers:
-- Free introductory wine courses
-- Curated links to educational resources across the web
-- Professional hospitality training materials
-- Amazon Kindle bookshelf with published works
-
-This project is a complete rebuild from the ground up using modern web technologies for better performance, SEO, and scalability.
+A modern, article-centric wine education platform built with Next.js and Sanity CMS. Professional wine knowledge made accessible to hospitality professionals and enthusiasts worldwide.
 
 ---
 
-## Tech Stack
+## 🍷 About
 
-### Framework & Core
-- **Next.js 16.0.1** - React framework with App Router
-- **React 19** - UI component library
-- **JavaScript** (ES6+) - No TypeScript
+SOMM.SITE provides comprehensive, free wine education covering grape varieties, wine regions, winemaking techniques, and sommelier knowledge. Built by Derek Engles, a hospitality professional with 20+ years of experience as a sommelier and wine director at luxury properties including Wynn Resort and MGM Grand.
 
-### Styling
-- **CSS Modules** - Component-scoped styling
-- **Google Fonts** - Montserrat typography
-- **Custom CSS** - No Tailwind, no CSS frameworks
+### Key Features
 
-### Development Tools
-- **ESLint** - Code quality and linting
-- **VS Code** - Primary development environment
-- **npm** - Package management
-
-### Hosting & Deployment
-- **TBD** - Ready for Vercel, Netlify, or custom hosting
+- **Article Library** - Evergreen educational content on wine fundamentals
+- **Dynamic Filtering** - Browse articles by subcategory (Grapes, Regions, Producers)
+- **Mobile-First Design** - Optimized for phones and tablets
+- **SEO Optimized** - Full metadata, structured data, and sitemaps for search engines
+- **Sanity CMS Integration** - Headless CMS for easy content management
+- **Responsive Layout** - Clean, professional design across all devices
 
 ---
 
-## Project Structure
+## 🛠 Tech Stack
 
+- **Framework:** Next.js 14+ (App Router)
+- **CMS:** Sanity.io (Headless)
+- **Styling:** CSS Modules (Mobile-First)
+- **Deployment:** Vercel
+- **Package Manager:** pnpm
+- **Language:** JavaScript/TypeScript
+
+---
+
+## 📁 Project Structure
 ```
-new-somm-site/
-├── app/                      # Next.js App Router pages
-│   ├── globals.css          # Global styles
-│   ├── layout.js            # Root layout wrapper
-│   ├── page.js              # Homepage
-│   ├── intro-course/        # Course landing page
-│   │   ├── page.js
-│   │   └── [slug]/          # Dynamic lesson pages
-│   │       └── page.js
+somm-site/
+├── app/
+│   ├── page.js                    # Homepage (article feed)
+│   ├── layout.js                  # Root layout with metadata
+│   ├── globals.css                # Global styles
+│   ├── articles/
+│   │   ├── page.tsx               # Articles archive
+│   │   └── [slug]/page.tsx        # Individual article template
+│   ├── about/page.js              # About page
+│   ├── intro-course/              # Introductory wine course
+│   ├── disclaimer/page.js         # Content disclaimer
+│   ├── privacy/page.js            # Privacy policy
+│   ├── terms/page.js              # Terms of use
+│   ├── cookies/page.js            # Cookie policy
+│   └── sitemap.js                 # Dynamic sitemap
 │
-├── components/              # Reusable React components
-│   ├── Header.js
-│   ├── Footer.js
-│   ├── CourseCard.js
-│   ├── ResourceCard.js
-│   ├── BookCard.js
-│   └── ...
+├── components/
+│   ├── layout/
+│   │   ├── Header.js              # Site header (fixed)
+│   │   ├── Footer.js              # Site footer
+│   │   └── HamburgerMenu.js       # Mobile navigation
+│   ├── homepage/
+│   │   ├── FeaturedArticle.js     # Hero article component
+│   │   ├── SubFeaturedArticles.js # Secondary articles
+│   │   ├── ArticleCard.js         # Reusable article card
+│   │   └── InfiniteArticleList.js # Article grid with Load More
+│   └── (other components)
 │
-├── data/                    # JSON data files
-│   ├── courseData.json     # Wine course lessons
-│   └── resourcesData.json  # Sites and books
+├── sanity/
+│   ├── lib/client.ts              # Sanity client configuration
+│   ├── queries.js                 # Article queries
+│   ├── schemaTypes/
+│   │   └── article.ts             # Article content schema
+│   └── env.ts                     # Environment config
 │
-├── public/                  # Static assets
-│   └── images/
-│       ├── sites/          # Site showcase images
-│       ├── books/          # Book cover images
-│       ├── icons/          # Social media icons
-│       └── blog-images/    # Course hero/body images
-│
-├── package.json
-├── next.config.mjs
-└── README.md
+├── data/                          # Static JSON data files
+├── public/                        # Static assets (images, favicon)
+├── .env.local                     # Environment variables (not in repo)
+├── next.config.mjs                # Next.js configuration
+└── package.json                   # Dependencies
 ```
 
 ---
 
-## Getting Started
+## 🚀 Getting Started
 
 ### Prerequisites
-- Node.js 18.x or higher
-- npm 9.x or higher
+
+- Node.js 18+ installed
+- pnpm package manager (`npm install -g pnpm`)
+- Sanity account and project set up
 
 ### Installation
 
-1. **Clone or open the project:**
+1. **Clone the repository**
 ```bash
-cd new-somm-site
+   git clone https://github.com/yourusername/somm-site.git
+   cd somm-site
 ```
 
-2. **Install dependencies:**
+2. **Install dependencies**
 ```bash
-npm install
+   pnpm install
 ```
 
-3. **Start development server:**
+3. **Set up environment variables**
+   
+   Create `.env.local` in the project root:
+```env
+   NEXT_PUBLIC_SANITY_PROJECT_ID="your-project-id"
+   NEXT_PUBLIC_SANITY_DATASET="production"
+   NEXT_PUBLIC_SANITY_API_VERSION="2025-11-10"
+```
+
+4. **Run development server**
 ```bash
-npm run dev
+   pnpm dev
 ```
 
-4. **Open browser:**
+5. **Open in browser**
 ```
-http://localhost:3000
+   http://localhost:3000
 ```
 
-The site will automatically reload when you save changes to files.
-
----
-
-## Available Scripts
-
-```bash
-# Start development server
-npm run dev
-
-# Build for production
-npm run build
-
-# Start production server (after build)
-npm start
-
-# Run linter
-npm run lint
+6. **Access Sanity Studio** (if configured)
+```
+   http://localhost:3000/studio
 ```
 
 ---
 
-## Key Features
+## 📝 Content Management
 
-### 🎓 Educational Content System
-- Dynamic course pages with JSON-driven content
-- Reusable article layout for future courses
-- SEO-optimized with server-side rendering
+### Sanity CMS
 
-### 🎨 Modern Design
-- Mobile-first responsive design
-- Custom CSS modules for component isolation
-- Professional typography with Montserrat font
-- Consistent color palette and spacing
+Articles are managed through Sanity Studio. Each article includes:
 
-### 🔗 Resource Hub
-- Curated links to external educational resources
-- Showcase of related websites and tools
-- Amazon Kindle Direct Publishing integration
+- **Title** - Main article heading
+- **Subtitle** - Supporting description
+- **Slug** - URL-friendly identifier (auto-generated)
+- **Category** - Primary classification (wine, spirits, beer, etc.)
+- **Subcategory** - Secondary tag (Grapes, Regions, Producers, etc.)
+- **Main Image** - Featured image with alt text
+- **Body** - Rich text content (Portable Text format)
+- **Published Date** - Publication timestamp
+- **Author** - Content creator name
+- **Tags** - Keywords for categorization
+- **Featured** - Highlight flag
 
-### 📱 Performance Optimized
-- Next.js automatic code splitting
-- Optimized image loading
-- Server-side rendering for fast initial load
-- Static generation where possible
+### Adding New Articles
 
----
+1. Log into Sanity Studio at `/studio`
+2. Create new Article document
+3. Fill in all required fields
+4. Add main image with descriptive alt text
+5. Write content using rich text editor
+6. Publish when ready
 
-## Pages & Routes
-
-| URL | Description |
-|-----|-------------|
-| `/` | Homepage with hero, resources, courses, books |
-| `/intro-course` | Course landing page with all 6 lessons |
-| `/intro-course/[slug]` | Individual lesson articles |
-
-### Planned Routes
-- `/about` - About page
-- `/contact` - Contact page
-- Future courses: `/intermediate-course`, `/advanced-course`
+Articles automatically appear on the homepage and in the sitemap.
 
 ---
 
-## Content Management
+## 🎨 Design System
 
-### Adding New Course Lessons
+### Colors
 
-1. Add lesson data to `/data/courseData.json`:
-```json
-{
-  "id": 7,
-  "title": "Course Title",
-  "subtitle": "Lesson Name",
-  "slug": "lesson-url-slug",
-  "heroImage": "/blog-images/hero.jpg",
-  "paragraph1": "Content...",
-  ...
+- **Background:** `#fafafa` (Light gray)
+- **Header/Footer:** `#000000` (Black)
+- **Text Primary:** `#000000` (Black)
+- **Text Secondary:** `#555555`, `#777777` (Grays)
+- **Accent:** `#ffde59` (Yellow)
+
+### Typography
+
+- **Font:** Montserrat (Google Fonts)
+- **Hero Titles:** 38-48px (desktop), 28-36px (mobile)
+- **Body Text:** 16-18px
+- **Labels:** 11-14px
+
+### Spacing
+
+- **Desktop Padding:** 100px horizontal
+- **Mobile Padding:** 20px horizontal
+- **Grid Gap:** 40px (desktop), 30px (mobile)
+
+---
+
+## 🔍 SEO Features
+
+### Metadata
+
+- Dynamic page titles with template pattern
+- Descriptive meta descriptions (150-160 characters)
+- Open Graph tags for social sharing
+- Twitter Card support
+- Canonical URLs to prevent duplicate content
+
+### Structured Data
+
+- **Organization Schema** - Site-wide business information
+- **Article Schema** - Individual article metadata
+- **Breadcrumb Schema** - Navigation hierarchy
+
+### Sitemap
+
+Dynamic XML sitemap generated from Sanity content:
+- Homepage
+- All article pages
+- About page
+- Course pages
+- Legal pages
+
+Accessible at: `https://somm.site/sitemap.xml`
+
+### robots.txt
+
+Configured to allow search engine crawling while blocking admin areas:
+```
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+Disallow: /studio/
+
+Sitemap: https://somm.site/sitemap.xml
+```
+
+---
+
+## 📱 Responsive Design
+
+### Mobile-First Approach
+
+All CSS is written mobile-first with desktop enhancements:
+```css
+/* Mobile (default) */
+.container {
+  padding: 20px;
+}
+
+/* Desktop (768px+) */
+@media (min-width: 768px) {
+  .container {
+    padding: 100px;
+  }
 }
 ```
 
-2. Add corresponding images to `/public/blog-images/`
-
-3. Lesson automatically appears on course page and is accessible via URL
-
-### Adding Resources or Books
-
-Edit `/data/resourcesData.json` and add images to appropriate folders.
-
----
-
-## Design System
-
-### Colors
-```css
---black: #000000
---white: #ffffff
---yellow-accent: #ffde59
---midnight-teal: #00343d
---card-dark: #1a1a1a
---gray-light: #f5f5f5
---text-gray: #333333
-```
-
-### Typography
-- **Font Family:** Montserrat (Google Fonts)
-- **Headings:** 700 weight
-- **Body:** 400 weight
-- **Buttons/Labels:** 600 weight
-
-### Spacing
-- **Section Padding:** 80px vertical, 40px horizontal
-- **Max Width:** 1200px (sections), 800px (articles)
-- **Grid Gap:** 20-30px
-
 ### Breakpoints
+
 - **Mobile:** < 768px
 - **Desktop:** ≥ 768px
 
 ---
 
-## Browser Support
+## 🔧 Development
 
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
-- Mobile browsers (iOS Safari, Chrome Mobile)
-
----
-
-## SEO Features
-
-- Server-side rendering for all pages
-- Semantic HTML structure
-- Meta tags ready for customization
-- Clean URL structure
-- Fast page load times
-
----
-
-## Development Notes
-
-### Component Philosophy
-- Each component has its own CSS module
-- No global styles except fonts and resets
-- Reusable and composable design
-- Server components by default
-
-### File Naming Conventions
-- Pages: `page.js`
-- Page styles: `page.module.css`
-- Components: `ComponentName.js`
-- Component styles: `ComponentName.module.css`
-- Data: `camelCase.json`
-
-### Best Practices
-- Mobile-first responsive design
-- Semantic HTML elements
-- Accessible markup (ARIA when needed)
-- Optimized images (WebP/JPEG for photos, SVG for icons)
-- Clean, readable code with comments
-
----
-
-## Deployment
-
-This project is ready for deployment to:
-
-**Vercel (Recommended):**
+### Available Scripts
 ```bash
-# Install Vercel CLI
-npm i -g vercel
-
-# Deploy
-vercel
+pnpm dev          # Start development server
+pnpm build        # Build for production
+pnpm start        # Start production server
+pnpm lint         # Run ESLint
 ```
 
-**Netlify:**
-- Connect GitHub repository
-- Build command: `npm run build`
-- Publish directory: `.next`
+### CSS Modules
 
-**Custom Server:**
-- Build: `npm run build`
-- Start: `npm start`
-- Requires Node.js runtime
+Component styles are scoped using CSS Modules:
+```javascript
+import styles from './Component.module.css';
 
----
+<div className={styles.container}>...</div>
+```
 
-## Future Enhancements
+### Adding New Pages
 
-### Planned Features
-- [ ] Mobile hamburger menu
-- [ ] About page
-- [ ] Contact page
-- [ ] Intermediate course content
-- [ ] Advanced course content
-- [ ] User authentication (future)
-- [ ] Course progress tracking (future)
-- [ ] Newsletter signup (future)
-
-### Technical Improvements
-- [ ] Add meta tags for SEO
-- [ ] Implement Open Graph tags
-- [ ] Add structured data (JSON-LD)
-- [ ] Performance monitoring
-- [ ] Analytics integration
-- [ ] Sitemap generation
+1. Create new folder in `app/`
+2. Add `page.js` (component)
+3. Add `page.module.css` (styles)
+4. Export metadata for SEO
+5. Update sitemap if needed
 
 ---
 
-## Contributing
+## 🌐 Deployment
 
-This is a personal project by Derek Engles. Not currently accepting contributions.
+### Vercel (Recommended)
+
+1. Push code to GitHub
+2. Connect repository to Vercel
+3. Add environment variables in Vercel dashboard
+4. Deploy automatically on push
+
+### Environment Variables (Production)
+
+Set these in your deployment platform:
+```
+NEXT_PUBLIC_SANITY_PROJECT_ID
+NEXT_PUBLIC_SANITY_DATASET
+NEXT_PUBLIC_SANITY_API_VERSION
+```
 
 ---
 
-## License
+## 📄 Legal & Compliance
 
-All rights reserved. © 2025 Derek Engles
+The site includes comprehensive legal pages:
 
-### Content
-- All written course content is proprietary
-- All book materials are copyrighted
-- Educational use only
+- **Privacy Policy** - Data collection and usage
+- **Terms of Use** - Site usage terms
+- **Cookie Policy** - Cookie usage and Google Analytics
+- **Content Disclaimer** - Educational purpose disclaimers
 
-### Code
-- Source code is for portfolio demonstration
-- Not for commercial reuse without permission
+All legal pages use shared CSS module for consistent styling.
 
 ---
 
-## Author
+## 🤝 Contributing
+
+This is a personal educational project. For questions or collaboration inquiries, contact Derek Engles via the About page.
+
+---
+
+## 📚 Related Projects
+
+Part of the hospitality education ecosystem:
+
+- **[Beverage.fyi](https://beverage.fyi)** - Comprehensive beverage knowledge platform
+- **[RestaurantStandards.com](https://restaurantstandards.com)** - High-performance training for fine dining
+- **[Somm.Tips](https://somm.tips)** - Wine and cocktail recommendation engine
+
+---
+
+## 📧 Contact
 
 **Derek Engles**
-- Hospitality professional with 20+ years experience
-- Author: "The Beverage Compass," "Restaurant Standards," "Wine Fundamentals"
-- Full-stack developer specializing in hospitality technology
-
-### Related Projects
-- [Beverage.fyi](https://beverage.fyi) - Beverage knowledge platform
-- [RestaurantStandards.com](https://restaurantstandards.com) - Michelin/Forbes training
-- [Somm.Tips](https://somm.tips) - Wine pairing engine
+- Website: [derekengles.com](https://derekengles.com)
+- Email: derekengles@gmail.com
+- LinkedIn: [linkedin.com/company/somm-site](https://www.linkedin.com/company/somm-site/)
 
 ---
 
-## Acknowledgments
+## 📜 License
 
-- Built with Next.js by Vercel
-- Typography by Google Fonts
-- Hospitality expertise from 200,000+ guest interactions
-- Inspired by democratizing fine dining knowledge
+© 2025 SOMM.SITE. All rights reserved.
 
----
-
-## Support
-
-For questions or issues:
-- Review the PROGRESSREPORT.md for current project status
-- Check Next.js documentation: https://nextjs.org/docs
-- Ensure all dependencies are installed: `npm install`
+Content is provided for educational purposes. See [Content Disclaimer](https://somm.site/disclaimer) for full terms.
 
 ---
 
-**Version:** 1.0.0  
-**Last Updated:** October 31, 2025  
-**Status:** Active Development
+## 🎯 Project Goals
+
+- **Democratize wine education** - Make professional knowledge accessible to everyone
+- **Free forever** - No paywalls, no subscriptions
+- **Professional quality** - Industry-standard content and design
+- **SEO optimized** - Rank well for wine education searches
+- **Mobile-first** - Optimized for on-the-go learning
+- **Scalable** - Easy to add content without code changes
+
+---
+
+**Built with ❤️ for the hospitality community**

@@ -1,6 +1,8 @@
-import Header from '../../components/Header';
-import Footer from '../../components/Footer';
+import Header from '../../components/layout/Header';
+import Footer from '../../components/layout/Footer';
+import booksData from '../../data/resourcesData.json';
 import styles from './page.module.css';
+
 
 export const metadata = {
   title: "About Us",
@@ -40,44 +42,33 @@ export default function About() {
           </div>
         </section>
 
-        {/* Ecosystem Section */}
-        <section className={styles.ecosystemSection}>
+        {/* Bookstore Section */}
+        <section className={styles.bookstoreSection}>
           <div className={styles.container}>
-            <h2 className={styles.sectionTitle}>Our Ecosystem</h2>
-            <p className={styles.ecosystemIntro}>
-              SOMM.SITE is part of a comprehensive suite of tools designed to support your hospitality education journey:
-            </p>
-            
-            <div className={styles.ecosystemGrid}>
-              <div className={styles.ecoCard}>
-                <h3 className={styles.ecoTitle}>Beverage.fyi</h3>
-                <p className={styles.ecoDescription}>
-                  Your comprehensive beverage knowledge platform. From insightful articles to wine pairings and cocktail suggestions, Beverage.fyi covers everything you need to master the beverage side of hospitality.
-                </p>
-                <a href="https://beverage.fyi" target="_blank" rel="noopener noreferrer" className={styles.ecoLink}>
-                  Visit Beverage.fyi →
+            <h2 className={styles.sectionTitle}>Amazon Kindle Bookshelf</h2>
+            <div className={styles.booksGrid}>
+              {booksData.books.map((book) => (
+                <a 
+                  key={book.id} 
+                  href={book.link} 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className={styles.bookCard}
+                >
+                  <div className={styles.bookImageContainer}>
+                    <img 
+                      src={book.image} 
+                      alt={book.altImage}
+                      className={styles.bookImage}
+                    />
+                  </div>
+                  <div className={styles.bookContent}>
+                    <h3 className={styles.bookTitle}>{book.title}</h3>
+                    <p className={styles.bookSubtitle}>{book.subtitle}</p>
+                    <p className={styles.bookLink}>Buy on Amazon</p>
+                  </div>
                 </a>
-              </div>
-
-              <div className={styles.ecoCard}>
-                <h3 className={styles.ecoTitle}>Restaurant Standards</h3>
-                <p className={styles.ecoDescription}>
-                  High-performance training built for Michelin, AAA, and Forbes 5-Star achievement. Reverse-engineer world-class hospitality standards and bring them to your team.
-                </p>
-                <a href="https://restaurantstandards.com" target="_blank" rel="noopener noreferrer" className={styles.ecoLink}>
-                  Visit RestaurantStandards.com →
-                </a>
-              </div>
-
-              <div className={styles.ecoCard}>
-                <h3 className={styles.ecoTitle}>Somm.Tips</h3>
-                <p className={styles.ecoDescription}>
-                  Your personal wine and cocktail recommendation engine. Get expert pairing suggestions, discover new favorites, and elevate your beverage knowledge with intelligent recommendations tailored to your taste.
-                </p>
-                <a href="https://www.somm.tips" target="_blank" rel="noopener noreferrer" className={styles.ecoLink}>
-                  Visit Somm.Tips →
-                </a>
-              </div>
+              ))}
             </div>
           </div>
         </section>
@@ -85,26 +76,10 @@ export default function About() {
         {/* Founder Section */}
         <section className={styles.founderSection}>
           <div className={styles.container}>
-            <h2 className={styles.sectionTitle}>The Founder</h2>
-            <div className={styles.founderContent}>
-              <div className={styles.founderBio}>
-                <p className={styles.bioText}>
-                  <strong>Derek Engles</strong> is a hospitality professional with over 20 years of experience in luxury hotels, including the Wynn Resort and MGM Resorts International. As a sommelier and wine director, he's served more than 200,000 guests and trained countless team members in the art of exceptional service.
-                </p>
-                <p className={styles.bioText}>
-                  After two decades in the industry, Derek recognized that the knowledge gatekept by expensive certifications and exclusive programs should be accessible to everyone. He taught himself full-stack development and built SOMM.SITE and its entire ecosystem from scratch using modern web technologies: React, Next.js, CSS Modules, and JavaScript.
-                </p>
-                <p className={styles.bioText}>
-                  Derek holds business education credentials from Harvard Business School and Northwestern University, and is currently pursuing IBM's Full-Stack Developer certification while supplementing with Harvard's CS50 course. He's the author of "The Beverage Compass," "Restaurant Standards," and "Wine Fundamentals."
-                </p>
-                <p className={styles.bioText}>
-                  His mission is simple: democratize hospitality excellence by making world-class training accessible to anyone with the drive to learn.
-                </p>
-                <a href="https://derekengles.com" target="_blank" rel="noopener noreferrer" className={styles.founderLink}>
-                  Visit DerekEngles.com →
-                </a>
-              </div>
-            </div>
+            <h3 className={styles.founderTitle}>Built by Derek Engles</h3>
+            <p className={styles.founderText}>
+              Derek Engles is a hospitality professional with over 20 years of experience as a sommelier and wine director at luxury properties including Wynn Resort and MGM Grand. After serving 200,000+ guests, he taught himself full-stack development to build this free education platform and democratize hospitality knowledge for professionals worldwide.
+            </p>
           </div>
         </section>
 

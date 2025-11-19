@@ -1,15 +1,4 @@
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
 
 export const metadata = {
   title: {
@@ -49,16 +38,42 @@ export const metadata = {
     apple: "/ss-favicon.png"
   }
 };
+
 export const viewport = {
   width: 'device-width',
   initialScale: 1,
 }
 
 export default function RootLayout({ children }) {
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "EducationalOrganization",
+    "name": "SOMM.SITE",
+    "url": "https://somm.site",
+    "logo": "https://somm.site/ss-favicon.png",
+    "description": "Free wine and hospitality education for professionals and enthusiasts",
+    "sameAs": [
+      "https://www.instagram.com/somm.site/",
+      "https://tiktok.com/@somm.site",
+      "https://www.linkedin.com/company/somm-site/"
+    ],
+    "founder": {
+      "@type": "Person",
+      "name": "Derek Engles"
+    }
+  };
+
   return (
     <html lang="en">
       <head>
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-JCX7CLCX4B"></script>
+        {/* Structured Data */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+        />
+        
+        {/* Google Analytics */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-SXECWJWCP5"></script>
         <script
           dangerouslySetInnerHTML={{
             __html: `
@@ -70,7 +85,8 @@ export default function RootLayout({ children }) {
           }}
         />
       </head>
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
+
+      <body>
         {children}
       </body>
     </html>

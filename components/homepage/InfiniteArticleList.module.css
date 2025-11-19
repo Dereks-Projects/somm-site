@@ -1,0 +1,68 @@
+/* MOBILE FIRST - Infinite Article List */
+
+.container {
+  background-color: #fafafa;
+  padding: 40px 20px 60px 20px;
+}
+
+.heading {
+  color: #000000;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-align: center;
+  margin: 0 0 30px 0;
+  position: relative;
+}
+
+
+
+.articleGrid {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.loadMoreButton {
+  display: block;
+  margin: 40px auto 0 auto;
+  padding: 14px 32px;
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.loadMoreButton:hover {
+  background-color: #333333;
+}
+
+/* DESKTOP */
+@media (min-width: 768px) {
+  .container {
+    padding: 60px 100px 80px 100px;
+  }
+
+  .heading {
+    font-size: 18px;
+    margin: 0 0 50px 0;
+  }
+
+  .articleGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+
+  .loadMoreButton {
+    margin-top: 50px;
+    padding: 16px 40px;
+    font-size: 15px;
+  }
+}

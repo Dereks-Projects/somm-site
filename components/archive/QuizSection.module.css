@@ -1,0 +1,326 @@
+/* Mobile First - Base styles */
+.quizSection {
+  background: #f1f1f1;
+  padding: 40px 16px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 700;
+  color: black;
+  margin-bottom: 12px;
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 32px;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.startScreen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.difficultySelector {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  font-size: 1rem;
+  color: black;
+}
+
+.dropdown {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: 2px solid black;
+  border-radius: 8px;
+  background: white;
+  color: black;
+  cursor: pointer;
+  font-family: inherit;
+  width: 100%;
+  max-width: 230px;
+  margin-bottom: 20px;
+}
+
+.dropdown:hover {
+  background: #f5f5f5;
+}
+
+.button {
+  padding: 14px 32px;
+  font-size: 1rem;
+  font-weight: 600;
+  background: black;
+  color: white;
+  border: 2px solid black;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: inherit;
+  width: 100%;
+  max-width: 280px;
+}
+
+.button:hover {
+  background: white;
+  color: black;
+}
+
+.scoreDisplay {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: black;
+  margin: 12px 0;
+}
+
+.timer {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: black;
+  margin-bottom: 24px;
+}
+
+.questionCard {
+  background: #f9f9f9;
+  padding: 24px 16px;
+  border-radius: 12px;
+  margin-bottom: 24px;
+}
+
+.questionLabel {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #666;
+  margin-bottom: 12px;
+}
+
+.questionText {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: black;
+  margin-bottom: 24px;
+  line-height: 1.4;
+}
+
+.choicesGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+}
+
+.choiceButton {
+  padding: 16px;
+  font-size: 0.9375rem;
+  font-weight: 500;
+  background: black;
+  color: white;
+  border: 2px solid black;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: inherit;
+  text-align: center;
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.choiceButton:hover {
+  background: white;
+  color: black;
+}
+
+
+.progress {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 12px;
+}
+
+.resultsScreen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.finalScore {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: black;
+}
+
+.review {
+  width: 100%;
+  text-align: left;
+  margin-top: 24px;
+}
+
+.reviewTitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.reviewList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.reviewItem {
+  background: #f9f9f9;
+  padding: 16px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.reviewQuestion {
+  font-size: 1rem;
+  font-weight: 600;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.wrongAnswer {
+  font-size: 0.9375rem;
+  color: #dc2626;
+  margin-bottom: 6px;
+}
+
+.correctAnswer {
+  font-size: 0.9375rem;
+  color: #16a34a;
+  font-weight: 600;
+}
+
+/* Tablet and Desktop */
+@media (min-width: 768px) {
+  .quizSection {
+    padding: 40px 20px;
+  }
+
+  .title {
+    font-size: 36px;
+    margin-bottom: 16px;
+  }
+
+  .subtitle {
+    font-size: 17px;
+    margin-bottom: 30px;
+    max-width: 65%;
+  }
+
+  .startScreen {
+    gap: 20px;
+  }
+
+  .difficultySelector {
+    flex-direction: row;
+    gap: 16px;
+    font-size: 1.125rem;
+  }
+
+  .dropdown {
+    padding: 12px 24px;
+    width: auto;
+  }
+
+  .button {
+    padding: 14px 40px;
+    font-size: 1rem;
+    width: auto;
+  }
+
+  .scoreDisplay {
+    font-size: 1.25rem;
+    margin: 16px 0;
+  }
+
+  .timer {
+    font-size: 1.5rem;
+    margin-bottom: 32px;
+  }
+
+  .questionCard {
+    padding: 40px;
+    margin-bottom: 32px;
+  }
+
+  .questionLabel {
+    font-size: 1rem;
+    margin-bottom: 16px;
+  }
+
+  .questionText {
+    font-size: 1.5rem;
+    margin-bottom: 32px;
+  }
+
+  .choicesGrid {
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+
+  .choiceButton {
+    padding: 20px;
+    font-size: 1rem;
+  }
+
+  .progress {
+    font-size: 1.125rem;
+    margin-bottom: 16px;
+  }
+
+  .resultsScreen {
+    gap: 32px;
+  }
+
+  .finalScore {
+    font-size: 2rem;
+  }
+
+  .review {
+    margin-top: 32px;
+  }
+
+  .reviewTitle {
+    font-size: 1.5rem;
+    margin-bottom: 24px;
+  }
+
+  .reviewItem {
+    padding: 24px;
+    margin-bottom: 16px;
+  }
+
+  .reviewQuestion {
+    font-size: 1.125rem;
+    margin-bottom: 12px;
+  }
+
+  .wrongAnswer {
+    font-size: 1rem;
+    margin-bottom: 8px;
+  }
+
+  .correctAnswer {
+    font-size: 1rem;
+  }
+}

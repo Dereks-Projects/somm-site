@@ -17,6 +17,7 @@
   overflow-x: auto;
   margin-bottom: 30px;
   padding-bottom: 10px;
+  
 }
 
 .cardsContainer > * {
@@ -118,4 +119,14 @@
   font-size: 16px;
   padding: 12px 30px;
 }
+}
+
+/* Hide carousel scroll indicators */
+.cardsContainer::-webkit-scrollbar {
+  display: none;
+}
+
+.cardsContainer {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }

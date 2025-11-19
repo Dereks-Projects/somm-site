@@ -46,6 +46,11 @@
   text-align: center;
 }
 
+/* White title for dark sections */
+.bookstoreSection .sectionTitle {
+  color: #ffffff;
+}
+
 /* Mission Section */
 .missionSection {
   background-color: #f5f5f5;
@@ -62,126 +67,110 @@
   margin-right: auto;
 }
 
-/* Ecosystem Section - RENAMED CLASSES */
-.ecosystemSection {
-  background-color: #ffffff;
+/* Bookstore Section */
+.bookstoreSection {
+  background-color: #000000;
   padding: 80px 20px;
 }
 
-.ecosystemIntro {
-  font-size: 18px;
-  color: #333333;
-  line-height: 1.8;
-  margin-bottom: 50px;
-  text-align: center;
-  max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.ecosystemGrid {
+.booksGrid {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 24px;
+  gap: 30px;
   max-width: 1200px;
   margin: 0 auto;
 }
 
-.ecoCard {
-  background-color: #1a1a1a;
+.bookCard {
+  background-color: #3b3b3b;
   border-radius: 8px;
   overflow: hidden;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  display: grid;
-  grid-template-rows: auto 1fr auto;
-  min-height: 280px;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease;
+  cursor: pointer;
 }
 
-.ecoCard:hover {
+.bookCard:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
 }
 
-.ecoTitle {
-  font-size: 24px;
+.bookImageContainer {
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1a1a1a;
+}
+
+.bookImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.bookContent {
+  padding: 24px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.bookTitle {
+  font-size: 20px;
   font-weight: 700;
   color: white;
-  padding: 30px 30px 16px 30px;
-  border-bottom: 3px solid #ffde59;
-  text-align: center;
+  margin-bottom: 12px;
 }
 
-.ecoDescription {
-  font-size: 16px;
+.bookSubtitle {
+  font-size: 13px;
   color: #cccccc;
-  line-height: 1.7;
-  padding: 20px 30px;
-  text-align: center;
+  line-height: 1.5;
+  margin-bottom: 16px;
+  flex-grow: 1;
 }
 
-.ecoLink {
-  font-size: 16px;
+.bookLink {
+  font-size: 14px;
   color: #ffde59;
   font-weight: 600;
-  text-decoration: none;
-  transition: all 0.3s ease;
-  padding: 0 30px 30px 30px;
-  display: block;
-  text-align: center;
+  margin-top: auto;
 }
 
-.ecoLink:hover {
-  color: #ffffff;
+.bookLink:hover {
+  text-decoration: underline;
 }
 
 /* Founder Section */
 .founderSection {
   background-color: #f5f5f5;
-  padding: 80px 20px;
+  padding: 50px 20px;
+  text-align: center;
 }
 
-.founderContent {
-  max-width: 900px;
-  margin: 0 auto;
-}
-
-.founderBio {
-  background-color: #ffffff;
-  padding: 20px 10px;
-  border-left: 6px solid #ffde59;
-  border-radius: 4px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-}
-
-.bioText {
-  font-size: 17px;
-  color: #333333;
-  line-height: 1.8;
-  margin-bottom: 20px;
-}
-
-.bioText strong {
-  font-weight: 700;
+.founderTitle {
+  font-size: 20px;
+  font-weight: 600;
   color: #000000;
+  margin-bottom: 16px;
 }
 
-.founderLink {
-  display: inline-block;
-  font-size: 18px;
-  color: #202020;
-  font-weight: 400;
-  text-decoration: none;
-  margin-top: 10px;
-  transition: all 0.3s ease;
-}
-
-.founderLink:hover {
-  text-decoration: underline;
+.founderText {
+  font-size: 15px;
+  color: #555555;
+  line-height: 1.7;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 /* CTA Section */
 .ctaSection {
-  background-color: #00343d;
+  background-color: #e8e8e8;
   padding: 80px 20px;
   text-align: center;
 }
@@ -189,13 +178,13 @@
 .ctaTitle {
   font-size: 32px;
   font-weight: 700;
-  color: white;
+  color: #000000;
   margin-bottom: 20px;
 }
 
 .ctaText {
   font-size: 18px;
-  color: white;
+  color: #333333;
   line-height: 1.6;
   margin-bottom: 30px;
   max-width: 700px;
@@ -205,8 +194,8 @@
 
 .ctaButton {
   display: inline-block;
-  background-color: white;
-  color: #00343d;
+  background-color: #000000;
+  color: #ffffff;
   padding: 16px 40px;
   border-radius: 4px;
   font-size: 16px;
@@ -216,7 +205,7 @@
 }
 
 .ctaButton:hover {
-  opacity: 0.9;
+  opacity: 0.8;
 }
 
 /* DESKTOP */
@@ -256,69 +245,54 @@
     margin-bottom: 28px;
   }
 
-  /* Ecosystem - DESKTOP WITH RENAMED CLASSES */
-  .ecosystemSection {
+  /* Bookstore - Desktop */
+  .bookstoreSection {
     padding: 100px 60px;
   }
 
-  .ecosystemIntro {
-    font-size: 20px;
-    margin-bottom: 60px;
-  }
-
-  .ecosystemGrid {
+  .booksGrid {
     grid-template-columns: repeat(3, 1fr);
-    gap: 50px;
+    gap: 40px;
   }
 
-  .ecoCard {
-    height: 420px;
-    display: flex;
-    flex-direction: column;
+  .bookImageContainer {
+    height: 400px;
   }
 
-  .ecoTitle {
+  .bookContent {
+    padding: 30px;
+  }
+
+  .bookTitle {
     font-size: 26px;
-    padding: 40px 40px 20px 40px;
-    height: 90px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    margin-bottom: 16px;
   }
 
-  .ecoDescription {
+  .bookSubtitle {
     font-size: 17px;
-    padding: 24px 40px;
-    line-height: 1.8;
-    height: 210px;
+    margin-bottom: 20px;
   }
 
-  .ecoLink {
-    font-size: 17px;
-    padding: 20px 40px;
-    margin-top: auto;
+  .bookLink {
+    font-size: 16px;
   }
 
-  /* Founder */
+  /* Founder - Desktop */
   .founderSection {
-    padding: 100px 60px;
+    padding: 60px 60px;
   }
 
-  .founderBio {
-    padding: 60px 50px;
+  .founderTitle {
+    font-size: 24px;
+    margin-bottom: 20px;
   }
 
-  .bioText {
-    font-size: 19px;
-    margin-bottom: 24px;
+  .founderText {
+    font-size: 17px;
+    line-height: 1.8;
   }
 
-  .founderLink {
-    font-size: 20px;
-    margin-top: 16px;
-  }
-
-  /* CTA */
+  /* CTA - Desktop */
   .ctaSection {
     padding: 100px 60px;
   }

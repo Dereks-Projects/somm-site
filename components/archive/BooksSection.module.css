@@ -1,0 +1,40 @@
+/* Mobile first */
+.section {
+  background-color: #000000;
+  padding: 80px 20px;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.heading {
+  font-size: 28px;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+}
+
+/* Desktop */
+@media (min-width: 768px) {
+  .section {
+    padding: 80px 60px;
+  }
+
+  .heading {
+    font-size: 36px;
+    margin-bottom: 60px;
+  }
+
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
