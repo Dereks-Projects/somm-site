@@ -13,7 +13,7 @@
 /* Hero Section */
 .articleHero {
   height: 35vh;
-  min-height: 300px;
+  min-height: 280px;
   background-size: cover;
   background-position: center;
   position: relative;
@@ -32,7 +32,7 @@
 }
 
 .articleTitle {
-  font-size: 32px;
+  font-size: 28px;
   font-weight: 700;
   color: white;
   margin-bottom: 12px;
@@ -52,7 +52,7 @@
 }
 
 .introText {
-  font-size: 20px;
+  font-size: 18px;
   color: #333333;
   line-height: 1.8;
   max-width: 900px;
@@ -160,16 +160,16 @@
   }
 
   .articleHeroOverlay {
-    padding: 50px 40px;
+    padding: 30px 40px;
   }
 
   .articleTitle {
-    font-size: 56px;
+    font-size: 48px;
     margin-bottom: 20px;
   }
 
   .articleSubtitle {
-    font-size: 32px;
+    font-size: 28px;
   }
 
   /* Intro Section */
@@ -178,7 +178,7 @@
   }
 
   .introText {
-    font-size: 22px;
+    font-size: 18px;
     padding: 50px;
     max-width: 950px;
   }
@@ -199,12 +199,12 @@
   }
 
   .sectionTitle {
-    font-size: 36px;
+    font-size: 32px;
     margin-bottom: 24px;
   }
 
   .sectionText {
-    font-size: 21px;
+    font-size: 15px;
     margin-bottom: 24px;
   }
 
@@ -222,7 +222,7 @@
 
   /* Conclusion - UPDATED */
   .articleConclusion {
-    padding: 50px;
+    padding: 30px;
     margin-top: 80px;
   }
 
@@ -232,6 +232,6 @@
   }
 
   .articleConclusion .sectionText {
-    font-size: 21px;
+    font-size: 16px;
   }
 }
