@@ -72,8 +72,10 @@ export default function RootLayout({ children }) {
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
         />
-        
-        {/* Google Analytics - NOW IN THE HEAD TAG (FIX) */}
+      </head>
+
+      <body>
+        {/* Google Analytics */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-SXECWJWCP5"
           strategy="afterInteractive"
@@ -86,9 +88,7 @@ export default function RootLayout({ children }) {
             gtag('config', 'G-SXECWJWCP5');
           `}
         </Script>
-      </head>
-
-      <body>
+        
         {children}
       </body>
     </html>
