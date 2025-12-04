@@ -20,6 +20,17 @@
   text-transform: uppercase;
 }
 
+.breadcrumbText a {
+  color: #4b5563;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.breadcrumbText a:hover {
+  color: #000000;
+  text-decoration: underline;
+}
+
 /* TITLE & SUBTITLE SECTION */
 .titleSection {
   max-width: 896px;

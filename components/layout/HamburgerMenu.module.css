@@ -258,7 +258,7 @@
   }
 
   .mainNav {
-    gap: 10px;
+    gap: 9px;
     margin-top: 30px;
     margin-bottom: 20px;
   }
@@ -268,7 +268,7 @@
   }
 
   .socialLinks {
-    gap: 12px;
+    gap: 11px;
     margin-bottom: 20px;
   }
 
@@ -277,7 +277,7 @@
   }
 
   .legalLinks {
-    gap: 8px;
+    gap: 7px;
     margin-bottom: 25px;
   }
 
@@ -290,7 +290,7 @@
   }
 
   .partnerSection {
-    gap: 10px;
+    gap: 7px;
   }
 
   .partnerHeading {

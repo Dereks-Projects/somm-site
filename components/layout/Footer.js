@@ -40,6 +40,7 @@ export default function Footer() {
 
         <p className={styles.subtitle}>EDUCATIONAL RESOURCES THAT TRANSFORM YOUR KNOWLEDGE</p>
         <h2 className={styles.title}>SOMM.SITE</h2>
+        <p className={styles.copyright}>Copyright 2025 • SOMMSITE • All Rights Reserved</p>
         
         <button onClick={scrollToTop} className={styles.backToTop}>
           Back to top ↑

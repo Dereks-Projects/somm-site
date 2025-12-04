@@ -121,6 +121,14 @@ export default function HamburgerMenu() {
         <div className={styles.partnerSection}>
           <h3 className={styles.partnerHeading}>Partner Sites</h3>
           <a 
+            href="https://backbar.fyi" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className={styles.partnerLink}
+          >
+            backbar.fyi
+          </a>
+          <a 
             href="https://beverage.fyi" 
             target="_blank" 
             rel="noopener noreferrer" 

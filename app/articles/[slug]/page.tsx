@@ -4,6 +4,7 @@ import Header from '../../../components/layout/Header'
 import Footer from '../../../components/layout/Footer'
 import BackButton from '../../../components/BackButton'
 import styles from './article.module.css'
+import Link from 'next/link'
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params
@@ -159,11 +160,18 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
       <div className={styles.pageWrapper}>
         {/* BREADCRUMB */}
         <div className={styles.breadcrumb}>
-          <p className={styles.breadcrumbText}>
-            {article.category}
-            {article.subcategory && ` > ${article.subcategory}`}
-          </p>
-        </div>
+  <p className={styles.breadcrumbText}>
+    {article.category}
+    {article.subcategory && (
+      <>
+            {' > '}
+            <Link href={`/articles?subcategory=${article.subcategory.toLowerCase()}`}>
+              {article.subcategory}
+            </Link>
+          </>
+        )}
+      </p>
+    </div>
 
         {/* TITLE & SUBTITLE */}
         <div className={styles.titleSection}>

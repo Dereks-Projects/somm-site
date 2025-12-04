@@ -41,6 +41,7 @@ export default defineType({
           { title: 'Wine', value: 'wine' },
           { title: 'Spirits', value: 'spirits' },
           { title: 'Beer', value: 'beer' },
+          { title: 'Sake', value: 'sake' },
           { title: 'Coffee & Tea', value: 'coffee-tea' },
           { title: 'Education', value: 'education' },
           { title: 'Industry', value: 'industry' },
@@ -65,6 +66,7 @@ export default defineType({
       options: {
         list: [
           { title: 'SOMM.SITE', value: 'somm' },
+          { title: 'BACKBAR', value: 'backbar' },
           { title: 'Beverage.fyi', value: 'beverage' },
           { title: 'Restaurant Standards', value: 'restaurant' }
         ],

@@ -19,13 +19,13 @@
 .linksColumn {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 9px;
 }
 
 .linksColumn a {
   color: white;
   text-decoration: none;
-  font-size: 15px;
+  font-size: 13px;
   font-weight: 400;
   transition: opacity 0.3s ease;
 }
@@ -52,25 +52,32 @@
 }
 
 .subtitle {
-  font-size: 18px;
-  font-weight: 600;
+  font-size: 17px;
+  font-weight: 500;
   color: white;
   margin-bottom: 10px;
   letter-spacing: 1px;
 }
 
 .title {
-  font-size: 52px;
+  font-size: 48px;
   font-weight: 700;
   color: white;
-  margin: 0 0 30px 0;
+  margin: 0 0 10px 0;
+}
+
+.copyright {
+  font-size: 11px;
+  color: #888888;
+  margin: 0 0 20px 0;
+  font-weight: 300;
 }
 
 .backToTop {
   background: none;
   border: none;
   color: #ffde59;
-  font-size: 15px;
+  font-size: 13px;
   font-weight: 600;
   cursor: pointer;
   padding: 0;
@@ -91,18 +98,24 @@
     max-width: 1400px;
   }
 
+  .linksColumn {
+    gap: 6px;
+  }
+
+
   .linksColumn a {
     color: white;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 300;
     transition: opacity 0.3s ease;
+    
     
   }
 
   .icon {
-    width: 36px;
-    height: 36px;
+    width: 30px;
+    height: 30px;
     transition: opacity 0.3s ease;
   }
 
@@ -111,14 +124,19 @@
   }
 
   .subtitle {
-    font-size: 30px;
+    font-size: 24px;
     margin-bottom: 8px;
-    width: 50%;
+    width: 40%;
   }
 
   .title {
-    font-size: 82px;
-    margin-bottom: 40px;
+    font-size: 66px;
+    margin-bottom: 05px;
+  }
+
+  .copyright {
+  font-size: 12px;
+  
   }
 
   .backToTop {

@@ -11,6 +11,14 @@ export default function ProjectsCTA() {
         
         <div className={styles.buttonGroup}>
           <a 
+            href="https://backbar.fyi" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className={styles.ctaButton}
+          >
+            Backbar.fyi
+          </a>
+          <a 
             href="https://beverage.fyi" 
             target="_blank" 
             rel="noopener noreferrer"
