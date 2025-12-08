@@ -44,7 +44,7 @@ export default defineType({
           { title: 'Sake', value: 'sake' },
           { title: 'Coffee & Tea', value: 'coffee-tea' },
           { title: 'Education', value: 'education' },
-          { title: 'Industry', value: 'industry' },
+          { title: 'Hospitality', value: 'hospitality' },
           { title: 'Service', value: 'service' },
         ],
       },
@@ -68,7 +68,8 @@ export default defineType({
           { title: 'SOMM.SITE', value: 'somm' },
           { title: 'BACKBAR', value: 'backbar' },
           { title: 'Beverage.fyi', value: 'beverage' },
-          { title: 'Restaurant Standards', value: 'restaurant' }
+          { title: 'Restaurant Standards', value: 'restaurant' },
+          { title: 'Hospitality.fyi', value: 'hospitality' },
         ],
         layout: 'grid'
       },
