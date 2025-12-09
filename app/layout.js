@@ -75,7 +75,7 @@ export default function RootLayout({ children }) {
         
         {/* Google Analytics - NOW IN THE HEAD TAG (FIX) */}
         <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-SXECWJWCP5"
+          src="https://www.googletagmanager.com/gtag/js?id=G-JCX7CLCX4B"
           strategy="afterInteractive"
         />
         <Script id="google-analytics" strategy="afterInteractive">
@@ -83,7 +83,7 @@ export default function RootLayout({ children }) {
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'G-SXECWJWCP5');
+            gtag('config', 'G-JCX7CLCX4B');
           `}
         </Script>
       </head>
