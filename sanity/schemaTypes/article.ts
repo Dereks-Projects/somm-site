@@ -46,6 +46,7 @@ export default defineType({
           { title: 'Education', value: 'education' },
           { title: 'Hospitality', value: 'hospitality' },
           { title: 'Service', value: 'service' },
+          { title: 'Industry', value: 'industry' },
         ],
       },
       validation: (Rule) => Rule.required(),
