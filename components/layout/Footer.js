@@ -38,7 +38,7 @@ export default function Footer() {
           </a>
         </div>
 
-        <p className={styles.subtitle}>EDUCATIONAL RESOURCES THAT TRANSFORM YOUR KNOWLEDGE</p>
+        
         <h2 className={styles.title}>SOMM.SITE</h2>
         <p className={styles.copyright}>Copyright 2025 • SOMMSITE • All Rights Reserved</p>
         

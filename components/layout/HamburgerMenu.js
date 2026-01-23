@@ -121,12 +121,12 @@ export default function HamburgerMenu() {
         <div className={styles.partnerSection}>
           <h3 className={styles.partnerHeading}>Partner Sites</h3>
           <a 
-            href="https://backbar.fyi" 
+            href="https://somm.tips" 
             target="_blank" 
             rel="noopener noreferrer" 
             className={styles.partnerLink}
           >
-            backbar.fyi
+            somm.tips
           </a>
           <a 
             href="https://beverage.fyi" 
@@ -137,20 +137,20 @@ export default function HamburgerMenu() {
             beverage.fyi
           </a>
           <a 
-            href="https://restaurantstandards.com" 
+            href="https://backbar.fyi" 
             target="_blank" 
             rel="noopener noreferrer" 
             className={styles.partnerLink}
           >
-            restaurantstandards.com
+            backbar.fyi
           </a>
           <a 
-            href="https://somm.tips" 
+            href="https://hospitality.fyi" 
             target="_blank" 
             rel="noopener noreferrer" 
             className={styles.partnerLink}
           >
-            somm.tips
+            hospitality.fyi
           </a>
         </div>
       </div>

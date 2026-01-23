@@ -264,16 +264,16 @@
   }
 
   .mainLink {
-    font-size: 20px;
+    font-size: 16px;
   }
 
   .socialLinks {
-    gap: 11px;
+    gap: 10px;
     margin-bottom: 20px;
   }
 
   .socialLink {
-    font-size: 13px;
+    font-size: 12px;
   }
 
   .legalLinks {
