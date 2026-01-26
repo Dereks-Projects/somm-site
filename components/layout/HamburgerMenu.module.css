@@ -87,7 +87,7 @@
 .mainLink {
   color: white;
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 500;
   text-decoration: none;
   transition: all 0.2s ease;
   position: relative;
@@ -115,12 +115,12 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 
 .socialLink {
   color: #cccccc;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 500;
   text-decoration: none;
   transition: all 0.2s ease;
@@ -153,13 +153,13 @@
 .legalLinks {
   display: flex;
   flex-direction: column;
-  gap: 9px;
+  gap: 7px;
   margin-bottom: 30px;
 }
 
 .legalLink {
   color: #999999;
-  font-size: 13px;
+  font-size: 11px;
   font-weight: 400;
   text-decoration: none;
   transition: all 0.2s ease;
@@ -258,7 +258,7 @@
   }
 
   .mainNav {
-    gap: 9px;
+    gap: 8px;
     margin-top: 30px;
     margin-bottom: 20px;
   }
@@ -268,21 +268,21 @@
   }
 
   .socialLinks {
-    gap: 10px;
+    gap: 9px;
     margin-bottom: 20px;
   }
 
   .socialLink {
-    font-size: 12px;
+    font-size: 11px;
   }
 
   .legalLinks {
-    gap: 7px;
+    gap: 6px;
     margin-bottom: 25px;
   }
 
   .legalLink {
-    font-size: 11px;
+    font-size: 10px;
   }
 
   .divider {
