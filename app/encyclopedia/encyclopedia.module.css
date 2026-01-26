@@ -1,0 +1,139 @@
+/* MOBILE FIRST */
+.container {
+  background-color: #fafafa;
+  min-height: 100vh;
+  padding: 40px 20px;
+}
+
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.heading {
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 16px;
+}
+
+.subheading {
+  font-size: 16px;
+  color: #555555;
+  text-align: center;
+  margin-bottom: 40px;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.letterGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
+.letterCard {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 25px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  text-decoration: none;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.letterCard:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+  transform: translateY(-2px);
+}
+
+.letter {
+  font-size: 28px;
+  font-weight: 700;
+  color: #000000;
+  min-width: 36px;
+}
+
+.termRange {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  overflow: hidden;
+}
+
+.termFirst {
+  font-size: 14px;
+  font-weight: 600;
+  color: #000000;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.termLast {
+  font-size: 12px;
+  color: #777777;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.arrow {
+  font-size: 18px;
+  color: #000000;
+}
+
+.navSection {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.navButton {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #000000;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: background-color 0.2s ease;
+}
+
+.navButton:hover {
+  background-color: #333333;
+}
+
+/* DESKTOP */
+@media (min-width: 768px) {
+  .container {
+    padding: 80px 60px;
+  }
+
+  .heading {
+    font-size: 42px;
+  }
+
+  .subheading {
+    font-size: 18px;
+    margin-bottom: 60px;
+  }
+
+  .letterGrid {
+    grid-template-columns: repeat(4, 260px);
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .letterCard {
+    padding: 24px;
+  }
+
+  .letter {
+    font-size: 32px;
+  }
+}

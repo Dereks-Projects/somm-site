@@ -4,8 +4,8 @@ import Link from 'next/link';
 import styles from '../legal-pages.module.css';
 
 export const metadata = {
-  title: "Content Disclaimer - SOMM.SITE",
-  description: "Important information about SOMM.SITE content, including educational disclaimers and liability limitations.",
+  title: "Content Disclaimer - Somm.Site",
+  description: "Important information about Somm.Site content, including educational disclaimers and liability limitations.",
 };
 
 export default function ContentDisclaimer() {
@@ -19,7 +19,7 @@ export default function ContentDisclaimer() {
           
           <div className={styles.content}>
             <p>
-              SOMM.SITE provides wine and hospitality education content for informational and educational 
+              Somm.Site provides wine and hospitality education content for informational and educational 
               purposes only. By accessing and using this website, you acknowledge and agree to the terms 
               outlined in this Content Disclaimer. Please read this disclaimer carefully before using any 
               information from our platform.

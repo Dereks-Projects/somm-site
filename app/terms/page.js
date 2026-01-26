@@ -14,7 +14,7 @@ export default function TermsOfUse() {
           
           <div className={styles.content}>
             <p>
-              Welcome to SOMM.SITE. By accessing or using our website and services, you agree to be bound by 
+              Welcome to Somm.Site. By accessing or using our website and services, you agree to be bound by 
               these Terms of Use. Please read them carefully before using our platform.
             </p>
 

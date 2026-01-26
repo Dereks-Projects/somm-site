@@ -6,9 +6,9 @@ import styles from './page.module.css';
 
 export const metadata = {
   title: "About Us",
-  description: "Learn about SOMM.SITE's mission to democratize wine and hospitality education. Founded by Derek Engles, bringing 20+ years of luxury hospitality experience to free online education.",
+  description: "Learn about Somm.Site's mission to democratize wine and hospitality education. Founded by Derek Engles, bringing 20+ years of luxury hospitality experience to free online education.",
   openGraph: {
-    title: "About SOMM.SITE - Wine Education Platform",
+    title: "About Somm.Site - Wine Education Platform",
     description: "Democratizing wine and hospitality education for professionals worldwide"
   }
 };
@@ -22,7 +22,7 @@ export default function About() {
         {/* Hero Section */}
         <section className={styles.hero}>
           <div className={styles.heroContent}>
-            <h1 className={styles.heroTitle}>About SOMM.SITE</h1>
+            <h1 className={styles.heroTitle}>About Somm.Site</h1>
             <p className={styles.heroSubtitle}>
               Democratizing wine and hospitality education for professionals and enthusiasts worldwide.
             </p>
@@ -34,7 +34,7 @@ export default function About() {
           <div className={styles.container}>
             <h2 className={styles.sectionTitle}>Our Mission</h2>
             <p className={styles.missionText}>
-              SOMM.SITE exists to make professional wine and hospitality knowledge accessible to everyone. Whether you're just beginning your journey into the world of wine or you're a seasoned hospitality professional looking to refine your expertise, our free courses and curated resources provide the foundation you need to succeed.
+              Somm.Site exists to make professional wine and hospitality knowledge accessible to everyone. Whether you're just beginning your journey into the world of wine or you're a seasoned hospitality professional looking to refine your expertise, our free courses and curated resources provide the foundation you need to succeed.
             </p>
             <p className={styles.missionText}>
               We believe that exceptional service and deep beverage knowledge shouldn't be locked behind expensive certifications or exclusive institutions. By offering comprehensive, free education alongside our ecosystem of professional tools, we're leveling the playing field for aspiring sommeliers, servers, bartenders, and wine enthusiasts around the globe.

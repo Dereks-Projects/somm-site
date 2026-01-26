@@ -1,0 +1,70 @@
+/* MOBILE FIRST */
+.container {
+  background-color: #fafafa;
+  min-height: 100vh;
+  padding: 40px 20px;
+}
+
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 25px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  padding: 32px 24px;
+}
+
+.term {
+  font-size: 28px;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.definition {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #333333;
+}
+
+.navSection {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.navButton {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #000000;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: background-color 0.2s ease;
+}
+
+.navButton:hover {
+  background-color: #333333;
+}
+
+/* DESKTOP */
+@media (min-width: 768px) {
+  .container {
+    padding: 80px 60px;
+  }
+
+  .card {
+    padding: 48px;
+  }
+
+  .term {
+    font-size: 36px;
+  }
+
+  .definition {
+    font-size: 18px;
+  }
+}

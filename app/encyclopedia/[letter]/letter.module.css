@@ -1,0 +1,86 @@
+/* MOBILE FIRST */
+.container {
+  background-color: #fafafa;
+  min-height: 100vh;
+  padding: 40px 20px;
+}
+
+.content {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.heading {
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.termRange {
+  font-size: 18px;
+  color: #555555;
+  text-align: center;
+  margin-top: .5rem;
+  margin-bottom: 40px;
+  font-weight: 600;
+}
+
+.termGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+}
+
+.termLink {
+  font-size: 16px;
+  color: #000000;
+  text-decoration: underline;
+  transition: color 0.2s ease;
+}
+
+.termLink:hover {
+  color: #555555;
+}
+
+.navSection {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.navButton {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #000000;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: background-color 0.2s ease;
+}
+
+.navButton:hover {
+  background-color: #333333;
+}
+
+/* DESKTOP */
+@media (min-width: 768px) {
+  .container {
+    padding: 80px 60px;
+  }
+
+  .heading {
+    font-size: 64px;
+    margin-bottom: 60px;
+  }
+
+  .termGrid {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px 40px;
+  }
+
+  .termLink {
+    font-size: 16px;
+  }
+}

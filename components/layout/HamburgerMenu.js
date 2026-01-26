@@ -65,6 +65,9 @@ export default function HamburgerMenu() {
           <Link href="/intro-course" className={styles.mainLink} onClick={closeMenu}>
             Introductory Course
           </Link>
+          <Link href="/encyclopedia" className={styles.mainLink} onClick={closeMenu}>
+            Encyclopedia
+          </Link>
           <Link href="/about" className={styles.mainLink} onClick={closeMenu}>
             About Us
           </Link>

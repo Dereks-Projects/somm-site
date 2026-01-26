@@ -10,7 +10,7 @@ export const metadata = {
   title: "Introductory Wine Course",
   description: "Free comprehensive wine course covering white wines, red wines, wine geography, and great producers. Perfect for beginners and hospitality professionals.",
   openGraph: {
-    title: "Free Introductory Wine Course - SOMM.SITE",
+    title: "Free Introductory Wine Course - Somm.Site",
     description: "Learn wine fundamentals from grape varieties to wine regions"
   }
 };

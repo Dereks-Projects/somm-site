@@ -26,6 +26,10 @@ export default function Footer() {
           </div>
         </div>
 
+        <p className={styles.encyclopediaLink}>
+          <a href="/encyclopedia">Visit our new <span className={styles.underline}>Encyclopedia</span> here.</a>
+        </p>
+
         <div className={styles.socialIcons}>
           <a href="https://www.instagram.com/somm.site/" target="_blank" rel="noopener noreferrer">
             <img src="/images/icons/ig-icon.svg" alt="Instagram" className={styles.icon} />
@@ -39,7 +43,7 @@ export default function Footer() {
         </div>
 
         
-        <h2 className={styles.title}>SOMM.SITE</h2>
+        <h2 className={styles.title}>Somm.Site</h2>
         <p className={styles.copyright}>Copyright 2025 • SOMMSITE • All Rights Reserved</p>
         
         <button onClick={scrollToTop} className={styles.backToTop}>

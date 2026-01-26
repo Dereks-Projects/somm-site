@@ -3,34 +3,34 @@ import Script from 'next/script';
 
 export const metadata = {
   title: {
-    default: "SOMM.SITE - Free Wine & Hospitality Education",
-    template: "%s | SOMM.SITE"
+    default: "Somm.Site - Wine & Hospitality Education",
+    template: "%s | Somm.Site"
   },
-  description: "Free wine and hospitality education for professionals and enthusiasts. Master sommelier knowledge, wine service standards, and beverage expertise.",
+  description: "Wine and hospitality education for professionals and enthusiasts. Expert sommelier knowledge, wine service standards, and beverage expertise.",
   keywords: ["wine education", "sommelier training", "hospitality", "wine course", "beverage knowledge", "wine certification"],
   authors: [{ name: "Derek Engles" }],
   creator: "Derek Engles",
-  publisher: "SOMM.SITE",
+  publisher: "Somm.Site",
   metadataBase: new URL("https://somm.site"),
   openGraph: {
     type: "website",
     locale: "en_US",
     url: "https://somm.site",
-    siteName: "SOMM.SITE",
-    title: "SOMM.SITE - Free Wine & Hospitality Education",
+    siteName: "Somm.Site",
+    title: "Somm.Site - Wine & Hospitality Education",
     description: "Free wine and hospitality education for professionals and enthusiasts",
     images: [
       {
         url: "/ss-social-card.png",
         width: 1200,
         height: 630,
-        alt: "SOMM.SITE - Wine Education Platform"
+        alt: "Somm.Site - Wine Education Platform"
       }
     ]
   },
   twitter: {
     card: "summary_large_image",
-    title: "SOMM.SITE - Free Wine & Hospitality Education",
+    title: "Somm.Site - Free Wine & Hospitality Education",
     description: "Free wine and hospitality education for professionals and enthusiasts",
     images: ["/ss-social-card.png"]
   },
@@ -49,7 +49,7 @@ export default function RootLayout({ children }) {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "EducationalOrganization",
-    "name": "SOMM.SITE",
+    "name": "Somm.Site",
     "url": "https://somm.site",
     "logo": "https://somm.site/ss-favicon.png",
     "description": "Free wine and hospitality education for professionals and enthusiasts",

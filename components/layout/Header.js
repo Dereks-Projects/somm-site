@@ -7,7 +7,7 @@ export default function Header() {
     <>
       <header className={styles.header}>
         <Link href="/" className={styles.logoLink}>
-          <h1 className={styles.logo}>SOMM.SITE</h1>
+          <h1 className={styles.logo}>Somm.Site</h1>
         </Link>
         <HamburgerMenu />
       </header>
