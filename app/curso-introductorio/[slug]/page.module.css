@@ -161,7 +161,7 @@
 }
 
 .articleConclusion::before {
-  content: 'In Conclusion';
+  content: 'En Conclusión';
   display: block;
   font-size: 20px;
   font-weight: 700;

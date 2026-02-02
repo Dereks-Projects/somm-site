@@ -6,17 +6,18 @@ export default function ProjectsCTA() {
       <div className={styles.ctaContainer}>
         <h2 className={styles.ctaHeading}>Looking For More?</h2>
         <p className={styles.ctaDescription}>
-          Our learning ecosystem helps you understand the complicated world of beverages better. Visit one of our sites for more ways to learn.
+          Visit one of our partner sites for more ways to learn.
         </p>
         
         <div className={styles.buttonGroup}>
+          
           <a 
-            href="https://backbar.fyi" 
+            href="https://somm.tips" 
             target="_blank" 
             rel="noopener noreferrer"
             className={styles.ctaButton}
           >
-            Backbar.fyi
+            Somm.Tips
           </a>
           <a 
             href="https://beverage.fyi" 
@@ -27,20 +28,20 @@ export default function ProjectsCTA() {
             Beverage.fyi
           </a>
           <a 
-            href="https://restaurantstandards.com" 
+            href="https://hospitality.fyi.com" 
             target="_blank" 
             rel="noopener noreferrer"
             className={styles.ctaButton}
           >
-            Restaurant Standards
+            Hospitality.fyi
           </a>
           <a 
-            href="https://somm.tips" 
+            href="https://backbar.fyi" 
             target="_blank" 
             rel="noopener noreferrer"
             className={styles.ctaButton}
           >
-            Somm.Tips
+            Backbar.fyi
           </a>
         </div>
       </div>

@@ -1,6 +1,6 @@
 import Header from '../../../components/layout/Header';
 import Footer from '../../../components/layout/Footer';
-import courseData from '../../../data/courseData.json';
+import courseData from '../../../data/courseData.es.json';
 import styles from './page.module.css';
 import BackButton from '../../../components/BackButton';
 import ProjectsCTA from '../../../components/ProjectsCTA';
@@ -12,7 +12,7 @@ export async function generateMetadata({ params }) {
 
   if (!lesson) {
     return {
-      title: "Lesson Not Found"
+      title: "Lección No Encontrada"
     };
   }
 
@@ -53,7 +53,7 @@ export default async function ClassPage({ params }) {
   const lesson = courseData.find((lesson) => lesson.slug === resolvedParams.slug);
 
   if (!lesson) {
-    return <div>Lesson not found</div>;
+    return <div>Lección no encontrada</div>;
   }
 
   // JSON-LD Structured Data
@@ -80,7 +80,7 @@ export default async function ClassPage({ params }) {
     },
     "keywords": lesson.tags,
     "educationalLevel": "Beginner to Intermediate",
-    "inLanguage": "en-US",
+    "inLanguage": "es",
     "isAccessibleForFree": true
   };
 
@@ -106,7 +106,7 @@ export default async function ClassPage({ params }) {
                 <h1 className={styles.articleTitle}>{lesson.title}</h1>
                 <h2 className={styles.articleSubtitle}>{lesson.subtitle}</h2>
                 <div className={styles.languageLink}>
-                  <Link href={`/curso-introductorio/${lesson.slug}`}>Español</Link>
+                  <Link href={`/intro-course/${lesson.slug}`}>English</Link>
                 </div>
               </div>
             </div>
@@ -155,7 +155,7 @@ export default async function ClassPage({ params }) {
               </section>
             </div>
           </article>
-          <BackButton href="/intro-course" text="Back to Course" />
+          <BackButton href="/curso-introductorio" text="Volver al Curso" />
           
         </main>
         <ProjectsCTA />

@@ -6,7 +6,7 @@ export const metadata = {
     default: "Somm.Site - Free Wine & Hospitality Education",
     template: "%s | Somm.Site"
   },
-  description: "Free wine and hospitality education for professionals and enthusiasts. Master sommelier knowledge, wine service standards, and beverage expertise.",
+  description: "Free wine and hospitality education for professionals and enthusiasts. Masters level knowledge, wine service standards, and beverage expertise.",
   keywords: ["wine education", "sommelier training", "hospitality", "wine course", "beverage knowledge", "wine certification"],
   authors: [{ name: "Derek Engles" }],
   creator: "Derek Engles",
