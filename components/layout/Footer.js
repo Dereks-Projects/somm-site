@@ -44,7 +44,7 @@ export default function Footer() {
 
         
         <h2 className={styles.title}>Somm.Site</h2>
-        <p className={styles.copyright}>Copyright 2025 • SOMMSITE • All Rights Reserved</p>
+        <p className={styles.copyright}>Copyright 2026 • Informative Media • All Rights Reserved</p>
         
         <button onClick={scrollToTop} className={styles.backToTop}>
           Back to top ↑
