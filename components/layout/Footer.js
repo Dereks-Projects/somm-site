@@ -16,19 +16,17 @@ export default function Footer() {
             <a href="/">Home</a>
             <a href="/articles">Wine Articles</a>
             <a href="/intro-course">Introductory Course</a>
-            <a href="/about">About Us</a>
+            <a href="/encyclopedia">Encyclopedia</a>
+            <a href="/quizzes">Wine Quiz</a>
           </div>
           <div className={styles.linksColumn}>
+            <a href="/about">About Us</a>
             <a href="/terms">Terms of Use</a>
             <a href="/privacy">Privacy Policy</a>
             <a href="/cookies">Cookie Notice</a>
             <a href="/disclaimer">Content Disclaimer</a>
           </div>
         </div>
-
-        <p className={styles.encyclopediaLink}>
-          <a href="/encyclopedia">Visit our new <span className={styles.underline}>Encyclopedia</span> here.</a>
-        </p>
 
         <div className={styles.socialIcons}>
           <a href="https://www.instagram.com/somm.site/" target="_blank" rel="noopener noreferrer">
