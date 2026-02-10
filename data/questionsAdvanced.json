@@ -1,0 +1,2672 @@
+[
+  {
+    "question": "What is South Africa's southernmost wine district?",
+    "choices": [
+      "Cape Aghuilas",
+      "Porto",
+      "Sauvignon Blanc",
+      "Cape Town"
+    ],
+    "answer": "Cape Aghuilas"
+  },
+  {
+    "question": "What grand cru site is Trimbach's Clos-Ste-Hune located?",
+    "choices": [
+      "Altenberg de Bergheim",
+      "Rosacker",
+      "Kaefferkopf",
+      "Strousbourg"
+    ],
+    "answer": "Rosacker"
+  },
+  {
+    "question": "What is the largest grand cru of Alsace?",
+    "choices": [
+      "Deiss",
+      "Rangen",
+      "Vosges",
+      "Schlossberg"
+    ],
+    "answer": "Schlossberg"
+  },
+  {
+    "question": "Where is Byrrh produced?",
+    "choices": [
+      "Oregon, USA",
+      "Madrid, Spain",
+      "Rousillon, France",
+      "Ontario, Canada"
+    ],
+    "answer": "Rousillon, France"
+  },
+  {
+    "question": "How long is Napolean Armagnac aged for?",
+    "choices": [
+      "9 to 12 years",
+      "1 year",
+      "2 years",
+      "4 - 9 years"
+    ],
+    "answer": "4 - 9 years"
+  },
+  {
+    "question": "What is Trois Pommes?",
+    "choices": [
+      "Calvados",
+      "Jura",
+      "Bordeaux",
+      "Cognac"
+    ],
+    "answer": "Calvados"
+  },
+  {
+    "question": "How long is Brandy de Jerez solera gran reserva aged for?",
+    "choices": [
+      "More than 10 years",
+      "More than 3 years",
+      "More than 20 years",
+      "More than 50 years"
+    ],
+    "answer": "More than 3 years"
+  },
+  {
+    "question": "What is Haux?",
+    "choices": [
+      "Nebbiolo based quinquina",
+      "Riesling based spirit",
+      "Chilean Brandy",
+      "French eau de vie"
+    ],
+    "answer": "French eau de vie"
+  },
+  {
+    "question": "What is la vieille cure?",
+    "choices": [
+      "Eau de Vie",
+      "Scotch",
+      "Herbal liquer from France",
+      "Herbal liqueur from Germany"
+    ],
+    "answer": "Herbal liquer from France"
+  },
+  {
+    "question": "What is the term for semi-sparkling wine in Spain?",
+    "choices": [
+      "Vino de aguja",
+      "Cider",
+      "tresterbrand",
+      "Cremant Blanc"
+    ],
+    "answer": "Vino de aguja"
+  },
+  {
+    "question": "Define bouvreux.",
+    "choices": [
+      "The 'second crop' of Champagne",
+      "The overgrowth in a vineyard",
+      "Italian Brandy",
+      "Australian Schnapps"
+    ],
+    "answer": "The 'second crop' of Champagne"
+  },
+  {
+    "question": "What is the maximum residual sugar of Champagne base wine?",
+    "choices": [
+      "2 g/l",
+      "50 g/l",
+      "20 g/l",
+      "10 g/l"
+    ],
+    "answer": "10 g/l"
+  },
+  {
+    "question": "Define prise de mousse.",
+    "choices": [
+      "Merlot than is late harvested",
+      "The Second fermentation in Champagne",
+      "Fine bubbles in sparkling wine",
+      "The first fermentation of Champagne"
+    ],
+    "answer": "The Second fermentation in Champagne"
+  },
+  {
+    "question": "What DOC is responsible for quality sparkling wine in Portugal?",
+    "choices": [
+      "Algarve",
+      "Duoro",
+      "Porto",
+      "Tavora-Varosa"
+    ],
+    "answer": "Tavora-Varosa"
+  },
+  {
+    "question": "What is the term for sparkling wine from Tokaji, Hungary?",
+    "choices": [
+      "Carpathian sparkling",
+      "Luzo",
+      "Pezsgő",
+      "Cremant"
+    ],
+    "answer": "Pezsgő"
+  },
+  {
+    "question": "Which AOP is known as Marque Nationale – appellation contrôlée?",
+    "choices": [
+      "Cremant de Luxembourg",
+      "1855 Bordeaux Classification",
+      "Burgundy Grand Cru",
+      "Cremant du Jura"
+    ],
+    "answer": "Cremant de Luxembourg"
+  },
+  {
+    "question": "What grape varietals are allowed for Gaillac mousseaux?",
+    "choices": [
+      "Sauvignon Blanc and Chardonnay",
+      "Pinot Noir and Chardonnay",
+      "Syrah and Grenache",
+      "Mauzac"
+    ],
+    "answer": "Mauzac"
+  },
+  {
+    "question": "How long must a Colheita Madeira be aged?",
+    "choices": [
+      "3 yrs",
+      "5 yrs",
+      "7 yrs",
+      "10 yrs"
+    ],
+    "answer": "5 yrs"
+  },
+  {
+    "question": "What is the minimum oak aging for Macvin du Jura?",
+    "choices": [
+      "12 months",
+      "18 months",
+      "3 years",
+      "10 years"
+    ],
+    "answer": "12 months"
+  },
+  {
+    "question": "Which producer has the term Almacenista trademarked?",
+    "choices": [
+      "Neipoort",
+      "Deiss",
+      "Lustau",
+      "Mateus"
+    ],
+    "answer": "Lustau"
+  },
+  {
+    "question": "What is the minimum ABV of Sauternes?",
+    "choices": [
+      "15% (12% acquired)",
+      "18%",
+      "12% (8% acquired)",
+      "20%"
+    ],
+    "answer": "15% (12% acquired)"
+  },
+  {
+    "question": "What is the min. aging requirment's for estufagem Madeira?",
+    "choices": [
+      "2 yrs",
+      "3 yrs",
+      "5 yrs.",
+      "10 yrs."
+    ],
+    "answer": "2 yrs"
+  },
+  {
+    "question": "What is the min aging req's for canteiro Madeira?",
+    "choices": [
+      "6 months",
+      "1 yr.",
+      "2 yrs.",
+      "3 ys"
+    ],
+    "answer": "3 ys"
+  },
+  {
+    "question": "When is the vine most succeptable to eutypa dieback?",
+    "choices": [
+      "During planting",
+      "During flowering",
+      "At harvest",
+      "Immediately after pruning"
+    ],
+    "answer": "Immediately after pruning"
+  },
+  {
+    "question": "What is the simplest form of spur-pruning/head-training?",
+    "choices": [
+      "Double Curtain",
+      "Gobelet",
+      "Napa Valley Hanger",
+      "VSP"
+    ],
+    "answer": "Gobelet"
+  },
+  {
+    "question": "Define microbullage.",
+    "choices": [
+      "Fermentation",
+      "Planting",
+      "Refining",
+      "Micro-oxygenation"
+    ],
+    "answer": "Micro-oxygenation"
+  },
+  {
+    "question": "What is the largest demarcated region in Europe?",
+    "choices": [
+      "Provence",
+      "Burgundy",
+      "La Mancha",
+      "Puglia"
+    ],
+    "answer": "La Mancha"
+  },
+  {
+    "question": "Which do is located directly north of Ribera del Duero?",
+    "choices": [
+      "Arlanza",
+      "Rioja",
+      "Madrid",
+      "Rueda"
+    ],
+    "answer": "Arlanza"
+  },
+  {
+    "question": "What is Zibbibo?",
+    "choices": [
+      "National cocktail of Andorra",
+      "Synonym for Muscat",
+      "Term for harvesting",
+      "Name of a producer in Sicily"
+    ],
+    "answer": "Synonym for Muscat"
+  },
+  {
+    "question": "What is the main grape varietal and minimum % for Bandol rouge?",
+    "choices": [
+      "100% Mourvedre",
+      "50% min. Mourvedre",
+      "60% min. Grenache",
+      "100% Grenache"
+    ],
+    "answer": "50% min. Mourvedre"
+  },
+  {
+    "question": "Who produces Edelkeur?",
+    "choices": [
+      "E & J",
+      "Nolly Pratt",
+      "Nederburg",
+      "Constantia"
+    ],
+    "answer": "Nederburg"
+  },
+  {
+    "question": "Who produces Celebris?",
+    "choices": [
+      "Selosse",
+      "Jacquart",
+      "Moet",
+      "Gossett"
+    ],
+    "answer": "Gossett"
+  },
+  {
+    "question": "Where is the Yorkville Highlands AVA?",
+    "choices": [
+      "Mendocino County",
+      "Napa Valley",
+      "Sonoma Mountian",
+      "Lake County"
+    ],
+    "answer": "Mendocino County"
+  },
+  {
+    "question": "Where are the Gimblett Gravels?",
+    "choices": [
+      "Auckland",
+      "Hawkes Bay",
+      "Martinborough",
+      "Otago"
+    ],
+    "answer": "Hawkes Bay"
+  },
+  {
+    "question": "Where is Keuka Lake?",
+    "choices": [
+      "Finger Lakes, NY",
+      "Southern Chile",
+      "Shenandoah Valley, VA",
+      "Central Germany"
+    ],
+    "answer": "Finger Lakes, NY"
+  },
+  {
+    "question": "Where is Kwazulu Natal?",
+    "choices": [
+      "Portugal",
+      "South Africa",
+      "Spain",
+      "Argentina"
+    ],
+    "answer": "South Africa"
+  },
+  {
+    "question": "Who produces Hill of Grace?",
+    "choices": [
+      "Henshke",
+      "Porters",
+      "Torbreck",
+      "Penfolds"
+    ],
+    "answer": "Henshke"
+  },
+  {
+    "question": "Where is Malleco?",
+    "choices": [
+      "Central Spain",
+      "Northern Argentina",
+      "Southern Chile",
+      "Southern Portugal"
+    ],
+    "answer": "Southern Chile"
+  },
+  {
+    "question": "Which was the best vintage for the medoc: 1997, 1998, 1999 or 2000?",
+    "choices": [
+      "1998",
+      "1997",
+      "2000",
+      "1999"
+    ],
+    "answer": "2000"
+  },
+  {
+    "question": "What are the 2 main varietals for Jurancon?",
+    "choices": [
+      "Gros and Petite Manseng",
+      "Pinot Noir and Chardonnay",
+      "Petite Manseng and Petit Verdot",
+      "Gros Plant and Muscadet"
+    ],
+    "answer": "Gros and Petite Manseng"
+  },
+  {
+    "question": "Where is Kangaroo Island?",
+    "choices": [
+      "Tazmania",
+      "South Australia",
+      "New Zealand Coast",
+      "South Africa"
+    ],
+    "answer": "South Australia"
+  },
+  {
+    "question": "What river flows through Valtellina?",
+    "choices": [
+      "Ombrone",
+      "Tanaro",
+      "Po",
+      "Adda"
+    ],
+    "answer": "Adda"
+  },
+  {
+    "question": "Where is Lake Bodensee?",
+    "choices": [
+      "Ahr, Germany",
+      "Alsace, France",
+      "Nahe, Germany",
+      "Baden, Germany"
+    ],
+    "answer": "Baden, Germany"
+  },
+  {
+    "question": "Where would you find the vineyard Graacher Domprobst?",
+    "choices": [
+      "Mosel",
+      "Nahe",
+      "Rheingau",
+      "Rheinhessen"
+    ],
+    "answer": "Mosel"
+  },
+  {
+    "question": "What is the ungrafted varietal found in Colares?",
+    "choices": [
+      "Romandolo",
+      "Ruiz",
+      "Romorantin",
+      "Ramisco"
+    ],
+    "answer": "Ramisco"
+  },
+  {
+    "question": "Is Setubal west, north or south of Lisbon?",
+    "choices": [
+      "Same Latitude",
+      "West",
+      "South",
+      "North"
+    ],
+    "answer": "South"
+  },
+  {
+    "question": "Where is Simalkeeman?",
+    "choices": [
+      "Ontario",
+      "British Columbia",
+      "Finger Lakes",
+      "Nova Scotia"
+    ],
+    "answer": "British Columbia"
+  },
+  {
+    "question": "Minimum aging requirement for colheita port?",
+    "choices": [
+      "3 years",
+      "5 years",
+      "6 years",
+      "7 years"
+    ],
+    "answer": "7 years"
+  },
+  {
+    "question": "Where is Clos des Ormes?",
+    "choices": [
+      "Morey St. Denis",
+      "Chambolle Musigny",
+      "Haut Poitou",
+      "Hautes Cotes de Nuits"
+    ],
+    "answer": "Morey St. Denis"
+  },
+  {
+    "question": "Where is Beaumont-su-Vesle?",
+    "choices": [
+      "Chablis",
+      "SW France",
+      "Anjou",
+      "Champagne"
+    ],
+    "answer": "Champagne"
+  },
+  {
+    "question": "What mountain range separates Napa and Sonoma counties?",
+    "choices": [
+      "Mayayacamas",
+      "Dentelles",
+      "Sonoma Mountian",
+      "Vaca Range"
+    ],
+    "answer": "Mayayacamas"
+  },
+  {
+    "question": "Which AOC is based upon the Romorantin varietal?",
+    "choices": [
+      "Cour-Cheverny",
+      "Vienne",
+      "Cour de Cuvee",
+      "Haut Poitou"
+    ],
+    "answer": "Cour-Cheverny"
+  },
+  {
+    "question": "Dry white wines from Cerons are sold under which AOC?",
+    "choices": [
+      "Bordeaux AOC",
+      "Graves AOC",
+      "Haut-Medoc AOC",
+      "Entre-deux-Mers AOC"
+    ],
+    "answer": "Graves AOC"
+  },
+  {
+    "question": "Where is Grattalops?",
+    "choices": [
+      "Rioja, Spain",
+      "Priorat, Spain",
+      "Madrid, Spain",
+      "Porto, Portugal"
+    ],
+    "answer": "Priorat, Spain"
+  },
+  {
+    "question": "Where is Valdizarbe?",
+    "choices": [
+      "Portugal",
+      "France",
+      "Spain",
+      "Mexico"
+    ],
+    "answer": "Spain"
+  },
+  {
+    "question": "Who makes Nec Plus Ultra?",
+    "choices": [
+      "Moet",
+      "Selosse",
+      "Bruno Paillard",
+      "Gratien"
+    ],
+    "answer": "Bruno Paillard"
+  },
+  {
+    "question": "What river does Toro D.O. reside on?",
+    "choices": [
+      "Duero",
+      "Guadalette",
+      "Ebro",
+      "Ombrone"
+    ],
+    "answer": "Duero"
+  },
+  {
+    "question": "What island did Machico burn to the ground in 1419?",
+    "choices": [
+      "Pellee Island",
+      "South Island",
+      "Madeira",
+      "Canary Islands"
+    ],
+    "answer": "Madeira"
+  },
+  {
+    "question": "What river bisects Sachsen?",
+    "choices": [
+      "Rhine",
+      "Rhone",
+      "Ebro",
+      "Elbe"
+    ],
+    "answer": "Elbe"
+  },
+  {
+    "question": "Who produces Redigaffi?",
+    "choices": [
+      "Tua Rita",
+      "Morrisfarms",
+      "Sandrone",
+      "Gaja"
+    ],
+    "answer": "Tua Rita"
+  },
+  {
+    "question": "What are the aging requirements for gran reserva Cava?",
+    "choices": [
+      "3 months on the lees",
+      "18 months on the lees",
+      "24 months on the lees",
+      "30 months on the lees"
+    ],
+    "answer": "30 months on the lees"
+  },
+  {
+    "question": "Clos de Tart is a monopole for which producer?",
+    "choices": [
+      "Leroy",
+      "Mommessin",
+      "DRC",
+      "Cave de Borgogne"
+    ],
+    "answer": "Mommessin"
+  },
+  {
+    "question": "Where is the vineyard Les Narbantons?",
+    "choices": [
+      "Chablis",
+      "Champagne",
+      "Morey St. Denis",
+      "Savingy-les-Beaune"
+    ],
+    "answer": "Savingy-les-Beaune"
+  },
+  {
+    "question": "Which producer is responsible for Torgiano?",
+    "choices": [
+      "Cabernet Sauvignon",
+      "Nebbiolo",
+      "Argentina",
+      "Lungarotti"
+    ],
+    "answer": "Lungarotti"
+  },
+  {
+    "question": "Where are the Levant winds found?",
+    "choices": [
+      "Galicia",
+      "Toro",
+      "Portugal",
+      "Andalucia"
+    ],
+    "answer": "Andalucia"
+  },
+  {
+    "question": "Which slovenian region borders Collio?",
+    "choices": [
+      "Distania",
+      "Western Plains",
+      "Primorska",
+      "Posovdje"
+    ],
+    "answer": "Primorska"
+  },
+  {
+    "question": "Which river influences the Tokaj region?",
+    "choices": [
+      "Carpathian",
+      "Debina",
+      "Bodrog",
+      "Balanton"
+    ],
+    "answer": "Bodrog"
+  },
+  {
+    "question": "Where is the Lac du Bourget?",
+    "choices": [
+      "Belgium",
+      "Quebec",
+      "Savoie",
+      "Champagne"
+    ],
+    "answer": "Savoie"
+  },
+  {
+    "question": "Which sub-region of Rias Baixas sit on the Minho River?",
+    "choices": [
+      "Ribiera Sacra",
+      "Coronado",
+      "Montero",
+      "Condado del Tea"
+    ],
+    "answer": "Condado del Tea"
+  },
+  {
+    "question": "What is the river of Ribatejano?",
+    "choices": [
+      "Ebro",
+      "Tejo",
+      "Duero",
+      "Tavora"
+    ],
+    "answer": "Tejo"
+  },
+  {
+    "question": "Which is a sub region of Adelaide Hlls?",
+    "choices": [
+      "Limnio",
+      "Picadilly Valley",
+      "Lungarotti",
+      "Kangaroo Valley"
+    ],
+    "answer": "Picadilly Valley"
+  },
+  {
+    "question": "Which river runs through Chinon?",
+    "choices": [
+      "Charmes",
+      "Loir",
+      "Brenne",
+      "Vienne"
+    ],
+    "answer": "Vienne"
+  },
+  {
+    "question": "Where is Banks Penninsula?",
+    "choices": [
+      "Martinborough, NZ",
+      "Sonoma County, CA",
+      "Canterbury, NZ",
+      "Columbia Valley, WA"
+    ],
+    "answer": "Canterbury, NZ"
+  },
+  {
+    "question": "Where is Boutenac?",
+    "choices": [
+      "Corbieres",
+      "Colores",
+      "Canterburry",
+      "Toulouse"
+    ],
+    "answer": "Corbieres"
+  },
+  {
+    "question": "Which Rias Baixas sub-region is the most northernly?",
+    "choices": [
+      "Condado de Haza",
+      "Ribeira do Ulla",
+      "Condado del Tea",
+      "O Rosal"
+    ],
+    "answer": "Ribeira do Ulla"
+  },
+  {
+    "question": "Where is Nagambie Lakes?",
+    "choices": [
+      "Barossa Valley, South Australia",
+      "Goulbourn Valley, Victoria",
+      "Yarra Valley, Victoria",
+      "Hunter Valley, NSW"
+    ],
+    "answer": "Goulbourn Valley, Victoria"
+  },
+  {
+    "question": "Where is Château Tahlbik?",
+    "choices": [
+      "Barossa Valley, South Australia",
+      "Mornington Peninsula, Victoria",
+      "Yarra Valley, Victoria",
+      "Goulbourn Valley, Victoria"
+    ],
+    "answer": "Goulbourn Valley, Victoria"
+  },
+  {
+    "question": "What are the grape parents of Zweigelt?",
+    "choices": [
+      "Blaufrankisch & Syrah",
+      "Blaufrankisch & Pinot Noir",
+      "Blaufrankisch & St. Laurent",
+      "Chardonnay & Riesling"
+    ],
+    "answer": "Blaufrankisch & St. Laurent"
+  },
+  {
+    "question": "Which lake does Bianco di Custoza reside on?",
+    "choices": [
+      "Lago di Trasimeno",
+      "Lago di Como",
+      "Lago di Ciccio",
+      "Lago di Garda"
+    ],
+    "answer": "Lago di Garda"
+  },
+  {
+    "question": "Where is east Taratahi/Gladstone?",
+    "choices": [
+      "Canterberry",
+      "Wellington",
+      "Auckland",
+      "Otago"
+    ],
+    "answer": "Wellington"
+  },
+  {
+    "question": "What is Germany's only anbaugebeit without an erste lage site?",
+    "choices": [
+      "Baden",
+      "Alsace",
+      "Ahr",
+      "Hessische-Bergstraße"
+    ],
+    "answer": "Hessische-Bergstraße"
+  },
+  {
+    "question": "Where is Cape Farewell?",
+    "choices": [
+      "Otago",
+      "Nelson",
+      "Auckland",
+      "Sunbury"
+    ],
+    "answer": "Nelson"
+  },
+  {
+    "question": "What is Schilcher?",
+    "choices": [
+      "Rosé from Styria, Germany",
+      "Sparkling wine from Germany",
+      "Brandy from Germany",
+      "Fortified wine from Tuscany"
+    ],
+    "answer": "Rosé from Styria, Germany"
+  },
+  {
+    "question": "What is the white grape of Crete?",
+    "choices": [
+      "Chardonnay",
+      "Vilana",
+      "Verdelho",
+      "Sauvignon Blanc"
+    ],
+    "answer": "Vilana"
+  },
+  {
+    "question": "How long must Rivesaltes hors d'auge be aged?",
+    "choices": [
+      "2 years",
+      "3 years",
+      "4years",
+      "5 years"
+    ],
+    "answer": "5 years"
+  },
+  {
+    "question": "What is an alternative name for the crown gall vine disease?",
+    "choices": [
+      "Black soiled",
+      "Aspersion",
+      "Black knot",
+      "Black root"
+    ],
+    "answer": "Black knot"
+  },
+  {
+    "question": "What is the only Château to dissapear from the 1855 classification?",
+    "choices": [
+      "Château Mouton Noir",
+      "Château Malescot",
+      "Château Charmes",
+      "Château Dubignon"
+    ],
+    "answer": "Château Dubignon"
+  },
+  {
+    "question": "What is the minimum residual sugar for Muscat Beaumes de Venise?",
+    "choices": [
+      "Min. 100 rs g/l",
+      "Min. 120 rs g/l",
+      "Min. 140 rs g/l",
+      "Min. 160 rs g/l"
+    ],
+    "answer": "Min. 100 rs g/l"
+  },
+  {
+    "question": "Which Provencal wine is bottled in bowling pin shaped bottle?",
+    "choices": [
+      "Domaine Ott",
+      "Domaine Seysel",
+      "Château de Pibarnon",
+      "Domaine de la Brillane"
+    ],
+    "answer": "Domaine Ott"
+  },
+  {
+    "question": "What is flaschengärung?",
+    "choices": [
+      "Pomace brandy base wine",
+      "Late harvest Riesling",
+      "Bottle-fermented Sekt",
+      "Fortified wine"
+    ],
+    "answer": "Bottle-fermented Sekt"
+  },
+  {
+    "question": "Where is Cape Canaile?",
+    "choices": [
+      "Rousillon",
+      "Avignon",
+      "Cassis",
+      "Bandol"
+    ],
+    "answer": "Cassis"
+  },
+  {
+    "question": "What is the mountain range of Gigondas?",
+    "choices": [
+      "Masif Central",
+      "Dentelles",
+      "Sierra de Gredos",
+      "Alps"
+    ],
+    "answer": "Dentelles"
+  },
+  {
+    "question": "Where is the commune of Pupullin?",
+    "choices": [
+      "Arbois",
+      "Savoie",
+      "Champagne",
+      "Burgundy"
+    ],
+    "answer": "Arbois"
+  },
+  {
+    "question": "What is the river of Gigondas?",
+    "choices": [
+      "Brenne",
+      "Lot",
+      "Ouveze",
+      "Ombrone"
+    ],
+    "answer": "Ouveze"
+  },
+  {
+    "question": "What is produced in Sterea Ellada?",
+    "choices": [
+      "Sparkling wine",
+      "Retsina",
+      "Tempranillo",
+      "Cider"
+    ],
+    "answer": "Retsina"
+  },
+  {
+    "question": "Where is Château Simone?",
+    "choices": [
+      "Frontignan",
+      "Cassis",
+      "Bandol",
+      "Palette"
+    ],
+    "answer": "Palette"
+  },
+  {
+    "question": "Where is Château de Saint Cosme?",
+    "choices": [
+      "Corsica",
+      "Hermitage",
+      "St. Joseph",
+      "Gigondas"
+    ],
+    "answer": "Gigondas"
+  },
+  {
+    "question": "What is the synonym for Blaufränkisch in Hungary?",
+    "choices": [
+      "Kékfrankos",
+      "Grenache",
+      "Merlot",
+      "Kunsag"
+    ],
+    "answer": "Kékfrankos"
+  },
+  {
+    "question": "What is the synonym for Vermentino in Provence?",
+    "choices": [
+      "Romorantin",
+      "Rolle",
+      "Rousette",
+      "Sauvignon Gris"
+    ],
+    "answer": "Rolle"
+  },
+  {
+    "question": "Where would you find Rákóczy’s original classification?",
+    "choices": [
+      "Burgundy",
+      "Graves",
+      "Balanton",
+      "Tokaji"
+    ],
+    "answer": "Tokaji"
+  },
+  {
+    "question": "Where is the St. Christophe plateau?",
+    "choices": [
+      "St. Emilion",
+      "Graves",
+      "Burgundy",
+      "Provence"
+    ],
+    "answer": "St. Emilion"
+  },
+  {
+    "question": "What is the second wine of Branaire-Ducru?",
+    "choices": [
+      "Duluc",
+      "Dubois",
+      "Descartes",
+      "Devonshire"
+    ],
+    "answer": "Duluc"
+  },
+  {
+    "question": "Where is St Roman AOP?",
+    "choices": [
+      "Germany",
+      "Portugal",
+      "Spain",
+      "Cote de Beaune"
+    ],
+    "answer": "Cote de Beaune"
+  },
+  {
+    "question": "Where is the vineyard of Pisse Veille?",
+    "choices": [
+      "Morey St. Denis",
+      "Brouilly",
+      "Provence",
+      "Roussillon"
+    ],
+    "answer": "Brouilly"
+  },
+  {
+    "question": "What is the synonym for Refosco in Carso DOC?",
+    "choices": [
+      "Rioja Negra",
+      "Nebbiolo",
+      "Buscotto",
+      "Terrano"
+    ],
+    "answer": "Terrano"
+  },
+  {
+    "question": "Where is Moquegua Valley?",
+    "choices": [
+      "Peru",
+      "Chile",
+      "USA",
+      "Portugal"
+    ],
+    "answer": "Peru"
+  },
+  {
+    "question": "What is Jegbor?",
+    "choices": [
+      "Ice wine in Hungary",
+      "Ice wine in Bulgaria",
+      "Sparkling wine in Hungary",
+      "Late harvest wine in France"
+    ],
+    "answer": "Ice wine in Hungary"
+  },
+  {
+    "question": "What is the main grape varietal of the Zitsa region?",
+    "choices": [
+      "Debina",
+      "Pinot Noir",
+      "Fiano",
+      "Croatina"
+    ],
+    "answer": "Debina"
+  },
+  {
+    "question": "Where are the Troödos Mountains?",
+    "choices": [
+      "Montenegro",
+      "Cyprus",
+      "Germany",
+      "Greece"
+    ],
+    "answer": "Cyprus"
+  },
+  {
+    "question": "Where is Loramie Creek AVA?",
+    "choices": [
+      "Maryland",
+      "New York",
+      "California",
+      "Ohio"
+    ],
+    "answer": "Ohio"
+  },
+  {
+    "question": "Where is the Gulf Saint Vincent?",
+    "choices": [
+      "Victoria",
+      "Adelaide",
+      "Barossa Valley",
+      "Tasmania"
+    ],
+    "answer": "Adelaide"
+  },
+  {
+    "question": "What is Omar Khayyam?",
+    "choices": [
+      "Sparkling wine from India",
+      "Fortified wine from Spain",
+      "Still wine from Morroco",
+      "German Schnapps"
+    ],
+    "answer": "Sparkling wine from India"
+  },
+  {
+    "question": "Producer of les Clos St. Hilaire?",
+    "choices": [
+      "Moet & Chandon",
+      "Billecart-Salmon",
+      "Selosse",
+      "Aggrapart"
+    ],
+    "answer": "Billecart-Salmon"
+  },
+  {
+    "question": "Where would you find Nosiola growing?",
+    "choices": [
+      "Peidmont",
+      "Tuscany",
+      "Veneto",
+      "Trentino-Alto Adige"
+    ],
+    "answer": "Trentino-Alto Adige"
+  },
+  {
+    "question": "Broke Fordwich is a subregion of which region?",
+    "choices": [
+      "Tasmania",
+      "Hunter Valley",
+      "Mornington Peninsula",
+      "Margaret River"
+    ],
+    "answer": "Hunter Valley"
+  },
+  {
+    "question": "Where is El Hierro located?",
+    "choices": [
+      "Andalucia",
+      "Porto",
+      "Canary Islands",
+      "Madeira"
+    ],
+    "answer": "Canary Islands"
+  },
+  {
+    "question": "Where is the Catoctin AVA?",
+    "choices": [
+      "Maryland",
+      "California",
+      "Oregon",
+      "NY"
+    ],
+    "answer": "Maryland"
+  },
+  {
+    "question": "What is the grape of Fara DOC?",
+    "choices": [
+      "Nebbiolo",
+      "Pinot Noir",
+      "Chardonnay",
+      "Barbera"
+    ],
+    "answer": "Nebbiolo"
+  },
+  {
+    "question": "If a wine is labeled lagrima, what does this indicate?",
+    "choices": [
+      "English port",
+      "White Madeira",
+      "Dry white port",
+      "Sweet white port"
+    ],
+    "answer": "Sweet white port"
+  },
+  {
+    "question": "Where is Completer grown?",
+    "choices": [
+      "Portugal",
+      "Switzerland",
+      "Austria",
+      "Hungary"
+    ],
+    "answer": "Switzerland"
+  },
+  {
+    "question": "Where would you find the Solano winds?",
+    "choices": [
+      "Rioja",
+      "Rueda",
+      "Ribatejo",
+      "Chile"
+    ],
+    "answer": "Rioja"
+  },
+  {
+    "question": "Where is the Mesilla Valley AVA?",
+    "choices": [
+      "California",
+      "Maine",
+      "New Mexico",
+      "Washington"
+    ],
+    "answer": "New Mexico"
+  },
+  {
+    "question": "Where is the premier cru of Sillery?",
+    "choices": [
+      "Montagne de Reims",
+      "Cote de Bars",
+      "Vallée de la Marne",
+      "Hautes Cotes de Nuits"
+    ],
+    "answer": "Montagne de Reims"
+  },
+  {
+    "question": "Where is the premier cru of Bouzy?",
+    "choices": [
+      "Montagne de Reims",
+      "Cote de Bars",
+      "Vallée de la Marne",
+      "Hautes Cotes de Nuits"
+    ],
+    "answer": "Montagne de Reims"
+  },
+  {
+    "question": "Where is the premier cru of Ambonnay?",
+    "choices": [
+      "Montagne de Reims",
+      "Cote de Bars",
+      "Vallée de la Marne",
+      "Hautes Cotes de Nuits"
+    ],
+    "answer": "Montagne de Reims"
+  },
+  {
+    "question": "Where is the premier cru of Tours-sur-Marne?",
+    "choices": [
+      "Orleans",
+      "Chablis",
+      "Cotes de Blancs",
+      "Vallée de la Marne"
+    ],
+    "answer": "Vallée de la Marne"
+  },
+  {
+    "question": "Where is the premier cru of Aux Combottes?",
+    "choices": [
+      "Vosne Romanee",
+      "Chambolle Musigny",
+      "Gevery Chambertin",
+      "Macon"
+    ],
+    "answer": "Gevery Chambertin"
+  },
+  {
+    "question": "Where is the premier cru of Les Cazetieres?",
+    "choices": [
+      "Vosne Romanee",
+      "Chambolle Musigny",
+      "Gevery Chambertin",
+      "Macon"
+    ],
+    "answer": "Gevery Chambertin"
+  },
+  {
+    "question": "What region does the the Cantabrian Mountains protect?",
+    "choices": [
+      "Grattalops",
+      "Valencia",
+      "Rioja",
+      "Jerez"
+    ],
+    "answer": "Rioja"
+  },
+  {
+    "question": "Who makes quinta da ervamoira?",
+    "choices": [
+      "Ramos-pinto",
+      "Australia",
+      "Cabernet Sauvignon",
+      "Napa Valley"
+    ],
+    "answer": "Ramos-pinto"
+  },
+  {
+    "question": "The bass straight separates which two land masses?",
+    "choices": [
+      "Alsace",
+      "Australia and Tasmania",
+      "France",
+      "Cabernet Sauvignon"
+    ],
+    "answer": "Australia and Tasmania"
+  },
+  {
+    "question": "Wahgunyah is a sub-region of which major area?",
+    "choices": [
+      "Southern Alps",
+      "Wrattonbuly",
+      "Rutherglen",
+      "Tasmania"
+    ],
+    "answer": "Rutherglen"
+  },
+  {
+    "question": "What wind occurence impact western Australia?",
+    "choices": [
+      "Zonda",
+      "Fremantle doctor",
+      "Pacific breeze",
+      "Petaluma Gap"
+    ],
+    "answer": "Fremantle doctor"
+  },
+  {
+    "question": "Where is the Côtes du Couchois?",
+    "choices": [
+      "Jura",
+      "Chablis",
+      "Champagne",
+      "Cote Chalonaise"
+    ],
+    "answer": "Cote Chalonaise"
+  },
+  {
+    "question": "Which county is the Diablo Grande AVA in?",
+    "choices": [
+      "Napa county",
+      "Lake county",
+      "Santa Barbara county",
+      "Sacramento county"
+    ],
+    "answer": "Sacramento county"
+  },
+  {
+    "question": "Château de Loei was the first commercial winery where?",
+    "choices": [
+      "Thailand",
+      "Bhutan",
+      "Peru",
+      "Mexico"
+    ],
+    "answer": "Thailand"
+  },
+  {
+    "question": "Which area of China has the most wineries and highest quality production levels?",
+    "choices": [
+      "Beijing peninsula",
+      "Shandong province",
+      "Hang Seng region",
+      "Inner provinces"
+    ],
+    "answer": "Shandong province"
+  },
+  {
+    "question": "Which river runs through the maremma?",
+    "choices": [
+      "Ombrone",
+      "Tempranillo",
+      "Pinot Noir",
+      "Tuscany"
+    ],
+    "answer": "Ombrone"
+  },
+  {
+    "question": "Where is the tagus river?",
+    "choices": [
+      "Chile",
+      "France",
+      "Ribatejo",
+      "Germany"
+    ],
+    "answer": "Ribatejo"
+  },
+  {
+    "question": "Where would you find the grape Pontac?",
+    "choices": [
+      "Kwazulu Natal",
+      "Stellenbosch",
+      "Constantia",
+      "Walker Bay"
+    ],
+    "answer": "Constantia"
+  },
+  {
+    "question": "Location of the Indre river?",
+    "choices": [
+      "Torraine",
+      "Central Vineyards",
+      "Champagne",
+      "Haut Cotes de Nuits"
+    ],
+    "answer": "Torraine"
+  },
+  {
+    "question": "What is milk sherry?",
+    "choices": [
+      "Sherry and ice cream",
+      "Sweetened Amontillado",
+      "Milk infudes fino",
+      "Montilla-Moriles wine"
+    ],
+    "answer": "Sweetened Amontillado"
+  },
+  {
+    "question": "Where would you find boulbènes, aslar, and ribot soil types?",
+    "choices": [
+      "Entre-deux-Mers",
+      "Pomerol",
+      "Haut Medoc",
+      "Cahors"
+    ],
+    "answer": "Entre-deux-Mers"
+  },
+  {
+    "question": "Who produces Cuvée Orpale?",
+    "choices": [
+      "Gratien",
+      "Moet & Chandon",
+      "Union Champagne",
+      "Selosse"
+    ],
+    "answer": "Union Champagne"
+  },
+  {
+    "question": "Where are the pollino mountains?",
+    "choices": [
+      "Portugal",
+      "France",
+      "Calabria",
+      "Italy"
+    ],
+    "answer": "Calabria"
+  },
+  {
+    "question": "Alte reben on a German wine label means what?",
+    "choices": [
+      "Available overseas",
+      "Dry",
+      "Aged 10 years",
+      "Old vines"
+    ],
+    "answer": "Old vines"
+  },
+  {
+    "question": "What is the most noteworthy area for the Glera varietal?",
+    "choices": [
+      "Adda",
+      "Romarisco",
+      "Rosacker",
+      "Cartizze"
+    ],
+    "answer": "Cartizze"
+  },
+  {
+    "question": "Most planted grape in Piedmont?",
+    "choices": [
+      "Barbera",
+      "Merlot",
+      "Cabernet Sauvignon",
+      "Pinot Noir"
+    ],
+    "answer": "Barbera"
+  },
+  {
+    "question": "Rota tent, produced from the Tintilla de Rota grape, is produced where?",
+    "choices": [
+      "Fortified wine from Lisbon",
+      "Dessert wine from Romania",
+      "Sparkling wine from Andorra",
+      "Fortified wine from Jerez"
+    ],
+    "answer": "Fortified wine from Jerez"
+  },
+  {
+    "question": "What is the grape of Bugey-Manicle rouge?",
+    "choices": [
+      "Merlot",
+      "Pinot Noir",
+      "Sauvignon Blanc",
+      "Syrah"
+    ],
+    "answer": "Pinot Noir"
+  },
+  {
+    "question": "What is Mateus rosé?",
+    "choices": [
+      "Chilean Sparkling wine",
+      "Rioja rosé",
+      "Barbera based white wine",
+      "Portugese rosé"
+    ],
+    "answer": "Portugese rosé"
+  },
+  {
+    "question": "What is the synonym for Garnacha in Toro?",
+    "choices": [
+      "Tinta Roriz",
+      "Tinta Aragonez",
+      "Tinto Fino",
+      "Tinta Rotilla"
+    ],
+    "answer": "Tinta Aragonez"
+  },
+  {
+    "question": "What is the synonym for Mazuelo in Priorat?",
+    "choices": [
+      "Romorantin",
+      "Cinsault",
+      "Tempranillo",
+      "Samso"
+    ],
+    "answer": "Samso"
+  },
+  {
+    "question": "Where is the Coromandel Peninsula?",
+    "choices": [
+      "Martinborough",
+      "Cooks Island",
+      "Waikato/Bay of Plenty",
+      "Auckland"
+    ],
+    "answer": "Waikato/Bay of Plenty"
+  },
+  {
+    "question": "What varietal is known as the green grape in South Africa?",
+    "choices": [
+      "Semillon",
+      "Pinot Gris",
+      "Pinot Noir",
+      "Pinotage"
+    ],
+    "answer": "Semillon"
+  },
+  {
+    "question": "Which legally trademarked bottle shape is a copy of an ancient flagon?",
+    "choices": [
+      "Madeira",
+      "Vin de Constance",
+      "Tahitian Gold",
+      "Tresterbrand"
+    ],
+    "answer": "Vin de Constance"
+  },
+  {
+    "question": "Which native varietal does Domaine Carras blend into their wines?",
+    "choices": [
+      "Cabernet Sauvignon",
+      "Pinot gris",
+      "Limnio",
+      "Kadarka"
+    ],
+    "answer": "Limnio"
+  },
+  {
+    "question": "What are the Vosges Mountians called in the Pfalz?",
+    "choices": [
+      "Ahr Range",
+      "Haardt Hills",
+      "Bodensee Hills",
+      "Pfalz Peaks"
+    ],
+    "answer": "Haardt Hills"
+  },
+  {
+    "question": "What is the synonmy for Chasselas in the Vaud region?",
+    "choices": [
+      "Chardonnay",
+      "Dora Baltea",
+      "Descartes",
+      "Dorin"
+    ],
+    "answer": "Dorin"
+  },
+  {
+    "question": "Which is the southernmost grand cru of Alsace?",
+    "choices": [
+      "Rangen",
+      "Strousbourg",
+      "Ochsle",
+      "Schlossberg"
+    ],
+    "answer": "Rangen"
+  },
+  {
+    "question": "What is the most cultivated grape of Puliga?",
+    "choices": [
+      "Sangiovese",
+      "Barbera",
+      "Refosco",
+      "Negroamaro"
+    ],
+    "answer": "Negroamaro"
+  },
+  {
+    "question": "Which is a sub area of Curico Valley?",
+    "choices": [
+      "Puente Alto",
+      "Lontue",
+      "Tennarife",
+      "Lusson"
+    ],
+    "answer": "Lontue"
+  },
+  {
+    "question": "Where is Villarica?",
+    "choices": [
+      "Uruguay",
+      "Paraguay",
+      "Portugal",
+      "Spain"
+    ],
+    "answer": "Paraguay"
+  },
+  {
+    "question": "Where is Famatina Valley?",
+    "choices": [
+      "Santiago, Chile",
+      "La Rioja, Argentina",
+      "Patagonia, Argentina",
+      "Santa Barbara, California"
+    ],
+    "answer": "La Rioja, Argentina"
+  },
+  {
+    "question": "Where is Bodega Noemia?",
+    "choices": [
+      "Mendoza",
+      "Patagonia",
+      "San Juan",
+      "Punete Alto"
+    ],
+    "answer": "Patagonia"
+  },
+  {
+    "question": "What is the offical subzone of Colli Orientali del Friuli-picolit docg ?",
+    "choices": [
+      "Verduzzo",
+      "Veneto grande",
+      "Cialla",
+      "Po"
+    ],
+    "answer": "Cialla"
+  },
+  {
+    "question": "What is the river of the Valle d'Aosta?",
+    "choices": [
+      "Po",
+      "Dora Baltea",
+      "Adda",
+      "Hudson"
+    ],
+    "answer": "Dora Baltea"
+  },
+  {
+    "question": "What was the first vintage of Tignanello?",
+    "choices": [
+      "1998",
+      "1946",
+      "1971",
+      "1975"
+    ],
+    "answer": "1971"
+  },
+  {
+    "question": "What is the synonym for Garganega in Sicily?",
+    "choices": [
+      "Grecanico",
+      "Gregorio",
+      "Romorantin",
+      "Fiano"
+    ],
+    "answer": "Grecanico"
+  },
+  {
+    "question": "What is the grape of Chinon Blanc AOP?",
+    "choices": [
+      "Chardonnay",
+      "Sauvignon Gris",
+      "Chenin Blanc",
+      "Sauvignon Blanc"
+    ],
+    "answer": "Chenin Blanc"
+  },
+  {
+    "question": "What is the grape of Pouilly-sur-Loire?",
+    "choices": [
+      "Sauvignon Blanc",
+      "Chasselas",
+      "Cabernet Franc",
+      "Chenin Blanc"
+    ],
+    "answer": "Chasselas"
+  },
+  {
+    "question": "What is Chardonnay known as in Orléans?",
+    "choices": [
+      "Romorantin",
+      "Auvernat blanc",
+      "Melon",
+      "Vernatch"
+    ],
+    "answer": "Auvernat blanc"
+  },
+  {
+    "question": "What is the ABV for Vermetino di Gallura Superiore DOCG?",
+    "choices": [
+      "11 percent",
+      "12 percent",
+      "13 percent",
+      "14 percent"
+    ],
+    "answer": "13 percent"
+  },
+  {
+    "question": "Grenache grown in Châteauneuf-du-Pape are required to use what method of vine training?",
+    "choices": [
+      "Natural selection",
+      "VSP",
+      "Goblet-trained",
+      "Cordon trained"
+    ],
+    "answer": "Goblet-trained"
+  },
+  {
+    "question": "What are the unfortified red and white wines bottled under in Banyuls?",
+    "choices": [
+      "By varietal",
+      "Rasteau  AOP",
+      "Collioure  AOP",
+      "Languedoc  AOP"
+    ],
+    "answer": "Collioure  AOP"
+  },
+  {
+    "question": "How long has Brandy de Jerez labled \"solera reserva\" be aged for?",
+    "choices": [
+      "1 year",
+      "3 years",
+      "5 years",
+      "10 years"
+    ],
+    "answer": "3 years"
+  },
+  {
+    "question": "What producers makes Barca Velha?",
+    "choices": [
+      "Calems",
+      "Ferreira",
+      "Neipoort",
+      "Dows"
+    ],
+    "answer": "Ferreira"
+  },
+  {
+    "question": "Grand Maupertuis & Petit Maupertui are found where?",
+    "choices": [
+      "Provence",
+      "Vosne-Romanée",
+      "Clos de Vougeout",
+      "Champagne"
+    ],
+    "answer": "Clos de Vougeout"
+  },
+  {
+    "question": "Which is a 5th growth of Margaux?",
+    "choices": [
+      "Chateau Palmer",
+      "Chateau Lynch-Bages",
+      "Chateau du Tertre",
+      "Chateau du Toulouse"
+    ],
+    "answer": "Chateau du Tertre"
+  },
+  {
+    "question": "What is the max. residual sugar for a rosé from Marsannay?",
+    "choices": [
+      "0 grams per liter of residual sugar",
+      "2 grams per liter of residual sugar",
+      "3 grams per liter of residual sugar",
+      "5 grams per liter of residual sugar"
+    ],
+    "answer": "3 grams per liter of residual sugar"
+  },
+  {
+    "question": "What is the most widely planted varietal in the Cote Chalonaise?",
+    "choices": [
+      "Pinot Noir",
+      "Chardonnay",
+      "Pinot Gris",
+      "Aligote"
+    ],
+    "answer": "Pinot Noir"
+  },
+  {
+    "question": "Producers of Mazoyères-Chambertin may also label their wines as what?",
+    "choices": [
+      "Charmes-Chambertin",
+      "Vosne-Romanée",
+      "Savigny-lès-Beaune",
+      "Chapelle-Chambertin"
+    ],
+    "answer": "Charmes-Chambertin"
+  },
+  {
+    "question": "What is the synonym for Sangiovese on Corsica?",
+    "choices": [
+      "Nevers",
+      "Folle Blanche",
+      "Nosolia",
+      "Nielluccio"
+    ],
+    "answer": "Nielluccio"
+  },
+  {
+    "question": "Which mountian range dominates the center of Romania?",
+    "choices": [
+      "Dentelles",
+      "Catskills",
+      "Alps",
+      "Carpathian"
+    ],
+    "answer": "Carpathian"
+  },
+  {
+    "question": "Which greek varietal has clonal offspring identified by the colors black, white & blonde?",
+    "choices": [
+      "Greek blanc",
+      "Moschofilero",
+      "Muscadet",
+      "Mateus"
+    ],
+    "answer": "Moschofilero"
+  },
+  {
+    "question": "Which AVA is more notherly: Rockpile or Dry Creek Valley?",
+    "choices": [
+      "Rockpile",
+      "Dry Creek Valley",
+      "both are on the same latitude",
+      "neither are to the north"
+    ],
+    "answer": "Rockpile"
+  },
+  {
+    "question": "What is the name of the wind that influences the climate of Argentina?",
+    "choices": [
+      "Freemantle doctor",
+      "Heavenly winds",
+      "Cape Doctor",
+      "Zonda"
+    ],
+    "answer": "Zonda"
+  },
+  {
+    "question": "Manischewitz concord grape wine must contain what % of concord grapes in it?",
+    "choices": [
+      "25",
+      "51",
+      "75",
+      "100"
+    ],
+    "answer": "51"
+  },
+  {
+    "question": "Which area is more northerly: Ribbon Ridge or Eola Amity Hills?",
+    "choices": [
+      "Eola Amity Hills",
+      "Ribbon Ridge",
+      "both are equal",
+      "neither are not real appellations"
+    ],
+    "answer": "Ribbon Ridge"
+  },
+  {
+    "question": "What is the most planted grape in British Columbia?",
+    "choices": [
+      "Cabernet Sauvignon",
+      "Pinot Noir",
+      "Merlot",
+      "Sauvignon Blanc"
+    ],
+    "answer": "Merlot"
+  },
+  {
+    "question": "What is Napa Valley's oldest winery?",
+    "choices": [
+      "Gallo",
+      "Rodney Strong",
+      "Kendall Jackson",
+      "Charles Krug"
+    ],
+    "answer": "Charles Krug"
+  },
+  {
+    "question": "A vineyard designated wine from napa must contain what % of that vineyard?",
+    "choices": [
+      "75",
+      "85",
+      "95",
+      "100"
+    ],
+    "answer": "95"
+  },
+  {
+    "question": "What South American country is home to Moet and Chandon?",
+    "choices": [
+      "Chile",
+      "Argentina",
+      "Brazil",
+      "Peru"
+    ],
+    "answer": "Brazil"
+  },
+  {
+    "question": "What is the mountain range of the southern Rhone Valley?",
+    "choices": [
+      "Dordogne",
+      "Dentelles",
+      "Rockies",
+      "Alps"
+    ],
+    "answer": "Dentelles"
+  },
+  {
+    "question": "What is the river that the Die appellation resides on?",
+    "choices": [
+      "Hudson",
+      "Po",
+      "Dordogne",
+      "Drome"
+    ],
+    "answer": "Drome"
+  },
+  {
+    "question": "Where is château Bouscaut located?",
+    "choices": [
+      "Graves",
+      "Germany",
+      "Gouges",
+      "Haut Poitou"
+    ],
+    "answer": "Graves"
+  },
+  {
+    "question": "Where is the Ararat Valley?",
+    "choices": [
+      "Italy",
+      "Azerbaijan",
+      "Spain",
+      "Armenia"
+    ],
+    "answer": "Armenia"
+  },
+  {
+    "question": "Where would you most likely find the Vilana grape?",
+    "choices": [
+      "Cassanovia",
+      "Pantelleria",
+      "Crete",
+      "France"
+    ],
+    "answer": "Crete"
+  },
+  {
+    "question": "Where would you find the Xynisteri grape?",
+    "choices": [
+      "Crete",
+      "Cyprus",
+      "Algeria",
+      "Italy"
+    ],
+    "answer": "Cyprus"
+  },
+  {
+    "question": "What does edes mean on a Hungarian wine label?",
+    "choices": [
+      "Dry",
+      "Sweet",
+      "White grapes",
+      "Riesling"
+    ],
+    "answer": "Sweet"
+  },
+  {
+    "question": "What is the grape of Cotnari?",
+    "choices": [
+      "Grenache",
+      "Vidal",
+      "Merlot",
+      "Grasa"
+    ],
+    "answer": "Grasa"
+  },
+  {
+    "question": "Who produces Charles de Gaulle Champagne?",
+    "choices": [
+      "Gouget",
+      "Drappier",
+      "Dordogne",
+      "Gossett"
+    ],
+    "answer": "Drappier"
+  },
+  {
+    "question": "Who produces Quinta do Faz?",
+    "choices": [
+      "Churchills",
+      "Calem",
+      "Conklins",
+      "Neipoort"
+    ],
+    "answer": "Calem"
+  },
+  {
+    "question": "Where is Avize?",
+    "choices": [
+      "Portugal",
+      "Champagne",
+      "Jura",
+      "Burgundy"
+    ],
+    "answer": "Champagne"
+  },
+  {
+    "question": "What is the minimum ABV for port wine?",
+    "choices": [
+      "25 percent",
+      "16 percent",
+      "19 percent",
+      "5 percent"
+    ],
+    "answer": "19 percent"
+  },
+  {
+    "question": "How long is the minimum aging for VVO port wine?",
+    "choices": [
+      "10 years",
+      "40 years",
+      "70 years",
+      "80 years"
+    ],
+    "answer": "80 years"
+  },
+  {
+    "question": "What is the synonym for Chasselas in Alsace?",
+    "choices": [
+      "Gutedel",
+      "Roussette",
+      "Fiano",
+      "Melon Blanc"
+    ],
+    "answer": "Gutedel"
+  },
+  {
+    "question": "What is the synonym for Pinot Blanc in Alsace?",
+    "choices": [
+      "Klevner",
+      "Gutedel",
+      "Melon Blanc",
+      "Roussette"
+    ],
+    "answer": "Klevner"
+  },
+  {
+    "question": "Which year was Kaefferkopf added to the Grand Cru list in Alsace?",
+    "choices": [
+      "2002",
+      "2004",
+      "2007",
+      "2009"
+    ],
+    "answer": "2007"
+  },
+  {
+    "question": "What is the % of minimum potential alcohol for Reisling in Alsace Grand Cru AOP?",
+    "choices": [
+      "11",
+      "12.5",
+      "13.5",
+      "14"
+    ],
+    "answer": "11"
+  },
+  {
+    "question": "What grape is Vorbourg Grand Cru made with?",
+    "choices": [
+      "Pinot Noir",
+      "Chardonnay",
+      "Reisling",
+      "Pinot gris"
+    ],
+    "answer": "Pinot Noir"
+  },
+  {
+    "question": "What is the minimum ABV % for Crémant du Jura?",
+    "choices": [
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "answer": "9"
+  },
+  {
+    "question": "What is the minimum time in oak (months) for Macvin du Jura?",
+    "choices": [
+      "6",
+      "10",
+      "12",
+      "24"
+    ],
+    "answer": "10"
+  },
+  {
+    "question": "Can a producer chapitalize vin de paille in the Jura in poor vintages?",
+    "choices": [
+      "Yes",
+      "No",
+      "With AOP Permission",
+      "2 times every decade"
+    ],
+    "answer": "No"
+  },
+  {
+    "question": "What is the grape of Chignin-Bergeron?",
+    "choices": [
+      "Marsanne",
+      "Roussane",
+      "Grenache Blanc",
+      "Chardonnay"
+    ],
+    "answer": "Roussane"
+  },
+  {
+    "question": "What years was the Australia Wine and Brandy Corporation founded?",
+    "choices": [
+      "1971",
+      "1981",
+      "1991",
+      "2001"
+    ],
+    "answer": "1981"
+  },
+  {
+    "question": "Which AOP does not produce Muscat de Noel?",
+    "choices": [
+      "Muscat de Rivesaltes",
+      "Muscat de Saint-Jean-de-Minervois",
+      "Muscat de Frontignan",
+      "Muscat de Lunel"
+    ],
+    "answer": "Muscat de Frontignan"
+  },
+  {
+    "question": "Which producer is not in Bandol?",
+    "choices": [
+      "Domaine Tempier",
+      "Château de Pibarnon",
+      "Domaine Ott",
+      "Château Pradeaux"
+    ],
+    "answer": "Domaine Ott"
+  },
+  {
+    "question": "Which area is not in Okanagan Valley?",
+    "choices": [
+      "Golden Mile",
+      "Black Sage/Osoyoos",
+      "Pelee Island",
+      "Naramata"
+    ],
+    "answer": "Pelee Island"
+  },
+  {
+    "question": "What is Centerbe?",
+    "choices": [
+      "Dry cider from Tuscany",
+      "Herbal liquer Abruzzo",
+      "Sweet wine from Elba",
+      "White grape from Campania"
+    ],
+    "answer": "Herbal liquer Abruzzo"
+  },
+  {
+    "question": "What is the minimum ABV % for Châteauneuf-du-Pape AOP?",
+    "choices": [
+      "11.5",
+      "12.5",
+      "13.5",
+      "14"
+    ],
+    "answer": "12.5"
+  },
+  {
+    "question": "Which region is planted En Ligne and Au Carré?",
+    "choices": [
+      "Hermitage",
+      "Châteauneuf-du-Pape",
+      "Condrieu",
+      "St-Joseph"
+    ],
+    "answer": "Châteauneuf-du-Pape"
+  },
+  {
+    "question": "What grape is known as Malvoisie de Corse?",
+    "choices": [
+      "Pinot Noir",
+      "Vermentino",
+      "Reisling",
+      "Picoutener"
+    ],
+    "answer": "Vermentino"
+  },
+  {
+    "question": "What is Rosé des Riceys made from?",
+    "choices": [
+      "Pinot Noir",
+      "Cabernet Franc",
+      "Reisling",
+      "Picoutener"
+    ],
+    "answer": "Pinot Noir"
+  },
+  {
+    "question": "Which grape is most likely found in Rosette AOC?",
+    "choices": [
+      "Gutedel",
+      "Roussette",
+      "Fiano",
+      "Sauvignon Blanc"
+    ],
+    "answer": "Sauvignon Blanc"
+  },
+  {
+    "question": "Where is Ortonoa DOC?",
+    "choices": [
+      "Tuscany",
+      "Abruzzo",
+      "Campania",
+      "Piedmont"
+    ],
+    "answer": "Abruzzo"
+  },
+  {
+    "question": "What is the minimum % of Montelpuciano in Colline Teramane?",
+    "choices": [
+      "80",
+      "85",
+      "90",
+      "95"
+    ],
+    "answer": "90"
+  },
+  {
+    "question": "Where would you find the Ruchè grape growing?",
+    "choices": [
+      "Tuscany",
+      "Abruzzo",
+      "Campania",
+      "Piedmont"
+    ],
+    "answer": "Piedmont"
+  },
+  {
+    "question": "If a German wine label has a grape variety on it, what % of that grape must be in the bottle?",
+    "choices": [
+      "80",
+      "85",
+      "90",
+      "95"
+    ],
+    "answer": "85"
+  },
+  {
+    "question": "Where is the Orsteil of Eitelsbach?",
+    "choices": [
+      "Rheingau",
+      "Mosel",
+      "Rheinhessen",
+      "Nahe"
+    ],
+    "answer": "Mosel"
+  },
+  {
+    "question": "Where is Erbacher Marcobrunn located?",
+    "choices": [
+      "Rheingau",
+      "Mosel",
+      "Rheinhessen",
+      "Nahe"
+    ],
+    "answer": "Rheingau"
+  },
+  {
+    "question": "Which wine region has an area known as the Roter Hang?",
+    "choices": [
+      "Rheingau",
+      "Mosel",
+      "Rheinhessen",
+      "Nahe"
+    ],
+    "answer": "Rheinhessen"
+  },
+  {
+    "question": "Which region does Meyer-Näkel prodcue wine in?",
+    "choices": [
+      "Rheingau",
+      "Mosel",
+      "Ahr",
+      "Nahe"
+    ],
+    "answer": "Ahr"
+  },
+  {
+    "question": "Who produces Quinta do Bomfim?",
+    "choices": [
+      "Churchills",
+      "Dows",
+      "Calem",
+      "Delaforce"
+    ],
+    "answer": "Dows"
+  },
+  {
+    "question": "Who produces Quinta do Panascal?",
+    "choices": [
+      "Churchills",
+      "Dows",
+      "Calem",
+      "Fonseca"
+    ],
+    "answer": "Fonseca"
+  },
+  {
+    "question": "Where is the Aconcagua wine region?",
+    "choices": [
+      "Australia",
+      "New Zealand",
+      "Argentina",
+      "Chile"
+    ],
+    "answer": "Chile"
+  },
+  {
+    "question": "Where is the Big Rivers wine region?",
+    "choices": [
+      "Australia",
+      "New Zealand",
+      "Argentina",
+      "USA"
+    ],
+    "answer": "Australia"
+  },
+  {
+    "question": "Where is the Langton's Classification utilized?",
+    "choices": [
+      "Australia",
+      "New Zealand",
+      "Argentina",
+      "USA"
+    ],
+    "answer": "Australia"
+  },
+  {
+    "question": "Where is the Waimakariri and Waipara rivers most influencial?",
+    "choices": [
+      "North Island NZ",
+      "South Island NZ",
+      "Western Australia",
+      "South Australia"
+    ],
+    "answer": "South Island NZ"
+  },
+  {
+    "question": "Where is the Southern Alps and Lake Wanaka most influencial?",
+    "choices": [
+      "North Island NZ",
+      "South Island NZ",
+      "Western Australia",
+      "South Australia"
+    ],
+    "answer": "South Island NZ"
+  },
+  {
+    "question": "Where is Vale dos Vinhedos?",
+    "choices": [
+      "Uruguay",
+      "Brazil",
+      "Argentina",
+      "Chile"
+    ],
+    "answer": "Brazil"
+  },
+  {
+    "question": "What is the synonym for Tannat in Uruguay?",
+    "choices": [
+      "Criolla",
+      "Harriague",
+      "Pinotage",
+      "Breton"
+    ],
+    "answer": "Harriague"
+  },
+  {
+    "question": "Where is the Cephalonia wine region?",
+    "choices": [
+      "Greece",
+      "Hungary",
+      "Romania",
+      "Bulgaria"
+    ],
+    "answer": "Greece"
+  },
+  {
+    "question": "Where is the Sterea Ellada wine region?",
+    "choices": [
+      "Greece",
+      "Hungary",
+      "Romania",
+      "Bulgaria"
+    ],
+    "answer": "Greece"
+  },
+  {
+    "question": "Where is the Samos wine region?",
+    "choices": [
+      "Greece",
+      "Hungary",
+      "Romania",
+      "Bulgaria"
+    ],
+    "answer": "Greece"
+  },
+  {
+    "question": "Where would you find the Szarvas and Mézes Mály vineyards?",
+    "choices": [
+      "Balanton",
+      "Tokaj",
+      "Sopron",
+      "Kunsag"
+    ],
+    "answer": "Tokaj"
+  },
+  {
+    "question": "What is a gönc?",
+    "choices": [
+      "a wine barrel in Argentina",
+      "a yeast strain in Hungary",
+      "a wine barrel in Tokaj",
+      "a glass bottle in Slovenia"
+    ],
+    "answer": "a wine barrel in Tokaj"
+  },
+  {
+    "question": "Where is Királyudvar from?",
+    "choices": [
+      "Greece",
+      "Hungary",
+      "Romania",
+      "Bulgaria"
+    ],
+    "answer": "Hungary"
+  },
+  {
+    "question": "Where is Santo Tomás?",
+    "choices": [
+      "Uruguay",
+      "Mexico",
+      "Argentina",
+      "Chile"
+    ],
+    "answer": "Mexico"
+  },
+  {
+    "question": "Where is Polish Hill?",
+    "choices": [
+      "Barossa Valley",
+      "Clare Valley",
+      "Yarra Valley",
+      "Tasmania"
+    ],
+    "answer": "Clare Valley"
+  },
+  {
+    "question": "Which is not a lieu-dits of Cornas?",
+    "choices": [
+      "Les Reynards",
+      "La Côte",
+      "Les Clos",
+      "Les Mazards"
+    ],
+    "answer": "Les Clos"
+  },
+  {
+    "question": "Where is the Buzet wine region?",
+    "choices": [
+      "Provence",
+      "Languedoc",
+      "Rousillon",
+      "SW France"
+    ],
+    "answer": "SW France"
+  },
+  {
+    "question": "What style of wine is produced in Vernaccia di San Gimignano?",
+    "choices": [
+      "Dry Red",
+      "Dry White",
+      "Sweet White",
+      "All of these"
+    ],
+    "answer": "Dry White"
+  },
+  {
+    "question": "Where would you find Neyret-Gachet on the wine label?",
+    "choices": [
+      "Château Chalon",
+      "Château-Grillet",
+      "Château Couhins",
+      "Château Charmes"
+    ],
+    "answer": "Château-Grillet"
+  },
+  {
+    "question": "Where is the Grosser Ring?",
+    "choices": [
+      "Rheingau",
+      "Mosel",
+      "Rhenhessen",
+      "Nahe"
+    ],
+    "answer": "Mosel"
+  },
+  {
+    "question": "Which grape is most associated with Savigny-les-Beaune?",
+    "choices": [
+      "Sauvignon Blanc",
+      "Chenin Blanc",
+      "Chardonnay",
+      "Pinot Gris"
+    ],
+    "answer": "Chardonnay"
+  },
+  {
+    "question": "What style of wine is produced in Ribeiro?",
+    "choices": [
+      "Dry white",
+      "Dry red",
+      "Sparkling wine",
+      "All of these"
+    ],
+    "answer": "All of these"
+  },
+  {
+    "question": "Which best describes the wines of Moscatel do Douro?",
+    "choices": [
+      "Fortified wine",
+      "Dry wine",
+      "Sparkling wine",
+      "Late harvest wine"
+    ],
+    "answer": "Fortified wine"
+  },
+  {
+    "question": "What style of wine is produced in Bairrada?",
+    "choices": [
+      "Dry white",
+      "Dry red",
+      "Sparkling wine",
+      "All of these"
+    ],
+    "answer": "All of these"
+  },
+  {
+    "question": "Where does Chateau Ksara produce wine?",
+    "choices": [
+      "Lebanon",
+      "Spain",
+      "Italy",
+      "Portugal"
+    ],
+    "answer": "Lebanon"
+  },
+  {
+    "question": "Where is the Covelo AVA?",
+    "choices": [
+      "Oregon",
+      "California",
+      "New York",
+      "Washington State"
+    ],
+    "answer": "California"
+  },
+  {
+    "question": "Where is the Guenoc Valley AVA?",
+    "choices": [
+      "Oregon",
+      "California",
+      "New York",
+      "Washington State"
+    ],
+    "answer": "California"
+  },
+  {
+    "question": "Where is the Fountaingrove District?",
+    "choices": [
+      "Oregon",
+      "California",
+      "New York",
+      "Washington State"
+    ],
+    "answer": "California"
+  },
+  {
+    "question": "Where does Kreydenweiss produce wine?",
+    "choices": [
+      "Alsace",
+      "Jura",
+      "Champagne",
+      "Loire Valley"
+    ],
+    "answer": "Alsace"
+  },
+  {
+    "question": "Where does Bott-Geyl produce wine?",
+    "choices": [
+      "Alsace",
+      "Jura",
+      "Champagne",
+      "Loire Valley"
+    ],
+    "answer": "Alsace"
+  },
+  {
+    "question": "Where does Domaine des Baumard produce wine?",
+    "choices": [
+      "Alsace",
+      "Jura",
+      "Champagne",
+      "Loire Valley"
+    ],
+    "answer": "Loire Valley"
+  },
+  {
+    "question": "Where does Alphonse Mellot produce wine?",
+    "choices": [
+      "Alsace",
+      "Jura",
+      "Champagne",
+      "Loire Valley"
+    ],
+    "answer": "Loire Valley"
+  }
+]

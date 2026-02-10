@@ -1,0 +1,1362 @@
+[
+  {
+    "question": "Where is the wine region of Tuscany located?",
+    "choices": [
+      "Portugal",
+      "Italy",
+      "Chile",
+      "Germany"
+    ],
+    "answer": "Italy"
+  },
+  {
+    "question": "What is the main grape used in Champagne?",
+    "choices": [
+      "Sauvignon Blanc",
+      "Chardonnay",
+      "Pinot grigio",
+      "Merlot"
+    ],
+    "answer": "Chardonnay"
+  },
+  {
+    "question": "Where does Malbec originally come from?",
+    "choices": [
+      "Argentina",
+      "Chile",
+      "Spain",
+      "France"
+    ],
+    "answer": "France"
+  },
+  {
+    "question": "What is a \"dry\" wine?",
+    "choices": [
+      "A wine with little to no sweetness",
+      "Sparkling wine",
+      "Sweet wine",
+      "Fortified wine"
+    ],
+    "answer": "A wine with little to no sweetness"
+  },
+  {
+    "question": "What is the primary flavor you might taste in a Sauvignon Blanc?",
+    "choices": [
+      "Molasses",
+      "Citrus",
+      "Chocolate",
+      "Apple"
+    ],
+    "answer": "Citrus"
+  },
+  {
+    "question": "Where is the wine region of Rioja located?",
+    "choices": [
+      "Spain",
+      "Italy",
+      "Germany",
+      "France"
+    ],
+    "answer": "Spain"
+  },
+  {
+    "question": "What is the main grape in most red wines from Tuscany’s Chianti region?",
+    "choices": [
+      "Sangiovese",
+      "Syrah",
+      "Cabernet Sauvignon",
+      "Pinot Noir"
+    ],
+    "answer": "Sangiovese"
+  },
+  {
+    "question": "Where does Riesling wine originate from?",
+    "choices": [
+      "Chile",
+      "Portugal",
+      "Germany",
+      "Italy"
+    ],
+    "answer": "Germany"
+  },
+  {
+    "question": "What French wine region is known for Riesling?",
+    "choices": [
+      "Bordeaux",
+      "Provence",
+      "Burgundy",
+      "Alsace"
+    ],
+    "answer": "Alsace"
+  },
+  {
+    "question": "Where is the wine region of Mendoza located?",
+    "choices": [
+      "Chile",
+      "Italy",
+      "Portugal",
+      "Argentina"
+    ],
+    "answer": "Argentina"
+  },
+  {
+    "question": "What is the purpose of swirling wine in a glass?",
+    "choices": [
+      "To release aromas",
+      "To mix flavors",
+      "To release color",
+      "To cool it down"
+    ],
+    "answer": "To release aromas"
+  },
+  {
+    "question": "How is port wine different from most wines?",
+    "choices": [
+      "It’s made from one grape",
+      "It’s sweet and fortified",
+      "It’s aged in oak",
+      "It’s sparkling"
+    ],
+    "answer": "It’s sweet and fortified"
+  },
+  {
+    "question": "Where is the wine region of Marlborough located?",
+    "choices": [
+      "Chile",
+      "France",
+      "Portugal",
+      "New Zealand"
+    ],
+    "answer": "New Zealand"
+  },
+  {
+    "question": "What is the primary white grape in the Mosel region of Germany?",
+    "choices": [
+      "Pinot Noir",
+      "Merlot",
+      "Riesling",
+      "Sauvignon Blanc"
+    ],
+    "answer": "Riesling"
+  },
+  {
+    "question": "Which grape is most associated with the Barolo wines of Piedmont, Italy?",
+    "choices": [
+      "Nebbiolo",
+      "Dolcetto",
+      "Sangiovese",
+      "Barbera"
+    ],
+    "answer": "Nebbiolo"
+  },
+  {
+    "question": "Where is the wine region of Stellenbosch located?",
+    "choices": [
+      "France",
+      "Portugal",
+      "Germany",
+      "South Africa"
+    ],
+    "answer": "South Africa"
+  },
+  {
+    "question": "Which region is famous for its Tempranillo grape?",
+    "choices": [
+      "Napa Valley",
+      "Bordeaux",
+      "Rioja",
+      "Tuscany"
+    ],
+    "answer": "Rioja"
+  },
+  {
+    "question": "What is a key white grape grown in the Loire Valley of France?",
+    "choices": [
+      "Chardonnay",
+      "Sauvignon Blanc",
+      "Syrah",
+      "Pinot Noir"
+    ],
+    "answer": "Sauvignon Blanc"
+  },
+  {
+    "question": "Where is the wine region of Barossa Valley located?",
+    "choices": [
+      "Australia",
+      "Spain",
+      "Portugal",
+      "Chile"
+    ],
+    "answer": "Australia"
+  },
+  {
+    "question": "Where is the wine region of Douro Valley located?",
+    "choices": [
+      "Chile",
+      "Germany",
+      "Portugal",
+      "France"
+    ],
+    "answer": "Portugal"
+  },
+  {
+    "question": "What is the primary grape in red wines from the Mendoza region of Argentina?",
+    "choices": [
+      "Merlot",
+      "Cabernet Sauvignon",
+      "Sauvignon Blanc",
+      "Malbec"
+    ],
+    "answer": "Malbec"
+  },
+  {
+    "question": "Where is the wine region of Willamette Valley located?",
+    "choices": [
+      "Oregon",
+      "Portugal",
+      "Italy",
+      "Spain"
+    ],
+    "answer": "Oregon"
+  },
+  {
+    "question": "Where is Screaming Eagle produced?",
+    "choices": [
+      "Sonoma Valley",
+      "Washington State",
+      "Portugal",
+      "Napa Valley"
+    ],
+    "answer": "Napa Valley"
+  },
+  {
+    "question": "Where is Harlan produced?",
+    "choices": [
+      "Italy",
+      "Finger Lakes",
+      "Spain",
+      "Napa Valley"
+    ],
+    "answer": "Napa Valley"
+  },
+  {
+    "question": "Where is Scarecrow produced?",
+    "choices": [
+      "Napa Valley",
+      "Canada",
+      "Chile",
+      "Sonoma County"
+    ],
+    "answer": "Napa Valley"
+  },
+  {
+    "question": "Which red grape is key to the wines of Brunello di Montalcino in Italy?",
+    "choices": [
+      "Cabernet Sauvignon",
+      "Pinot Noir",
+      "Nebbiolo",
+      "Sangiovese"
+    ],
+    "answer": "Sangiovese"
+  },
+  {
+    "question": "Where is the wine region of Margaret River located?",
+    "choices": [
+      "Southern Italy",
+      "Western Australia",
+      "Western Portugal",
+      "Northern California"
+    ],
+    "answer": "Western Australia"
+  },
+  {
+    "question": "Which red grape is central to the wines of Beaujolais, France?",
+    "choices": [
+      "Cabernet Sauvignon",
+      "Syrah",
+      "Gamay",
+      "Sauvignon Blanc"
+    ],
+    "answer": "Gamay"
+  },
+  {
+    "question": "Which parent company produces la Grande Dame Champagne?",
+    "choices": [
+      "Lurton",
+      "Bertrand",
+      "Veuve Cliquot",
+      "Moet"
+    ],
+    "answer": "Veuve Cliquot"
+  },
+  {
+    "question": "Where is the region of Stellenbosch located?",
+    "choices": [
+      "South Africa",
+      "South Australia",
+      "Southern Chile",
+      "Southern Portugal"
+    ],
+    "answer": "South Africa"
+  },
+  {
+    "question": "What are the 2 departments of Alsace?",
+    "choices": [
+      "North and South",
+      "East and West",
+      "Haut and Bas",
+      "Sud and Ouest"
+    ],
+    "answer": "Haut and Bas"
+  },
+  {
+    "question": "Which is not a noble grape of Alsace?",
+    "choices": [
+      "Riesling",
+      "Pinot Gris",
+      "Muscat",
+      "Merlot"
+    ],
+    "answer": "Merlot"
+  },
+  {
+    "question": "Which region sits on the border of Germany?",
+    "choices": [
+      "Alsace",
+      "Burgundy",
+      "Bordeaux",
+      "Jura"
+    ],
+    "answer": "Alsace"
+  },
+  {
+    "question": "In which region will you find Sélection de Grains Nobles on the label?",
+    "choices": [
+      "Alsace",
+      "Burgundy",
+      "Bordeaux",
+      "Jura"
+    ],
+    "answer": "Alsace"
+  },
+  {
+    "question": "What is the main red grape of Alsace?",
+    "choices": [
+      "Pinot Noir",
+      "Cabernet Franc",
+      "Poulsard",
+      "Grenache"
+    ],
+    "answer": "Pinot Noir"
+  },
+  {
+    "question": "Local specialties vin jaune and vin de paille can be found where?",
+    "choices": [
+      "Jura",
+      "Champagne",
+      "Burgundy",
+      "Bordeaux"
+    ],
+    "answer": "Jura"
+  },
+  {
+    "question": "Where is the region of L’Etoile?",
+    "choices": [
+      "Jura",
+      "Champagne",
+      "Burgundy",
+      "Bordeaux"
+    ],
+    "answer": "Jura"
+  },
+  {
+    "question": "What Champagne house is associated with Dom Perignon?",
+    "choices": [
+      "Drappier",
+      "Moet & Chandon",
+      "Selosse",
+      "Veuve Cliquot"
+    ],
+    "answer": "Moet & Chandon"
+  },
+  {
+    "question": "Where is the Santa Rita Hills AVA?",
+    "choices": [
+      "Oregon",
+      "California",
+      "New York",
+      "Washington State"
+    ],
+    "answer": "California"
+  },
+  {
+    "question": "What is chapitalization?",
+    "choices": [
+      "Adding water to fermenting wine",
+      "adding sugar to the fermenting wine",
+      "taking water away from wine at bottling",
+      "using a screw cap enclosure"
+    ],
+    "answer": "adding sugar to the fermenting wine"
+  },
+  {
+    "question": "What contribution is Louis Pasteur responsible for?",
+    "choices": [
+      "harvest science",
+      "varietal science",
+      "water table management",
+      "fermentation science"
+    ],
+    "answer": "fermentation science"
+  },
+  {
+    "question": "Where is the Algarve region?",
+    "choices": [
+      "South Africa",
+      "South Australia",
+      "Southern Chile",
+      "Southern Portugal"
+    ],
+    "answer": "Southern Portugal"
+  },
+  {
+    "question": "What is the main grape of the Gigondas region?",
+    "choices": [
+      "Pinot Noir",
+      "Cabernet Franc",
+      "Poulsard",
+      "Grenache"
+    ],
+    "answer": "Grenache"
+  },
+  {
+    "question": "Which region is known for their rosé production?",
+    "choices": [
+      "Bordeaux",
+      "Burgundy",
+      "Alsace",
+      "Provence"
+    ],
+    "answer": "Provence"
+  },
+  {
+    "question": "Which region is known for their Pinot Noir production?",
+    "choices": [
+      "Bordeaux",
+      "Burgundy",
+      "Alsace",
+      "Provence"
+    ],
+    "answer": "Burgundy"
+  },
+  {
+    "question": "Which grape is known for its resemblance to Cabernet Sauvignon?",
+    "choices": [
+      "Pinot Noir",
+      "Cabernet Franc",
+      "Poulsard",
+      "Grenache"
+    ],
+    "answer": "Cabernet Franc"
+  },
+  {
+    "question": "Where is the Willamette Valley?",
+    "choices": [
+      "Oregon",
+      "California",
+      "New York",
+      "Washington State"
+    ],
+    "answer": "Oregon"
+  },
+  {
+    "question": "Where is the Long Island AVA?",
+    "choices": [
+      "Oregon",
+      "California",
+      "New York",
+      "Washington State"
+    ],
+    "answer": "New York"
+  },
+  {
+    "question": "Where is Sancerre located?",
+    "choices": [
+      "Loire Valley",
+      "Bordeaux",
+      "Burgundy",
+      "Champagne"
+    ],
+    "answer": "Loire Valley"
+  },
+  {
+    "question": "Where would you find the 1855 classification?",
+    "choices": [
+      "Loire Valley",
+      "Bordeaux",
+      "Burgundy",
+      "Champagne"
+    ],
+    "answer": "Bordeaux"
+  },
+  {
+    "question": "Where is the McLaren Vale wine region?",
+    "choices": [
+      "South Africa",
+      "South Australia",
+      "Southern Chile",
+      "Southern Portugal"
+    ],
+    "answer": "South Australia"
+  },
+  {
+    "question": "Where is the Hermitage region?",
+    "choices": [
+      "Rhône Valley",
+      "Provence",
+      "Champagne",
+      "Loire Valley"
+    ],
+    "answer": "Rhône Valley"
+  },
+  {
+    "question": "Where is the Condrieu region?",
+    "choices": [
+      "Rhône Valley",
+      "Provence",
+      "Champagne",
+      "Loire Valley"
+    ],
+    "answer": "Rhône Valley"
+  },
+  {
+    "question": "Which region is La Grande Dame produced in?",
+    "choices": [
+      "Rhône Valley",
+      "Provence",
+      "Champagne",
+      "Loire Valley"
+    ],
+    "answer": "Champagne"
+  },
+  {
+    "question": "Where is the region of Paarl?",
+    "choices": [
+      "South Africa",
+      "South Australia",
+      "Southern Chile",
+      "Southern Portugal"
+    ],
+    "answer": "South Africa"
+  },
+  {
+    "question": "Where is the Columbia Valley AVA?",
+    "choices": [
+      "Oregon",
+      "California",
+      "New York",
+      "Washington State"
+    ],
+    "answer": "Washington State"
+  },
+  {
+    "question": "Where is the Red Mountain AVA?",
+    "choices": [
+      "Oregon",
+      "California",
+      "New York",
+      "Washington State"
+    ],
+    "answer": "Washington State"
+  },
+  {
+    "question": "Where is Châteauneuf-du-Pape AOP?",
+    "choices": [
+      "Rhône Valley",
+      "Provence",
+      "Champagne",
+      "Loire Valley"
+    ],
+    "answer": "Rhône Valley"
+  },
+  {
+    "question": "Where is the Vouvray region?",
+    "choices": [
+      "Rhône Valley",
+      "Provence",
+      "Champagne",
+      "Loire Valley"
+    ],
+    "answer": "Loire Valley"
+  },
+  {
+    "question": "Where is the city of Reims located?",
+    "choices": [
+      "Rhône Valley",
+      "Provence",
+      "Champagne",
+      "Loire Valley"
+    ],
+    "answer": "Champagne"
+  },
+  {
+    "question": "Where is the city of Nice located?",
+    "choices": [
+      "Rhône Valley",
+      "Provence",
+      "Champagne",
+      "Loire Valley"
+    ],
+    "answer": "Provence"
+  },
+  {
+    "question": "Where is the Melon de Borgogne grape found?",
+    "choices": [
+      "Rhône Valley",
+      "Provence",
+      "Burgundy",
+      "Loire Valley"
+    ],
+    "answer": "Loire Valley"
+  },
+  {
+    "question": "What grape is most associated with Napa Valley?",
+    "choices": [
+      "Cabernet Sauvignon",
+      "Grenache",
+      "Riesling",
+      "Malbec"
+    ],
+    "answer": "Cabernet Sauvignon"
+  },
+  {
+    "question": "What grape is most associated with Mendoza, Argentina?",
+    "choices": [
+      "Cabernet Sauvignon",
+      "Grenache",
+      "Riesling",
+      "Malbec"
+    ],
+    "answer": "Malbec"
+  },
+  {
+    "question": "Where is Schloss Johannisberg?",
+    "choices": [
+      "France",
+      "Germany",
+      "Austria",
+      "Hungary"
+    ],
+    "answer": "Germany"
+  },
+  {
+    "question": "Which country is associated with Liebfraumilch?",
+    "choices": [
+      "France",
+      "Germany",
+      "Austria",
+      "Hungary"
+    ],
+    "answer": "Germany"
+  },
+  {
+    "question": "Where is the region of Tokaj found?",
+    "choices": [
+      "France",
+      "Germany",
+      "Austria",
+      "Hungary"
+    ],
+    "answer": "Hungary"
+  },
+  {
+    "question": "Where would you most likely find \"Doctor\" on a wine label?",
+    "choices": [
+      "France",
+      "Germany",
+      "Austria",
+      "Hungary"
+    ],
+    "answer": "Germany"
+  },
+  {
+    "question": "What grape is most associated with the Rheingau?",
+    "choices": [
+      "Chardonnay",
+      "Grenache",
+      "Riesling",
+      "Malbec"
+    ],
+    "answer": "Riesling"
+  },
+  {
+    "question": "Where is the Horse Heaven Hills AVA?",
+    "choices": [
+      "Oregon",
+      "California",
+      "New York",
+      "Washington State"
+    ],
+    "answer": "Washington State"
+  },
+  {
+    "question": "Which grape is most likely grown in a cooler climate?",
+    "choices": [
+      "Viognier",
+      "Grenache",
+      "Riesling",
+      "Malbec"
+    ],
+    "answer": "Riesling"
+  },
+  {
+    "question": "Which grape is most likely grown near Grenache and Syrah vines?",
+    "choices": [
+      "Viognier",
+      "Sauvignon Blanc",
+      "Nebbiolo",
+      "Malbec"
+    ],
+    "answer": "Viognier"
+  },
+  {
+    "question": "What is an anbaugebiet?",
+    "choices": [
+      "German region",
+      "Alsatian lake",
+      "French mountians",
+      "Oregon hills"
+    ],
+    "answer": "German region"
+  },
+  {
+    "question": "Where is the Wachau wine region?",
+    "choices": [
+      "France",
+      "Germany",
+      "Austria",
+      "Hungary"
+    ],
+    "answer": "Austria"
+  },
+  {
+    "question": "Which grape is most associated with Pouilly-Fume?",
+    "choices": [
+      "Viognier",
+      "Sauvignon Blanc",
+      "Nebbiolo",
+      "Pinot Noir"
+    ],
+    "answer": "Sauvignon Blanc"
+  },
+  {
+    "question": "Which grape is mostly associated with the Barbaresco wine region?",
+    "choices": [
+      "Merlot",
+      "Sauvignon Blanc",
+      "Nebbiolo",
+      "Pinot Noir"
+    ],
+    "answer": "Nebbiolo"
+  },
+  {
+    "question": "Which grape is mostly associated with the Medoc wine growing area?",
+    "choices": [
+      "Cabernet Sauvignon",
+      "Sauvignon Blanc",
+      "Nebbiolo",
+      "Pinot Noir"
+    ],
+    "answer": "Cabernet Sauvignon"
+  },
+  {
+    "question": "Where is the Hawkes Bay wine region?",
+    "choices": [
+      "Australia",
+      "New Zealand",
+      "Argentina",
+      "Chile"
+    ],
+    "answer": "New Zealand"
+  },
+  {
+    "question": "Where is the Margaret River wine region?",
+    "choices": [
+      "Australia",
+      "New Zealand",
+      "Argentina",
+      "Chile"
+    ],
+    "answer": "Australia"
+  },
+  {
+    "question": "Where is the Pinotage grape most likley grown?",
+    "choices": [
+      "Australia",
+      "New Zealand",
+      "Argentina",
+      "South Africa"
+    ],
+    "answer": "South Africa"
+  },
+  {
+    "question": "Which grape is most likely grown in Barossa Valley?",
+    "choices": [
+      "Vidal",
+      "Shiraz",
+      "Pinot Noir",
+      "Pinotage"
+    ],
+    "answer": "Shiraz"
+  },
+  {
+    "question": "Which grape is most likely grown in McLaren Vale?",
+    "choices": [
+      "Sauvignon Blanc",
+      "Shiraz",
+      "Pinot Noir",
+      "Pinotage"
+    ],
+    "answer": "Shiraz"
+  },
+  {
+    "question": "Where is the Patagonia wine region?",
+    "choices": [
+      "Australia",
+      "New Zealand",
+      "Argentina",
+      "Chile"
+    ],
+    "answer": "Argentina"
+  },
+  {
+    "question": "Where is the Maipo Valley wine region?",
+    "choices": [
+      "Australia",
+      "New Zealand",
+      "Argentina",
+      "Chile"
+    ],
+    "answer": "Chile"
+  },
+  {
+    "question": "What country is Almaviva produced in?",
+    "choices": [
+      "Australia",
+      "New Zealand",
+      "Argentina",
+      "Chile"
+    ],
+    "answer": "Chile"
+  },
+  {
+    "question": "Where is the Santorini wine region?",
+    "choices": [
+      "Greece",
+      "Hungary",
+      "Romania",
+      "Bulgaria"
+    ],
+    "answer": "Greece"
+  },
+  {
+    "question": "What is botrytis cinerea?",
+    "choices": [
+      "a vineyard mushroom",
+      "a fungus",
+      "a yeast strain",
+      "the Latin god of wine"
+    ],
+    "answer": "a fungus"
+  },
+  {
+    "question": "Where is the VQA found?",
+    "choices": [
+      "Australia",
+      "New Zealand",
+      "Argentina",
+      "Canada"
+    ],
+    "answer": "Canada"
+  },
+  {
+    "question": "Where is the Lake Erie North Shore found?",
+    "choices": [
+      "Australia",
+      "New Zealand",
+      "Argentina",
+      "Canada"
+    ],
+    "answer": "Canada"
+  },
+  {
+    "question": "Where is the Valle de Guadalupe?",
+    "choices": [
+      "Australia",
+      "Mexico",
+      "Argentina",
+      "Chile"
+    ],
+    "answer": "Mexico"
+  },
+  {
+    "question": "Where is the Coonawara wine region?",
+    "choices": [
+      "Australia",
+      "New Zealand",
+      "Argentina",
+      "Chile"
+    ],
+    "answer": "Australia"
+  },
+  {
+    "question": "What is the main grape used for the wines of Cornas?",
+    "choices": [
+      "Grenache",
+      "Syrah",
+      "Merlot",
+      "Cabernet Sauvignon"
+    ],
+    "answer": "Syrah"
+  },
+  {
+    "question": "What is the main grape used for the wines of Côte-Rôtie?",
+    "choices": [
+      "Grenache",
+      "Syrah",
+      "Merlot",
+      "Cabernet Sauvignon"
+    ],
+    "answer": "Syrah"
+  },
+  {
+    "question": "What is the main grape used for the wines of Gigondas?",
+    "choices": [
+      "Grenache",
+      "Syrah",
+      "Merlot",
+      "Cabernet Sauvignon"
+    ],
+    "answer": "Grenache"
+  },
+  {
+    "question": "What is the main grape used for the wines of Pomerol?",
+    "choices": [
+      "Grenache",
+      "Syrah",
+      "Merlot",
+      "Cabernet Sauvignon"
+    ],
+    "answer": "Merlot"
+  },
+  {
+    "question": "Which country would Crémant sparkling wines be found in?",
+    "choices": [
+      "Greece",
+      "Hungary",
+      "Romania",
+      "France"
+    ],
+    "answer": "France"
+  },
+  {
+    "question": "Which country would Sancerre be found in?",
+    "choices": [
+      "England",
+      "Hungary",
+      "Romania",
+      "France"
+    ],
+    "answer": "France"
+  },
+  {
+    "question": "What is the German tern for \"dry\"?",
+    "choices": [
+      "grosslage",
+      "trocken",
+      "tresterbrand",
+      "winzer"
+    ],
+    "answer": "trocken"
+  },
+  {
+    "question": "Where is the Pfalz wine region?",
+    "choices": [
+      "Greece",
+      "Hungary",
+      "Germany",
+      "France"
+    ],
+    "answer": "Germany"
+  },
+  {
+    "question": "Where is the Nahe wine region?",
+    "choices": [
+      "Greece",
+      "Hungary",
+      "Germany",
+      "France"
+    ],
+    "answer": "Germany"
+  },
+  {
+    "question": "Where is the Baden wine region?",
+    "choices": [
+      "Greece",
+      "Hungary",
+      "Germany",
+      "France"
+    ],
+    "answer": "Germany"
+  },
+  {
+    "question": "Where is the Franken wine region?",
+    "choices": [
+      "Greece",
+      "Hungary",
+      "Germany",
+      "France"
+    ],
+    "answer": "Germany"
+  },
+  {
+    "question": "Where is the Ahr wine region?",
+    "choices": [
+      "Greece",
+      "Hungary",
+      "Germany",
+      "France"
+    ],
+    "answer": "Germany"
+  },
+  {
+    "question": "What is the synonym for Pinot Noir in Germany?",
+    "choices": [
+      "Pinot Gris",
+      "Spätburgunder",
+      "Septime",
+      "Johannisberg"
+    ],
+    "answer": "Spätburgunder"
+  },
+  {
+    "question": "Where is the Zemplén wine region?",
+    "choices": [
+      "Greece",
+      "Hungary",
+      "Germany",
+      "France"
+    ],
+    "answer": "Hungary"
+  },
+  {
+    "question": "Which grape is most associated with Vouvray?",
+    "choices": [
+      "Sauvignon Blanc",
+      "Chenin Blanc",
+      "Chardonnay",
+      "Pinot Gris"
+    ],
+    "answer": "Chenin Blanc"
+  },
+  {
+    "question": "Which grape is most associated with Sancerre?",
+    "choices": [
+      "Sauvignon Blanc",
+      "Chenin Blanc",
+      "Chardonnay",
+      "Pinot Gris"
+    ],
+    "answer": "Sauvignon Blanc"
+  },
+  {
+    "question": "Which grape is most associated with Champagne?",
+    "choices": [
+      "Sauvignon Blanc",
+      "Chenin Blanc",
+      "Chardonnay",
+      "Pinot Gris"
+    ],
+    "answer": "Chardonnay"
+  },
+  {
+    "question": "Which grape is most associated with Bordeaux?",
+    "choices": [
+      "Sauvignon Blanc",
+      "Chenin Blanc",
+      "Chardonnay",
+      "Pinot Gris"
+    ],
+    "answer": "Sauvignon Blanc"
+  },
+  {
+    "question": "Which grape is most associated with Chablis?",
+    "choices": [
+      "Sauvignon Blanc",
+      "Chenin Blanc",
+      "Chardonnay",
+      "Pinot Gris"
+    ],
+    "answer": "Chardonnay"
+  },
+  {
+    "question": "Where is the Valencia wine region?",
+    "choices": [
+      "France",
+      "Spain",
+      "Italy",
+      "Portugal"
+    ],
+    "answer": "Spain"
+  },
+  {
+    "question": "Where is the Ribera del Duero wine region?",
+    "choices": [
+      "France",
+      "Spain",
+      "Italy",
+      "Portugal"
+    ],
+    "answer": "Spain"
+  },
+  {
+    "question": "Where is the Rioja wine region?",
+    "choices": [
+      "France",
+      "Spain",
+      "Italy",
+      "Portugal"
+    ],
+    "answer": "Spain"
+  },
+  {
+    "question": "Where is the Rías Baixas  wine region?",
+    "choices": [
+      "France",
+      "Spain",
+      "Italy",
+      "Portugal"
+    ],
+    "answer": "Spain"
+  },
+  {
+    "question": "Where is the Priorat wine region?",
+    "choices": [
+      "France",
+      "Spain",
+      "Italy",
+      "Portugal"
+    ],
+    "answer": "Spain"
+  },
+  {
+    "question": "Where is the Barolo wine region?",
+    "choices": [
+      "France",
+      "Spain",
+      "Italy",
+      "Portugal"
+    ],
+    "answer": "Italy"
+  },
+  {
+    "question": "Where is the Brunello di Montalcino wine region?",
+    "choices": [
+      "France",
+      "Spain",
+      "Italy",
+      "Portugal"
+    ],
+    "answer": "Italy"
+  },
+  {
+    "question": "Where is the Barbaresco wine region?",
+    "choices": [
+      "France",
+      "Spain",
+      "Italy",
+      "Portugal"
+    ],
+    "answer": "Italy"
+  },
+  {
+    "question": "Where is the Amarone della Valpolicella wine from?",
+    "choices": [
+      "France",
+      "Spain",
+      "Italy",
+      "Portugal"
+    ],
+    "answer": "Italy"
+  },
+  {
+    "question": "Where is the Friuli wine region?",
+    "choices": [
+      "France",
+      "Spain",
+      "Italy",
+      "Portugal"
+    ],
+    "answer": "Italy"
+  },
+  {
+    "question": "Where is the Chianti Classico wine region?",
+    "choices": [
+      "France",
+      "Spain",
+      "Italy",
+      "Portugal"
+    ],
+    "answer": "Italy"
+  },
+  {
+    "question": "Where is thecountry that Prosecco comes from?",
+    "choices": [
+      "France",
+      "Spain",
+      "Italy",
+      "Portugal"
+    ],
+    "answer": "Italy"
+  },
+  {
+    "question": "Which is the country you would most likely find Tempranillo in?",
+    "choices": [
+      "France",
+      "Spain",
+      "Italy",
+      "Portugal"
+    ],
+    "answer": "Spain"
+  },
+  {
+    "question": "Which is the country you would most likely find Sangiovese in?",
+    "choices": [
+      "France",
+      "Spain",
+      "Italy",
+      "Portugal"
+    ],
+    "answer": "Italy"
+  },
+  {
+    "question": "Which is the country you would most likely find Nebbiolo in?",
+    "choices": [
+      "France",
+      "Spain",
+      "Italy",
+      "Portugal"
+    ],
+    "answer": "Italy"
+  },
+  {
+    "question": "Where is the Seneca Lake wine region?",
+    "choices": [
+      "Australia",
+      "UK",
+      "New Zealand",
+      "USA"
+    ],
+    "answer": "USA"
+  },
+  {
+    "question": "Where is the Yamhill-Carlton District wine region?",
+    "choices": [
+      "Australia",
+      "UK",
+      "New Zealand",
+      "USA"
+    ],
+    "answer": "USA"
+  },
+  {
+    "question": "Where is San Luis Obispo County?",
+    "choices": [
+      "Oregon",
+      "California",
+      "New York",
+      "Washington State"
+    ],
+    "answer": "California"
+  },
+  {
+    "question": "Where is Alexander Valley AVA?",
+    "choices": [
+      "Oregon",
+      "California",
+      "New York",
+      "Washington State"
+    ],
+    "answer": "California"
+  },
+  {
+    "question": "Where is the Sierra Foothills AVA?",
+    "choices": [
+      "Oregon",
+      "California",
+      "New York",
+      "Washington State"
+    ],
+    "answer": "California"
+  },
+  {
+    "question": "Where is the Anderson Valley AVA?",
+    "choices": [
+      "Oregon",
+      "California",
+      "New York",
+      "Washington State"
+    ],
+    "answer": "California"
+  },
+  {
+    "question": "Where is the Russian River Valley AVA?",
+    "choices": [
+      "Oregon",
+      "California",
+      "New York",
+      "Washington State"
+    ],
+    "answer": "California"
+  },
+  {
+    "question": "Where is the Columbia Gorge AVA?",
+    "choices": [
+      "New Mexico",
+      "California",
+      "New York",
+      "Washington State"
+    ],
+    "answer": "Washington State"
+  },
+  {
+    "question": "Where is the Walla Walla Valley AVA?",
+    "choices": [
+      "Oregon",
+      "California",
+      "New York",
+      "Washington State"
+    ],
+    "answer": "Washington State"
+  },
+  {
+    "question": "What grape is most associated with the Russian River Valley AVA?",
+    "choices": [
+      "Merlot",
+      "Pinot Noir",
+      "Grenache",
+      "Cabernet Sauvignon"
+    ],
+    "answer": "Pinot Noir"
+  },
+  {
+    "question": "What grape is most associated with the Calistoga AVA?",
+    "choices": [
+      "Zinfandel",
+      "Pinot Noir",
+      "Grenache",
+      "Cabernet Sauvignon"
+    ],
+    "answer": "Cabernet Sauvignon"
+  }
+]
