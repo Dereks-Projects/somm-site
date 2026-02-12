@@ -33,7 +33,7 @@
 }
 
 /* ===========================================
-   CHEVRON (DOWN ARROW) BUTTON — LEFT SIDE
+   CHEVRON / X BUTTON — LEFT SIDE
    =========================================== */
 
 .portfolioButton {
@@ -79,18 +79,18 @@
 }
 
 /* ===========================================
-   PORTFOLIO PANEL (LEFT SIDE — slides from left)
+   PORTFOLIO PANEL (slides from LEFT, below header)
    =========================================== */
 
 .portfolioPanel {
   position: fixed;
-  top: 0;
+  top: 64px;
   left: -100%;
+  height: calc(100vh - 64px);
   width: 320px;
-  height: 100vh;
   background-color: #000000;
   z-index: 1000;
-  padding: 90px 40px 40px 40px;
+  padding: 30px 40px 40px 40px;
   overflow-y: auto;
   transition: left 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   box-shadow: 4px 0 24px rgba(0, 0, 0, 0.3);
@@ -187,12 +187,14 @@
   }
 
   .logo {
-    font-size: 26px;
+    font-size: 24px;
   }
 
   .portfolioPanel {
+    top: 60px;
+    height: calc(100vh - 60px);
     width: 400px;
-    padding: 80px 50px 50px 50px;
+    padding: 40px 50px 50px 50px;
   }
 
   .portfolioLabel {

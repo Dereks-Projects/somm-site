@@ -1,9 +1,9 @@
 /* MOBILE FIRST - HAMBURGER MENU STYLES */
 
-/* Hamburger Button */
+/* Hamburger Button — 3 lines, transforms to X */
 .hamburgerButton {
   position: relative;
-  z-index: 1001;
+  z-index: 1002;
   background: none;
   border: none;
   cursor: pointer;
@@ -55,16 +55,16 @@
   transform: rotate(-45deg);
 }
 
-/* Menu Panel */
+/* Menu Panel — starts BELOW header bar */
 .menuPanel {
   position: fixed;
-  top: 0;
+  top: 64px;
   right: -100%;
   width: 320px;
-  height: 100vh;
+  height: calc(100vh - 64px);
   background-color: #000000;
   z-index: 1000;
-  padding: 90px 40px 40px 40px;
+  padding: 30px 40px 40px 40px;
   overflow-y: auto;
   transition: right 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   box-shadow: -4px 0 24px rgba(0, 0, 0, 0.3);
@@ -79,7 +79,6 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
-  margin-top: 10px;
   margin-bottom: 20px;
 }
 
@@ -126,7 +125,7 @@
   opacity: 1;
 }
 
-/* Yellow Divider — now above legal links */
+/* Yellow Divider */
 .divider {
   width: 100%;
   height: 1.5px;
@@ -175,13 +174,14 @@
 /* DESKTOP */
 @media (min-width: 768px) {
   .menuPanel {
+    top: 60px;
+    height: calc(100vh - 60px);
     width: 400px;
-    padding: 80px 50px 50px 50px;
+    padding: 40px 50px 50px 50px;
   }
 
   .mainNav {
     gap: 8px;
-    margin-top: 30px;
     margin-bottom: 20px;
   }
 
