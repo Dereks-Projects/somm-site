@@ -6,8 +6,8 @@
 
 /* Hero Section */
 .hero {
-  background: linear-gradient(to bottom, #000000, #00343d);
-  padding: 80px 20px;
+  background: linear-gradient(to bottom, #000000, #2a2a2a);
+  padding: 140px 20px 80px 20px;
   text-align: center;
 }
 
@@ -24,148 +24,71 @@
 }
 
 .heroSubtitle {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
   color: #cccccc;
-  line-height: 1.6;
+  line-height: 1.7;
+  margin: 0;
 }
 
 /* Shared Container */
 .container {
-  max-width: 1200px;
+  max-width: 800px;
   margin: 0 auto;
   padding: 0 20px;
 }
 
 /* Shared Section Title */
 .sectionTitle {
-  font-size: 32px;
+  font-size: 24px;
   font-weight: 700;
   color: #000000;
-  margin-bottom: 30px;
-  text-align: center;
-}
-
-/* White title for dark sections */
-.bookstoreSection .sectionTitle {
-  color: #ffffff;
+  margin-bottom: 24px;
 }
 
 /* Mission Section */
 .missionSection {
-  background-color: #f5f5f5;
+  background-color: #ffffff;
   padding: 80px 20px;
 }
 
 .missionText {
-  font-size: 18px;
-  color: #333333;
-  line-height: 1.8;
-  margin-bottom: 24px;
-  max-width: 900px;
-  margin-left: auto;
-  margin-right: auto;
+  font-size: 16px;
+  color: #555555;
+  line-height: 1.9;
+  margin: 0;
 }
 
-/* Bookstore Section */
-.bookstoreSection {
-  background-color: #000000;
+.highlight {
+  color: #000000;
+  font-weight: 500;
+}
+
+/* About Informative Media Section */
+.companySection {
+  background-color: #f5f5f5;
   padding: 80px 20px;
 }
 
-.booksGrid {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 30px;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.bookCard {
-  background-color: #3b3b3b;
-  border-radius: 8px;
-  overflow: hidden;
-  text-decoration: none;
-  display: flex;
-  flex-direction: column;
-  transition: transform 0.3s ease;
-  cursor: pointer;
-}
-
-.bookCard:hover {
-  transform: translateY(-5px);
-}
-
-.bookImageContainer {
-  width: 100%;
-  height: 350px;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #1a1a1a;
-}
-
-.bookImage {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.bookContent {
-  padding: 24px;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  flex-grow: 1;
-}
-
-.bookTitle {
-  font-size: 20px;
-  font-weight: 700;
-  color: white;
-  margin-bottom: 12px;
-}
-
-.bookSubtitle {
-  font-size: 13px;
-  color: #cccccc;
-  line-height: 1.5;
-  margin-bottom: 16px;
-  flex-grow: 1;
-}
-
-.bookLink {
-  font-size: 14px;
-  color: #ffde59;
-  font-weight: 600;
-  margin-top: auto;
-}
-
-.bookLink:hover {
-  text-decoration: underline;
-}
-
-/* Founder Section */
-.founderSection {
-  background-color: #f5f5f5;
-  padding: 50px 20px;
-  text-align: center;
-}
-
-.founderTitle {
-  font-size: 20px;
-  font-weight: 600;
-  color: #000000;
-  margin-bottom: 16px;
-}
-
-.founderText {
-  font-size: 15px;
+.companyText {
+  font-size: 16px;
   color: #555555;
-  line-height: 1.7;
-  max-width: 800px;
-  margin: 0 auto;
+  line-height: 1.8;
+  margin: 0 0 24px 0;
+}
+
+.companyLink {
+  font-size: 14px;
+  font-weight: 500;
+  color: #000000;
+  text-decoration: none;
+  border-bottom: 1px solid #000000;
+  padding-bottom: 1px;
+  transition: opacity 0.15s ease;
+}
+
+.companyLink:hover {
+  opacity: 0.7;
 }
 
 /* CTA Section */
@@ -175,140 +98,84 @@
   text-align: center;
 }
 
+.ctaContainer {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
 .ctaTitle {
-  font-size: 32px;
+  font-size: 24px;
   font-weight: 700;
   color: #000000;
   margin-bottom: 20px;
 }
 
 .ctaText {
-  font-size: 18px;
-  color: #333333;
-  line-height: 1.6;
+  font-size: 16px;
+  color: #555555;
+  line-height: 1.8;
   margin-bottom: 30px;
-  max-width: 700px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .ctaButton {
   display: inline-block;
-  background-color: #000000;
-  color: #ffffff;
-  padding: 16px 40px;
+  background-color: #ffde59;
+  color: #000000;
+  padding: 12px 32px;
   border-radius: 4px;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 500;
   text-decoration: none;
-  transition: opacity 0.3s ease;
+  transition: opacity 0.15s ease;
 }
 
 .ctaButton:hover {
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 /* DESKTOP */
 @media (min-width: 768px) {
-  /* Hero */
   .hero {
-    padding: 120px 60px;
+    padding: 170px 60px 80px 60px;
   }
 
   .heroTitle {
-    font-size: 56px;
-    margin-bottom: 24px;
+    font-size: 48px;
   }
 
   .heroSubtitle {
-    font-size: 22px;
+    font-size: 18px;
   }
 
-  /* Container */
-  .container {
-    padding: 0 60px;
-  }
-
-  /* Section Title */
   .sectionTitle {
-    font-size: 42px;
-    margin-bottom: 40px;
+    font-size: 28px;
   }
 
-  /* Mission */
   .missionSection {
     padding: 100px 60px;
   }
 
   .missionText {
-    font-size: 20px;
-    margin-bottom: 28px;
+    font-size: 17px;
   }
 
-  /* Bookstore - Desktop */
-  .bookstoreSection {
+  .companySection {
     padding: 100px 60px;
   }
 
-  .booksGrid {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 40px;
-  }
-
-  .bookImageContainer {
-    height: 400px;
-  }
-
-  .bookContent {
-    padding: 30px;
-  }
-
-  .bookTitle {
-    font-size: 26px;
-    margin-bottom: 16px;
-  }
-
-  .bookSubtitle {
+  .companyText {
     font-size: 17px;
-    margin-bottom: 20px;
   }
 
-  .bookLink {
-    font-size: 16px;
-  }
-
-  /* Founder - Desktop */
-  .founderSection {
-    padding: 60px 60px;
-  }
-
-  .founderTitle {
-    font-size: 24px;
-    margin-bottom: 20px;
-  }
-
-  .founderText {
-    font-size: 17px;
-    line-height: 1.8;
-  }
-
-  /* CTA - Desktop */
   .ctaSection {
     padding: 100px 60px;
   }
 
   .ctaTitle {
-    font-size: 46px;
-    margin-bottom: 24px;
+    font-size: 28px;
   }
 
   .ctaText {
-    font-size: 22px;
-    margin-bottom: 40px;
-  }
-
-  .ctaButton {
-    font-size: 18px;
-    padding: 18px 50px;
+    font-size: 17px;
   }
 }

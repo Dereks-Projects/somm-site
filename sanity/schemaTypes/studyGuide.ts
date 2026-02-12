@@ -1,8 +1,8 @@
 import { defineType, defineField } from 'sanity'
 
 export default defineType({
-  name: 'article',
-  title: 'Article',
+  name: 'studyGuide',
+  title: 'Study Guide',
   type: 'document',
   fields: [
     // BASIC INFO
@@ -10,7 +10,7 @@ export default defineType({
       name: 'title',
       title: 'Title',
       type: 'string',
-      description: 'Main article headline',
+      description: 'E.g., "The Complete Guide to Italian Wine"',
       validation: (Rule) => Rule.required(),
     }),
     defineField({
@@ -28,7 +28,7 @@ export default defineType({
       title: 'Subtitle',
       type: 'text',
       rows: 2,
-      description: 'The subtitle/excerpt that appears under the title',
+      description: 'Brief summary that appears under the title',
     }),
 
     // CATEGORIZATION
@@ -93,31 +93,58 @@ export default defineType({
           { title: 'Management Principles', value: 'Management Principles' },
         ],
       },
-      validation: (Rule) => Rule.required(),
     }),
 
     // LINKING
     defineField({
-      name: 'parentGuide',
-      title: 'Parent Study Guide',
-      type: 'reference',
-      to: [{ type: 'studyGuide' }],
-      description: 'The Study Guide this article belongs to (e.g., "Wines of Italy")',
-    }),
-    defineField({
-      name: 'relatedArticles',
-      title: 'Related Articles',
+      name: 'childArticles',
+      title: 'Child Articles',
       type: 'array',
       of: [{ type: 'reference', to: [{ type: 'article' }] }],
-      description: 'Sibling articles that appear as "Related Reading" links',
-      validation: (Rule) => Rule.max(10),
+      description: 'The articles that belong to this Study Guide. These appear as deep-dive links on the guide page.',
     }),
     defineField({
       name: 'geography',
       title: 'Geography',
       type: 'array',
       of: [{ type: 'reference', to: [{ type: 'geography' }] }],
-      description: 'Where in the world is this article about? Select country and/or region.',
+      description: 'Where in the world does this guide cover? Select country and/or regions.',
+    }),
+
+    // KEY FACTS
+    defineField({
+      name: 'keyFacts',
+      title: 'Key Facts',
+      type: 'array',
+      of: [
+        {
+          type: 'object',
+          name: 'fact',
+          fields: [
+            {
+              name: 'label',
+              title: 'Label',
+              type: 'string',
+              description: 'E.g., "Key Grapes" or "Classification System"',
+              validation: (Rule: any) => Rule.required(),
+            },
+            {
+              name: 'value',
+              title: 'Value',
+              type: 'string',
+              description: 'E.g., "Sangiovese, Nebbiolo, Barbera"',
+              validation: (Rule: any) => Rule.required(),
+            },
+          ],
+          preview: {
+            select: {
+              title: 'label',
+              subtitle: 'value',
+            },
+          },
+        },
+      ],
+      description: 'Quick reference facts displayed as a sidebar/card on the guide page',
     }),
 
     // MULTI-SITE
@@ -136,7 +163,6 @@ export default defineType({
         ],
         layout: 'grid',
       },
-      validation: (Rule) => Rule.required().min(1),
     }),
 
     // IMAGE
@@ -144,7 +170,7 @@ export default defineType({
       name: 'mainImage',
       title: 'Main Image',
       type: 'image',
-      description: 'Full-width hero image',
+      description: 'Hero image for the study guide',
       options: {
         hotspot: true,
       },
@@ -154,10 +180,8 @@ export default defineType({
           type: 'string',
           title: 'Alt Text',
           description: 'Describe the image for accessibility',
-          validation: (Rule: any) => Rule.required(),
         },
       ],
-      validation: (Rule) => Rule.required(),
     }),
 
     // AUTHOR
@@ -171,7 +195,7 @@ export default defineType({
     // CONTENT
     defineField({
       name: 'body',
-      title: 'Article Body',
+      title: 'Study Guide Body',
       type: 'array',
       of: [
         {
@@ -179,6 +203,7 @@ export default defineType({
           styles: [
             { title: 'Normal', value: 'normal' },
             { title: 'Section Subtitle', value: 'h2' },
+            { title: 'Sub-Section', value: 'h3' },
             { title: 'Quote', value: 'blockquote' },
           ],
         },
@@ -201,10 +226,9 @@ export default defineType({
           ],
         },
       ],
-      validation: (Rule) => Rule.required(),
     }),
 
-    // TAGS & SERIES
+    // TAGS
     defineField({
       name: 'tags',
       title: 'Tags',
@@ -213,16 +237,6 @@ export default defineType({
       options: {
         layout: 'tags',
       },
-    }),
-    defineField({
-      name: 'series',
-      title: 'Series/Course',
-      type: 'array',
-      of: [{ type: 'string' }],
-      options: {
-        layout: 'tags',
-      },
-      description: 'Group articles into courses (can add multiple)',
     }),
 
     // PUBLISHING
@@ -233,7 +247,7 @@ export default defineType({
     }),
     defineField({
       name: 'featured',
-      title: 'Featured Article',
+      title: 'Featured Study Guide',
       type: 'boolean',
       initialValue: false,
     }),
@@ -242,7 +256,7 @@ export default defineType({
   preview: {
     select: {
       title: 'title',
-      subtitle: 'subcategory',
+      subtitle: 'category',
       media: 'mainImage',
     },
   },
