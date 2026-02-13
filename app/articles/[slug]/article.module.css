@@ -106,7 +106,7 @@
   padding: 32px 24px;
 }
 
-/* Portable Text Styles - These apply globally within bodyContent */
+/* Portable Text Styles */
 .bodyContent p {
   margin-bottom: 24px;
   font-size: 17px;
@@ -139,6 +139,19 @@
   font-size: 18px;
 }
 
+/* Internal article links in body text */
+.bodyContent a {
+  color: #000000;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-color: #999999;
+  transition: text-decoration-color 0.2s ease;
+}
+
+.bodyContent a:hover {
+  text-decoration-color: #000000;
+}
+
 /* Image wrapper for body images */
 .imageWrapper {
   margin: 32px 0;
@@ -154,6 +167,55 @@
   color: #777777 !important;
   margin-top: 2px;
   font-family: 'Montserrat', sans-serif;
+}
+
+/* ═══════════════════════════════════════════ */
+/* RELATED READING BOX — Hand-picked links    */
+/* Appears after the first image in the body  */
+/* ═══════════════════════════════════════════ */
+.relatedReadingBox {
+  max-width: 896px;
+  margin: 0 auto;
+  padding: 24px;
+  background-color: #f3f4f6;
+  border-radius: 8px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.relatedReadingHeading {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: #6b7280;
+  margin-bottom: 16px;
+}
+
+.relatedReadingList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.relatedReadingItem {
+  padding: 0;
+}
+
+.relatedReadingLink {
+  font-size: 16px;
+  font-weight: 600;
+  color: #000000;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.relatedReadingLink:hover {
+  color: #4b5563;
+  text-decoration: underline;
 }
 
 /* DIVIDER */
@@ -189,7 +251,7 @@
   border-radius: 8px;
 }
 
-/* RELATED ARTICLES */
+/* BOTTOM 3 RELATED ARTICLES — Auto-pulled from subcategory */
 .relatedSection {
   max-width: 896px;
   margin: 0 auto;
@@ -231,8 +293,6 @@
   color: #000000;
 }
 
-
-/* BACK BUTTON */
 /* NAVIGATION BUTTONS */
 .navigationSection {
   max-width: 896px;
@@ -260,8 +320,6 @@
   background-color: #333333;
 }
 
-
-
 /* DESKTOP */
 @media (min-width: 768px) {
   .title {
@@ -270,5 +328,10 @@
   
   .relatedGrid {
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  .relatedReadingBox {
+    margin-left: auto;
+    margin-right: auto;
   }
 }

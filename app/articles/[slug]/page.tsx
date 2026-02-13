@@ -46,6 +46,14 @@ async function getArticle(slug: string) {
       _type == "image" => {
         ...,
         "url": asset->url
+      },
+      markDefs[]{
+        ...,
+        _type == "internalLink" => {
+          ...,
+          "slug": reference->slug.current,
+          "docType": reference->_type
+        }
       }
     },
     publishedAt,
@@ -59,7 +67,11 @@ async function getArticle(slug: string) {
       },
       alt
     },
-    "relatedArticles": *[_type == "article" && category == ^.category && _id != ^._id][0...3]{
+    "handPickedRelated": relatedArticles[]->{
+      title,
+      slug
+    },
+    "subcategoryArticles": *[_type == "article" && subcategory == ^.subcategory && _id != ^._id] | order(publishedAt desc) [0...3]{
       title,
       slug,
       "imageUrl": mainImage.asset->url
@@ -81,6 +93,23 @@ const portableTextComponents = {
     normal: ({ children }: any) => <p>{children}</p>,
     h2: ({ children }: any) => <h2>{children}</h2>,
     blockquote: ({ children }: any) => <blockquote>{children}</blockquote>,
+  },
+  marks: {
+    link: ({ children, value }: any) => (
+      <a href={value.href} target="_blank" rel="noopener noreferrer">
+        {children}
+      </a>
+    ),
+    internalLink: ({ children, value }: any) => {
+      const path = value.docType === 'studyGuide' 
+        ? `/guides/${value.slug}` 
+        : `/articles/${value.slug}`
+      return (
+        <Link href={path}>
+          {children}
+        </Link>
+      )
+    },
   },
   types: {
     image: ({ value }: any) => {
@@ -104,7 +133,20 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
   const article = await getArticle(slug)
 
   if (!article) {
-    // Structured data for article
+    return (
+      <>
+        <Header />
+        <div className={styles.pageWrapper}>
+          <div style={{ padding: '32px', fontFamily: 'Montserrat, sans-serif' }}>
+            Article not found
+          </div>
+        </div>
+        <Footer />
+      </>
+    )
+  }
+
+  // Structured data for article
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -134,6 +176,22 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
     }
   };
 
+  // Split body at first image to insert Related Reading box after it
+  const firstImageIndex = article.body 
+    ? article.body.findIndex((block: any) => block._type === 'image') 
+    : -1
+  
+  const hasHandPickedRelated = article.handPickedRelated && article.handPickedRelated.length > 0
+  
+  // If there are hand-picked articles AND a first image, split the body
+  const bodyBeforeRelated = (hasHandPickedRelated && firstImageIndex >= 0) 
+    ? article.body.slice(0, firstImageIndex + 1) 
+    : article.body
+  
+  const bodyAfterRelated = (hasHandPickedRelated && firstImageIndex >= 0) 
+    ? article.body.slice(firstImageIndex + 1) 
+    : []
+
   return (
     <>
       <Header />
@@ -145,33 +203,20 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
       />
       
       <div className={styles.pageWrapper}>
-          <div style={{ padding: '32px', fontFamily: 'Montserrat, sans-serif' }}>
-            Article not found
-          </div>
-        </div>
-        <Footer />
-      </>
-    )
-  }
-
-  return (
-    <>
-      <Header />
-      <div className={styles.pageWrapper}>
         {/* BREADCRUMB */}
         <div className={styles.breadcrumb}>
-  <p className={styles.breadcrumbText}>
-    {article.category}
-    {article.subcategory && (
-      <>
-            {' > '}
-            <Link href={`/articles?subcategory=${article.subcategory.toLowerCase()}`}>
-              {article.subcategory}
-            </Link>
-          </>
-        )}
-      </p>
-    </div>
+          <p className={styles.breadcrumbText}>
+            {article.category}
+            {article.subcategory && (
+              <>
+                {' > '}
+                <Link href={`/articles?subcategory=${article.subcategory.toLowerCase()}`}>
+                  {article.subcategory}
+                </Link>
+              </>
+            )}
+          </p>
+        </div>
 
         {/* TITLE & SUBTITLE */}
         <div className={styles.titleSection}>
@@ -235,10 +280,36 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
           </div>
         </div>
 
-        {/* BODY */}
+        {/* BODY — First section (up to and including first image) */}
         <article className={styles.bodyContent}>
-          <PortableText value={article.body} components={portableTextComponents} />
+          <PortableText value={bodyBeforeRelated} components={portableTextComponents} />
         </article>
+
+        {/* RELATED READING BOX — Hand-picked articles, appears after first image */}
+        {hasHandPickedRelated && (
+          <div className={styles.relatedReadingBox}>
+            <h4 className={styles.relatedReadingHeading}>Related Reading</h4>
+            <ul className={styles.relatedReadingList}>
+              {article.handPickedRelated.map((item: any) => (
+                <li key={item.slug.current} className={styles.relatedReadingItem}>
+                  <Link 
+                    href={`/articles/${item.slug.current}`} 
+                    className={styles.relatedReadingLink}
+                  >
+                    {item.title}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+
+        {/* BODY — Remainder after first image */}
+        {bodyAfterRelated.length > 0 && (
+          <article className={styles.bodyContent}>
+            <PortableText value={bodyAfterRelated} components={portableTextComponents} />
+          </article>
+        )}
 
         {/* SUMMARY DIVIDER */}
         <div className={styles.dividerSection}>
@@ -258,12 +329,12 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
           </div>
         )}
 
-        {/* RELATED ARTICLES */}
-        {article.relatedArticles && article.relatedArticles.length > 0 && (
+        {/* BOTTOM 3 — Auto-pulled from same subcategory */}
+        {article.subcategoryArticles && article.subcategoryArticles.length > 0 && (
           <div className={styles.relatedSection}>
             <h3 className={styles.relatedHeading}>Related Articles</h3>
             <div className={styles.relatedGrid}>
-              {article.relatedArticles.map((related: any) => (
+              {article.subcategoryArticles.map((related: any) => (
                 <a 
                   key={related.slug.current} 
                   href={`/articles/${related.slug.current}`} 
@@ -283,7 +354,6 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
           </div>
         )}
 
-        {/* BACK BUTTON */}
         {/* NAVIGATION BUTTONS */}
         <div className={styles.navigationSection}>
           <a href="/articles" className={styles.navButton}>

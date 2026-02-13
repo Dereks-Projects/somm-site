@@ -109,7 +109,7 @@ export default defineType({
       title: 'Related Articles',
       type: 'array',
       of: [{ type: 'reference', to: [{ type: 'article' }] }],
-      description: 'Sibling articles that appear as "Related Reading" links',
+      description: 'Hand-picked articles that appear as "Related Reading" links inside the article',
       validation: (Rule) => Rule.max(10),
     }),
     defineField({
@@ -168,7 +168,7 @@ export default defineType({
       initialValue: 'Derek Engles',
     }),
 
-    // CONTENT
+    // CONTENT — Now includes internal link annotation
     defineField({
       name: 'body',
       title: 'Article Body',
@@ -181,6 +181,38 @@ export default defineType({
             { title: 'Section Subtitle', value: 'h2' },
             { title: 'Quote', value: 'blockquote' },
           ],
+          marks: {
+            annotations: [
+              {
+                name: 'link',
+                type: 'object',
+                title: 'External Link',
+                fields: [
+                  {
+                    name: 'href',
+                    type: 'url',
+                    title: 'URL',
+                  },
+                ],
+              },
+              {
+                name: 'internalLink',
+                type: 'object',
+                title: 'Internal Article Link',
+                fields: [
+                  {
+                    name: 'reference',
+                    type: 'reference',
+                    title: 'Article or Study Guide',
+                    to: [
+                      { type: 'article' },
+                      { type: 'studyGuide' },
+                    ],
+                  },
+                ],
+              },
+            ],
+          },
         },
         {
           type: 'image',
