@@ -363,20 +363,22 @@ details[open] .faqQuestion::after {
 
 .navButton {
   display: inline-block;
-  padding: 12px 24px;
-  background-color: #000000;
-  color: #ffffff;
-  border-radius: 8px;
+  padding: 4px 0;
+  background: none;
+  color: #6b7280;
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
-  font-size: 16px;
-  width: 210px;
-  transition: background-color 0.2s ease;
+  font-size: 15px;
+  transition: color 0.2s ease;
 }
 
 .navButton:hover {
-  background-color: #333333;
+  color: #000000;
+  text-decoration: underline;
+  background: none;
 }
+
+
 
 /* DESKTOP */
 @media (min-width: 768px) {

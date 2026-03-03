@@ -76,15 +76,16 @@ export default function Header() {
             </a>
             <a href="https://beverage.fyi" target="_blank" rel="noopener noreferrer" className={styles.portfolioItem} onClick={closeAll}>
               <div className={styles.portfolioSiteName}>Beverage.fyi</div>
-              <div className={styles.portfolioSiteDesc}>Online Magazine</div>
+              <div className={styles.portfolioSiteDesc}>Online Beverage Magazine</div>
             </a>
-            <a href="https://backbar.fyi" target="_blank" rel="noopener noreferrer" className={styles.portfolioItem} onClick={closeAll}>
-              <div className={styles.portfolioSiteName}>Backbar.fyi</div>
-              <div className={styles.portfolioSiteDesc}>Spirits Education</div>
-            </a>
+            
             <a href="https://hospitality.fyi" target="_blank" rel="noopener noreferrer" className={styles.portfolioItem} onClick={closeAll}>
               <div className={styles.portfolioSiteName}>Hospitality.fyi</div>
-              <div className={styles.portfolioSiteDesc}>Hospitality Industry Insights</div>
+              <div className={styles.portfolioSiteDesc}>Online Hospitality Magazine</div>
+            </a>
+            <a href="https://restaurantstandards.com" target="_blank" rel="noopener noreferrer" className={styles.portfolioItem} onClick={closeAll}>
+              <div className={styles.portfolioSiteName}>RestaurantStandards.com</div>
+              <div className={styles.portfolioSiteDesc}>Training & Development</div>
             </a>
           </div>
           <div className={styles.portfolioDivider}></div>

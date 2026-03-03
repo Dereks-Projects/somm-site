@@ -360,9 +360,13 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
           <div className={styles.tagsSection}>
             <div className={styles.tagsContainer}>
               {article.tags.map((tag: string, i: number) => (
-                <span key={i} className={styles.tag}>
-                  {tag}
-                </span>
+                <Link 
+                key={i} 
+                href={`/articles?tag=${encodeURIComponent(tag.toLowerCase())}`} 
+                className={styles.tag}
+              >
+                {tag}
+              </Link>
               ))}
             </div>
           </div>
