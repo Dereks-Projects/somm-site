@@ -31,7 +31,8 @@ export default defineType({
       description: 'Brief summary that appears under the title',
     }),
 
-    // CATEGORIZATION
+    // CATEGORIZATION — Category only.
+    // Study Guides sit above the subcategory level by definition.
     defineField({
       name: 'category',
       title: 'Category',
@@ -51,58 +52,11 @@ export default defineType({
       },
       validation: (Rule) => Rule.required(),
     }),
-    defineField({
-      name: 'subcategory',
-      title: 'Subcategory',
-      type: 'string',
-      description: 'Pick the subcategory that matches your category above',
-      options: {
-        list: [
-          { title: 'Grapes', value: 'Grapes' },
-          { title: 'Producers', value: 'Producers' },
-          { title: 'Regions', value: 'Regions' },
-          { title: 'History', value: 'History' },
-          { title: 'Business', value: 'Business' },
-          { title: 'Vodka', value: 'Vodka' },
-          { title: 'Gin', value: 'Gin' },
-          { title: 'Rum', value: 'Rum' },
-          { title: 'Tequila', value: 'Tequila' },
-          { title: 'Whiskey', value: 'Whiskey' },
-          { title: 'Scotch', value: 'Scotch' },
-          { title: 'Other Spirits', value: 'Other Spirits' },
-          { title: 'Styles', value: 'Styles' },
-          { title: 'Specialty', value: 'Specialty' },
-          { title: 'Trappist Beer', value: 'Trappist Beer' },
-          { title: 'Introduction', value: 'Introduction' },
-          { title: 'Production', value: 'Production' },
-          { title: 'Experiences', value: 'Experiences' },
-          { title: 'Employment', value: 'Employment' },
-          { title: 'Ratings Systems', value: 'Ratings Systems' },
-          { title: 'Service', value: 'Service' },
-          { title: 'Industry Insights', value: 'Industry Insights' },
-          { title: 'Reference', value: 'Reference' },
-          { title: 'Law', value: 'Law' },
-          { title: 'Science', value: 'Science' },
-          { title: 'Current Events', value: 'Current Events' },
-          { title: 'Consumer Knowledge', value: 'Consumer Knowledge' },
-          { title: 'Industry Events', value: 'Industry Events' },
-          { title: 'Beverage Business', value: 'Beverage Business' },
-          { title: 'Restaurant Awards', value: 'Restaurant Awards' },
-          { title: 'Guest Service', value: 'Guest Service' },
-          { title: 'Product Knowledge', value: 'Product Knowledge' },
-          { title: 'Management Principles', value: 'Management Principles' },
-        ],
-      },
-    }),
 
     // LINKING
-    defineField({
-      name: 'childArticles',
-      title: 'Child Articles',
-      type: 'array',
-      of: [{ type: 'reference', to: [{ type: 'article' }] }],
-      description: 'The articles that belong to this Study Guide. These appear as deep-dive links on the guide page.',
-    }),
+    // No childArticles field. Children connect upward
+    // via the article's parentGuide field. The frontend
+    // queries "all articles where parentGuide == this guide."
     defineField({
       name: 'geography',
       title: 'Geography',
@@ -192,7 +146,7 @@ export default defineType({
       initialValue: 'Derek Engles',
     }),
 
-    // CONTENT
+    // CONTENT — With internal links and separator
     defineField({
       name: 'body',
       title: 'Study Guide Body',
@@ -204,8 +158,41 @@ export default defineType({
             { title: 'Normal', value: 'normal' },
             { title: 'Section Subtitle', value: 'h2' },
             { title: 'Sub-Section', value: 'h3' },
+            { title: 'Sub-Sub-Section', value: 'h4' },
             { title: 'Quote', value: 'blockquote' },
           ],
+          marks: {
+            annotations: [
+              {
+                name: 'link',
+                type: 'object',
+                title: 'External Link',
+                fields: [
+                  {
+                    name: 'href',
+                    type: 'url',
+                    title: 'URL',
+                  },
+                ],
+              },
+              {
+                name: 'internalLink',
+                type: 'object',
+                title: 'Internal Article Link',
+                fields: [
+                  {
+                    name: 'reference',
+                    type: 'reference',
+                    title: 'Article or Study Guide',
+                    to: [
+                      { type: 'article' },
+                      { type: 'studyGuide' },
+                    ],
+                  },
+                ],
+              },
+            ],
+          },
         },
         {
           type: 'image',
@@ -224,6 +211,31 @@ export default defineType({
               title: 'Caption',
             },
           ],
+        },
+        {
+          name: 'separator',
+          type: 'object',
+          title: 'Section Separator',
+          fields: [
+            {
+              name: 'style',
+              type: 'string',
+              title: 'Style',
+              initialValue: 'line',
+              options: {
+                list: [
+                  { title: 'Line', value: 'line' },
+                ],
+              },
+            },
+          ],
+          preview: {
+            prepare() {
+              return {
+                title: '── Section Separator ──',
+              }
+            },
+          },
         },
       ],
     }),

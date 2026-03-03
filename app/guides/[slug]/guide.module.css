@@ -1,4 +1,4 @@
-/* MOBILE FIRST - Article Slug Page */
+/* MOBILE FIRST - Study Guide Page */
 
 .pageWrapper {
   background-color: #ffffff;
@@ -31,11 +31,20 @@
   text-decoration: underline;
 }
 
-/* TITLE & SUBTITLE SECTION */
+/* TITLE & SUBTITLE */
 .titleSection {
   max-width: 896px;
   margin: 0 auto;
   padding: 24px 24px;
+}
+
+.guideLabel {
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #6b7280;
+  margin-bottom: 12px;
 }
 
 .title {
@@ -106,7 +115,6 @@
   padding: 32px 24px;
 }
 
-/* Portable Text Styles */
 .bodyContent p {
   margin-bottom: 24px;
   font-size: 17px;
@@ -123,11 +131,27 @@
 }
 
 .bodyContent h2 {
-  font-size: 24px;
+  font-size: 26px;
   font-weight: 700;
   margin-top: 48px;
   margin-bottom: 16px;
   color: #000000;
+}
+
+.bodyContent h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-top: 36px;
+  margin-bottom: 12px;
+  color: #000000;
+}
+
+.bodyContent h4 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 28px;
+  margin-bottom: 10px;
+  color: #1f2937;
 }
 
 .bodyContent blockquote {
@@ -139,7 +163,7 @@
   font-size: 18px;
 }
 
-/* Internal article links in body text */
+/* Internal links in body */
 .bodyContent a {
   color: #000000;
   text-decoration: underline;
@@ -152,7 +176,7 @@
   text-decoration-color: #000000;
 }
 
-/* Image wrapper for body images */
+/* Body images */
 .imageWrapper {
   margin: 32px 0;
 }
@@ -169,111 +193,60 @@
   font-family: 'Montserrat', sans-serif;
 }
 
-/* RELATED READING BOX */
-.relatedReadingBox {
+/* Section Separator */
+.separator {
   max-width: 896px;
-  margin: 0 auto;
-  padding: 24px;
-  background-color: #f3f4f6;
+  margin: 40px auto;
+  border: none;
+  border-top: 1px solid #d1d5db;
+}
+
+/* ═══════════════════════════════════════════ */
+/* KEY FACTS — "At a Glance" box              */
+/* Sits after intro text, before first image  */
+/* ═══════════════════════════════════════════ */
+.keyFactsBox {
+  max-width: 896px;
+  margin: 0 auto 32px auto;
+  padding: 28px 28px;
+  background-color: #e5e7eb;
   border-radius: 8px;
   margin-left: 24px;
   margin-right: 24px;
 }
 
-.relatedReadingHeading {
-  font-size: 14px;
+.keyFactsHeading {
+  font-size: 13px;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 1.5px;
-  color: #6b7280;
-  margin-bottom: 16px;
-}
-
-.relatedReadingList {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-}
-
-.relatedReadingItem {
-  padding: 0;
-}
-
-.relatedReadingLink {
-  font-size: 16px;
-  font-weight: 600;
-  color: #000000;
-  text-decoration: none;
-  transition: color 0.2s ease;
-}
-
-.relatedReadingLink:hover {
+  letter-spacing: 2px;
   color: #4b5563;
-  text-decoration: underline;
-}
-
-/* ====================================== */
-/* FAQ — Dropdown accordion               */
-/* Sits below article body, above divider */
-/* ====================================== */
-.faqSection {
-  max-width: 896px;
-  margin: 0 auto;
-  padding: 16px 24px 32px 24px;
-}
-
-.faqHeading {
-  font-size: 22px;
-  font-weight: 700;
   margin-bottom: 20px;
-  color: #000000;
 }
 
-.faqList {
+.keyFactsGrid {
   display: flex;
   flex-direction: column;
-  gap: 0;
+  gap: 14px;
 }
 
-.faqItem {
-  border-bottom: 1px solid #e5e7eb;
+.keyFactRow {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
 }
 
-.faqQuestion {
-  font-size: 16px;
-  font-weight: 600;
+.keyFactLabel {
+  font-size: 14px;
+  font-weight: 700;
   color: #000000;
-  padding: 16px 0;
-  cursor: pointer;
-  list-style: none;
 }
 
-.faqQuestion::-webkit-details-marker {
-  display: none;
-}
-
-.faqQuestion::after {
-  content: '+';
-  float: right;
-  font-size: 20px;
+.keyFactValue {
+  font-size: 15px;
   font-weight: 400;
-  color: #6b7280;
-  transition: transform 0.2s ease;
-}
-
-details[open] .faqQuestion::after {
-  content: '-';
-}
-
-.faqAnswer {
-  font-size: 16px;
-  line-height: 1.6;
   color: #374151;
-  padding: 0 0 16px 0;
-  margin: 0;
+  line-height: 1.5;
 }
 
 /* DIVIDER */
@@ -309,36 +282,47 @@ details[open] .faqQuestion::after {
   border-radius: 8px;
 }
 
-/* BOTTOM 3 RELATED ARTICLES */
-.relatedSection {
+/* ═══════════════════════════════════════════ */
+/* CHILD ARTICLES — "Deep Dives" section      */
+/* Auto-pulled: all articles pointing to this */
+/* guide via parentGuide reference             */
+/* ═══════════════════════════════════════════ */
+.childSection {
   max-width: 896px;
   margin: 0 auto;
   padding: 32px 24px;
   border-top: 1px solid #d1d5db;
 }
 
-.relatedHeading {
+.childHeading {
   font-size: 24px;
   font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.childSubheading {
+  font-size: 15px;
+  color: #6b7280;
   margin-bottom: 24px;
 }
 
-.relatedGrid {
+.childGrid {
   display: grid;
   grid-template-columns: 1fr;
   gap: 24px;
 }
 
-.relatedCard {
+.childCard {
   display: block;
+  text-decoration: none;
   transition: opacity 0.2s ease;
 }
 
-.relatedCard:hover {
+.childCard:hover {
   opacity: 0.8;
 }
 
-.relatedImage {
+.childImage {
   width: 100%;
   height: 192px;
   object-fit: cover;
@@ -346,12 +330,19 @@ details[open] .faqQuestion::after {
   margin-bottom: 12px;
 }
 
-.relatedTitle {
+.childTitle {
   font-weight: 600;
   color: #000000;
+  margin-bottom: 4px;
 }
 
-/* NAVIGATION BUTTONS */
+.childSubtitle {
+  font-size: 14px;
+  color: #6b7280;
+  line-height: 1.4;
+}
+
+/* NAVIGATION */
 .navigationSection {
   max-width: 896px;
   margin: 0 auto;
@@ -383,13 +374,23 @@ details[open] .faqQuestion::after {
   .title {
     font-size: 44px;
   }
-  
-  .relatedGrid {
+
+  .childGrid {
     grid-template-columns: repeat(3, 1fr);
   }
 
-  .relatedReadingBox {
+  .keyFactsBox {
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .keyFactRow {
+    flex-direction: row;
+    gap: 0;
+  }
+
+  .keyFactLabel {
+    min-width: 200px;
+    flex-shrink: 0;
   }
 }

@@ -61,6 +61,7 @@ async function getArticle(slug: string) {
     subcategory,
     author,
     tags,
+    faq,
     mainImage {
       asset-> {
         url
@@ -176,6 +177,21 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
     }
   };
 
+  // FAQ structured data for Google rich results
+  const hasFaq = article.faq && article.faq.length > 0
+  const faqSchema = hasFaq ? {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": article.faq.map((item: any) => ({
+      "@type": "Question",
+      "name": item.question,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": item.answer,
+      }
+    }))
+  } : null
+
   // Split body at first image to insert Related Reading box after it
   const firstImageIndex = article.body 
     ? article.body.findIndex((block: any) => block._type === 'image') 
@@ -201,6 +217,14 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
       />
+
+      {/* FAQ Structured Data — tells Google these are official FAQ */}
+      {faqSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
+      )}
       
       <div className={styles.pageWrapper}>
         {/* BREADCRUMB */}
@@ -309,6 +333,21 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
           <article className={styles.bodyContent}>
             <PortableText value={bodyAfterRelated} components={portableTextComponents} />
           </article>
+        )}
+
+        {/* FAQ — Dropdown accordion, below the article body, above divider/tags */}
+        {hasFaq && (
+          <div className={styles.faqSection}>
+            <h3 className={styles.faqHeading}>Frequently Asked Questions</h3>
+            <div className={styles.faqList}>
+              {article.faq.map((item: any, i: number) => (
+                <details key={i} className={styles.faqItem}>
+                  <summary className={styles.faqQuestion}>{item.question}</summary>
+                  <p className={styles.faqAnswer}>{item.answer}</p>
+                </details>
+              ))}
+            </div>
+          </div>
         )}
 
         {/* SUMMARY DIVIDER */}

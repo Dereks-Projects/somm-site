@@ -257,6 +257,43 @@ export default defineType({
       description: 'Group articles into courses (can add multiple)',
     }),
 
+    // FAQ — Added for Google rich results
+    defineField({
+      name: 'faq',
+      title: 'FAQ',
+      type: 'array',
+      of: [
+        {
+          type: 'object',
+          name: 'faqItem',
+          fields: [
+            {
+              name: 'question',
+              title: 'Question',
+              type: 'string',
+              description: 'E.g., "What grape is Barolo made from?"',
+              validation: (Rule: any) => Rule.required(),
+            },
+            {
+              name: 'answer',
+              title: 'Answer',
+              type: 'text',
+              rows: 3,
+              description: 'Keep it concise — 1-3 sentences. These appear in Google search results.',
+              validation: (Rule: any) => Rule.required(),
+            },
+          ],
+          preview: {
+            select: {
+              title: 'question',
+              subtitle: 'answer',
+            },
+          },
+        },
+      ],
+      description: 'Frequently asked questions — renders as dropdowns below the article and as FAQ rich results in Google',
+    }),
+
     // PUBLISHING
     defineField({
       name: 'publishedAt',
