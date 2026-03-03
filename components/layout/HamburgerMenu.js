@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+import EncyclopediaSearch from './EncyclopediaSearch'
 import styles from './HamburgerMenu.module.css'
 
 export default function HamburgerMenu({ isOpen, onToggle, onClose }) {
@@ -54,6 +55,13 @@ export default function HamburgerMenu({ isOpen, onToggle, onClose }) {
           <Link href="/terms" className={styles.legalLink} onClick={onClose}>Terms of Use</Link>
           <Link href="/privacy" className={styles.legalLink} onClick={onClose}>Privacy Policy</Link>
           <Link href="/disclaimer" className={styles.legalLink} onClick={onClose}>Content Disclaimer</Link>
+        </div>
+
+        <div className={styles.divider}></div>
+        
+        {/* Encyclopedia Search */}
+        <div className={styles.searchSection}>
+          <EncyclopediaSearch onNavigate={onClose} menuOpen={isOpen} />
         </div>
       </div>
     </>

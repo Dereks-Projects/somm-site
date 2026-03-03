@@ -19,7 +19,7 @@ export default function InfiniteArticleList({ articles }) {
   return (
     <section className={styles.container}>
       {/* "MORE STORIES" heading */}
-      <h2 className={styles.heading}>MORE STORIES</h2>
+      <h2 className={styles.heading}>MORE ARTICLES</h2>
 
       {/* Grid of article cards */}
       <div className={styles.articleGrid}>
@@ -31,7 +31,7 @@ export default function InfiniteArticleList({ articles }) {
       {/* Load More Button */}
       {hasMore && (
         <button onClick={loadMore} className={styles.loadMoreButton}>
-          Load More Stories
+          Load More Articles
         </button>
       )}
     </section>

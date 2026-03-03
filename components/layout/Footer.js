@@ -1,5 +1,6 @@
 'use client';
 
+import EncyclopediaSearch from './EncyclopediaSearch';
 import styles from './Footer.module.css';
 
 export default function Footer() {
@@ -26,6 +27,11 @@ export default function Footer() {
             <a href="/cookies">Cookie Notice</a>
             <a href="/disclaimer">Content Disclaimer</a>
           </div>
+        </div>
+
+        {/* Encyclopedia Search */}
+        <div className={styles.searchSection}>
+          <EncyclopediaSearch />
         </div>
 
         <div className={styles.socialIcons}>

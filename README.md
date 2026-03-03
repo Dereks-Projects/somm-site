@@ -338,7 +338,7 @@ Part of the hospitality education ecosystem:
 
 ## 📜 License
 
-© 2025 SOMM.SITE. All rights reserved.
+© 2026 SOMM.SITE. All rights reserved.
 
 Content is provided for educational purposes. See [Content Disclaimer](https://somm.site/disclaimer) for full terms.
 

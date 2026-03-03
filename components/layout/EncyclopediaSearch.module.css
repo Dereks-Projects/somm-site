@@ -1,0 +1,71 @@
+/* MOBILE FIRST - Encyclopedia Search */
+
+.wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.input {
+  width: 100%;
+  padding: 10px 14px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  color: #ffffff;
+  background-color: #1a1a1a;
+  border: 1px solid #333333;
+  border-radius: 6px;
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+
+.input::placeholder {
+  color: #777777;
+}
+
+.input:focus {
+  border-color: #ffde59;
+}
+
+.dropdown {
+  position: absolute;
+  top: calc(100% + 4px);
+  left: 0;
+  right: 0;
+  background-color: #1a1a1a;
+  border: 1px solid #333333;
+  border-radius: 6px;
+  max-height: 240px;
+  overflow-y: auto;
+  z-index: 1010;
+}
+
+.result {
+  display: block;
+  padding: 10px 14px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  color: #ffffff;
+  text-decoration: none;
+  transition: background-color 0.15s ease;
+}
+
+.result:hover {
+  background-color: #2a2a2a;
+}
+
+.result:not(:last-child) {
+  border-bottom: 1px solid #2a2a2a;
+}
+
+/* DESKTOP */
+@media (min-width: 768px) {
+  .input {
+    font-size: 12px;
+    padding: 8px 12px;
+  }
+
+  .result {
+    font-size: 13px;
+    padding: 8px 12px;
+  }
+}

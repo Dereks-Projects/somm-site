@@ -30,6 +30,13 @@
   color: #333333;
 }
 
+.definition2 {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #1f1f1f;
+  margin-top: 16px;
+}
+
 .navSection {
   margin-top: 40px;
   text-align: center;
@@ -66,5 +73,8 @@
 
   .definition {
     font-size: 18px;
+  }
+  .definition2 {
+  font-size: 17px;
   }
 }

@@ -50,6 +50,11 @@
   opacity: 0.7;
 }
 
+.searchSection {
+  max-width: 280px;
+  margin-bottom: 32px;
+}
+
 .underline {
   text-decoration: underline;
 }

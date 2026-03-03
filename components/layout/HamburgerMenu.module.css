@@ -79,6 +79,7 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
+  margin-top: 10px;
   margin-bottom: 20px;
 }
 
@@ -128,7 +129,7 @@
 /* Yellow Divider */
 .divider {
   width: 100%;
-  height: 1.5px;
+  height: 1.3px;
   background-color: #ffde59;
   margin-bottom: 24px;
 }
@@ -138,6 +139,7 @@
   display: flex;
   flex-direction: column;
   gap: 7px;
+  margin-bottom: 20px;
 }
 
 .legalLink {
@@ -149,6 +151,7 @@
   position: relative;
   display: inline-block;
   width: fit-content;
+  
 }
 
 .legalLink::after {
@@ -169,6 +172,10 @@
 .legalLink:hover::after {
   width: 100%;
   background-color: #cccccc;
+}
+
+.searchSection {
+  margin-top: 20px;
 }
 
 /* DESKTOP */
