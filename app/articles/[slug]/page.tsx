@@ -245,7 +245,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
         />
       )}
       
-      <div className={styles.pageWrapper}>
+      <main className={styles.pageWrapper}>
         {/* BREADCRUMB */}
         <div className={styles.breadcrumb}>
           <p className={styles.breadcrumbText}>
@@ -440,7 +440,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
             ← Back to Home
           </a>
         </div>
-      </div>
+      </main>
       <Footer />
     </>
   )

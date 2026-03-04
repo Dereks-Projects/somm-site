@@ -42,7 +42,7 @@
 }
 
 .subcategory {
-  color: #777777;
+  color: #595959;
   font-size: 11px;
   font-weight: 700;
   letter-spacing: 1px;
@@ -70,7 +70,7 @@
 }
 
 .readMore {
-  color: #777777;
+  color: #595959;
   font-size: 13px;
   font-weight: 600;
   text-decoration: none;
@@ -86,7 +86,7 @@
   left: 0;
   width: 0;
   height: 1px;
-  background-color: #777777;
+  background-color: #595959;
   transition: width 0.3s ease;
 }
 

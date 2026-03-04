@@ -4,7 +4,7 @@
   background-color: #ffffff;
   color: #000000;
   min-height: 100vh;
-  font-family: 'Montserrat', sans-serif;
+  font-family: var(--font-inter), sans-serif;
 }
 
 /* BREADCRUMB */
@@ -104,6 +104,7 @@
   max-width: 896px;
   margin: 0 auto;
   padding: 32px 24px;
+  font-family: var(--font-inter), sans-serif;
 }
 
 /* Portable Text Styles */
@@ -166,7 +167,7 @@
   font-size: 13px !important;
   color: #777777 !important;
   margin-top: 2px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: var(--font-inter), sans-serif;
 }
 
 /* RELATED READING BOX */

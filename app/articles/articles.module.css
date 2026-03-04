@@ -22,7 +22,7 @@
 
 /* SUBTITLE — Dynamic: "All Articles", "Grapes", tag name, etc. */
 .subtitle {
-  font-family: 'Montserrat', sans-serif;
+  font-family: var(--font-inter), sans-serif;
   font-size: 16px;
   font-weight: 400;
   text-align: center;
@@ -81,7 +81,7 @@
 }
 
 .resultCount {
-  font-family: 'Montserrat', sans-serif;
+  font-family: var(--font-inter), sans-serif;
   font-size: 14px;
   color: #777777;
 }
@@ -112,7 +112,7 @@
 }
 
 .noResults {
-  font-family: 'Montserrat', sans-serif;
+  font-family: var(--font-inter), sans-serif;
   text-align: center;
   font-size: 18px;
   color: #777777;
