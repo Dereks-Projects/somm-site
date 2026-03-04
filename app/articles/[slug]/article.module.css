@@ -308,6 +308,7 @@ details[open] .faqQuestion::after {
   color: #ffffff;
   font-size: 14px;
   border-radius: 8px;
+  text-decoration: none;
 }
 
 /* BOTTOM 3 RELATED ARTICLES */
@@ -333,6 +334,7 @@ details[open] .faqQuestion::after {
 .relatedCard {
   display: block;
   transition: opacity 0.2s ease;
+  text-decoration: none;
 }
 
 .relatedCard:hover {

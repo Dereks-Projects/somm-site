@@ -63,7 +63,9 @@ somm-site/
 │   └── (other components)
 │
 ├── sanity/
-│   ├── lib/client.ts              # Sanity client configuration
+│   ├── lib/
+│   │   ├── client.ts              # Sanity client configuration
+│   │   └── imageUrl.js            # Sanity image URL builder utility
 │   ├── queries.js                 # Article queries
 │   ├── schemaTypes/
 │   │   └── article.ts             # Article content schema
@@ -90,37 +92,37 @@ somm-site/
 
 1. **Clone the repository**
 ```bash
-   git clone https://github.com/yourusername/somm-site.git
-   cd somm-site
+git clone https://github.com/yourusername/somm-site.git
+cd somm-site
 ```
 
 2. **Install dependencies**
 ```bash
-   pnpm install
+pnpm install
 ```
 
 3. **Set up environment variables**
-   
+
    Create `.env.local` in the project root:
 ```env
-   NEXT_PUBLIC_SANITY_PROJECT_ID="your-project-id"
-   NEXT_PUBLIC_SANITY_DATASET="production"
-   NEXT_PUBLIC_SANITY_API_VERSION="2025-11-10"
+NEXT_PUBLIC_SANITY_PROJECT_ID="your-project-id"
+NEXT_PUBLIC_SANITY_DATASET="production"
+NEXT_PUBLIC_SANITY_API_VERSION="2025-11-10"
 ```
 
 4. **Run development server**
 ```bash
-   pnpm dev
+pnpm dev
 ```
 
 5. **Open in browser**
 ```
-   http://localhost:3000
+http://localhost:3000
 ```
 
 6. **Access Sanity Studio** (if configured)
 ```
-   http://localhost:3000/studio
+http://localhost:3000/studio
 ```
 
 ---
@@ -163,12 +165,27 @@ Articles automatically appear on the homepage and in the sitemap.
 - **Background:** `#fafafa` (Light gray)
 - **Header/Footer:** `#000000` (Black)
 - **Text Primary:** `#000000` (Black)
-- **Text Secondary:** `#555555`, `#777777` (Grays)
+- **Text Secondary:** `#595959`, `#333333` (Grays -- WCAG AA contrast compliant)
 - **Accent:** `#ffde59` (Yellow)
 
 ### Typography
 
-- **Font:** Montserrat (Google Fonts)
+Two fonts are used, both self-hosted at build time via `next/font/google`. No external font requests are made at runtime.
+
+- **Montserrat** -- headings, navigation, buttons, labels, UI elements
+- **Inter** -- body text, article paragraphs, subtitles, captions, descriptive text
+
+Font CSS variables are declared on `<html>` in `layout.js` and available globally:
+
+```css
+var(--font-montserrat)
+var(--font-inter)
+```
+
+**Usage rule:** Montserrat is for short, glanced-at text. Inter is for text that is read.
+
+### Font Sizes
+
 - **Hero Titles:** 38-48px (desktop), 28-36px (mobile)
 - **Body Text:** 16-18px
 - **Labels:** 11-14px
@@ -178,6 +195,29 @@ Articles automatically appear on the homepage and in the sitemap.
 - **Desktop Padding:** 100px horizontal
 - **Mobile Padding:** 20px horizontal
 - **Grid Gap:** 40px (desktop), 30px (mobile)
+
+---
+
+## 🖼 Image Optimization
+
+All images are served through Sanity's CDN with transforms applied via `sanity/lib/imageUrl.js`:
+
+```javascript
+import { urlFor } from '../../sanity/lib/imageUrl';
+
+const imageUrl = urlFor(article.mainImage)
+  .width(1600)
+  .format('webp')
+  .quality(80)
+  .url();
+```
+
+### Image sizing by component
+
+- **Hero (FeaturedArticle):** 1600px wide, WebP, quality 80, `priority` flag set
+- **Sub-featured articles:** 800px wide, WebP, quality 80
+- **Article cards:** 600px wide, WebP, quality 80
+- **Article page hero:** 1200px wide, WebP, quality 80
 
 ---
 
@@ -195,6 +235,7 @@ Articles automatically appear on the homepage and in the sitemap.
 
 - **Organization Schema** - Site-wide business information
 - **Article Schema** - Individual article metadata
+- **FAQ Schema** - FAQ rich results on articles with FAQ content
 - **Breadcrumb Schema** - Navigation hierarchy
 
 ### Sitemap
@@ -223,6 +264,20 @@ Sitemap: https://somm.site/sitemap.xml
 
 ---
 
+## ♿ Accessibility
+
+The site targets WCAG AA compliance. Key implementations:
+
+- All images have descriptive `alt` text
+- All icon-only links have `aria-label` attributes
+- Navigation links have descriptive `aria-label` on "Read More" links
+- Hamburger menu uses `aria-label` and `aria-expanded`
+- Portfolio panel links use conditional `tabIndex` when closed
+- Page content wrapped in `<main>` landmark for screen reader navigation
+- Text contrast ratios meet 4.5:1 minimum (WCAG AA) -- secondary text uses `#595959` on `#fafafa`
+
+---
+
 ## 📱 Responsive Design
 
 ### Mobile-First Approach
@@ -245,7 +300,7 @@ All CSS is written mobile-first with desktop enhancements:
 ### Breakpoints
 
 - **Mobile:** < 768px
-- **Desktop:** ≥ 768px
+- **Desktop:** >= 768px
 
 ---
 
@@ -298,6 +353,26 @@ NEXT_PUBLIC_SANITY_API_VERSION
 
 ---
 
+## 📊 Performance
+
+Current PageSpeed Insights scores (Mobile):
+
+| Metric | Score |
+|---|---|
+| Performance | 94 |
+| Accessibility | 94 |
+| Best Practices | 100 |
+| SEO | 92 |
+
+Key performance implementations:
+- Fonts self-hosted at build time via `next/font/google` -- no render-blocking external requests
+- Images optimized via Sanity CDN transforms (WebP, sized per component)
+- Hero image uses `priority` flag for early browser fetch
+- Tailwind CSS fully removed -- project uses CSS Modules exclusively
+- Dead dependencies removed from bundle (`styled-components`, `mini-css-extract-plugin`)
+
+---
+
 ## 📄 Legal & Compliance
 
 The site includes comprehensive legal pages:
@@ -307,7 +382,7 @@ The site includes comprehensive legal pages:
 - **Cookie Policy** - Cookie usage and Google Analytics
 - **Content Disclaimer** - Educational purpose disclaimers
 
-All legal pages use shared CSS module for consistent styling.
+All legal pages use a shared CSS module for consistent styling.
 
 ---
 
