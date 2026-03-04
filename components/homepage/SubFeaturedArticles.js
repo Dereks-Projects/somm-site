@@ -25,6 +25,7 @@ export default function SubFeaturedArticles({ articles }) {
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"
                 className={styles.image}
+                unoptimized
               />
             </div>
 
@@ -39,7 +40,6 @@ export default function SubFeaturedArticles({ articles }) {
                 <h2 className={styles.title}>{article.title}</h2>
               </Link>
 
-              {/* Read More Link */}
               <Link
                 href={`/articles/${article.slug.current}`}
                 className={styles.readMore}

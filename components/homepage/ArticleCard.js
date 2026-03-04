@@ -22,6 +22,7 @@ export default function ArticleCard({ article }) {
           fill
           sizes="(max-width: 768px) 100vw, 33vw"
           className={styles.image}
+          unoptimized
         />
       </div>
 
@@ -40,7 +41,6 @@ export default function ArticleCard({ article }) {
           <p className={styles.subtitle}>{article.subtitle}</p>
         )}
 
-        {/* Read More Link */}
         <Link
           href={`/articles/${article.slug.current}`}
           className={styles.readMore}
