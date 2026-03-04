@@ -1,5 +1,20 @@
 import "./globals.css";
 import Script from 'next/script';
+import { Montserrat, Inter } from 'next/font/google';
+
+const montserrat = Montserrat({
+  subsets: ['latin'],
+  weight: ['400', '600', '700'],
+  display: 'swap',
+  variable: '--font-montserrat',
+});
+
+const inter = Inter({
+  subsets: ['latin'],
+  weight: ['400', '600', '700'],
+  display: 'swap',
+  variable: '--font-inter',
+});
 
 export const metadata = {
   title: {
@@ -65,7 +80,7 @@ export default function RootLayout({ children }) {
   };
 
   return (
-    <html lang="en">
+    <html lang="en" className={`${montserrat.variable} ${inter.variable}`}>
       <head>
         {/* Structured Data */}
         <script
@@ -73,7 +88,7 @@ export default function RootLayout({ children }) {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
         />
         
-        {/* Google Analytics - NOW IN THE HEAD TAG (FIX) */}
+        {/* Google Analytics */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-JCX7CLCX4B"
           strategy="afterInteractive"

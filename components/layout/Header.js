@@ -24,6 +24,8 @@ export default function Header() {
     setIsPortfolioOpen(false)
   }
 
+  const isOverlayActive = isMenuOpen || isPortfolioOpen
+
   return (
     <>
       <header className={styles.header}>
@@ -57,9 +59,10 @@ export default function Header() {
 
       {/* Overlay — outside header */}
       <div
-        className={`${styles.overlay} ${(isMenuOpen || isPortfolioOpen) ? styles.overlayVisible : ''}`}
+        className={`${styles.overlay} ${isOverlayActive ? styles.overlayVisible : ''}`}
         onClick={closeAll}
         aria-hidden="true"
+        tabIndex={-1}
       />
 
       {/* Portfolio panel — outside header, slides from left */}
@@ -70,27 +73,61 @@ export default function Header() {
         <div className={styles.portfolioContent}>
           <div className={styles.portfolioLabel}>Our Portfolio</div>
           <div className={styles.portfolioLinks}>
-            <a href="https://somm.tips" target="_blank" rel="noopener noreferrer" className={styles.portfolioItem} onClick={closeAll}>
+            <a
+              href="https://somm.tips"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.portfolioItem}
+              onClick={closeAll}
+              tabIndex={isPortfolioOpen ? 0 : -1}
+            >
               <div className={styles.portfolioSiteName}>Somm.Tips</div>
               <div className={styles.portfolioSiteDesc}>Wine Pairings & Shopping Insights</div>
             </a>
-            <a href="https://beverage.fyi" target="_blank" rel="noopener noreferrer" className={styles.portfolioItem} onClick={closeAll}>
+            <a
+              href="https://beverage.fyi"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.portfolioItem}
+              onClick={closeAll}
+              tabIndex={isPortfolioOpen ? 0 : -1}
+            >
               <div className={styles.portfolioSiteName}>Beverage.fyi</div>
               <div className={styles.portfolioSiteDesc}>Online Beverage Magazine</div>
             </a>
-            
-            <a href="https://hospitality.fyi" target="_blank" rel="noopener noreferrer" className={styles.portfolioItem} onClick={closeAll}>
+            <a
+              href="https://hospitality.fyi"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.portfolioItem}
+              onClick={closeAll}
+              tabIndex={isPortfolioOpen ? 0 : -1}
+            >
               <div className={styles.portfolioSiteName}>Hospitality.fyi</div>
               <div className={styles.portfolioSiteDesc}>Online Hospitality Magazine</div>
             </a>
-            <a href="https://restaurantstandards.com" target="_blank" rel="noopener noreferrer" className={styles.portfolioItem} onClick={closeAll}>
+            <a
+              href="https://restaurantstandards.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.portfolioItem}
+              onClick={closeAll}
+              tabIndex={isPortfolioOpen ? 0 : -1}
+            >
               <div className={styles.portfolioSiteName}>RestaurantStandards.com</div>
               <div className={styles.portfolioSiteDesc}>Training & Development</div>
             </a>
           </div>
           <div className={styles.portfolioDivider}></div>
           <div className={styles.presentedByLabel}>Presented By</div>
-          <a href="https://informativemedia.com" target="_blank" rel="noopener noreferrer" className={styles.parentCompanyLink} onClick={closeAll}>
+          <a
+            href="https://informativemedia.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.parentCompanyLink}
+            onClick={closeAll}
+            tabIndex={isPortfolioOpen ? 0 : -1}
+          >
             Informative Media
           </a>
         </div>

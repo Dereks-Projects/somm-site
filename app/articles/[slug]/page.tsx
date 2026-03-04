@@ -2,9 +2,10 @@ import { client } from '../../../sanity/lib/client'
 import { PortableText } from '@portabletext/react'
 import Header from '../../../components/layout/Header'
 import Footer from '../../../components/layout/Footer'
-import BackButton from '../../../components/BackButton'
+import Image from 'next/image'
 import styles from './article.module.css'
 import Link from 'next/link'
+import { urlFor } from '../../../sanity/lib/imageUrl'
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params
@@ -64,6 +65,7 @@ async function getArticle(slug: string) {
     faq,
     mainImage {
       asset-> {
+        _id,
         url
       },
       alt
@@ -75,7 +77,13 @@ async function getArticle(slug: string) {
     "subcategoryArticles": *[_type == "article" && subcategory == ^.subcategory && _id != ^._id] | order(publishedAt desc) [0...3]{
       title,
       slug,
-      "imageUrl": mainImage.asset->url
+      mainImage {
+        asset-> {
+          _id,
+          url
+        },
+        alt
+      }
     }
   }`
   
@@ -119,7 +127,14 @@ const portableTextComponents = {
       
       return (
         <div className={styles.imageWrapper}>
-          <img src={imageUrl} alt={value.alt || ""} className={styles.bodyImage} />
+          <Image
+            src={imageUrl}
+            alt={value.alt || ""}
+            width={896}
+            height={500}
+            className={styles.bodyImage}
+            style={{ width: '100%', height: 'auto' }}
+          />
           {value.caption && (
             <p className={styles.imageCaption}>{value.caption}</p>
           )}
@@ -138,7 +153,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
       <>
         <Header />
         <div className={styles.pageWrapper}>
-          <div style={{ padding: '32px', fontFamily: 'Montserrat, sans-serif' }}>
+          <div style={{ padding: '32px', fontFamily: 'var(--font-montserrat), sans-serif' }}>
             Article not found
           </div>
         </div>
@@ -146,6 +161,11 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
       </>
     )
   }
+
+  // Build optimized main image URL
+  const mainImageUrl = article.mainImage
+    ? urlFor(article.mainImage).width(1200).format('webp').quality(80).url()
+    : null
 
   // Structured data for article
   const articleSchema = {
@@ -199,7 +219,6 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
   
   const hasHandPickedRelated = article.handPickedRelated && article.handPickedRelated.length > 0
   
-  // If there are hand-picked articles AND a first image, split the body
   const bodyBeforeRelated = (hasHandPickedRelated && firstImageIndex >= 0) 
     ? article.body.slice(0, firstImageIndex + 1) 
     : article.body
@@ -218,7 +237,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
       />
 
-      {/* FAQ Structured Data — tells Google these are official FAQ */}
+      {/* FAQ Structured Data */}
       {faqSchema && (
         <script
           type="application/ld+json"
@@ -255,12 +274,16 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
         </div>
 
         {/* MAIN IMAGE */}
-        {article.imageUrl && (
+        {mainImageUrl && (
           <div className={styles.mainImageWrapper}>
-            <img 
-              src={article.imageUrl} 
+            <Image
+              src={mainImageUrl}
               alt={article.mainImage?.alt || article.title}
+              width={1200}
+              height={675}
               className={styles.mainImage}
+              style={{ width: '100%', height: 'auto' }}
+              priority
             />
           </div>
         )}
@@ -304,12 +327,12 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
           </div>
         </div>
 
-        {/* BODY — First section (up to and including first image) */}
+        {/* BODY — First section */}
         <article className={styles.bodyContent}>
           <PortableText value={bodyBeforeRelated} components={portableTextComponents} />
         </article>
 
-        {/* RELATED READING BOX — Hand-picked articles, appears after first image */}
+        {/* RELATED READING BOX */}
         {hasHandPickedRelated && (
           <div className={styles.relatedReadingBox}>
             <h4 className={styles.relatedReadingHeading}>Related Reading</h4>
@@ -328,14 +351,14 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
           </div>
         )}
 
-        {/* BODY — Remainder after first image */}
+        {/* BODY — Remainder */}
         {bodyAfterRelated.length > 0 && (
           <article className={styles.bodyContent}>
             <PortableText value={bodyAfterRelated} components={portableTextComponents} />
           </article>
         )}
 
-        {/* FAQ — Dropdown accordion, below the article body, above divider/tags */}
+        {/* FAQ */}
         {hasFaq && (
           <div className={styles.faqSection}>
             <h3 className={styles.faqHeading}>Frequently Asked Questions</h3>
@@ -350,7 +373,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
           </div>
         )}
 
-        {/* SUMMARY DIVIDER */}
+        {/* DIVIDER */}
         <div className={styles.dividerSection}>
           <hr className={styles.divider} />
         </div>
@@ -361,38 +384,49 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
             <div className={styles.tagsContainer}>
               {article.tags.map((tag: string, i: number) => (
                 <Link 
-                key={i} 
-                href={`/articles?tag=${encodeURIComponent(tag.toLowerCase())}`} 
-                className={styles.tag}
-              >
-                {tag}
-              </Link>
+                  key={i} 
+                  href={`/articles?tag=${encodeURIComponent(tag.toLowerCase())}`} 
+                  className={styles.tag}
+                >
+                  {tag}
+                </Link>
               ))}
             </div>
           </div>
         )}
 
-        {/* BOTTOM 3 — Auto-pulled from same subcategory */}
+        {/* BOTTOM 3 RELATED ARTICLES */}
         {article.subcategoryArticles && article.subcategoryArticles.length > 0 && (
           <div className={styles.relatedSection}>
             <h3 className={styles.relatedHeading}>Related Articles</h3>
             <div className={styles.relatedGrid}>
-              {article.subcategoryArticles.map((related: any) => (
-                <a 
-                  key={related.slug.current} 
-                  href={`/articles/${related.slug.current}`} 
-                  className={styles.relatedCard}
-                >
-                  {related.imageUrl && (
-                    <img 
-                      src={related.imageUrl} 
-                      alt={related.title} 
-                      className={styles.relatedImage}
-                    />
-                  )}
-                  <h4 className={styles.relatedTitle}>{related.title}</h4>
-                </a>
-              ))}
+              {article.subcategoryArticles.map((related: any) => {
+                const relatedImageUrl = related.mainImage
+                  ? urlFor(related.mainImage).width(600).format('webp').quality(80).url()
+                  : null
+
+                return (
+                  <Link
+                    key={related.slug.current}
+                    href={`/articles/${related.slug.current}`}
+                    className={styles.relatedCard}
+                  >
+                    {relatedImageUrl && (
+                      <div style={{ position: 'relative', width: '100%', height: '192px' }}>
+                        <Image
+                          src={relatedImageUrl}
+                          alt={related.mainImage?.alt || related.title}
+                          fill
+                          sizes="(max-width: 768px) 100vw, 33vw"
+                          className={styles.relatedImage}
+                          style={{ objectFit: 'cover', borderRadius: '8px' }}
+                        />
+                      </div>
+                    )}
+                    <h4 className={styles.relatedTitle}>{related.title}</h4>
+                  </Link>
+                )
+              })}
             </div>
           </div>
         )}

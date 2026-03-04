@@ -1,18 +1,26 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import styles from './FeaturedArticle.module.css';
+import { urlFor } from '../../sanity/lib/imageUrl';
 
 export default function FeaturedArticle({ article }) {
   if (!article) return null;
 
+  const heroImageUrl = urlFor(article.mainImage)
+    .width(1600)
+    .format('webp')
+    .quality(80)
+    .url();
+
   return (
     <article className={styles.container}>
-      {/* Full-width image */}
+      {/* Full-width hero image */}
       <div className={styles.imageWrapper}>
         <Image
-          src={article.mainImage.asset.url}
+          src={heroImageUrl}
           alt={article.mainImage.alt || article.title}
           fill
+          sizes="100vw"
           className={styles.image}
           priority
         />
@@ -26,19 +34,23 @@ export default function FeaturedArticle({ article }) {
             {article.subcategory.toUpperCase()}
           </Link>
         )}
-        
+
         {/* Title */}
         <Link href={`/articles/${article.slug.current}`} className={styles.titleLink}>
           <h1 className={styles.title}>{article.title}</h1>
         </Link>
-        
+
         {/* Subtitle */}
         {article.subtitle && (
           <p className={styles.subtitle}>{article.subtitle}</p>
         )}
 
         {/* Read More Link */}
-        <Link href={`/articles/${article.slug.current}`} className={styles.readMore}>
+        <Link
+          href={`/articles/${article.slug.current}`}
+          className={styles.readMore}
+          aria-label={`Read more about ${article.title}`}
+        >
           Read More
         </Link>
       </div>

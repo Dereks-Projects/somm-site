@@ -1,19 +1,26 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import styles from './ArticleCard.module.css';
+import { urlFor } from '../../sanity/lib/imageUrl';
 
 export default function ArticleCard({ article }) {
   if (!article) return null;
+
+  const cardImageUrl = urlFor(article.mainImage)
+    .width(600)
+    .format('webp')
+    .quality(80)
+    .url();
 
   return (
     <article className={styles.card}>
       {/* Image on top */}
       <div className={styles.imageWrapper}>
         <Image
-          src={article.mainImage.asset.url}
+          src={cardImageUrl}
           alt={article.mainImage.alt || article.title}
           fill
-          sizes="(max-width: 768px) 120px, 33vw"
+          sizes="(max-width: 768px) 100vw, 33vw"
           className={styles.image}
         />
       </div>
@@ -28,13 +35,17 @@ export default function ArticleCard({ article }) {
         <Link href={`/articles/${article.slug.current}`} className={styles.titleLink}>
           <h3 className={styles.title}>{article.title}</h3>
         </Link>
-        
+
         {article.subtitle && (
           <p className={styles.subtitle}>{article.subtitle}</p>
         )}
 
         {/* Read More Link */}
-        <Link href={`/articles/${article.slug.current}`} className={styles.readMore}>
+        <Link
+          href={`/articles/${article.slug.current}`}
+          className={styles.readMore}
+          aria-label={`Read more about ${article.title}`}
+        >
           Read More
         </Link>
       </div>
