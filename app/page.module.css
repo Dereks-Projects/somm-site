@@ -1,3 +1,18 @@
+/* Hero Grid - Desktop editorial layout (60/40 split) */
+.heroGrid {
+  background-color: #fafafa;
+}
+
+@media (min-width: 768px) {
+  .heroGrid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 30px;
+    align-items: start;
+    padding: 40px 60px;
+  }
+}
+
 /* Course Section Wrapper */
 .courseSection {
   background-color: #000000;

@@ -5,6 +5,7 @@ import Footer from '../components/layout/Footer';
 import FeaturedArticle from '../components/homepage/FeaturedArticle';
 import SubFeaturedArticles from '../components/homepage/SubFeaturedArticles';
 import InfiniteArticleList from '../components/homepage/InfiniteArticleList';
+import styles from './page.module.css';
 
 export const metadata = {
   title: "Somm.Site - Wine Education & Articles",
@@ -29,13 +30,16 @@ export default async function Home() {
     <div>
       <Header />
       
-      {/* Featured Article - Latest */}
-      {featuredArticle && <FeaturedArticle article={featuredArticle} />}
-      
-      {/* Sub-Featured Articles - 2nd & 3rd Latest */}
-      {subFeaturedArticles.length > 0 && (
-        <SubFeaturedArticles articles={subFeaturedArticles} />
-      )}
+      {/* Hero Grid - Editorial layout (side-by-side on desktop) */}
+      <div className={styles.heroGrid}>
+        {/* Featured Article - Latest */}
+        {featuredArticle && <FeaturedArticle article={featuredArticle} />}
+        
+        {/* Sub-Featured Articles - 2nd & 3rd Latest */}
+        {subFeaturedArticles.length > 0 && (
+          <SubFeaturedArticles articles={subFeaturedArticles} />
+        )}
+      </div>
       
       {/* Infinite Scroll - 4th Article Onward */}
       {infiniteScrollArticles.length > 0 && (

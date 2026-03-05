@@ -110,8 +110,8 @@
    =========================================== */
 
 .portfolioLabel {
-  font-size: 13px;
-  font-weight: 600;
+  font-size: 12px;
+  font-weight: 500;
   color: #ffde59;
   text-transform: uppercase;
   letter-spacing: 0.5px;
@@ -150,14 +150,14 @@
 
 .portfolioDivider {
   width: 100%;
-  height: 1.5px;
+  height: 1px;
   background-color: #ffde59;
   margin-bottom: 28px;
 }
 
 .presentedByLabel {
-  font-size: 13px;
-  font-weight: 600;
+  font-size: 12px;
+  font-weight: 500;
   color: #ffde59;
   text-transform: uppercase;
   letter-spacing: 0.5px;
@@ -165,7 +165,7 @@
 }
 
 .parentCompanyLink {
-  font-size: 17px;
+  font-size: 14px;
   font-weight: 600;
   color: #ffffff;
   text-decoration: none;
