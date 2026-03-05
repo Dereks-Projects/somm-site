@@ -397,4 +397,22 @@ details[open] .faqQuestion::after {
     margin-left: auto;
     margin-right: auto;
   }
+
+  /* Hero image - 10% reduction, centered */
+  .mainImageWrapper {
+    width: 80%;
+    margin: 0 auto 32px;
+    
+  }
+
+  /* Body images - 30% wider than text column, centered breakout */
+  .imageWrapper {
+    width: 130%;
+    margin-left: -15%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+  }
+
+
 }
