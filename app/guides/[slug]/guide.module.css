@@ -4,7 +4,7 @@
   background-color: #ffffff;
   color: #000000;
   min-height: 100vh;
-  font-family: 'Montserrat', sans-serif;
+  font-family: var(--font-inter), sans-serif;
 }
 
 /* BREADCRUMB */
@@ -190,7 +190,7 @@
   font-size: 13px !important;
   color: #777777 !important;
   margin-top: 2px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: var(--font-inter), sans-serif;
 }
 
 /* Section Separator */
@@ -359,7 +359,7 @@
   color: #ffffff;
   border-radius: 8px;
   text-decoration: none;
-  font-family: 'Montserrat', sans-serif;
+  font-family: var(--font-inter), sans-serif;
   font-size: 16px;
   width: 210px;
   transition: background-color 0.2s ease;
@@ -367,6 +367,68 @@
 
 .navButton:hover {
   background-color: #333333;
+}
+
+
+/* ====================================== */
+/* FAQ — Dropdown accordion               */
+/* ====================================== */
+.faqSection {
+  max-width: 896px;
+  margin: 0 auto;
+  padding: 16px 24px 32px 24px;
+}
+
+.faqHeading {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+.faqList {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.faqItem {
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.faqQuestion {
+  font-size: 16px;
+  font-weight: 600;
+  color: #000000;
+  padding: 16px 0;
+  cursor: pointer;
+  list-style: none;
+}
+
+.faqQuestion::-webkit-details-marker {
+  display: none;
+}
+
+.faqQuestion::after {
+  content: '+';
+  float: right;
+  font-size: 20px;
+  font-weight: 400;
+  color: #6b7280;
+  transition: transform 0.2s ease;
+}
+
+details[open] .faqQuestion::after {
+  content: '-';
+}
+
+.faqAnswer {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #374151;
+  padding: 0 0 16px 0;
+  margin: 0;
+  font-family: var(--font-inter), sans-serif;
 }
 
 /* DESKTOP */

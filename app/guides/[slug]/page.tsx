@@ -60,6 +60,7 @@ async function getGuide(slug: string) {
     author,
     tags,
     keyFacts,
+    faq,
     mainImage {
       asset-> {
         url
@@ -138,7 +139,7 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
       <>
         <Header />
         <div className={styles.pageWrapper}>
-          <div style={{ padding: '32px', fontFamily: 'Montserrat, sans-serif' }}>
+          <div style={{ padding: '32px', fontFamily: 'var(--font-montserrat), sans-serif' }}>
             Study Guide not found
           </div>
         </div>
@@ -173,6 +174,22 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
     "inLanguage": "en-US",
   };
 
+
+  // FAQ structured data for Google rich results
+  const hasFaq = guide.faq && guide.faq.length > 0
+  const faqSchema = hasFaq ? {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": guide.faq.map((item: any) => ({
+      "@type": "Question",
+      "name": item.question,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": item.answer,
+      }
+    }))
+  } : null
+
   // Split body at first image to insert Key Facts before it
   const hasKeyFacts = guide.keyFacts && guide.keyFacts.length > 0
   const firstImageIndex = guide.body 
@@ -195,6 +212,13 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(guideSchema) }}
       />
+
+      {faqSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
+      )}
       
       <div className={styles.pageWrapper}>
         {/* BREADCRUMB */}
@@ -300,6 +324,21 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
           <article className={styles.bodyContent}>
             <PortableText value={bodyAfterFacts} components={portableTextComponents} />
           </article>
+        )}
+
+        {/* FAQ */}
+        {hasFaq && (
+          <div className={styles.faqSection}>
+            <h3 className={styles.faqHeading}>Frequently Asked Questions</h3>
+            <div className={styles.faqList}>
+              {guide.faq.map((item: any, i: number) => (
+                <details key={i} className={styles.faqItem}>
+                  <summary className={styles.faqQuestion}>{item.question}</summary>
+                  <p className={styles.faqAnswer}>{item.answer}</p>
+                </details>
+              ))}
+            </div>
+          </div>
         )}
 
         {/* DIVIDER */}
