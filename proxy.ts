@@ -16,14 +16,38 @@ const BLOCKED_PATHS = [
   '/config.php',
 ]
 
+// Known legitimate bots that must always pass through
+const ALLOWED_BOTS = [
+  'googlebot',
+  'google-inspectiontool',
+  'storebot-google',
+  'google-structured-data-testing-tool',
+  'google-xrawler',
+  'bingbot',
+  'slurp',
+  'duckduckbot',
+  'linkedinbot',
+  'twitterbot',
+  'facebookexternalhit',
+  'applebot',
+  'schema-markup-validator',
+  'w3c_validator',
+]
+
 export function proxy(request: NextRequest) {
   const country = request.headers.get('x-vercel-ip-country') || ''
-  const userAgent = request.headers.get('user-agent') || ''
+  const userAgent = (request.headers.get('user-agent') || '').toLowerCase()
   const pathname = request.nextUrl.pathname.toLowerCase()
 
   // Block by country
   if (BLOCKED_COUNTRIES.includes(country)) {
     return new NextResponse('Access denied.', { status: 403 })
+  }
+
+  // Always allow known legitimate bots
+  const isAllowedBot = ALLOWED_BOTS.some(bot => userAgent.includes(bot))
+  if (isAllowedBot) {
+    return NextResponse.next()
   }
 
   // Block empty or suspicious User-Agents
@@ -40,9 +64,9 @@ export function proxy(request: NextRequest) {
   return NextResponse.next()
 }
 
-// Apply to all routes except static files
+// Apply to all routes except static files, robots.txt, and sitemap
 export const config = {
   matcher: [
-    '/((?!_next/static|_next/image|favicon.ico|.*\\.png|.*\\.svg|.*\\.jpg).*)',
+    '/((?!_next/static|_next/image|favicon.ico|robots\\.txt|sitemap\\.xml|.*\\.png|.*\\.svg|.*\\.jpg).*)',
   ],
 }

@@ -4,17 +4,81 @@ import styles from './page.module.css';
 
 export const metadata = {
   title: "About Us",
-  description: "Learn about Somm.Site, our mission to democratize wine education, and the company behind the platform.",
+  description: "Somm.Site is a free wine education platform founded by Derek Engles, a hospitality professional with 20+ years of experience. Part of Informative Media.",
   openGraph: {
     title: "About Somm.Site - Wine Education Platform",
-    description: "Democratizing wine and hospitality education for professionals worldwide"
+    description: "Founded by Derek Engles. Democratizing wine and hospitality education for professionals worldwide."
   }
 };
 
 export default function About() {
+  const founderSchema = {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Derek Engles",
+    "jobTitle": "Founder & CEO",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Informative Media"
+    },
+    "alumniOf": [
+      {
+        "@type": "Organization",
+        "name": "Harvard Business School"
+      },
+      {
+        "@type": "Organization",
+        "name": "Wynn Las Vegas"
+      }
+    ],
+    "knowsAbout": ["Wine Education", "Sommelier Training", "Hospitality Management", "Beverage Programs"],
+    "sameAs": [
+      "https://derekengles.com",
+      "https://www.linkedin.com/company/somm-site/",
+      "https://informativemedia.com",
+      "https://somm.site",
+      "https://beverage.fyi",
+      "https://somm.tips",
+      "https://restaurantstandards.com",
+      "https://backbar.fyi",
+      "https://hospitality.fyi"
+    ]
+  };
+
+  const organizationSchema = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Informative Media",
+    "url": "https://informativemedia.com",
+    "founder": {
+      "@type": "Person",
+      "name": "Derek Engles"
+    },
+    "brand": [
+      { "@type": "Brand", "name": "Somm.Site", "url": "https://somm.site" },
+      { "@type": "Brand", "name": "Beverage.fyi", "url": "https://beverage.fyi" },
+      { "@type": "Brand", "name": "Somm.Tips", "url": "https://somm.tips" },
+      { "@type": "Brand", "name": "RestaurantStandards.com", "url": "https://restaurantstandards.com" },
+      { "@type": "Brand", "name": "Backbar.fyi", "url": "https://backbar.fyi" },
+      { "@type": "Brand", "name": "Hospitality.fyi", "url": "https://hospitality.fyi" }
+    ]
+  };
+
   return (
     <div>
       <Header />
+
+      {/* Founder Entity Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(founderSchema) }}
+      />
+
+      {/* Organization Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+      />
 
       <main className={styles.aboutMain}>
         {/* Hero Section */}
@@ -54,10 +118,12 @@ export default function About() {
             <p className={styles.companyText}>
               Somm.Site is part of Informative Media, a hospitality education company operating a 
               portfolio of digital platforms dedicated to beverage knowledge and service excellence. 
-              From wine and spirits to fine dining standards, our platforms serve professionals and 
-              enthusiasts who believe that quality education should be accessible to everyone. 
-              We combine over two decades of luxury hospitality experience with modern technology 
-              to create content that makes a real impact.
+              Founded by Derek Engles, a hospitality professional with over 20 years of industry 
+              experience including tenure as a sommelier and wine director at Wynn Las Vegas and 
+              a graduate of Harvard Business School's leadership program, our platforms serve 
+              professionals and enthusiasts who believe that quality education should be accessible 
+              to everyone. We combine that deep industry expertise with modern technology to create 
+              content that makes a real impact.
             </p>
             <a
               href="https://informativemedia.com"
