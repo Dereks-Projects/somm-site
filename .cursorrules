@@ -1,0 +1,11 @@
+- This is a Next.js 14+ project using App Router
+- Styling is CSS Modules only. No Tailwind. Ever.
+- All design tokens are CSS custom properties in globals.css
+- No inline styles anywhere in any component
+- Sanity CMS is the data source for all content
+- Use urlFor() for all Sanity image handling
+- All components are functional components with hooks
+- Deploy target is Vercel
+- Package manager is pnpm
+- No em dashes in any generated copy
+- Middleware lives in proxy.ts not middleware.ts

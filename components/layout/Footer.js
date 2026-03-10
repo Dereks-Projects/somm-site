@@ -48,7 +48,18 @@ export default function Footer() {
 
         
         <h2 className={styles.title}>Somm.Site</h2>
-        <p className={styles.copyright}>Copyright 2026 • Informative Media • All Rights Reserved</p>
+        <p className={styles.copyright}>
+          Copyright 2026 •{' '}
+          <a
+            href="https://informativemedia.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.mediaLink}
+          >
+            Informative Media
+          </a>{' '}
+          • All Rights Reserved
+        </p>
         
         <button onClick={scrollToTop} className={styles.backToTop}>
           Back to top ↑

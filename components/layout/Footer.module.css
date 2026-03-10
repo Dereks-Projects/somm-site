@@ -98,6 +98,20 @@
   font-weight: 300;
 }
 
+.mediaLink {
+  color: #888888;
+  text-decoration: none;
+  font-weight: 500;
+  transition: opacity 0.3s ease, text-decoration-color 0.3s ease;
+}
+
+.mediaLink:hover {
+  opacity: 0.8;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+
 .backToTop {
   background: none;
   border: none;
