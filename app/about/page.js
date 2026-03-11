@@ -40,7 +40,6 @@ export default function About() {
       "https://beverage.fyi",
       "https://somm.tips",
       "https://restaurantstandards.com",
-      "https://backbar.fyi",
       "https://hospitality.fyi"
     ]
   };
@@ -59,7 +58,6 @@ export default function About() {
       { "@type": "Brand", "name": "Beverage.fyi", "url": "https://beverage.fyi" },
       { "@type": "Brand", "name": "Somm.Tips", "url": "https://somm.tips" },
       { "@type": "Brand", "name": "RestaurantStandards.com", "url": "https://restaurantstandards.com" },
-      { "@type": "Brand", "name": "Backbar.fyi", "url": "https://backbar.fyi" },
       { "@type": "Brand", "name": "Hospitality.fyi", "url": "https://hospitality.fyi" }
     ]
   };

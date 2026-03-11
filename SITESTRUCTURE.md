@@ -150,7 +150,7 @@ Articles are managed through Sanity Studio. Each article includes:
 - Geography (optional country/region taxonomy references)
 
 **Multi-Site Publishing:**
-- Sites array (publish to Somm.Site, Backbar.fyi, Beverage.fyi, Restaurant Standards, Hospitality.fyi)
+- Sites array (publish to Somm.Site, Beverage.fyi, Restaurant Standards, Hospitality.fyi)
 
 ### Sanity CMS - Study Guide Schema
 
@@ -379,7 +379,6 @@ NEXT_PUBLIC_SANITY_API_VERSION
 Part of the Informative Media hospitality education ecosystem:
 
 - **[Beverage.fyi](https://beverage.fyi)** - Online beverage magazine
-- **[Backbar.fyi](https://backbar.fyi)** - Spirits education platform
 - **[Hospitality.fyi](https://hospitality.fyi)** - Online hospitality magazine
 - **[RestaurantStandards.com](https://restaurantstandards.com)** - Training and development for fine dining
 - **[Somm.Tips](https://somm.tips)** - Wine pairings and shopping insights

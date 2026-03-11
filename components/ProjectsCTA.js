@@ -10,7 +10,6 @@ export default function ProjectsCTA() {
         </p>
         
         <div className={styles.buttonGroup}>
-          
           <a 
             href="https://somm.tips" 
             target="_blank" 
@@ -34,14 +33,6 @@ export default function ProjectsCTA() {
             className={styles.ctaButton}
           >
             Hospitality.fyi
-          </a>
-          <a 
-            href="https://backbar.fyi" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className={styles.ctaButton}
-          >
-            Backbar.fyi
           </a>
         </div>
       </div>
