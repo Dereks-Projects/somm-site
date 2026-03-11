@@ -145,7 +145,7 @@ export default function About() {
               group seeking to elevate your team's knowledge, or an organization that wants to 
               put quality education in front of future industry leaders — we'd love to hear from you.
             </p>
-            <a href="mailto:derekengles@gmail.com" className={styles.ctaButton}>
+            <a href="mailto:derek@informativemedia.com" className={styles.ctaButton}>
               Get in Touch
             </a>
           </div>
