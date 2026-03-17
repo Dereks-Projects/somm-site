@@ -7,6 +7,8 @@ const nextConfig = {
         hostname: 'cdn.sanity.io',
       },
     ],
+    loader: 'custom',
+    loaderFile: './sanity-image-loader.js',
   },
 };
 

@@ -6,11 +6,7 @@ import { urlFor } from '../../sanity/lib/imageUrl';
 export default function FeaturedArticle({ article }) {
   if (!article) return null;
 
-  const heroImageUrl = urlFor(article.mainImage)
-    .width(1600)
-    .format('webp')
-    .quality(80)
-    .url();
+  const heroImageUrl = urlFor(article.mainImage).url();
 
   return (
     <article className={styles.container}>
@@ -20,11 +16,10 @@ export default function FeaturedArticle({ article }) {
           src={heroImageUrl}
           alt={article.mainImage.alt || article.title}
           fill
-          sizes="100vw"
+          sizes="(min-width: 768px) 60vw, 100vw"
           className={styles.image}
           priority
-          unoptimized
-          fetchpriority="high"
+          fetchPriority="high"
         />
       </div>
 
