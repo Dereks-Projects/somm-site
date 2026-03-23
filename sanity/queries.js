@@ -23,9 +23,9 @@ export const allArticlesQuery = `
 
 // ─── STUDY GUIDE QUERIES ───
 
-// Get all study guides published to somm.site (homepage slider + landing page)
+// Get all wine study guides published to somm.site (homepage slider + landing page)
 export const allStudyGuidesQuery = `
-  *[_type == "studyGuide" && "somm" in sites] | order(publishedAt desc) {
+  *[_type == "studyGuide" && "somm" in sites && category == "wine"] | order(publishedAt desc) {
     _id,
     title,
     subtitle,
@@ -61,18 +61,15 @@ export const studyGuideBySlugQuery = `
     publishedAt,
     body[] {
       ...,
+      _type == "image" => {
+        ...,
+        "url": asset->url
+      },
       markDefs[] {
         ...,
         _type == "internalLink" => {
           "slug": reference -> slug.current,
           "docType": reference -> _type
-        }
-      },
-      _type == "image" => {
-        ...,
-        asset -> {
-          _id,
-          url
         }
       }
     },

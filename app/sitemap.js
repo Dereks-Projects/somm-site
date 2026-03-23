@@ -19,6 +19,12 @@ export default async function sitemap() {
       priority: 0.9,
     },
     {
+      url: `${baseUrl}/study-guides`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
+    {
       url: `${baseUrl}/about`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
@@ -64,12 +70,28 @@ export default async function sitemap() {
     }
   `);
 
+  // Fetch all study guides published to somm.site
+  const studyGuides = await client.fetch(`
+    *[_type == "studyGuide" && "somm" in sites] | order(publishedAt desc) {
+      "slug": slug.current,
+      publishedAt
+    }
+  `);
+
   // Dynamic article pages
   const articlePages = articles.map((article) => ({
     url: `${baseUrl}/articles/${article.slug}`,
     lastModified: article.publishedAt ? new Date(article.publishedAt) : new Date(),
     changeFrequency: 'monthly',
     priority: 0.8,
+  }));
+
+  // Dynamic study guide pages
+  const studyGuidePages = studyGuides.map((guide) => ({
+    url: `${baseUrl}/study-guides/${guide.slug}`,
+    lastModified: guide.publishedAt ? new Date(guide.publishedAt) : new Date(),
+    changeFrequency: 'monthly',
+    priority: 0.85,
   }));
 
   // Dynamic course pages
@@ -80,5 +102,5 @@ export default async function sitemap() {
     priority: 0.6,
   }));
 
-  return [...staticPages, ...articlePages, ...coursePages];
+  return [...staticPages, ...articlePages, ...studyGuidePages, ...coursePages];
 }

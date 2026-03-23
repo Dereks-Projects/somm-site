@@ -1,0 +1,179 @@
+/* MOBILE FIRST - Study Guides Landing Page */
+
+.pageWrapper {
+  background-color: #fafafa;
+  color: #000000;
+  min-height: 100vh;
+  font-family: var(--font-inter), sans-serif;
+}
+
+/* ─── HEADER SECTION ─── */
+.headerSection {
+  max-width: 896px;
+  margin: 0 auto;
+  padding: 48px 24px 24px;
+}
+
+.label {
+  font-family: var(--font-montserrat), sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #6b7280;
+  margin: 0 0 12px 0;
+}
+
+.heading {
+  font-family: var(--font-montserrat), sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.15;
+  color: #000000;
+  margin: 0 0 16px 0;
+}
+
+.description {
+  font-size: 17px;
+  line-height: 1.6;
+  color: #374151;
+  margin: 0;
+}
+
+@media (min-width: 768px) {
+  .headerSection {
+    padding: 64px 24px 32px;
+  }
+
+  .heading {
+    font-size: 44px;
+  }
+}
+
+/* ─── BREADCRUMB ─── */
+.breadcrumb {
+  max-width: 896px;
+  margin: 0 auto;
+  padding: 0 24px 32px;
+}
+
+.breadcrumbText {
+  font-size: 14px;
+  color: #6b7280;
+  margin: 0;
+}
+
+.breadcrumbText a {
+  color: #6b7280;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.breadcrumbText a:hover {
+  color: #000000;
+  text-decoration: underline;
+}
+
+.breadcrumbText span {
+  color: #000000;
+}
+
+/* ─── GUIDE GRID ─── */
+.guideGrid {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px 64px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 32px;
+}
+
+@media (min-width: 768px) {
+  .guideGrid {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 60px 80px;
+    gap: 40px;
+  }
+}
+
+/* ─── GUIDE CARD ─── */
+.guideCard {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+  text-decoration: none;
+  transition: box-shadow 0.2s ease;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.guideCard:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+/* ─── CARD IMAGE ─── */
+.cardImageWrapper {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+}
+
+.cardImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* ─── CARD CONTENT ─── */
+.cardContent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.cardTitle {
+  font-family: var(--font-montserrat), sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #000000;
+  margin: 0 0 8px 0;
+}
+
+.cardSubtitle {
+  font-size: 15px;
+  line-height: 1.5;
+  color: #4b5563;
+  margin: 0;
+  flex: 1;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.cardLink {
+  font-family: var(--font-montserrat), sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  color: #6b7280;
+  margin-top: 16px;
+  flex-shrink: 0;
+  transition: color 0.2s ease;
+}
+
+.guideCard:hover .cardLink {
+  color: #000000;
+}
+
+/* ─── EMPTY STATE ─── */
+.emptyState {
+  max-width: 896px;
+  margin: 0 auto;
+  padding: 48px 24px;
+  font-size: 17px;
+  color: #6b7280;
+}

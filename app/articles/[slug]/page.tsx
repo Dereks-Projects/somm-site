@@ -111,7 +111,7 @@ const portableTextComponents = {
     ),
     internalLink: ({ children, value }: any) => {
       const path = value.docType === 'studyGuide' 
-        ? `/guides/${value.slug}` 
+        ? `/study-guides/${value.slug}` 
         : `/articles/${value.slug}`
       return (
         <Link href={path}>
