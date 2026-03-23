@@ -1,9 +1,10 @@
 import { client } from '../sanity/lib/client.ts';
-import { allArticlesQuery } from '../sanity/queries';
+import { allArticlesQuery, allStudyGuidesQuery } from '../sanity/queries';
 import Header from '../components/layout/Header';
 import Footer from '../components/layout/Footer';
 import FeaturedArticle from '../components/homepage/FeaturedArticle';
 import SubFeaturedArticles from '../components/homepage/SubFeaturedArticles';
+import StudyGuideSlider from '../components/homepage/StudyGuideSlider';
 import InfiniteArticleList from '../components/homepage/InfiniteArticleList';
 import styles from './page.module.css';
 
@@ -20,6 +21,9 @@ export const metadata = {
 export default async function Home() {
   // Fetch all Wine articles from Sanity
   const articles = await client.fetch(allArticlesQuery, {}, { cache: 'no-store' });
+
+  // Fetch study guides published to somm.site
+  const studyGuides = await client.fetch(allStudyGuidesQuery, {}, { cache: 'no-store' });
 
   // Split articles: [0] = featured, [1,2] = sub-featured, [3+] = infinite scroll
   const featuredArticle = articles[0];
@@ -40,6 +44,9 @@ export default async function Home() {
           <SubFeaturedArticles articles={subFeaturedArticles} />
         )}
       </div>
+
+      {/* Regional Reports - Study Guide Slider */}
+      <StudyGuideSlider guides={studyGuides} />
       
       {/* Infinite Scroll - 4th Article Onward */}
       {infiniteScrollArticles.length > 0 && (

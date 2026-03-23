@@ -26,6 +26,7 @@ export default function HamburgerMenu({ isOpen, onToggle, onClose }) {
         <nav className={styles.mainNav}>
           <Link href="/" className={styles.mainLink} onClick={onClose}>Home</Link>
           <Link href="/articles" className={styles.mainLink} onClick={onClose}>Article Collection</Link>
+          <Link href="/study-guides" className={styles.mainLink} onClick={onClose}>Regional Reports</Link>
           <Link href="/intro-course" className={styles.mainLink} onClick={onClose}>Intro Course</Link>
           <Link href="/quizzes" className={styles.mainLink} onClick={onClose}>Wine Quiz</Link>
           <Link href="/encyclopedia" className={styles.mainLink} onClick={onClose}>Encyclopedia</Link>

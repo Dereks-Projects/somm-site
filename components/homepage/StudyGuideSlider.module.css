@@ -1,0 +1,240 @@
+/* ─── SECTION WRAPPER ─── */
+.section {
+  background-color: #1a1a1a;
+  padding: 50px 20px 40px;
+}
+
+@media (min-width: 768px) {
+  .section {
+    padding: 60px 60px 50px;
+  }
+}
+
+/* ─── HEADER ─── */
+.header {
+  max-width: 1600px;
+  margin: 0 auto 30px;
+}
+
+.headerText {
+  margin-bottom: 0;
+}
+
+.label {
+  font-family: var(--font-montserrat);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #999999;
+  margin: 0 0 10px 0;
+}
+
+.heading {
+  font-family: var(--font-inter);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.35;
+  color: #ffffff;
+  margin: 0;
+}
+
+@media (min-width: 768px) {
+  .header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 40px;
+  }
+
+  .heading {
+    font-size: 30px;
+    max-width: 600px;
+  }
+}
+
+/* ─── BROWSE BUTTON (DESKTOP) ─── */
+.browseButtonDesktop {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .browseButtonDesktop {
+    display: inline-block;
+    font-family: var(--font-montserrat);
+    font-size: 14px;
+    font-weight: 600;
+    color: #1a1a1a;
+    background-color: #e0e0e0;
+    padding: 12px 28px;
+    border-radius: 6px;
+    text-decoration: none;
+    white-space: nowrap;
+    transition: background-color 0.2s ease;
+    flex-shrink: 0;
+  }
+
+  .browseButtonDesktop:hover {
+    background-color: #ffffff;
+  }
+}
+
+/* ─── BROWSE BUTTON (MOBILE) ─── */
+.browseButtonMobileWrapper {
+  max-width: 1600px;
+  margin: 24px auto 0;
+}
+
+.browseButtonMobile {
+  display: block;
+  font-family: var(--font-montserrat);
+  font-size: 14px;
+  font-weight: 600;
+  color: #1a1a1a;
+  background-color: #e0e0e0;
+  padding: 14px 28px;
+  border-radius: 6px;
+  text-decoration: none;
+  text-align: center;
+  transition: background-color 0.2s ease;
+}
+
+.browseButtonMobile:hover {
+  background-color: #ffffff;
+}
+
+@media (min-width: 768px) {
+  .browseButtonMobileWrapper {
+    display: none;
+  }
+}
+
+/* ─── SCROLL CONTAINER ─── */
+.scrollContainer {
+  max-width: 1600px;
+  margin: 0 auto;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+
+.scrollContainer::-webkit-scrollbar {
+  display: none;
+}
+
+/* ─── CARD ROW ─── */
+.cardRow {
+  display: flex;
+  gap: 20px;
+  padding-bottom: 4px;
+}
+
+@media (min-width: 768px) {
+  .cardRow {
+    gap: 24px;
+  }
+}
+
+/* ─── CARD ─── */
+.card {
+  flex: 0 0 280px;
+  height: 380px;
+  background-color: #2a2a2a;
+  border-radius: 8px;
+  overflow: hidden;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  transition: background-color 0.2s ease;
+}
+
+.card:hover {
+  background-color: #333333;
+}
+
+@media (min-width: 768px) {
+  .card {
+    flex: 0 0 300px;
+    height: 400px;
+  }
+}
+
+/* ─── CARD IMAGE ─── */
+.cardImageWrapper {
+  flex: 0 0 auto;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+.cardImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.cardImagePlaceholder {
+  width: 100%;
+  height: 100%;
+  background-color: #404040;
+}
+
+/* ─── CARD CONTENT ─── */
+.cardContent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+}
+
+.cardTitle {
+  font-family: var(--font-montserrat);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.3;
+  color: #ffffff;
+  margin: 0 0 8px 0;
+}
+
+.cardSubtitle {
+  font-family: var(--font-inter);
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #aaaaaa;
+  margin: 0;
+  flex: 1;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.cardLink {
+  font-family: var(--font-montserrat);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: #cccccc;
+  margin-top: 12px;
+  flex-shrink: 0;
+}
+
+.card:hover .cardLink {
+  color: #ffffff;
+}
+
+/* ─── SCROLL SNAP (MOBILE) ─── */
+@media (max-width: 767px) {
+  .scrollContainer {
+    scroll-snap-type: x mandatory;
+    scroll-padding-left: 20px;
+  }
+
+  .card {
+    scroll-snap-align: start;
+  }
+}
