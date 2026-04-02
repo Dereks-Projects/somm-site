@@ -1,0 +1,263 @@
+/* MOBILE FIRST - COURSE / SYLLABUS PAGE */
+
+.courseMain {
+  background-color: #fafafa;
+  min-height: 100vh;
+}
+
+/* ---- Course Hero ---- */
+.courseHero {
+  background-color: #000000;
+  padding: 40px 20px 50px;
+  text-align: center;
+}
+
+/* Breadcrumb */
+.breadcrumb {
+  margin-bottom: 24px;
+  font-family: var(--font-inter);
+  font-size: 13px;
+}
+
+.breadcrumbLink {
+  color: #888888;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.breadcrumbLink:hover {
+  color: #ffde59;
+}
+
+.breadcrumbSeparator {
+  color: #555555;
+  margin: 0 8px;
+}
+
+.breadcrumbCurrent {
+  color: #cccccc;
+}
+
+/* Course Info */
+.courseDifficulty {
+  font-family: var(--font-montserrat);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #ffde59;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+}
+
+.courseTitle {
+  font-family: var(--font-montserrat);
+  font-size: 32px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 18px;
+  line-height: 1.2;
+}
+
+.courseDescription {
+  font-family: var(--font-inter);
+  font-size: 15px;
+  color: #b0b0b0;
+  line-height: 1.7;
+  max-width: 640px;
+  margin: 0 auto 24px;
+}
+
+.courseMeta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 32px;
+}
+
+.courseMetaItem {
+  font-family: var(--font-inter);
+  font-size: 13px;
+  font-weight: 500;
+  color: #888888;
+}
+
+.courseMetaDivider {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: #444444;
+  flex-shrink: 0;
+}
+
+/* Get Started Button */
+.getStartedButton {
+  display: inline-block;
+  font-family: var(--font-montserrat);
+  font-size: 14px;
+  font-weight: 700;
+  color: #000000;
+  background-color: #ffde59;
+  padding: 14px 40px;
+  border-radius: 6px;
+  text-decoration: none;
+  letter-spacing: 0.5px;
+  transition: background-color 0.2s ease;
+}
+
+.getStartedButton:hover {
+  background-color: #ffe680;
+}
+
+/* ---- Lesson List ---- */
+.lessonListContainer {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px 60px;
+}
+
+.lessonListTitle {
+  font-family: var(--font-montserrat);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  color: #000000;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+  padding-bottom: 14px;
+  border-bottom: 2px solid #000000;
+}
+
+.lessonList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.lessonItem {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.lessonItem:last-child {
+  border-bottom: none;
+}
+
+.lessonLink {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 20px 0;
+  text-decoration: none;
+  transition: background-color 0.15s ease;
+  border-radius: 4px;
+}
+
+.lessonLink:hover {
+  background-color: #f0f0f0;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-left: -12px;
+  margin-right: -12px;
+}
+
+/* Lesson Number */
+.lessonNumber {
+  font-family: var(--font-montserrat);
+  font-size: 28px;
+  font-weight: 700;
+  color: #d0d0d0;
+  flex-shrink: 0;
+  width: 44px;
+  text-align: center;
+  line-height: 1;
+}
+
+.lessonLink:hover .lessonNumber {
+  color: #ffde59;
+}
+
+/* Lesson Info */
+.lessonInfo {
+  flex: 1;
+  min-width: 0;
+}
+
+.lessonTitle {
+  font-family: var(--font-montserrat);
+  font-size: 16px;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 4px;
+  line-height: 1.3;
+}
+
+.lessonExcerpt {
+  font-family: var(--font-inter);
+  font-size: 13px;
+  color: #666666;
+  line-height: 1.5;
+  display: none;
+}
+
+/* Arrow */
+.lessonArrow {
+  font-size: 24px;
+  color: #cccccc;
+  flex-shrink: 0;
+  transition: color 0.15s ease, transform 0.15s ease;
+}
+
+.lessonLink:hover .lessonArrow {
+  color: #000000;
+  transform: translateX(3px);
+}
+
+/* ---- DESKTOP ---- */
+@media (min-width: 768px) {
+  .courseHero {
+    padding: 60px 40px 70px;
+  }
+
+  .courseTitle {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+
+  .courseDescription {
+    font-size: 16px;
+    margin-bottom: 28px;
+  }
+
+  .getStartedButton {
+    font-size: 15px;
+    padding: 16px 48px;
+  }
+
+  .lessonListContainer {
+    padding: 60px 40px 80px;
+  }
+
+  .lessonListTitle {
+    font-size: 15px;
+    margin-bottom: 28px;
+  }
+
+  .lessonLink {
+    gap: 24px;
+    padding: 24px 0;
+  }
+
+  .lessonNumber {
+    font-size: 32px;
+    width: 52px;
+  }
+
+  .lessonTitle {
+    font-size: 18px;
+    margin-bottom: 6px;
+  }
+
+  .lessonExcerpt {
+    display: block;
+  }
+}

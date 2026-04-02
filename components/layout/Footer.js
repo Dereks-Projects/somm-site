@@ -16,7 +16,7 @@ export default function Footer() {
           <div className={styles.linksColumn}>
             <a href="/">Home</a>
             <a href="/articles">Wine Articles</a>
-            <a href="/intro-course">Introductory Course</a>
+            <a href="/courses">Courses</a>
             <a href="/encyclopedia">Encyclopedia</a>
             <a href="/quizzes">Wine Quiz</a>
           </div>

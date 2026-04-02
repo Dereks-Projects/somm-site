@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "courseTitle": "Introduction to Wine",
+    "courseSlug": "introduction-to-wine",
+    "courseDescription": "A comprehensive foundation in wine covering grape varieties, regional styles, geography, and notable producers. Built for anyone beginning their wine education or looking for a structured refresher on the essentials.",
+    "courseImage": "/blog-images/whitewinehero.jpg",
+    "courseImageAlt": "Introduction to Wine course, featuring vineyard rows and wine glasses",
+    "lessonCount": 9,
+    "difficulty": "Beginner",
+    "estimatedTime": "3 hours",
+    "lessonsFile": "introduction-to-wine-lessons.json"
+  },
+  {
+    "id": 2,
+    "courseTitle": "The Sommelier Position",
+    "courseSlug": "the-sommelier-position",
+    "courseDescription": "An in-depth study of the sommelier profession, from wine service technique and blind tasting methodology to wine list construction and guest relations. Designed for hospitality professionals pursuing or refining a career in wine service.",
+    "courseImage": "/blog-images/somm-role-hero.jpg",
+    "courseImageAlt": "The Sommelier Position course, featuring a sommelier presenting wine tableside",
+    "lessonCount": 6,
+    "difficulty": "Intermediate",
+    "estimatedTime": "2.5 hours",
+    "lessonsFile": "the-sommelier-position-lessons.json"
+  },
+  {
+    "id": 3,
+    "courseTitle": "Beverage Management Proseminar",
+    "courseSlug": "beverage-management-proseminar",
+    "courseDescription": "An advanced course in beverage program leadership covering cost control, inventory systems, vendor strategy, staff development, and revenue optimization. Built for current and aspiring food and beverage directors operating at the highest level.",
+    "courseImage": "/blog-images/bevmgmt-design-hero.jpg",
+    "courseImageAlt": "Beverage Management Proseminar course, featuring a professional bar and wine cellar",
+    "lessonCount": 6,
+    "difficulty": "Advanced",
+    "estimatedTime": "2.5 hours",
+    "lessonsFile": "beverage-management-lessons.json"
+  }
+]
