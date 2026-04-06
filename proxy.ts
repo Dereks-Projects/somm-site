@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server'
 import type { NextRequest } from 'next/server'
 
 // Countries to block
-const BLOCKED_COUNTRIES = ['RU', 'CN', 'VN', 'IQ', 'KP', 'IR']
+const BLOCKED_COUNTRIES = ['RU', 'CN', 'VN', 'IQ', 'KP', 'IR', 'SG']
 
 // Suspicious URL patterns (common bot probes)
 const BLOCKED_PATHS = [
