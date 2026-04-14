@@ -63,6 +63,15 @@
     "term": "Pinot Gris",
     "definition": "Pinot Gris, also known as Pinot Grigio in Italy, is a lighter white variety found growing throughout the world. This wine tends to be light to medium bodied and is mostly produced on the drier side. The grape was made famous from the ocean of examples flooding the U.S. market in the 1990’s and onward, forever cementing itself into the lexicon of wine drinkers. The examples of different styles are far and wide, with sweet examples from Alsace that age gracefully to off dry bottles at the gas station. However, what we find on restaurant wine lists most often are the light, bright styles that go well with earlier courses in the dinner service. Oregon has made great strides with the grape, and the producers who make a great Willamette Valley pinot noir usually make a pretty good pinot gris as well."
   },
+    {
+    "term": "Pinot Noir",
+    "definition": "Pinot Noir is a red wine grape variety known for producing some of the most elegant, complex, and terroir-driven wines in the world. Originating in Burgundy, France, it thrives in cooler climates where it can develop nuanced flavors of red cherry, raspberry, rose, and earth, often with subtle spice and forest floor notes as it ages. The grape has thin skins, which contribute to lighter color, softer tannins, and a more delicate structure compared to many other red varieties.",
+    "definition2": "Pinot Noir is considered one of the most difficult grapes to grow due to its sensitivity to climate, disease, and soil conditions, but in the right hands, it produces wines of remarkable depth and longevity. It is widely planted in regions such as Burgundy, Oregon, California, New Zealand, and Germany, each expressing a unique interpretation of the grape. Pinot Noir is also a key component in Champagne production, where it adds structure and body to sparkling wines.", 
+    "relatedArticle": {
+    "url": "/articles/look-at-pinot-noir",
+    "label": "Pinot Noir"
+  }  
+  },
   {
     "term": "Pisco",
     "definition": "A clear or lightly aged grape brandy made in Peru and Chile, known for its floral, fruity notes and its use in the Pisco Sour cocktail."

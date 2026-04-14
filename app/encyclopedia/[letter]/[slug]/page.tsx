@@ -31,7 +31,7 @@ import X from '../../../../data/encyclopedia/X.json'
 import Y from '../../../../data/encyclopedia/Y.json'
 import Z from '../../../../data/encyclopedia/Z.json'
 
-const letterData: { [key: string]: { term: string; definition: string; definition2?: string }[] } = {
+const letterData: { [key: string]: { term: string; definition: string; definition2?: string; relatedArticle?: { url: string; label: string } }[] } = {
   a: A, b: B, c: C, d: D, e: E, f: F, g: G, h: H, i: I, j: J, k: K, l: L, m: M,
   n: N, o: O, p: P, q: Q, r: R, s: S, t: T, u: U, v: V, w: W, x: X, y: Y, z: Z
 }
@@ -79,6 +79,15 @@ export default async function DefinitionPage({ params }: { params: Promise<{ let
             <p className={styles.definition}>{term.definition}</p>
             {term.definition2 && (
               <p className={styles.definition2}>{term.definition2}</p>
+            )}
+            {term.relatedArticle && (
+              <p className={styles.relatedArticle}>
+                Read more about{' '}
+                <Link href={term.relatedArticle.url} className={styles.relatedArticleLink}>
+                  {term.relatedArticle.label}
+                </Link>
+                {' '}on Somm.Site
+              </p>
             )}
           </div>
 

@@ -49,7 +49,7 @@ export default function CourseCatalog() {
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Are these sommelier courses free?",
+        "name": "Are these wine courses free?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "Yes. Every course on Somm.Site is completely free with no paywalls, subscriptions, or hidden costs. Our mission is to make professional wine and sommelier education accessible to everyone in the hospitality community."
@@ -60,7 +60,7 @@ export default function CourseCatalog() {
         "name": "Who are these wine courses designed for?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Our courses serve hospitality professionals at every level, from someone beginning their wine education to experienced sommeliers and beverage directors looking for structured reference material. The Introduction to Wine course is built for beginners, The Sommelier Position targets working wine service professionals, and the Beverage Management Proseminar is designed for current and aspiring food and beverage directors."
+          "text": "Our courses serve learners at every level, from someone beginning their wine education to experienced sommeliers and beverage directors looking for structured reference material. The Introduction to Wine course is built for beginners, The Sommelier Position targets working wine service professionals, and the Beverage Management Proseminar is designed for current and aspiring food and beverage directors."
         }
       },
       {
@@ -76,7 +76,7 @@ export default function CourseCatalog() {
         "name": "How long does each course take to complete?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The Introduction to Wine course contains 9 lessons and takes approximately 4.5 hours to complete. The Sommelier Position and Beverage Management Proseminar courses each contain 6 lessons and take approximately 3 hours each. All courses are self-paced, so you can work through them on your own schedule."
+          "text": "The Introduction to Wine course contains 9 lessons and takes approximately 2 hours to complete. The Sommelier Position and Beverage Management Proseminar courses each contain 6 lessons and take approximately 2.5 hours."
         }
       }
     ]
@@ -99,16 +99,16 @@ export default function CourseCatalog() {
             <p className={styles.catalogLabel}>SOMM.SITE</p>
             <h1 className={styles.catalogTitle}>Free Sommelier Courses & Wine Education</h1>
             <p className={styles.catalogDescription}>
-              Professional education in wine, sommelier practice, and beverage management. Free, comprehensive, and built for the hospitality community.
+              Professional education in wine, sommelier practice, and beverage management. Free, comprehensive, and built for the wine community.
             </p>
           </div>
 
           <div className={styles.catalogIntro}>
             <p className={styles.catalogIntroText}>
-              Three courses. Twenty-one lessons. From your first glass to the director's chair.
+              Three courses. Twenty-one lessons.
             </p>
             <p className={styles.catalogIntroSub}>
-              Whether you are studying for sommelier certification or building a beverage program from scratch, start here.
+              Whether you are casually learning or studying for sommelier certification, the journey begins here.
             </p>
           </div>
 
@@ -146,7 +146,7 @@ export default function CourseCatalog() {
             <h2 className={styles.faqTitle}>Frequently Asked Questions</h2>
             <div className={styles.faqList}>
               <details className={styles.faqItem}>
-                <summary className={styles.faqQuestion}>Are these sommelier courses free?</summary>
+                <summary className={styles.faqQuestion}>Are these wine courses free?</summary>
                 <p className={styles.faqAnswer}>
                   Yes. Every course on Somm.Site is completely free with no paywalls, subscriptions, or hidden costs. Our mission is to make professional wine and sommelier education accessible to everyone in the hospitality community.
                 </p>
@@ -154,7 +154,7 @@ export default function CourseCatalog() {
               <details className={styles.faqItem}>
                 <summary className={styles.faqQuestion}>Who are these wine courses designed for?</summary>
                 <p className={styles.faqAnswer}>
-                  Our courses serve hospitality professionals at every level, from someone beginning their wine education to experienced sommeliers and beverage directors looking for structured reference material. The Introduction to Wine course is built for beginners, The Sommelier Position targets working wine service professionals, and the Beverage Management Proseminar is designed for current and aspiring food and beverage directors.
+                  Our courses serve learners at every level, from someone beginning their wine education to experienced sommeliers and beverage directors looking for structured reference material. The Introduction to Wine course is built for beginners, The Sommelier Position targets working wine service professionals, and the Beverage Management Proseminar is designed for current and aspiring food and beverage directors.
                 </p>
               </details>
               <details className={styles.faqItem}>
@@ -166,7 +166,7 @@ export default function CourseCatalog() {
               <details className={styles.faqItem}>
                 <summary className={styles.faqQuestion}>How long does each course take to complete?</summary>
                 <p className={styles.faqAnswer}>
-                  The Introduction to Wine course contains 9 lessons and takes approximately 4.5 hours to complete. The Sommelier Position and Beverage Management Proseminar courses each contain 6 lessons and take approximately 3 hours each. All courses are self-paced, so you can work through them on your own schedule.
+                  The Introduction to Wine course contains 9 lessons and takes approximately 2 hours to complete. The Sommelier Position and Beverage Management Proseminar courses each contain 6 lessons and take approximately 2.5 hours.
                 </p>
               </details>
             </div>

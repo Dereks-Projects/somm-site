@@ -94,7 +94,11 @@
   },
   {
     "term": "Albariño",
-    "definition": "Albariño is a high-quality white grape native to the Iberian Peninsula, most famously grown in the Rías Baixas region of Galicia in northwestern Spain, as well as in northern Portugal where it is known as Alvarinho. It thrives in the cool, maritime climate of these coastal areas, producing wines that are fresh, aromatic, and crisp, with natural acidity and a slight saline edge. Typical flavor notes include citrus, green apple, white peach, and floral tones, often with a touch of minerality that reflects its Atlantic-influenced terroir. While typically enjoyed young for its vibrant character, top examples can gain texture and complexity with short aging or lees contact."
+    "definition": "Albariño is a high-quality white grape native to the Iberian Peninsula, most famously grown in the Rías Baixas region of Galicia in northwestern Spain, as well as in northern Portugal where it is known as Alvarinho. It thrives in the cool, maritime climate of these coastal areas, producing wines that are fresh, aromatic, and crisp, with natural acidity and a slight saline edge. Typical flavor notes include citrus, green apple, white peach, and floral tones, often with a touch of minerality that reflects its Atlantic-influenced terroir. While typically enjoyed young for its vibrant character, top examples can gain texture and complexity with short aging or lees contact.",
+    "relatedArticle": {
+    "url": "/articles/land-of-albarino",
+    "label": "Albariño"
+  }
   },
   {
     "term": "Albariza",
@@ -183,7 +187,8 @@
   },
   {
     "term": "American Viticultural Area (AVA)",
-    "definition": "An American Viticultural Area (AVA) is a designated winegrowing region in the United States, defined by unique geographic, climatic, and soil conditions that influence the character of the wine produced there. Established and regulated by the Alcohol and Tobacco Tax and Trade Bureau (TTB), an AVA serves as a legally recognized indication of origin—similar to France’s AOC or Italy’s DOC systems. There are over 270 AVAs in the U.S., ranging from broad regions like California’s North Coast to very specific areas like Oakville within Napa Valley. To use an AVA name on a wine label, at least 85% of the grapes must come from that area, and the wine must be fully finished within the state of that AVA. AVAs help consumers understand where a wine is from and, over time, can offer clues about a wine’s typical style, quality, and grape variety. For example, Willamette Valley AVA in Oregon is known for Pinot Noir, while Sonoma Coast AVA often produces crisp Chardonnay. Though AVAs don’t guarantee quality, they do help highlight the diversity of American wine regions and provide a framework for regional identity and terroir-driven winemaking."
+    "definition": "An American Viticultural Area (AVA) is a designated winegrowing region in the United States, defined by unique geographic, climatic, and soil conditions that influence the character of the wine produced there.",
+    "definition2": "Established and regulated by the Alcohol and Tobacco Tax and Trade Bureau (TTB), an AVA serves as a legally recognized indication of origin, similar to France’s AOC or Italy’s DOC systems. There are over 270 AVAs in the U.S., ranging from broad regions like California’s North Coast to very specific areas like Oakville within Napa Valley. To use an AVA name on a wine label, at least 85% of the grapes must come from that area, and the wine must be fully finished within the state of that AVA. AVAs help consumers understand where a wine is from and, over time, can offer clues about a wine’s typical style, quality, and grape variety. For example, Willamette Valley AVA in Oregon is known for Pinot Noir, while Sonoma Coast AVA often produces crisp Chardonnay. Though AVAs don’t guarantee quality, they do help highlight the diversity of American wine regions and provide a framework for regional identity and terroir-driven winemaking."
   },
   {
     "term": "American Whiskey",
