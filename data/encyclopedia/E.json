@@ -29,7 +29,12 @@
   },
   {
     "term": "Emilia-Romagna",
-    "definition": "Emilia-Romagna, located in northern Italy, is a diverse and agriculturally rich region known for its culinary heritage and approachable, food-friendly wines. Historically a crossroads between northern and central Italy, the region blends Roman, Byzantine, and Renaissance influences, which is reflected in both its cuisine and wine traditions. The region is divided into two parts: Emilia, known for its sparkling reds like Lambrusco, and Romagna, which produces structured reds from Sangiovese and fresh whites from Albana and Trebbiano. Lambrusco, once associated with cheap, sweet wines, has seen a quality revival, particularly in appellations like Lambrusco di Sorbara and Lambrusco Grasparossa di Castelvetro, offering dry, lively wines that pair perfectly with local dishes like prosciutto and Parmigiano-Reggiano. In Romagna, Sangiovese di Romagna is gaining recognition for its expressive, terroir-driven reds, often softer and more approachable than Tuscan Sangiovese. Emilia-Romagna may not have the international prestige of some Italian regions, but its wines are deeply tied to its rich gastronomic culture and offer tremendous value and character."
+    "definition": "Emilia-Romagna, located in northern Italy, is a diverse and agriculturally rich region known for its culinary heritage and approachable, food-friendly wines. Historically a crossroads between northern and central Italy, the region blends Roman, Byzantine, and Renaissance influences, which is reflected in both its cuisine and wine traditions. The region is divided into two parts: Emilia, known for its sparkling reds like Lambrusco, and Romagna, which produces structured reds from Sangiovese and fresh whites from Albana and Trebbiano. ",
+    "definition2": "Lambrusco, once associated with cheap, sweet wines, has seen a quality revival, particularly in appellations like Lambrusco di Sorbara and Lambrusco Grasparossa di Castelvetro, offering dry, lively wines that pair perfectly with local dishes like prosciutto and Parmigiano-Reggiano. In Romagna, Sangiovese di Romagna is gaining recognition for its expressive, terroir-driven reds, often softer and more approachable than Tuscan Sangiovese. Emilia-Romagna may not have the international prestige of some Italian regions, but its wines are deeply tied to its rich gastronomic culture and offer tremendous value and character.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-italy",
+    "label": "Italy"
+  }
   },
   {
     "term": "England",

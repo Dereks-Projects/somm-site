@@ -21,7 +21,11 @@
   },
   {
     "term": "Campania",
-    "definition": "Campania, located in southern Italy around Naples, is a historic wine region with ancient roots dating back to Greek and Roman times. It is known for its volcanic soils and native grape varieties, such as Aglianico for powerful reds (especially in Taurasi DOCG) and Fiano, Greco, and Falanghina for aromatic, mineral-driven whites. Campania’s mix of coastal breezes, mountainous terrain, and warm Mediterranean climate allows for wines with both richness and vibrant acidity."
+    "definition": "Campania, located in southern Italy around Naples, is a historic wine region with ancient roots dating back to Greek and Roman times. It is known for its volcanic soils and native grape varieties, such as Aglianico for powerful reds (especially in Taurasi DOCG) and Fiano, Greco, and Falanghina for aromatic, mineral-driven whites. Campania’s mix of coastal breezes, mountainous terrain, and warm Mediterranean climate allows for wines with both richness and vibrant acidity.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-italy",
+    "label": "Italy"
+  }
   },
   {
     "term": "Canada",
@@ -109,7 +113,12 @@
   },
   {
     "term": "Chianti",
-    "definition": "Chianti and Chianti Classico are two related, but distinct wine regions located in Tuscany, central Italy, famous for producing some of the country’s most iconic red wines. The broader Chianti DOCG covers a large area between Florence and Siena and includes several subzones such as Chianti Rufina, Chianti Colli Senesi, and others. These wines must be made primarily from Sangiovese, Italy’s most widely planted red grape, though the regulations allow blending with small percentages of other local or international varieties such as Canaiolo, Colorino, Cabernet Sauvignon, and Merlot. Chianti wines are known for their bright acidity, moderate tannins, and classic flavors of cherry, dried herbs, and subtle earthiness, making them versatile food wines, especially with tomato-based dishes and Tuscan cuisine. Chianti Classico, on the other hand, refers to the historical heart of the Chianti region, which was officially demarcated as early as 1716 and today holds its own separate DOCG status. Located between Florence and Siena, Chianti Classico must contain a minimum of 80% Sangiovese, though many top producers make wines with 100%. The region is distinguished by its higher elevation vineyards, varied soils (including galestro and alberese), and stricter quality regulations. Wines from Chianti Classico tend to have more structure, depth, and aging potential than those from the broader Chianti zone. Additionally, Chianti Classico uses a tiered quality system: Annata (standard), Riserva (minimum two years aging), and Gran Selezione (sourced from estate-grown grapes with longer aging), offering a range of expressions within a shared commitment to tradition and terroir."
+    "definition": "Chianti and Chianti Classico are two related, but distinct wine regions located in Tuscany, central Italy, famous for producing some of the country’s most iconic red wines. The broader Chianti DOCG covers a large area between Florence and Siena and includes several subzones such as Chianti Rufina, Chianti Colli Senesi, and others. These wines must be made primarily from Sangiovese, Italy’s most widely planted red grape, though the regulations allow blending with small percentages of other local or international varieties such as Canaiolo, Colorino, Cabernet Sauvignon, and Merlot. Chianti wines are known for their bright acidity, moderate tannins, and classic flavors of cherry, dried herbs, and subtle earthiness, making them versatile food wines, especially with tomato-based dishes and Tuscan cuisine.",
+    "definition2": "Chianti Classico, on the other hand, refers to the historical heart of the Chianti region, which was officially demarcated as early as 1716 and today holds its own separate DOCG status. Located between Florence and Siena, Chianti Classico must contain a minimum of 80% Sangiovese, though many top producers make wines with 100%. The region is distinguished by its higher elevation vineyards, varied soils (including galestro and alberese), and stricter quality regulations. Wines from Chianti Classico tend to have more structure, depth, and aging potential than those from the broader Chianti zone. Additionally, Chianti Classico uses a tiered quality system: Annata (standard), Riserva (minimum two years aging), and Gran Selezione (sourced from estate-grown grapes with longer aging), offering a range of expressions within a shared commitment to tradition and terroir. ",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-italy",
+    "label": "Italy"
+  }
   },
   {
     "term": "Chile",

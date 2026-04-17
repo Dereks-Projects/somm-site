@@ -40,6 +40,22 @@
     "definition": "A winemaking term that describes the left-over solid matter after the grapes are pressed for their juice. A rough type of brandy is produced from this material, and Italy is prized for its grappa which is made from the marc."
   },
   {
+    "term": "Margaret River",
+    "definition": "Margaret River is a premier wine region in Western Australia, located along a remote coastal area south of Perth. Despite producing only a small percentage of Australia’s total wine, it is considered one of the country’s most prestigious regions due to its consistently high quality. The climate is strongly influenced by the surrounding oceans, creating conditions similar to Bordeaux, which makes it ideal for Cabernet Sauvignon and Chardonnay. The wines are known for their balance, structure, and elegance, often combining power with refined acidity. Margaret River also benefits from a relatively young industry, allowing producers to adopt modern techniques while focusing on quality from the start. Today, it stands as one of Australia’s benchmark regions for premium wine.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-australia-and-new-zealand",
+    "label": "Australia"
+  }
+  },
+  {
+    "term": "McLaren Vale",
+    "definition": "McLaren Vale is a prominent wine region in South Australia, located just south of Adelaide, known for its Mediterranean climate and diverse terroir. The region is especially famous for Shiraz, which often shows ripe fruit, richness, and a distinct savory, earthy character. Proximity to the ocean helps moderate temperatures, allowing for balanced wines with both power and freshness. McLaren Vale is also recognized for its innovation, including a strong focus on organic and biodynamic viticulture. Today, it stands as one of Australia’s most dynamic regions, producing a wide range of expressive red and white wines.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-australia-and-new-zealand",
+    "label": "Australia"
+  }
+  },
+  {
     "term": "Mead",
     "definition": "An alcoholic beverage made from fermented honey, sometimes blended with fruit or spices, representing one of the oldest known alcoholic drinks in the world."
   },

@@ -1,7 +1,11 @@
 [
   {
     "term": "Falanghina",
-    "definition": "White wine grape found in the Campania region of Italy."
+    "definition": "Falanghina is an ancient white grape from southern Italy, particularly associated with Campania. It produces fresh, aromatic wines with notes of citrus, stone fruit, and sometimes a subtle floral or herbal character. Known for its bright acidity and versatility, Falanghina is often enjoyed young and pairs well with seafood and Mediterranean dishes.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-italy",
+    "label": "Italy"
+  }
   },
   {
     "term": "Farmhouse Ale",
@@ -21,7 +25,11 @@
   },
   {
     "term": "Fiano",
-    "definition": "White wine grape found in the Campania region of Italy."
+    "definition": "Fiano is a high-quality white grape from southern Italy, most famously grown in Campania where it produces Fiano di Avellino DOCG wines. It is known for its rich texture and complex aromas, often showing notes of pear, hazelnut, honey, and subtle smoke. Unlike many southern Italian whites, Fiano has the structure and acidity to age, developing deeper, more savory characteristics over time.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-italy",
+    "label": "Italy"
+  }
   },
   {
     "term": "Filtration",

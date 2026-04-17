@@ -9,7 +9,11 @@
   },
   {
     "term": "IGT",
-    "definition": "Indacazione Geographica Tipica. An Italian tern for a typical wine of a particular region. It often means a lower quality than the DOC/DOCG level. However, there are many wines that choose to bottle under the IGT to avoid adhering to the regulations of the region. Many of the “Super Tuscan” wines are bottled as IGT and command very high prices."
+    "definition": "Indacazione Geographica Tipica. An Italian tern for a typical wine of a particular region. It often means a lower quality than the DOC/DOCG level. However, there are many wines that choose to bottle under the IGT to avoid adhering to the regulations of the region. Many of the “Super Tuscan” wines are bottled as IGT and command very high prices.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-italy",
+    "label": "Italy"
+  }
   },
   {
     "term": "India Pale Ale (IPA)",
@@ -37,6 +41,11 @@
   },
   {
     "term": "Italy",
-    "definition": "Italy is one of the world’s most important wine-producing nations, both historically and in modern times, offering unmatched diversity in grape varieties, styles, and regional traditions. With over 500 officially recognized native grape varieties—more than any other country—Italy’s wines range from the structured reds of Barolo and Brunello to the crisp whites of Soave and Verdicchio, the sparkling wines of Franciacorta and Prosecco, and the iconic blends of Chianti Classico and Super Tuscans. The country is divided into 20 wine regions, each with distinct climates, soils, and cultural identities, from the alpine freshness of Alto Adige to the sun-baked richness of Sicily and Puglia. Italy’s wine laws (DOC, DOCG, IGT) help preserve tradition while allowing innovation, and many producers blend centuries-old practices with modern techniques to craft wines of remarkable character and global acclaim. Food and wine culture are deeply intertwined in Italy, with regional wines crafted to complement local cuisine, enhancing both in a harmonious, often unforgettable experience. For wine lovers, Italy offers not just a vast selection of wines, but a gateway into history, art, and culture—each bottle a reflection of place, passion, and proud heritage."
+    "definition": "Italy is one of the world’s most important wine-producing nations, both historically and in modern times, offering unmatched diversity in grape varieties, styles, and regional traditions. With over 500 officially recognized native grape varieties—more than any other country—Italy’s wines range from the structured reds of Barolo and Brunello to the crisp whites of Soave and Verdicchio, the sparkling wines of Franciacorta and Prosecco, and the iconic blends of Chianti Classico and Super Tuscans. The country is divided into 20 wine regions, each with distinct climates, soils, and cultural identities, from the alpine freshness of Alto Adige to the sun-baked richness of Sicily and Puglia.",
+    "definition2": "Italy’s wine laws (DOC, DOCG, IGT) help preserve tradition while allowing innovation, and many producers blend centuries-old practices with modern techniques to craft wines of remarkable character and global acclaim. Food and wine culture are deeply intertwined in Italy, with regional wines crafted to complement local cuisine, enhancing both in a harmonious, often unforgettable experience. For wine lovers, Italy offers not just a vast selection of wines, but a gateway into history, art, and culture—each bottle a reflection of place, passion, and proud heritage.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-italy",
+    "label": "Italy"
+  }
   }
 ]

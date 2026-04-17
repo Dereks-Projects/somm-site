@@ -21,7 +21,11 @@
   },
   {
     "term": "New Zealand",
-    "definition": "A wine producing country in the south Pacific Ocean that has found notoriety in their expressive version of the Sauvignon Blanc grape. However, both islands are well suited to Vitis vinifera production, with a diverse array of microclimates to take advantage of. Central Otago, on the southern island, has made a name for itself as an up-and-coming area of Pinot Noir production."
+    "definition": "A wine producing country in the south Pacific Ocean that has found notoriety in their expressive version of the Sauvignon Blanc grape. However, both islands are well suited to Vitis vinifera production, with a diverse array of microclimates to take advantage of. Central Otago, on the southern island, has made a name for itself as an up-and-coming area of Pinot Noir production.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-australia-and-new-zealand",
+    "label": "New Zealand"
+  }
   },
   {
     "term": "Noble Rot",

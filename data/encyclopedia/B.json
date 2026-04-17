@@ -26,7 +26,11 @@
   },
   {
     "term": "Barbaresco",
-    "definition": "Barbaresco is a prestigious red wine from Piedmont in northwestern Italy, made exclusively from the Nebbiolo grape. Grown in vineyards surrounding the village of Barbaresco, the wine shares many characteristics with Barolo—its more famous neighbor—but is generally considered more elegant, approachable, and earlier-drinking. Thanks to slightly lower tannins and a shorter aging requirement (two years for Barbaresco vs. three for Barolo), it often displays floral aromatics, red cherry, and spice with refined structure. Top producers like Gaja, Bruno Rocca, and Produttori del Barbaresco have helped elevate the region’s reputation for crafting graceful, age-worthy wines with deep complexity."
+    "definition": "Barbaresco is a prestigious red wine from Piedmont in northwestern Italy, made exclusively from the Nebbiolo grape. Grown in vineyards surrounding the village of Barbaresco, the wine shares many characteristics with Barolo—its more famous neighbor—but is generally considered more elegant, approachable, and earlier-drinking. Thanks to slightly lower tannins and a shorter aging requirement (two years for Barbaresco vs. three for Barolo), it often displays floral aromatics, red cherry, and spice with refined structure. Top producers like Gaja, Bruno Rocca, and Produttori del Barbaresco have helped elevate the region’s reputation for crafting graceful, age-worthy wines with deep complexity.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-italy",
+    "label": "Italy"
+  }
   },
   {
     "term": "Barbera",
@@ -34,7 +38,11 @@
   },
   {
     "term": "Barolo",
-    "definition": "Barolo is one of Italy’s most iconic and age-worthy wines, produced exclusively from Nebbiolo grapes in the hills surrounding the village of Barolo in Piedmont. Often referred to as the “King of Wines,” Barolo is known for its firm tannins, high acidity, and complex aromas that evolve dramatically over time. In its youth, it offers notes of rose, tar, cherry, and dried herbs, while with age, it can develop truffle, leather, and spice characteristics. The wine is traditionally aged for at least three years (five for Riserva), with a portion spent in oak, allowing for the development of its signature structure and nuance. The region includes several distinct communes—such as La Morra, Serralunga d’Alba, and Monforte d’Alba—each imparting different expressions of Nebbiolo based on soil and microclimate. While once marked by long macerations and extended oak aging, today’s Barolo includes both traditional and modern styles, offering a range from bold and austere to more fruit-forward and polished. Esteemed producers include Giacomo Conterno, Bartolo Mascarello, and Vietti, among others. For wine lovers, Barolo represents the pinnacle of Italian red wine—demanding patience but delivering remarkable depth, elegance, and longevity in return."
+    "definition": "Barolo is one of Italy’s most iconic and age-worthy wines, produced exclusively from Nebbiolo grapes in the hills surrounding the village of Barolo in Piedmont. Often referred to as the “King of Wines,” Barolo is known for its firm tannins, high acidity, and complex aromas that evolve dramatically over time. In its youth, it offers notes of rose, tar, cherry, and dried herbs, while with age, it can develop truffle, leather, and spice characteristics. The wine is traditionally aged for at least three years (five for Riserva), with a portion spent in oak, allowing for the development of its signature structure and nuance. The region includes several distinct communes—such as La Morra, Serralunga d’Alba, and Monforte d’Alba—each imparting different expressions of Nebbiolo based on soil and microclimate. While once marked by long macerations and extended oak aging, today’s Barolo includes both traditional and modern styles, offering a range from bold and austere to more fruit-forward and polished. Esteemed producers include Giacomo Conterno, Bartolo Mascarello, and Vietti, among others. For wine lovers, Barolo represents the pinnacle of Italian red wine—demanding patience but delivering remarkable depth, elegance, and longevity in return.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-italy",
+    "label": "Italy"
+  }
   },
   {
     "term": "Barossa Valley",
@@ -126,7 +134,11 @@
   },
   {
     "term": "Bolgheri",
-    "definition": "Bolgheri is a prestigious wine region located along the Tuscan coast, in the province of Livorno, known for producing some of Italy’s most acclaimed and modern red wines. Once an unremarkable area for viticulture, Bolgheri rose to fame in the late 20th century with the emergence of Super Tuscan wines—bold, structured reds made from international grapes like Cabernet Sauvignon, Merlot, and Cabernet Franc, often blended with or without Sangiovese. The region’s warm, maritime climate, cooling sea breezes, and well-drained soils make it ideal for Bordeaux-style blends that combine richness with finesse. The official Bolgheri DOC, established in 1994, now governs these wines, with subzones like Bolgheri Sassicaia DOC created exclusively for the iconic wine Sassicaia, produced by Tenuta San Guido. Other renowned estates include Ornellaia, Guado al Tasso, and Le Macchiole, all of which helped define Bolgheri’s international reputation. Today, Bolgheri stands as a benchmark for modern Italian winemaking, producing elegant, age-worthy wines that rival the best of Bordeaux while expressing their own Mediterranean identity."
+    "definition": "Bolgheri is a prestigious wine region located along the Tuscan coast, in the province of Livorno, known for producing some of Italy’s most acclaimed and modern red wines. Once an unremarkable area for viticulture, Bolgheri rose to fame in the late 20th century with the emergence of Super Tuscan wines—bold, structured reds made from international grapes like Cabernet Sauvignon, Merlot, and Cabernet Franc, often blended with or without Sangiovese. The region’s warm, maritime climate, cooling sea breezes, and well-drained soils make it ideal for Bordeaux-style blends that combine richness with finesse. The official Bolgheri DOC, established in 1994, now governs these wines, with subzones like Bolgheri Sassicaia DOC created exclusively for the iconic wine Sassicaia, produced by Tenuta San Guido. Other renowned estates include Ornellaia, Guado al Tasso, and Le Macchiole, all of which helped define Bolgheri’s international reputation. Today, Bolgheri stands as a benchmark for modern Italian winemaking, producing elegant, age-worthy wines that rival the best of Bordeaux while expressing their own Mediterranean identity.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-italy",
+    "label": "Italy"
+  }
   },
   {
     "term": "Bordeaux",
@@ -187,7 +199,11 @@
   },
   {
     "term": "Brunello di Montalcino",
-    "definition": "Brunello di Montalcino is a prestigious DOCG wine from Tuscany, Italy, produced exclusively from 100% Sangiovese Grosso grapes—locally known as Brunello—grown around the hilltop town of Montalcino. The region’s warmer, drier climate compared to Chianti allows for fuller-bodied wines with deep concentration, firm tannins, and extended aging potential. Brunello must be aged a minimum of five years before release (six for Riserva), with at least two years in oak and four months in bottle. Notable producers include Biondi-Santi—the estate that pioneered the style—as well as Casanova di Neri, Altesino, and Poggio di Sotto. These wines are prized for their complex aromas of dark cherry, leather, tobacco, dried herbs, and their graceful evolution over decades."
+    "definition": "Brunello di Montalcino is a prestigious DOCG wine from Tuscany, Italy, produced exclusively from 100% Sangiovese Grosso grapes—locally known as Brunello—grown around the hilltop town of Montalcino. The region’s warmer, drier climate compared to Chianti allows for fuller-bodied wines with deep concentration, firm tannins, and extended aging potential. Brunello must be aged a minimum of five years before release (six for Riserva), with at least two years in oak and four months in bottle. Notable producers include Biondi-Santi—the estate that pioneered the style—as well as Casanova di Neri, Altesino, and Poggio di Sotto. These wines are prized for their complex aromas of dark cherry, leather, tobacco, dried herbs, and their graceful evolution over decades.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-italy",
+    "label": "Italy"
+  }
   },
   {
     "term": "Brut",
