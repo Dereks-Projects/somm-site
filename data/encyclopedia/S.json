@@ -1,7 +1,11 @@
 [
   {
     "term": "Sagrantino",
-    "definition": "Native to Umbria, Italy, producing deeply tannic, inky reds centered around Montefalco."
+    "definition": "Native to Umbria, Italy, producing deeply tannic, inky reds centered around Montefalco.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-italy",
+    "label": "Italy"
+  }
   },
   {
     "term": "Saignée",
@@ -29,7 +33,7 @@
   },
   {
     "term": "Salta",
-    "definition": "Argentina. Salta, in Argentina’s far northwest, is one of the world’s highest-altitude wine regions, where Torrontés thrives in bright sunlight and cool nights to produce aromatic, floral whites, while Malbec and Cabernet Sauvignon develop bold structure and vivid acidity."
+    "definition": "Salta, in Argentina’s far northwest, is one of the world’s highest-altitude wine regions, where Torrontés thrives in bright sunlight and cool nights to produce aromatic, floral whites, while Malbec and Cabernet Sauvignon develop bold structure and vivid acidity."
   },
   {
     "term": "Sambuca",
@@ -37,7 +41,7 @@
   },
   {
     "term": "Sancerre",
-    "definition": "France. A wine region located in the Loire Valley of France, based on the Sauvignon Blanc grape. This are produces red and rose as well, however, the region is most known for its white wine production."
+    "definition": "A wine region located in the Loire Valley of France, based on the Sauvignon Blanc grape. This are produces red and rose as well, however, the region is most known for its white wine production."
   },
   {
     "term": "San Luis Obispo County",
@@ -53,11 +57,15 @@
   },
   {
     "term": "Sardinia",
-    "definition": "Italy. Sardinia is an Italian island with a distinct identity, producing powerful reds like Cannonau (Grenache) and bold whites such as Vermentino, often marked by herbal notes, salinity, and wild Mediterranean character influenced by centuries of cultural blending and coastal climate."
+    "definition": "Sardinia is an Italian island with a distinct identity, producing powerful reds like Cannonau (Grenache) and bold whites such as Vermentino, often marked by herbal notes, salinity, and wild Mediterranean character influenced by centuries of cultural blending and coastal climate.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-italy",
+    "label": "Italy"
+  }
   },
   {
     "term": "Sauternes",
-    "definition": "Bordeaux, France. Sauternes, a legendary sweet wine from Bordeaux’s Graves region, is made from Sémillon, Sauvignon Blanc, and Muscadelle grapes affected by noble rot (Botrytis cinerea), which concentrates their sugars and flavors to create golden, lusciously textured wines layered with notes of honey, apricot, marmalade, and spice, capable of aging for decades."
+    "definition": "Sauternes, a legendary sweet wine from Bordeaux’s Graves region, is made from Sémillon, Sauvignon Blanc, and Muscadelle grapes affected by noble rot (Botrytis cinerea), which concentrates their sugars and flavors to create golden, lusciously textured wines layered with notes of honey, apricot, marmalade, and spice, capable of aging for decades."
   },
   {
     "term": "Sauvignon Blanc",
@@ -105,7 +113,11 @@
   },
   {
     "term": "Sicily",
-    "definition": "Sicily, Italy’s largest island, is a dynamic and sun-drenched wine region producing everything from robust reds like Nero d’Avola and Frappato to crisp, mineral-driven whites from Grillo, Catarratto, and volcanic-soil-grown Carricante on the slopes of Mount Etna, where elevation and ancient soils create striking expressions."
+    "definition": "Sicily, Italy’s largest island, is a dynamic and sun-drenched wine region producing everything from robust reds like Nero d’Avola and Frappato to crisp, mineral-driven whites from Grillo, Catarratto, and volcanic-soil-grown Carricante on the slopes of Mount Etna, where elevation and ancient soils create striking expressions.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-italy",
+    "label": "Italy"
+  }
   },
   {
     "term": "Sloe Gin",
@@ -117,7 +129,11 @@
   },
   {
     "term": "Soave",
-    "definition": "Veneto, Italy. Soave, a white wine from the Veneto region of northeastern Italy, is primarily made from the Garganega grape and offers a light, crisp, and often floral character with notes of almond and citrus, ranging in style from fresh and easy-drinking to complex and age-worthy when grown in hillside Classico zones with volcanic soils."
+    "definition": "Soave, a white wine from the Veneto region of northeastern Italy, is primarily made from the Garganega grape and offers a light, crisp, and often floral character with notes of almond and citrus, ranging in style from fresh and easy-drinking to complex and age-worthy when grown in hillside Classico zones with volcanic soils.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-italy",
+    "label": "Italy"
+  }
   },
   {
     "term": "Solera",
@@ -149,7 +165,11 @@
   },
   {
     "term": "Spumante",
-    "definition": "A term for sparkling wine in Italy."
+    "definition": "Spumante is the Italian term for fully sparkling wine, made in a range of styles from dry to sweet and produced in regions across the country. It can be made using different methods, including traditional bottle fermentation or tank methods, with Prosecco being one of the most well-known examples.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-italy",
+    "label": "Italy"
+  }
   },
   {
     "term": "Stellenbosch",
@@ -173,7 +193,11 @@
   },
   {
     "term": "Super Tuscan",
-    "definition": "A term found on wines from Tuscany, Italy that historically fell outside of the regulations of the strict DOC and DOCG systems. Comprised mostly of Bordeaux grapes and the regional specialty, Sangiovese, these are usually full bodied and heavier wines, with great complexity and a true laborious effort behind them."
+    "definition": "A term found on wines from Tuscany, Italy that historically fell outside of the regulations of the strict DOC and DOCG systems. Comprised mostly of Bordeaux grapes and the regional specialty, Sangiovese, these are usually full bodied and heavier wines, with great complexity and a true laborious effort behind them.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-italy",
+    "label": "Italy"
+  }
   },
   {
     "term": "Sur lie",
@@ -189,6 +213,7 @@
   },
   {
     "term": "Syrah",
-    "definition": "Syrah is a noble red grape variety known for producing deeply colored, full-bodied wines with impressive structure, complexity, and aging potential. Its origins lie in the Rhône Valley of France—particularly the Northern Rhône—where it shines in appellations such as Hermitage, Côte-Rôtie, Cornas, and Saint-Joseph. In these cooler climates, Syrah tends to express savory, peppery, and earthy characteristics with notes of black olive, violet, smoked meat, and black fruit. The wines are often firm and tannic in youth, evolving into layered, elegant expressions with age. Syrah has also found great success internationally, especially in Australia, where it is known as Shiraz and often made in a riper, more fruit-forward style. Australian regions like Barossa Valley, McLaren Vale, and Hunter Valley produce powerful Shiraz wines with rich blackberry, plum, chocolate, and spice notes, often with generous oak influence. In the New World—such as California, Washington State, South Africa, and Chile—Syrah adapts well to varying climates, showing versatility across a spectrum of styles, from plush and jammy to refined and mineral-driven. Despite its global reach, Syrah is somewhat misunderstood and underappreciated by casual consumers, often overshadowed by more recognizable names like Cabernet Sauvignon and Pinot Noir. However, among sommeliers and collectors, it is prized for its ability to express terroir, age gracefully, and deliver bold yet nuanced flavor profiles. Whether as a single-varietal wine or blended (as in GSM blends with Grenache and Mourvèdre), Syrah offers tremendous depth, making it one of the great grapes of the world."
+    "definition": "Syrah is a noble red grape variety known for producing deeply colored, full-bodied wines with impressive structure, complexity, and aging potential. Its origins lie in the Rhône Valley of France—particularly the Northern Rhône—where it shines in appellations such as Hermitage, Côte-Rôtie, Cornas, and Saint-Joseph.",
+    "definition2": "In these cooler climates, Syrah tends to express savory, peppery, and earthy characteristics with notes of black olive, violet, smoked meat, and black fruit. The wines are often firm and tannic in youth, evolving into layered, elegant expressions with age. Syrah has also found great success internationally, especially in Australia, where it is known as Shiraz and often made in a riper, more fruit-forward style. Australian regions like Barossa Valley, McLaren Vale, and Hunter Valley produce powerful Shiraz wines with rich blackberry, plum, chocolate, and spice notes, often with generous oak influence. In the New World—such as California, Washington State, South Africa, and Chile—Syrah adapts well to varying climates, showing versatility across a spectrum of styles, from plush and jammy to refined and mineral-driven. Despite its global reach, Syrah is somewhat misunderstood and underappreciated by casual consumers, often overshadowed by more recognizable names like Cabernet Sauvignon and Pinot Noir. However, among sommeliers and collectors, it is prized for its ability to express terroir, age gracefully, and deliver bold yet nuanced flavor profiles. Whether as a single-varietal wine or blended (as in GSM blends with Grenache and Mourvèdre), Syrah offers tremendous depth, making it one of the great grapes of the world."
   }
 ]

@@ -9,7 +9,11 @@
   },
   {
     "term": "Talento",
-    "definition": "An Italian term for sparkling wine made from the traditional method."
+    "definition": "An Italian term for sparkling wine made from the traditional method.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-italy",
+    "label": "Italy"
+  }
   },
   {
     "term": "Tannat",
@@ -29,7 +33,11 @@
   },
   {
     "term": "Taurasi",
-    "definition": "Italy. A red wine appellation in Campania, Italy, based on the Aglianico grape (DOCG)."
+    "definition": "Taurasi is a powerful red wine from Campania in southern Italy, made from the Aglianico grape and often considered one of the country’s greatest wines. Known for its firm structure, dark fruit, and ability to age for decades, it is often referred to as the Barolo of the South.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-italy",
+    "label": "Italy"
+  }
   },
   {
     "term": "Tawny Port",
@@ -117,6 +125,10 @@
   },
   {
     "term": "Tuscany",
-    "definition": "Italy. Tuscany is in central Italy and is one of the country’s most iconic wine regions, known for its rolling hills, cypress-lined roads, and historic estates producing world-renowned wines. At the heart of Tuscan wine is Sangiovese, the grape behind Chianti, Brunello di Montalcino, and Vino Nobile di Montepulciano, offering wines with bright acidity, firm tannins, and notes of cherry, earth, and herbs. The region is also home to Super Tuscans—innovative blends that often include international varieties like Cabernet Sauvignon and Merlot, challenging tradition and gaining global acclaim. Tuscany’s varied terroirs, from coastal Bolgheri to high-elevation Montalcino, allow for both classic and modern styles to thrive."
+    "definition": "Italy. Tuscany is in central Italy and is one of the country’s most iconic wine regions, known for its rolling hills, cypress-lined roads, and historic estates producing world-renowned wines. At the heart of Tuscan wine is Sangiovese, the grape behind Chianti, Brunello di Montalcino, and Vino Nobile di Montepulciano, offering wines with bright acidity, firm tannins, and notes of cherry, earth, and herbs. The region is also home to Super Tuscans—innovative blends that often include international varieties like Cabernet Sauvignon and Merlot, challenging tradition and gaining global acclaim. Tuscany’s varied terroirs, from coastal Bolgheri to high-elevation Montalcino, allow for both classic and modern styles to thrive.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-italy",
+    "label": "Italy"
+  }
   }
 ]

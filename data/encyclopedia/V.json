@@ -13,11 +13,19 @@
   },
   {
     "term": "Valpolicella",
-    "definition": "A red wine region in Italy’s Veneto known for light, fruity wines and powerful Amarone and Ripasso styles made from Corvina, Rondinella, and Molinara grapes."
+    "definition": "A red wine region in Italy’s Veneto known for light, fruity wines and powerful Amarone and Ripasso styles made from Corvina, Rondinella, and Molinara grapes.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-italy",
+    "label": "Italy"
+  }
   },
   {
     "term": "Valtellina",
-    "definition": "A mountainous wine region in northern Italy’s Lombardy, known for Nebbiolo-based wines (locally called Chiavennasca) with elegance and alpine freshness."
+    "definition": "A mountainous wine region in northern Italy’s Lombardy, known for Nebbiolo-based wines (locally called Chiavennasca) with elegance and alpine freshness.",
+   "relatedArticle": {
+    "url": "/study-guides/wines-of-italy",
+    "label": "Italy"
+  }
   },
   {
     "term": "Varietal",
@@ -29,7 +37,11 @@
   },
   {
     "term": "Vecchia Romagna",
-    "definition": "A classic Italian brandy made from Trebbiano grapes, known for its smooth, nutty flavor and iconic triangular bottle."
+    "definition": "A classic Italian brandy made from Trebbiano grapes, known for its smooth, nutty flavor and iconic triangular bottle.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-italy",
+    "label": "Italy"
+  }
   },
   {
     "term": "Vendange",
@@ -37,7 +49,11 @@
   },
   {
     "term": "Veneto",
-    "definition": "Veneto, located in northeastern Italy, is one of the country’s most productive and diverse wine regions, stretching from the foothills of the Alps to the Adriatic Sea. It is internationally known for Prosecco, the crisp, sparkling wine made primarily from the Glera grape, and for the rich, powerful reds of Valpolicella, including Amarone della Valpolicella, a wine made from dried grapes using the appassimento method to achieve concentration and depth. Veneto also produces Soave, a refreshing white wine made mostly from Garganega, often characterized by its almond notes and stony minerality. The region’s landscape and climate vary widely, offering cool alpine influences in the north and warmer plains toward the coast, allowing for a wide range of grape varieties and styles. While it excels in quantity, Veneto also delivers significant quality across both everyday table wines and some of Italy’s most celebrated DOC and DOCG offerings."
+    "definition": "Veneto, located in northeastern Italy, is one of the country’s most productive and diverse wine regions, stretching from the foothills of the Alps to the Adriatic Sea. It is internationally known for Prosecco, the crisp, sparkling wine made primarily from the Glera grape, and for the rich, powerful reds of Valpolicella, including Amarone della Valpolicella, a wine made from dried grapes using the appassimento method to achieve concentration and depth. Veneto also produces Soave, a refreshing white wine made mostly from Garganega, often characterized by its almond notes and stony minerality. The region’s landscape and climate vary widely, offering cool alpine influences in the north and warmer plains toward the coast, allowing for a wide range of grape varieties and styles. While it excels in quantity, Veneto also delivers significant quality across both everyday table wines and some of Italy’s most celebrated DOC and DOCG offerings.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-italy",
+    "label": "Italy"
+  }
   },
   {
     "term": "Verdelho",

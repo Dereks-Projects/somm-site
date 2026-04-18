@@ -17,7 +17,11 @@
   },
   {
     "term": "Umbria",
-    "definition": "A central Italian wine region producing rich reds from Sagrantino and Sangiovese, and crisp whites from Grechetto and Trebbiano Spoletino."
+    "definition": "A central Italian wine region producing rich reds from Sagrantino and Sangiovese, and crisp whites from Grechetto and Trebbiano Spoletino.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-italy",
+    "label": "Italy"
+  }
   },
   {
     "term": "Unfiltered",
@@ -33,6 +37,7 @@
   },
   {
     "term": "Uruguay",
-    "definition": "A rising South American wine country best known for Tannat, producing structured reds with elegance and balance influenced by Atlantic breezes."
+    "definition": "Uruguay is a small but increasingly important wine-producing country in South America, located between Brazil and Argentina along the Atlantic coast. Its climate is more humid and maritime than neighboring regions, which influences both vineyard practices and the style of the wines. The country is best known for Tannat, a grape originally from southwest France that has found a strong identity in Uruguay, producing wines with structure, dark fruit, and a more polished texture than its French counterparts.",
+    "definition2": "In addition to Tannat, Uruguay produces a range of wines from grapes such as Albariño, Merlot, and Cabernet Sauvignon, often with a focus on balance and freshness. The industry is dominated by small, family-owned wineries that emphasize quality over volume. Coastal breezes and moderate temperatures help retain acidity, giving the wines a distinctive freshness despite their richness. Today, Uruguay is gaining recognition for offering unique, high-quality wines that stand apart from the larger producers in the region."
   }
 ]
