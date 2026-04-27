@@ -26,13 +26,13 @@ async function getArticles(subcategory: string | null, tag: string | null) {
 
   if (tag) {
     // Tag filter — search the tags array for a case-insensitive match
-    filter = `*[_type == "article" && category == "wine" && "${tag}" in tags] | order(publishedAt desc)`;
+    filter = `*[_type == "article" && category == "wine" && "somm" in sites && "${tag}" in tags] | order(publishedAt desc)`;
   } else if (subcategory === 'other') {
-    filter = `*[_type == "article" && category == "wine" ${otherExclusions}] | order(publishedAt desc)`;
+    filter = `*[_type == "article" && category == "wine" && "somm" in sites ${otherExclusions}] | order(publishedAt desc)`;
   } else if (subcategory) {
-    filter = `*[_type == "article" && category == "wine" && lower(subcategory) == lower("${subcategory}")] | order(publishedAt desc)`;
+    filter = `*[_type == "article" && category == "wine" && "somm" in sites && lower(subcategory) == lower("${subcategory}")] | order(publishedAt desc)`;
   } else {
-    filter = `*[_type == "article" && category == "wine"] | order(publishedAt desc)`;
+    filter = `*[_type == "article" && category == "wine" && "somm" in sites] | order(publishedAt desc)`;
   }
 
   const query = `${filter} {

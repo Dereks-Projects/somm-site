@@ -74,7 +74,7 @@ async function getArticle(slug: string) {
       title,
       slug
     },
-    "subcategoryArticles": *[_type == "article" && subcategory == ^.subcategory && _id != ^._id] | order(publishedAt desc) [0...3]{
+    "subcategoryArticles": *[_type == "article" && subcategory == ^.subcategory && "somm" in sites && _id != ^._id] | order(publishedAt desc) [0...3]{
       title,
       slug,
       mainImage {

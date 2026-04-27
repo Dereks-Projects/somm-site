@@ -129,7 +129,6 @@ export default defineType({
       options: {
         list: [
           { title: 'SOMM.SITE', value: 'somm' },
-          { title: 'BACKBAR', value: 'backbar' },
           { title: 'Beverage.fyi', value: 'beverage' },
           { title: 'Restaurant Standards', value: 'restaurant' },
           { title: 'Hospitality.fyi', value: 'hospitality' },

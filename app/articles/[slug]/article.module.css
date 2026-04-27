@@ -132,12 +132,17 @@
 }
 
 .bodyContent blockquote {
-  border-left: 4px solid #ffde59;
-  padding-left: 24px;
+  text-align: center;
+  padding: 24px 20px;
   margin: 32px 0;
-  font-style: italic;
-  color: #374151;
-  font-size: 18px;
+  border-top: 2px solid #ffde59;
+  border-bottom: 2px solid #ffde59;
+  border-left: none;
+  font-style: normal;
+  font-weight: 700;
+  color: #000000;
+  font-size: 16px;
+  line-height: 1.65;
 }
 
 /* Internal article links in body text */
@@ -165,7 +170,7 @@
 }
 
 .imageCaption {
-  font-size: 13px !important;
+  font-size: 14px !important;
   color: #777777 !important;
   margin-top: 6px;
   font-family: var(--font-inter), sans-serif;
@@ -387,6 +392,14 @@ details[open] .faqQuestion::after {
   .title {
     font-size: 44px;
   }
+
+  .bodyContent blockquote {
+  padding: 32px 40px;
+  margin: 40px 0;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 20px;
+}
 
   .relatedGrid {
     grid-template-columns: repeat(3, 1fr);
