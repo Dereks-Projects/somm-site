@@ -38,7 +38,7 @@ export default function ImageLightbox({ src, alt, caption }) {
           style={{ width: '100%', height: 'auto' }}
         />
         {caption && (
-          <p className={styles.imageCaption}>{caption}</p>
+          <span className={styles.imageCaption}>{caption}</span>
         )}
         <div className={styles.expandHint} aria-hidden="true">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -69,7 +69,7 @@ export default function ImageLightbox({ src, alt, caption }) {
               className={styles.lightboxImage}
             />
             {caption && (
-              <p className={styles.lightboxCaption}>{caption}</p>
+              <span className={styles.imageCaption}>{caption}</span>
             )}
           </div>
         </div>
