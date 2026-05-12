@@ -76,9 +76,9 @@ export default async function DefinitionPage({ params }: { params: Promise<{ let
         <div className={styles.content}>
           <div className={styles.card}>
             <h1 className={styles.term}>{term.term}</h1>
-            <p className={styles.definition}>{term.definition}</p>
+            <p className={styles.definition} dangerouslySetInnerHTML={{ __html: term.definition }} />
             {term.definition2 && (
-              <p className={styles.definition2}>{term.definition2}</p>
+              <p className={styles.definition2} dangerouslySetInnerHTML={{ __html: term.definition2 }} />
             )}
             {term.relatedArticle && (
               <p className={styles.relatedArticle}>
