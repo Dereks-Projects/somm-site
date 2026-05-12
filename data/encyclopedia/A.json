@@ -166,7 +166,11 @@
   },
   {
     "term": "Aligote",
-    "definition": "Aligoté is a lesser-known white grape from Burgundy, France, often overshadowed by Chardonnay but prized for its high acidity and fresh, citrus-driven profile. Traditionally used in the classic Kir cocktail, it also shines in lean, mineral-driven wines, especially from the Bouzeron AOC. Aligoté is gaining renewed interest from growers and sommeliers for its food-friendly style and ability to express terroir in a vibrant, accessible way."
+    "definition": "Aligoté is a lesser-known white grape from Burgundy, France, often overshadowed by Chardonnay but prized for its high acidity and fresh, citrus-driven profile. Traditionally used in the classic Kir cocktail, it also shines in lean, mineral-driven wines, especially from the Bouzeron AOC. Aligoté is gaining renewed interest from growers and sommeliers for its food-friendly style and ability to express terroir in a vibrant, accessible way.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-france",
+    "label": "France"
+  }
   },
   {
     "term": "Almacenista",
@@ -175,7 +179,11 @@
   {
     "term": "Alsace",
     "definition": "Alsace, located in northeastern France along the German border, is a distinctive wine region with a unique blend of French and German cultural influences. Its wine history dates back to Roman times, but it was shaped significantly by centuries of shifting rule between France and Germany, which impacted both grape selection and winemaking style. Today, Alsace is known for its focus on varietal labeling—rare in France—and for producing aromatic, food-friendly white wines that reflect purity and terroir. The region specializes in noble white grapes such as Riesling, Gewurztraminer, Pinot Gris, and Muscat, which thrive in Alsace’s cool, dry climate and diverse soils. These wines are typically vinified dry, with crisp acidity, floral and mineral profiles, and a strong sense of place. Pinot Blanc and Sylvaner also appear, while Pinot Noir has gained traction in recent years, especially in warmer sites, producing fresh, elegant reds. Alsace is also known for its exceptional sparkling wine, Crémant d’Alsace, made using the traditional method. Wines from Alsace are often labeled by grape variety and sometimes by vineyard, including the prestigious Grand Cru sites.",
-    "definition2": "The region also produces late-harvest wines—Vendanges Tardives and Sélection de Grains Nobles—that show remarkable richness and aging potential. With a focus on precision, balance, and expression of terroir, Alsace continues to stand out as one of France’s most distinctive and characterful wine regions."  
+    "definition2": "The region also produces late-harvest wines—Vendanges Tardives and Sélection de Grains Nobles—that show remarkable richness and aging potential. With a focus on precision, balance, and expression of terroir, Alsace continues to stand out as one of France’s most distinctive and characterful wine regions.",  
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-france",
+    "label": "France"
+  }
   },
   {
     "term": "Alto-Adige",

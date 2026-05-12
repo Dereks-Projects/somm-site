@@ -9,7 +9,11 @@
   },
   {
     "term": "Nebbiolo",
-    "definition": "A Vitis vinifera grape found most prominently in the Piedmont region of northern Italy. This grape is responsible for Barolo and Barbaresco, two of the greatest red wines in the world."
+    "definition": "A Vitis vinifera grape found most prominently in the Piedmont region of northern Italy. This grape is responsible for Barolo and Barbaresco, two of the greatest red wines in the world.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-italy",
+    "label": "Italy"
+  }
   },
   {
     "term": "Négociant",

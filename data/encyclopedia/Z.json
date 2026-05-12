@@ -1,7 +1,11 @@
 [
   {
     "term": "Zibbibo",
-    "definition": "A synonym for Muscat in Sicily."
+    "definition": "A synonym for Muscat in Sicily.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-italy",
+    "label": "Italy"
+  }
   },
   {
     "term": "Zinfandel",

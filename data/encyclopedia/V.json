@@ -65,7 +65,11 @@
   },
   {
     "term": "Vermentino",
-    "definition": "A Mediterranean white grape common in Sardinia, Corsica, and Liguria, yielding fresh, saline wines ideal for seafood."
+    "definition": "A Mediterranean white grape common in Sardinia, Corsica, and Liguria, yielding fresh, saline wines ideal for seafood.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-italy",
+    "label": "Italy"
+  }
   },
   {
     "term": "Vermouth",

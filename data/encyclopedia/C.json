@@ -122,7 +122,11 @@
   },
   {
     "term": "Chile",
-    "definition": "Chile is a major wine-producing country in South America, stretching over 2,600 miles along the Pacific coast, with natural barriers—Andes mountains, the Atacama Desert, and ocean currents—creating ideal conditions for viticulture. The country is known for its expressive and affordable wines, particularly Cabernet Sauvignon, Carmenère (a Bordeaux variety nearly extinct in France), and Sauvignon Blanc. Key wine regions include the Maipo Valley for structured reds, Casablanca Valley for cool-climate whites, and Colchagua Valley for bold, fruit-forward blends. Chile’s phylloxera-free soils allow vines to grow on original rootstock, contributing to vine health and longevity. Prominent producers like Concha y Toro, Lapostolle, and Montes have helped raise the global profile of Chilean wines, which range from everyday value bottles to age-worthy, premium offerings."
+    "definition": "Chile is a major wine-producing country in South America, stretching over 2,600 miles along the Pacific coast, with natural barriers—Andes mountains, the Atacama Desert, and ocean currents—creating ideal conditions for viticulture. The country is known for its expressive and affordable wines, particularly Cabernet Sauvignon, Carmenère (a Bordeaux variety nearly extinct in France), and Sauvignon Blanc. Key wine regions include the Maipo Valley for structured reds, Casablanca Valley for cool-climate whites, and Colchagua Valley for bold, fruit-forward blends. Chile’s phylloxera-free soils allow vines to grow on original rootstock, contributing to vine health and longevity. Prominent producers like Concha y Toro, Lapostolle, and Montes have helped raise the global profile of Chilean wines, which range from everyday value bottles to age-worthy, premium offerings.", 
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-south-america",
+    "label": "South America"
+  }
   },
   {
     "term": "Chinon",

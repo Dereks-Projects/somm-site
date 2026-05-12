@@ -49,7 +49,12 @@
   },
   {
     "term": "Hunter Valley",
-    "definition": "The Hunter Valley, located north of Sydney in New South Wales, stands as Australia's oldest commercial wine region, with vine plantings dating back to the 1820s when Scottish immigrant James Busby established the country's first serious winemaking ventures, creating a viticultural tradition that has endured for over 200 years despite challenging climatic conditions. The region's unique terroir—characterized by ancient volcanic soils, high humidity, and frequent harvest-time rainfall that would challenge most wine regions—has proven ideally suited to Semillon, which produces the Hunter Valley's most distinctive wines: lean, austere whites that develop extraordinary honeyed complexity and waxy richness over decades of cellaring without any oak influence. While Semillon remains the Hunter's signature variety, the region also produces exceptional Shiraz with a distinctive earthy, leather, and chocolate character that differs markedly from the fruit-forward styles of Barossa or McLaren Vale, along with increasingly impressive Chardonnay that balances richness with minerality. The Hunter Valley's contribution to Australian wine extends beyond its distinctive varietals to include pioneering viticulture in challenging conditions, the establishment of wine tourism as an industry (being one of the world's first wine regions to embrace cellar door sales and vineyard restaurants), and the development of techniques for managing high-humidity vineyard conditions that have influenced winemaking practices across Australia's eastern seaboard."
+    "definition": "Hunter Valley is one of Australia’s oldest and most historically significant wine regions, located north of Sydney in New South Wales. The region is internationally recognized for its distinctive expressions of Semillon and Shiraz, with a winemaking history that dates back to the early 19th century. Despite its warm and humid climate, Hunter Valley has developed a reputation for producing wines with remarkable balance, longevity, and regional character.",
+    "definition2": "Hunter Valley Semillon is especially celebrated for its ability to age, transforming from a light, citrus-driven wine in youth into a complex style showing honey, toast, and nutty characteristics over time. The region’s Shiraz tends to be more savory and restrained than the richer styles found in South Australia, often showing notes of earth, spice, and red fruit. Today, Hunter Valley remains an important destination for wine tourism and a cornerstone of Australian wine history.", 
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-australia-and-new-zealand",
+    "label": "Australia"
+  }
   },
   {
     "term": "Hybrids",

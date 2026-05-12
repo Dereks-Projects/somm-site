@@ -18,7 +18,11 @@
   },
   {
     "term": "Bandol",
-    "definition": "Bandol is a prestigious wine region located in Provence along France’s Mediterranean coast, known for producing some of the most structured and age-worthy red wines in southern France. The region’s vineyards, situated on terraced hillsides overlooking the sea, benefit from abundant sunshine, cooling maritime breezes, and limestone-rich soils—ideal conditions for ripening Mourvèdre, the dominant grape of the region. Bandol reds must contain at least 50% Mourvèdre (often more), and are typically blended with Grenache and Cinsault, resulting in powerful wines with notes of dark berries, earth, leather, and spice that develop beautifully with age. In addition to reds, Bandol also produces rosé wines—dry, robust, and deeply colored—among the most respected in all of Provence, as well as small amounts of aromatic white wines from Clairette, Bourboulenc, and Ugni Blanc. With a deep-rooted winemaking tradition and a strong sense of place, Bandol stands apart from the lighter, more accessible wines of the broader Provence region, offering serious, cellar-worthy expressions of Mediterranean terroir."
+    "definition": "Bandol is a prestigious wine region located in Provence along France’s Mediterranean coast, known for producing some of the most structured and age-worthy red wines in southern France. The region’s vineyards, situated on terraced hillsides overlooking the sea, benefit from abundant sunshine, cooling maritime breezes, and limestone-rich soils—ideal conditions for ripening Mourvèdre, the dominant grape of the region. Bandol reds must contain at least 50% Mourvèdre (often more), and are typically blended with Grenache and Cinsault, resulting in powerful wines with notes of dark berries, earth, leather, and spice that develop beautifully with age. In addition to reds, Bandol also produces rosé wines—dry, robust, and deeply colored—among the most respected in all of Provence, as well as small amounts of aromatic white wines from Clairette, Bourboulenc, and Ugni Blanc. With a deep-rooted winemaking tradition and a strong sense of place, Bandol stands apart from the lighter, more accessible wines of the broader Provence region, offering serious, cellar-worthy expressions of Mediterranean terroir.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-france",
+    "label": "France"
+  }
   },
   {
     "term": "Banyuls",
@@ -46,7 +50,11 @@
   },
   {
     "term": "Barossa Valley",
-    "definition": "Barossa Valley, located in South Australia just northeast of Adelaide, is one of Australia’s most iconic and historic wine regions, renowned for its bold, full-bodied red wines. The valley has a warm, dry climate with low rainfall and well-drained soils, ideal for ripening thick-skinned grape varieties, especially Shiraz, which is the region’s signature grape. Barossa Shiraz is known for its deep color, rich fruit concentration, and notes of blackberry, plum, chocolate, and spice, often with aging potential and oak influence. The region also produces notable Cabernet Sauvignon, Grenache, and Mataro (Mourvèdre), as well as rich white wines from Semillon and Chardonnay. Barossa is home to some of the oldest continuously producing vines in the world, with many plantings over a century old. Famous producers like Penfolds, Henschke, Yalumba, and Torbreck have helped establish Barossa’s global reputation for quality and character, making it a cornerstone of Australian wine."
+    "definition": "Barossa Valley, located in South Australia just northeast of Adelaide, is one of Australia’s most iconic and historic wine regions, renowned for its bold, full-bodied red wines. The valley has a warm, dry climate with low rainfall and well-drained soils, ideal for ripening thick-skinned grape varieties, especially Shiraz, which is the region’s signature grape. Barossa Shiraz is known for its deep color, rich fruit concentration, and notes of blackberry, plum, chocolate, and spice, often with aging potential and oak influence. The region also produces notable Cabernet Sauvignon, Grenache, and Mataro (Mourvèdre), as well as rich white wines from Semillon and Chardonnay. Barossa is home to some of the oldest continuously producing vines in the world, with many plantings over a century old. Famous producers like Penfolds, Henschke, Yalumba, and Torbreck have helped establish Barossa’s global reputation for quality and character, making it a cornerstone of Australian wine.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-australia-and-new-zealand",
+    "label": "Australia"
+  }
   },
   {
     "term": "Barrel fermentation",
