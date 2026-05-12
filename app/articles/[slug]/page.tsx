@@ -6,6 +6,7 @@ import Image from 'next/image'
 import styles from './article.module.css'
 import Link from 'next/link'
 import { urlFor } from '../../../sanity/lib/imageUrl'
+import ImageLightbox from '../../../components/ImageLightbox'
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params
@@ -126,19 +127,11 @@ const portableTextComponents = {
       if (!imageUrl) return null
       
       return (
-        <div className={styles.imageWrapper}>
-          <Image
-            src={imageUrl}
-            alt={value.alt || ""}
-            width={896}
-            height={500}
-            className={styles.bodyImage}
-            style={{ width: '100%', height: 'auto' }}
-          />
-          {value.caption && (
-            <p className={styles.imageCaption}>{value.caption}</p>
-          )}
-        </div>
+        <ImageLightbox
+          src={imageUrl}
+          alt={value.alt || ''}
+          caption={value.caption}
+        />
       )
     },
   },
