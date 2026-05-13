@@ -85,7 +85,7 @@ export default function About() {
             <h1 className={styles.heroTitle}>About Us</h1>
             <p className={styles.heroSubtitle}>
               Somm.Site is a digital wine education platform built for aspiring sommeliers, 
-              hospitality professionals, and curious enthusiasts — offering free courses, quizzes, 
+              hospitality professionals, and curious enthusiasts. We offer free courses, quizzes, 
               and in-depth articles to help you build real knowledge. No memberships. No paywalls.
             </p>
           </div>
@@ -99,11 +99,11 @@ export default function About() {
               Great wine education shouldn't be locked behind expensive certifications or 
               scattered across countless sources that demand your email before offering a single 
               insight. Somm.Site exists to{' '}
-              <span className={styles.highlight}>democratize wine knowledge</span> — presenting 
+              <span className={styles.highlight}>democratize wine knowledge</span>. We present 
               grape varieties, regional traditions, and tasting methodology with clarity and depth 
               for hospitality professionals and enthusiasts alike. From the limestone soils of 
               Burgundy to the volcanic slopes of Mount Etna, from blind tasting technique to 
-              tableside service — we bring you the education that builds real careers, no strings 
+              tableside service... we bring you the education that builds real careers, no strings 
               attached.
             </p>
           </div>
@@ -114,11 +114,10 @@ export default function About() {
           <div className={styles.container}>
             <h2 className={styles.sectionTitle}>About Informative Media</h2>
             <p className={styles.companyText}>
-              Somm.Site is part of Informative Media, a hospitality education company operating a 
-              portfolio of digital platforms dedicated to beverage knowledge and service excellence. 
+              Somm.Site is part of Informative Media, a hospitality technology company operating a 
+              portfolio of digital platforms dedicated to technical knowledge and service excellence. 
               Founded by Derek Engles, a hospitality professional with over 20 years of industry 
-              experience including tenure as a sommelier and wine director at Wynn Las Vegas and 
-              a graduate of Harvard Business School's leadership program, our platforms serve 
+              experience, our platforms serve 
               professionals and enthusiasts who believe that quality education should be accessible 
               to everyone. We combine that deep industry expertise with modern technology to create 
               content that makes a real impact.
@@ -131,6 +130,15 @@ export default function About() {
             >
               Learn more about Informative Media →
             </a>
+            
+            <a
+              href="https://derekengles.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.companyLink}
+            >
+              Learn more about Derek Engles →
+            </a>
           </div>
         </section>
 
@@ -141,7 +149,7 @@ export default function About() {
             <p className={styles.ctaText}>
               Whether you're a wine brand looking to reach an engaged audience, a hospitality 
               group seeking to elevate your team's knowledge, or an organization that wants to 
-              put quality education in front of future industry leaders — we'd love to hear from you.
+              put quality education in front of future industry leaders... we'd love to hear from you.
             </p>
             <a href="mailto:derek@informativemedia.com" className={styles.ctaButton}>
               Get in Touch
