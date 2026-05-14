@@ -18,7 +18,8 @@
   },
   {
     "term": "Bandol",
-    "definition": "Bandol is a prestigious wine region located in Provence along France’s Mediterranean coast, known for producing some of the most structured and age-worthy red wines in southern France. The region’s vineyards, situated on terraced hillsides overlooking the sea, benefit from abundant sunshine, cooling maritime breezes, and limestone-rich soils—ideal conditions for ripening Mourvèdre, the dominant grape of the region. Bandol reds must contain at least 50% Mourvèdre (often more), and are typically blended with Grenache and Cinsault, resulting in powerful wines with notes of dark berries, earth, leather, and spice that develop beautifully with age. In addition to reds, Bandol also produces rosé wines—dry, robust, and deeply colored—among the most respected in all of Provence, as well as small amounts of aromatic white wines from Clairette, Bourboulenc, and Ugni Blanc. With a deep-rooted winemaking tradition and a strong sense of place, Bandol stands apart from the lighter, more accessible wines of the broader Provence region, offering serious, cellar-worthy expressions of Mediterranean terroir.",
+    "description": "Bandol is one of the most respected wine regions in southern France, located along the Mediterranean coast in Provence. The region is especially famous for powerful red wines made primarily from <strong>Mourvèdre</strong>, a grape that thrives in Bandol’s warm, sunny climate and limestone-rich soils. These wines are known for their dark fruit, spice, earthy character, and firm structure, often requiring years of aging to fully develop. While Provence is often associated with rosé, Bandol has long been recognized for producing some of the most serious and age-worthy red wines in the region.",
+    "descritption2": "Bandol also produces rosé and white wines, though the reds remain its signature style. The proximity to the Mediterranean helps moderate temperatures, preserving freshness despite the intense southern climate. Traditional winemaking and strict appellation rules have helped Bandol maintain a strong identity focused on quality and terroir. The region’s hillside vineyards and coastal influence create wines with both richness and balance. Today, <strong>Bandol</strong> is considered one of the benchmark appellations of Provence and a leading expression of Mourvèdre in the world.",
     "relatedArticle": {
     "url": "/study-guides/wines-of-france",
     "label": "France"
@@ -26,7 +27,11 @@
   },
   {
     "term": "Banyuls",
-    "definition": "Banyuls is a small but historic wine appellation in the Roussillon region of southern France, nestled along the Mediterranean coast near the Spanish border. Known for its Vin Doux Naturel—a fortified sweet wine—Banyuls is made primarily from Grenache Noir, with smaller amounts of Grenache Gris, Grenache Blanc, and sometimes Carignan or Mourvèdre. The region’s steep, terraced vineyards on schist soils and its warm, sunny climate help produce intensely ripe grapes ideal for the mutage process, where grape spirit is added to stop fermentation and preserve natural sugars. Banyuls wines are aged in a variety of ways—sometimes oxidatively in open glass containers or sun-exposed barrels—developing flavors of dried fruit, fig, cocoa, nuts, and spice. These rich, complex wines are often compared to Port and pair beautifully with chocolate, blue cheese, or roasted nuts, offering a uniquely Mediterranean take on fortified wine tradition."
+    "definition": "Banyuls is a small but historic wine appellation in the Roussillon region of southern France, nestled along the Mediterranean coast near the Spanish border. Known for its Vin Doux Naturel—a fortified sweet wine—Banyuls is made primarily from Grenache Noir, with smaller amounts of Grenache Gris, Grenache Blanc, and sometimes Carignan or Mourvèdre. The region’s steep, terraced vineyards on schist soils and its warm, sunny climate help produce intensely ripe grapes ideal for the mutage process, where grape spirit is added to stop fermentation and preserve natural sugars. Banyuls wines are aged in a variety of ways—sometimes oxidatively in open glass containers or sun-exposed barrels—developing flavors of dried fruit, fig, cocoa, nuts, and spice. These rich, complex wines are often compared to Port and pair beautifully with chocolate, blue cheese, or roasted nuts, offering a uniquely Mediterranean take on fortified wine tradition.",
+     "relatedArticle": {
+    "url": "/study-guides/wines-of-france",
+    "label": "France"
+  }
   },
   {
     "term": "Barbaresco",
@@ -38,11 +43,16 @@
   },
   {
     "term": "Barbera",
-    "definition": "Barbera is a widely planted red grape variety from Italy’s Piedmont region, known for its vibrant acidity, soft tannins, and juicy red fruit flavors like cherry and raspberry. Traditionally used for everyday wines, Barbera has gained recognition for its quality potential, especially in appellations like Barbera d’Asti and Barbera d’Alba, where it can range from fresh and approachable to rich and oak-aged. Its natural acidity makes it highly food-friendly, pairing well with a wide range of dishes from pasta to roasted meats."
+    "definition": "Barbera is a widely planted red grape variety from Italy’s <strong>Piedmont</strong> region, known for its vibrant acidity, soft tannins, and juicy red fruit flavors like cherry and raspberry. Traditionally used for everyday wines, Barbera has gained recognition for its quality potential, especially in appellations like Barbera d’Asti and Barbera d’Alba, where it can range from fresh and approachable to rich and oak-aged. Its natural acidity makes it highly food-friendly, pairing well with a wide range of dishes from pasta to roasted meats.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-italy",
+    "label": "Italy"
+  }
   },
   {
     "term": "Barolo",
-    "definition": "Barolo is one of Italy’s most iconic and age-worthy wines, produced exclusively from Nebbiolo grapes in the hills surrounding the village of Barolo in Piedmont. Often referred to as the “King of Wines,” Barolo is known for its firm tannins, high acidity, and complex aromas that evolve dramatically over time. In its youth, it offers notes of rose, tar, cherry, and dried herbs, while with age, it can develop truffle, leather, and spice characteristics. The wine is traditionally aged for at least three years (five for Riserva), with a portion spent in oak, allowing for the development of its signature structure and nuance. The region includes several distinct communes—such as La Morra, Serralunga d’Alba, and Monforte d’Alba—each imparting different expressions of Nebbiolo based on soil and microclimate. While once marked by long macerations and extended oak aging, today’s Barolo includes both traditional and modern styles, offering a range from bold and austere to more fruit-forward and polished. Esteemed producers include Giacomo Conterno, Bartolo Mascarello, and Vietti, among others. For wine lovers, Barolo represents the pinnacle of Italian red wine—demanding patience but delivering remarkable depth, elegance, and longevity in return.",
+    "definition": "Barolo is one of Italy’s most iconic and age-worthy wines, produced exclusively from <strong>Nebbiolo</strong> grapes in the hills surrounding the village of Barolo in Piedmont.",
+    "definition2": "Barolo is known for its firm tannins, high acidity, and complex aromas that evolve dramatically over time. In its youth, it offers notes of rose, tar, cherry, and dried herbs, while with age, it can develop truffle, leather, and spice characteristics. The wine is traditionally aged for at least three years (five for Riserva), with a portion spent in oak, allowing for the development of its signature structure and nuance. The region includes several distinct communes—such as La Morra, Serralunga d’Alba, and Monforte d’Alba—each imparting different expressions of Nebbiolo based on soil and microclimate. While once marked by long macerations and extended oak aging, today’s Barolo includes both traditional and modern styles, offering a range from bold and austere to more fruit-forward and polished. Esteemed producers include Giacomo Conterno, Bartolo Mascarello, and Vietti, among others. For wine lovers, Barolo represents the pinnacle of Italian red wine—demanding patience but delivering remarkable depth, elegance, and longevity in return.",
     "relatedArticle": {
     "url": "/study-guides/wines-of-italy",
     "label": "Italy"
@@ -62,7 +72,8 @@
   },
   {
     "term": "Barrel sizes",
-    "definition": "Wine barrels come in various sizes, each influencing the wine's flavor, texture, and aging process differently. The most common is the Bordeaux barrique (225 liters), widely used for red wines globally, particularly in France, California, and beyond—it imparts significant oak influence due to its smaller volume and higher surface area. The Burgundy pièce (228 liters) is nearly identical in size but traditionally used for white wines like Chardonnay, allowing for subtle oxidation and lees integration. Larger formats like the puncheon (500 liters) and foudre (1,000+ liters), often used in regions like Australia, Alsace, and Germany, reduce oak impact and preserve freshness, making them ideal for aromatic whites or age-worthy reds that benefit from slow maturation. Historically, barrel use evolved from practical storage and transport solutions—originating with the Celts and perfected by the Romans—to modern tools of stylistic refinement. Today, winemakers choose barrel size and type based on desired style: smaller barrels for more oak character and structure, larger ones for nuance and longevity. Regional traditions often guide choices—Barolo producers may prefer large Slavonian oak casks, while Napa Cabernet producers lean toward new French oak barriques. The size and origin of a barrel remain critical tools in a winemaker’s arsenal for crafting balance, texture, and expression."
+    "definition": "Wine barrels come in various sizes, each influencing the wine's flavor, texture, and aging process differently. The most common is the Bordeaux barrique (225 liters), widely used for red wines globally, particularly in France, California, and beyond—it imparts significant oak influence due to its smaller volume and higher surface area. The Burgundy pièce (228 liters) is nearly identical in size but traditionally used for white wines like Chardonnay, allowing for subtle oxidation and lees integration. Larger formats like the puncheon (500 liters) and foudre (1,000+ liters), often used in regions like Australia, Alsace, and Germany, reduce oak impact and preserve freshness, making them ideal for aromatic whites or age-worthy reds that benefit from slow maturation. Historically, barrel use evolved from practical storage and transport solutions—originating with the Celts and perfected by the Romans—to modern tools of stylistic refinement. Today, winemakers choose barrel size and type based on desired style: smaller barrels for more oak character and structure, larger ones for nuance and longevity.",
+    "definition2": "Regional traditions often guide choices—Barolo producers may prefer large Slavonian oak casks, while Napa Cabernet producers lean toward new French oak barriques. The size and origin of a barrel remain critical tools in a winemaker’s arsenal for crafting balance, texture, and expression."
   },
   {
     "term": "Barrique",
@@ -70,7 +81,11 @@
   },
   {
     "term": "Barsac",
-    "definition": "Barsac is a small appellation within the Sauternes region of Bordeaux, France, known for producing lusciously sweet white wines made primarily from Sémillon, with Sauvignon Blanc and Muscadelle. Benefiting from morning fogs that encourage Botrytis cinerea (noble rot), Barsac wines are rich and honeyed, yet often lighter and more elegant than those from neighboring Sauternes. Notable producers include Château Climens and Château Doisy-Daëne, both known for their age-worthy, complex dessert wines."
+    "definition": "Barsac is a small appellation within the Sauternes region of Bordeaux, France, known for producing lusciously sweet white wines made primarily from Sémillon, with Sauvignon Blanc and Muscadelle. Benefiting from morning fogs that encourage Botrytis cinerea (noble rot), Barsac wines are rich and honeyed, yet often lighter and more elegant than those from neighboring Sauternes. Notable producers include Château Climens and Château Doisy-Daëne, both known for their age-worthy, complex dessert wines.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-france",
+    "label": "France"
+  }
   },
   {
     "term": "Basalt",
@@ -90,11 +105,20 @@
   },
   {
     "term": "Beaujolais",
-    "definition": "Beaujolais is a wine region in eastern France, just south of Burgundy, known for its rolling hills, granite-based soils, and a temperate climate influenced by both continental and Mediterranean conditions. The region is divided into three main zones: basic Beaujolais AOC, Beaujolais-Villages, and the ten crus of Beaujolais in the north, such as Morgon, Fleurie, and Moulin-à-Vent, which produce the region’s most complex and age-worthy wines. These northern areas benefit from steeper slopes and more varied soils, contributing to distinctive expressions of the region’s signature grape, Gamay. Gamay thrives in Beaujolais’ granitic and schist soils, producing light to medium-bodied reds with bright acidity, low tannins, and vibrant red fruit flavors like cherry, raspberry, and cranberry. While Beaujolais is often associated with the fresh, early-drinking Beaujolais Nouveau, the region also produces serious, terroir-driven wines—especially in the crus—that can age beautifully. Traditional producers like Georges Duboeuf helped popularize the region globally, while smaller, artisanal growers and natural winemakers are gaining recognition for crafting expressive, site-specific wines using sustainable or organic methods. Beaujolais offers a wide range of styles, making it both approachable for new wine drinkers and rewarding for seasoned enthusiasts."
+    "definition": "Beaujolais is a wine region in eastern France, just south of Burgundy, known for its rolling hills, granite-based soils, and a temperate climate influenced by both continental and Mediterranean conditions. The region is divided into three main zones: basic Beaujolais AOC, Beaujolais-Villages, and the ten crus of Beaujolais in the north, such as Morgon, Fleurie, and Moulin-à-Vent, which produce the region’s most complex and age-worthy wines.",
+    "definition2":"These northern areas benefit from steeper slopes and more varied soils, contributing to distinctive expressions of the region’s signature grape, Gamay. Gamay thrives in Beaujolais’ granitic and schist soils, producing light to medium-bodied reds with bright acidity, low tannins, and vibrant red fruit flavors like cherry, raspberry, and cranberry. While Beaujolais is often associated with the fresh, early-drinking Beaujolais Nouveau, the region also produces serious, terroir-driven wines—especially in the crus—that can age beautifully. Traditional producers like Georges Duboeuf helped popularize the region globally, while smaller, artisanal growers and natural winemakers are gaining recognition for crafting expressive, site-specific wines using sustainable or organic methods. Beaujolais offers a wide range of styles, making it both approachable for new wine drinkers and rewarding for seasoned enthusiasts.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-france",
+    "label": "France"
+  }
   },
   {
     "term": "Beaune",
-    "definition": "Beaune is a historic wine town at the heart of Burgundy’s Côte d'Or, serving as both a cultural center and a key hub for some of the region’s most renowned wines. Located in the Côte de Beaune subregion, it is best known for elegant Pinot Noir and expressive Chardonnay, grown on limestone-rich slopes with ideal exposure. While Beaune lacks Grand Cru vineyards, it boasts numerous high-quality Premier Cru sites, producing refined, age-worthy wines that reflect the area's complex terroir. Beaune is also home to many of Burgundy’s top négociants—like Louis Jadot, Bouchard Père & Fils, and Joseph Drouhin—who have helped elevate its global reputation. With its rich winemaking tradition, historic cellars, and the famed Hospices de Beaune wine auction, Beaune remains a cornerstone of Burgundian wine culture."
+    "definition": "Beaune is a historic wine town at the heart of Burgundy’s Côte d'Or, serving as both a cultural center and a key hub for some of the region’s most renowned wines. Located in the Côte de Beaune subregion, it is best known for elegant Pinot Noir and expressive Chardonnay, grown on limestone-rich slopes with ideal exposure. While Beaune lacks Grand Cru vineyards, it boasts numerous high-quality Premier Cru sites, producing refined, age-worthy wines that reflect the area's complex terroir. Beaune is also home to many of Burgundy’s top négociants—like Louis Jadot, Bouchard Père & Fils, and Joseph Drouhin—who have helped elevate its global reputation. With its rich winemaking tradition, historic cellars, and the famed Hospices de Beaune wine auction, Beaune remains a cornerstone of Burgundian wine culture.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-france",
+    "label": "France"
+  }
   },
   {
     "term": "Beer",
@@ -122,7 +146,11 @@
   },
   {
     "term": "Bergerac",
-    "definition": "Bergerac is a wine region in southwest France, just east of Bordeaux, known for producing wines that closely resemble its more famous neighbor but often offer better value. The region shares many of the same grape varieties—Merlot, Cabernet Sauvignon, and Cabernet Franc for reds; Sémillon, Sauvignon Blanc, and Muscadelle for whites—and produces a wide range of styles, from dry reds and whites to sweet dessert wines. Bergerac is home to several appellations, including Monbazillac, known for luscious botrytized sweet wines, and Pécharmant, which produces structured, age-worthy reds. With its rolling hills, river valleys, and a growing focus on quality and terroir, Bergerac is an excellent source of classic French wines with character and affordability."
+    "definition": "Bergerac is a wine region in southwest France, just east of Bordeaux, known for producing wines that closely resemble its more famous neighbor but often offer better value. The region shares many of the same grape varieties—Merlot, Cabernet Sauvignon, and Cabernet Franc for reds; Sémillon, Sauvignon Blanc, and Muscadelle for whites—and produces a wide range of styles, from dry reds and whites to sweet dessert wines. Bergerac is home to several appellations, including Monbazillac, known for luscious botrytized sweet wines, and Pécharmant, which produces structured, age-worthy reds. With its rolling hills, river valleys, and a growing focus on quality and terroir, Bergerac is an excellent source of classic French wines with character and affordability.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-france",
+    "label": "France"
+  }
   },
   {
     "term": "Bierzo",
