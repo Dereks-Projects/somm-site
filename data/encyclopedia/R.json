@@ -5,7 +5,11 @@
   },
   {
     "term": "Recioto",
-    "definition": "An Italian winemaking term for the drying of the grapes before pressing and fermentation. This concentrates the sugar and intensifies the flavor, and many regions in Italy are famous for this style of wine."
+    "definition": "An Italian winemaking term for the drying of the grapes before pressing and fermentation. This concentrates the sugar and intensifies the flavor, and many regions in Italy are famous for this style of wine.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-italy",
+    "label": "Italy"
+  }
   },
   {
     "term": "Rehoboam",

@@ -1,7 +1,11 @@
 [
   {
     "term": "Galestro",
-    "definition": "Marl-like soils found in the Chianti Classico region of Tuscany."
+    "definition": "Marl-like soils found in the Chianti Classico region of Tuscany.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-italy",
+    "label": "Italy"
+  }
   },
   {
     "term": "Galicia",
@@ -13,7 +17,11 @@
   },
   {
     "term": "Garganega",
-    "definition": "White wine grape found in the Veneto region of Italy. It is the predominant grape used in the production of Soave."
+    "definition": "White wine grape found in the Veneto region of Italy. It is the predominant grape used in the production of Soave.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-italy",
+    "label": "Italy"
+  }
   },
   {
     "term": "Gamay",
@@ -25,11 +33,20 @@
   },
   {
     "term": "Gattinara",
-    "definition": "Small wine region in the Piedmont region of northern Italy, based on the Nebbiolo grape."
+    "definition": "Gattinara is a historic red wine region in northern Piedmont, Italy, located in the foothills of the Alps. The wines are made primarily from <strong>Nebbiolo</strong>, locally called Spanna, and are known for combining the grape’s classic structure with notable freshness and minerality. Compared to Barolo and Barbaresco, Gattinara wines are often lighter in body but can show remarkable elegance, earthy complexity, and aging potential. Volcanic soils and cooler alpine influences help shape wines with firm acidity, floral aromas, and savory character.",
+    "definition2": "Historically, Gattinara was once considered among Italy’s most prestigious wines before the rise of Barolo in the modern era. The region remains small in production, with many wines emphasizing traditional winemaking and long aging. Common flavor notes include red cherry, dried rose, herbs, leather, and mineral tones that develop further with time in bottle. For many wine enthusiasts, <strong>Gattinara</strong> offers a more understated and often more affordable expression of Nebbiolo compared to Piedmont’s larger, more famous appellations.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-italy",
+    "label": "Italy"
+  }
   },
   {
     "term": "Gavi",
-    "definition": "Wine region (DOCG) in the Piedmont region of northern Italy, based on the white Cortese grape."
+    "definition": "Wine region (DOCG) in the Piedmont region of northern Italy, based on the white Cortese grape.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-italy",
+    "label": "Italy"
+  }
   },
   {
     "term": "Genever",
@@ -81,15 +98,24 @@
   },
   {
     "term": "Grappa",
-    "definition": "An Italian pomace brandy distilled from the leftover grape skins, seeds, and stems after winemaking, traditionally rustic but now often refined and artisanal."
+    "definition": "An Italian pomace brandy distilled from the leftover grape skins, seeds, and stems after winemaking, traditionally rustic but now often refined and artisanal.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-italy",
+    "label": "Italy"
+  }
   },
   {
     "term": "Grechetto",
-    "definition": "White wine grape found in the commune of Orvieto in central Italy."
+    "definition": "White wine grape found in the commune of Orvieto in central Italy.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-italy",
+    "label": "Italy"
+  }
   },
   {
     "term": "Greece",
-    "definition": "Greece represents one of the world's oldest wine cultures with over 4,000 years of continuous winemaking history, and today stands as one of the most exciting emerging wine regions thanks to a renaissance focused on indigenous grape varieties like Assyrtiko, Agiorgitiko, and Xinomavro that produce wines of exceptional character and aging potential. The country's diverse geography—from the volcanic soils of Santorini producing mineral-driven Assyrtiko whites to the mountainous regions of Naoussa crafting structured Xinomavro reds—combined with ancient viticultural techniques like the traditional basket-shaped vine training (kouloura) creates wines that are both uniquely Greek and internationally compelling. Modern Greek producers have successfully balanced respect for indigenous varieties and traditional methods with contemporary winemaking technology, positioning Greece as a source of distinctive, terroir-driven wines that offer wine enthusiasts the rare opportunity to explore completely unique flavor profiles unavailable anywhere else in the world. This combination of ancient heritage, indigenous varieties, diverse terroirs, and modern quality standards has transformed Greece from a curiosity into a serious player in the international fine wine market, offering exceptional value and authenticity in an increasingly homogenized wine world."
+    "definition": "Greek wine is one of the oldest wine traditions in the world, with a history that stretches back thousands of years to the foundations of Mediterranean civilization. Modern Greek wine is built around a wide range of indigenous grapes, many of which are unfamiliar outside the country but produce distinctive and high-quality wines. White grapes such as <strong>Assyrtiko</strong> are especially important, known for producing crisp, mineral-driven wines with bright acidity, particularly on the volcanic island of Santorini. Greece also produces important reds from grapes like Xinomavro and Agiorgitiko, offering styles that range from structured and earthy to rich and fruit-driven.",
+    "definition2": "In recent decades, Greek wine has undergone a major quality renaissance, with producers focusing on lower yields, modern winemaking, and showcasing regional identity. The country’s mountainous terrain, coastal influences, and warm Mediterranean climate create diverse growing conditions across many regions and islands. Greek wines are often known for their freshness, food-friendly nature, and strong connection to local cuisine. While many consumers are still unfamiliar with the country’s grape varieties, interest in Greek wine continues to grow internationally. Today, <strong>Greek wine</strong> is increasingly recognized for offering distinctive flavors, history, and strong value compared to more established European regions."
   },
   {
     "term": "Green",

@@ -9,7 +9,11 @@
   },
   {
     "term": "Passito",
-    "definition": "An Italian term for wine made from dried grapes."
+    "definition": "An Italian term for wine made from dried grapes.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-italy",
+    "label": "Italy"
+  }
   },
   {
     "term": "Pasteurization",

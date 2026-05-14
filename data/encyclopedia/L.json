@@ -1,9 +1,5 @@
 [
   {
-    "term": "Lager",
-    "definition": "A type of beer made with bottom-fermenting yeast at cold temperatures, known for its clean, crisp flavor profile and high carbonation—styles include Pilsner, Helles, and Dunkel."
-  },
-  {
     "term": "Lactic acid",
     "definition": "One of the main acids found in beverages, especially wines that have a creamy or buttery mouthfeel. This becomes prevalent in wines that have gone through malolactic fermentation, the process by which a second fermentation takes place, turning the harsher malic acid (green apples) into the softer lactic acid (cream, half & half)."
   },
@@ -12,12 +8,20 @@
     "definition": "Lager is the other major category of beer (alongside ale), defined by its use of bottom-fermenting yeast (Saccharomyces pastorianus) that ferments slowly at cooler temperatures (typically 45–55°F / 7–13°C) and requires a longer aging process, known as lagering, which gives the beer its signature clean, crisp, and smooth character. Lagers are generally lighter in body and more restrained in aroma and flavor than ales, though the category includes a wide range of styles—from pale lagers and pilsners, to amber lagers, dark lagers (like Dunkel and Schwarzbier), and strong varieties like Bock and Doppelbock. The cooler fermentation and extended conditioning help reduce fruity esters and other fermentation byproducts, resulting in a more refined, malt- or hop-balanced beer with high drinkability. Though often associated with mass-produced, light-bodied beers, lagers can be richly complex and nuanced, and they remain the most widely consumed beer style in the world, especially in Central Europe and the Americas."
   },
   {
+    "term": "Lager",
+    "definition": "A type of beer made with bottom-fermenting yeast at cold temperatures, known for its clean, crisp flavor profile and high carbonation—styles include Pilsner, Helles, and Dunkel."
+  },
+  {
     "term": "Lambic",
     "definition": "A traditional spontaneously fermented Belgian beer, often aged and blended, with a funky, tart, and earthy profile—commonly fruited as Kriek (cherry) or Framboise (raspberry)."
   },
   {
     "term": "Lambrusco",
-    "definition": "Lambrusco, a sparkling red wine from Italy's Emilia-Romagna region, has undergone a remarkable transformation from its reputation as a cheap, sweet export wine to become recognized as one of Italy's most food-friendly and authentic regional specialties when produced in its traditional dry (secco) style. Made from various Lambrusco grape varieties using the Charmat method, genuine Lambrusco displays vibrant purple color, lively effervescence, and fresh flavors of dark berries and violets with crisp acidity that makes it the perfect partner for the region's rich cuisine including Parmigiano-Reggiano, prosciutto di Parma, and hearty pasta dishes. The best expressions come from specific DOC zones like Lambrusco di Sorbara and Lambrusco Grasparossa di Castelvetro, where traditional producers create elegant, dry sparkling wines that showcase this indigenous variety's true potential while maintaining the joyful, unpretentious character that makes Lambrusco ideal for casual dining and celebration."
+    "definition": "Lambrusco, a sparkling red wine from Italy's Emilia-Romagna region, has undergone a remarkable transformation from its reputation as a cheap, sweet export wine to become recognized as one of Italy's most food-friendly and authentic regional specialties when produced in its traditional dry (secco) style. Made from various Lambrusco grape varieties using the Charmat method, genuine Lambrusco displays vibrant purple color, lively effervescence, and fresh flavors of dark berries and violets with crisp acidity that makes it the perfect partner for the region's rich cuisine including Parmigiano-Reggiano, prosciutto di Parma, and hearty pasta dishes. The best expressions come from specific DOC zones like Lambrusco di Sorbara and Lambrusco Grasparossa di Castelvetro, where traditional producers create elegant, dry sparkling wines that showcase this indigenous variety's true potential while maintaining the joyful, unpretentious character that makes Lambrusco ideal for casual dining and celebration.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-italy",
+    "label": "Italy"
+  }
   },
   {
     "term": "Langhe",
@@ -61,7 +65,11 @@
   },
   {
     "term": "Limóncello",
-    "definition": "A sweet, intensely lemon-flavored Italian liqueur made by macerating lemon zest in neutral spirit and adding sugar syrup, traditionally served chilled as a digestif."
+    "definition": "A sweet, intensely lemon-flavored Italian liqueur made by macerating lemon zest in neutral spirit and adding sugar syrup, traditionally served chilled as a digestif.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-italy",
+    "label": "Italy"
+  }
   },
   {
     "term": "Liqueur",
