@@ -77,7 +77,11 @@
   },
   {
     "term": "Roussillon",
-    "definition": "France. Roussillon, nestled in the sun-drenched corner of southern France near Spain, produces powerful reds and world-class vin doux naturels (fortified sweet wines) from Grenache, shaped by Mediterranean warmth, wind-swept slopes, and rugged schist soils."
+    "definition": "France. Roussillon, nestled in the sun-drenched corner of southern France near Spain, produces powerful reds and world-class vin doux naturels (fortified sweet wines) from Grenache, shaped by Mediterranean warmth, wind-swept slopes, and rugged schist soils.",
+     "relatedArticle": {
+    "url": "/articles/long-memory-of-roussillon",
+    "label": "Roussillon"
+  }
   },
   {
     "term": "Ruby Port",

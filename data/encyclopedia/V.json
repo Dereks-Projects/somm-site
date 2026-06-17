@@ -21,8 +21,9 @@
   },
   {
     "term": "Valtellina",
-    "definition": "A mountainous wine region in northern Italy’s Lombardy, known for Nebbiolo-based wines (locally called Chiavennasca) with elegance and alpine freshness.",
-   "relatedArticle": {
+    "definition": "Valtellina is an Alpine wine region in northern Lombardy, extending along the <strong>Adda River</strong> near the Swiss border. Vineyards occupy steep, south-facing terraces on the Rhaetian Alps, where elevation, sunlight, and large temperature shifts support slow, even ripening.",
+    "definition2": "The principal grape is Nebbiolo, locally called <strong>Chiavennasca</strong>, used for Rosso di Valtellina, Valtellina Superiore, and the dried-grape wine Sforzato di Valtellina. The wines are typically pale in color, aromatic, and firmly structured, with red fruit, dried flowers, herbs, and pronounced acidity.",
+    "relatedArticle": {
     "url": "/study-guides/wines-of-italy",
     "label": "Italy"
   }
@@ -56,6 +57,14 @@
   }
   },
   {
+    "term": "Véraison",
+    "definition": "A viticulture term for the period when the grape begins to turn color on the vine.",
+    "relatedArticle": {
+    "url": "/articles/cycle-in-the-vineyard",
+    "label": "Viticulture"
+  }
+  },
+  {
     "term": "Verdelho",
     "definition": "A grape variety found in Portugal, and sparingly in other parts of Europe."
   },
@@ -79,10 +88,7 @@
     "term": "Vendange tardive",
     "definition": "The term for late harvest in France, a practice found in many sweet wines and a select few dry wines around the world. Late harvesting wine will certainly increase the sugar content; however, it does not always mean the wine will be sweet. Alsace is known for producing wines that are harvested late, have a high amount of sugar at harvest, but are fermented to near dryness leaving a wine that has higher alcohol, more body and more extract."
   },
-  {
-    "term": "Véraison",
-    "definition": "A viticulture term for the period when the grape begins to turn color on the vine."
-  },
+  
   {
     "term": "Victoria",
     "definition": "Victoria is a diverse and expansive wine state in southeastern Australia, known more for its range of climates and styles than for any single defining wine. Rather than one dominant region, Victoria is made up of many smaller subregions, each with its own identity and specialties. Areas like the Yarra Valley focus on cooler-climate wines such as Pinot Noir and Chardonnay, while regions like Rutherglen are famous for rich, fortified wines.",
@@ -115,6 +121,15 @@
   {
     "term": "Vin gris",
     "definition": "A term for a very pale rose, which can appear almost gray in the glass."
+  },
+  {
+    "term": "Vine Cycle",
+    "definition": "The grapevine cycle is the annual sequence of growth, reproduction, fruit development, harvest, and dormancy in a cultivated vine. It begins with winter dormancy, followed by budbreak, shoot growth, flowering, fruit set, and the gradual enlargement of berries during spring and early summer.",
+    "definition2": "Veraison marks the onset of ripening, when berries soften, change color, accumulate sugar, and lose acidity before harvest. After the crop is removed, the vine stores carbohydrates, sheds its leaves, and returns to dormancy, while pruning prepares the plant for the following season.",
+    "relatedArticle": {
+    "url": "/articles/cycle-in-the-vineyard",
+    "label": "Viticulture"
+  }
   },
   {
     "term": "Vihno Licoroso",

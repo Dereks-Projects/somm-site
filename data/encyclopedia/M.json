@@ -61,7 +61,11 @@
   },
   {
     "term": "Melon de Bourgogne",
-    "definition": "Melon de Bourgogne is a white grape variety best known as the sole grape used in Muscadet wines from the Loire Valley’s Pays Nantais, producing light-bodied, crisp wines with notes of lemon, green apple, and saline minerality. Often aged sur lie (on the lees) to add texture and complexity, Melon de Bourgogne excels with oysters and seafood, showcasing its bracing acidity and subtle, ocean-influenced character."
+    "definition": "Melon de Bourgogne is a white grape variety best known as the sole grape used in Muscadet wines from the Loire Valley’s Pays Nantais, producing light-bodied, crisp wines with notes of lemon, green apple, and saline minerality. Often aged sur lie (on the lees) to add texture and complexity, Melon de Bourgogne excels with oysters and seafood, showcasing its bracing acidity and subtle, ocean-influenced character.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-france",
+    "label": "France"
+  }
   },
   {
     "term": "Mezcal",
@@ -73,7 +77,11 @@
   },
   {
     "term": "Méthode Champenoise",
-    "definition": "France. The traditional method for making Champagne, in which the second fermentation occurs within the bottle. A legally protected term - only Champagne may wear this on the label - although the method is used the world over. For more details see my Champagne Guide."
+    "definition": "France. The traditional method for making Champagne, in which the second fermentation occurs within the bottle. A legally protected term - only Champagne may wear this on the label - although the method is used the world over.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-france",
+    "label": "France"
+  }
   },
   {
     "term": "Méthode Traditionelle",
@@ -85,11 +93,19 @@
   },
   {
     "term": "Moelleux",
-    "definition": "A winemaking term denoting residual sugar in the wine, and the drinker can definitely expect sweetness from these wines."
+    "definition": "A French winemaking term denoting residual sugar in the wine, and the drinker can definitely expect sweetness from these wines.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-france",
+    "label": "France"
+  }
   },
   {
     "term": "Mourvèdre",
-    "definition": "Mourvèdre is a thick-skinned, late-ripening red grape known for producing deeply colored, full-bodied wines with flavors of dark berries, earth, game, and spice, often supported by firm tannins and high alcohol. Thriving in warm, sun-soaked regions like Provence, Spain (as Monastrell), and parts of California, Mourvèdre is frequently used in GSM blends (Grenache–Syrah–Mourvèdre) to add structure, depth, and age-worthiness."
+    "definition": "Mourvèdre is a thick-skinned, late-ripening red grape known for producing deeply colored, full-bodied wines with flavors of dark berries, earth, game, and spice, often supported by firm tannins and high alcohol. Thriving in warm, sun-soaked regions like Provence, Spain (as Monastrell), and parts of California, Mourvèdre is frequently used in GSM blends (Grenache–Syrah–Mourvèdre) to add structure, depth, and age-worthiness.",
+    "relatedArticle": {
+    "url": "/articles/from-spain-to-provence-mourvedre",
+    "label": "Mourvèdre"
+  }
   },
   {
     "term": "Mulled Wine",

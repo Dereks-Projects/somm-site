@@ -65,7 +65,11 @@
   },
   {
     "term": "Die",
-    "definition": "Die, a small appellation in the southern Rhône Valley, is renowned for producing France's most distinctive sparkling wine: Clairette de Die, made primarily from the Muscat Blanc à Petits Grains grape. The region uses a unique ancient method called méthode dioise ancestrale, where the wine undergoes only one fermentation that's finished in the bottle, creating a naturally sweet, lightly sparkling wine with intense floral and grapey aromatics. Unlike Champagne's bone-dry style, Clairette de Die retains natural grape sugars and offers a refreshing, approachable sweetness that makes it perfect as an aperitif or dessert wine. The high-altitude vineyards, planted on limestone soils in the dramatic landscape of the Drôme Valley, benefit from Mediterranean sunshine tempered by mountain influences. This produces wines with bright acidity, delicate bubbles, and an unmistakable Muscat character that represents one of France's most unique and historically significant sparkling wine traditions."
+    "definition": "Die, a small appellation in the southern Rhône Valley, is renowned for producing France's most distinctive sparkling wine: Clairette de Die, made primarily from the Muscat Blanc à Petits Grains grape. The region uses a unique ancient method called méthode dioise ancestrale, where the wine undergoes only one fermentation that's finished in the bottle, creating a naturally sweet, lightly sparkling wine with intense floral and grapey aromatics. Unlike Champagne's bone-dry style, Clairette de Die retains natural grape sugars and offers a refreshing, approachable sweetness that makes it perfect as an aperitif or dessert wine. The high-altitude vineyards, planted on limestone soils in the dramatic landscape of the Drôme Valley, benefit from Mediterranean sunshine tempered by mountain influences. This produces wines with bright acidity, delicate bubbles, and an unmistakable Muscat character that represents one of France's most unique and historically significant sparkling wine traditions.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-france",
+    "label": "France"
+  }
   },
   {
     "term": "Digestif",

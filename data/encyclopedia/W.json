@@ -1,11 +1,12 @@
 [
   {
     "term": "Wachau",
-    "definition": "Austria. Wachau is a steep, terraced valley along the Danube River known for producing some of the world’s finest dry Rieslings and Grüner Veltliners, often labeled by ripeness levels like Steinfeder, Federspiel, and Smaragd."
+    "definition": "Wachau is a steep, terraced valley along the Danube River in Austria, known for producing some of the world’s finest dry Rieslings and Grüner Veltliners, often labeled by ripeness levels like Steinfeder, Federspiel, and Smaragd."
   },
   {
     "term": "Walla Walla Valley",
-    "definition": "United States. Split between Washington and Oregon, Walla Walla is a dynamic wine region famed for its bold Syrah, Cabernet Sauvignon, and expressive Merlot, shaped by desert-like conditions and diverse soils."
+    "definition": "Walla Walla Valley is a wine region in southeastern Washington that extends across the Oregon border and forms part of the larger Columbia Valley. Its dry continental climate, long growing season, large diurnal shifts, and soils derived from loess, basalt, and river sediments support consistent ripening while preserving acidity.",
+    "definition2": "The region is best known for Cabernet Sauvignon, Syrah, Merlot, and other Bordeaux and Rhône varieties, with vineyards concentrated on valley floors, rolling hills, and the foothills of the Blue Mountains. Walla Walla wines are generally recognized for ripe fruit, firm structure, savory complexity, and clear site expression."
   },
   {
     "term": "Walker Bay",
@@ -61,7 +62,8 @@
   },
   {
     "term": "Willamette Valley",
-    "definition": "Oregon, United States. Willamette Valley is Oregon’s flagship wine region, globally respected for its cool-climate Pinot Noir and Chardonnay shaped by marine-influenced weather and volcanic soils."
+    "definition": "Willamette Valley is Oregon’s principal wine region, extending south from Portland through a broad basin bordered by the Coast Range and Cascade Mountains. Its cool, maritime-influenced climate, long growing season, and varied volcanic, marine sedimentary, and windblown soils favor grapes that retain acidity and develop gradually.",
+    "definition2": "Pinot Noir is the region’s defining variety, supported by Chardonnay, Pinot Gris, Riesling, and smaller plantings of other cool-climate grapes. The valley contains several recognized subappellations, including Dundee Hills, Eola-Amity Hills, Yamhill-Carlton, McMinnville, Ribbon Ridge, and Chehalem Mountains, and is known for wines of aromatic detail, moderate body, and strong site expression."
   },
   {
     "term": "Wine Press",

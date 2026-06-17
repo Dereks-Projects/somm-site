@@ -46,7 +46,11 @@
   },
   {
     "term": "Entre-Deux-Mers",
-    "definition": "A subregion in Bordeaux, known for its moderately priced (and moderate quality) white wines. The region sits between the Garonne and Dordogne rivers, surrounded by some of the most storied chateau in France."
+    "definition": "A subregion in Bordeaux, known for its moderately priced (and moderate quality) white wines. The region sits between the Garonne and Dordogne rivers, surrounded by some of the most storied chateau in France.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-france",
+    "label": "France"
+  }
   },
   {
     "term": "Erbaluce",

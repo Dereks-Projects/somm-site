@@ -1,7 +1,12 @@
 [
   {
     "term": "Oak",
-    "definition": "Oak is one of the most influential tools in winemaking, affecting a wine’s flavor, texture, and ageability. It allows controlled oxygen exposure during maturation, which softens tannins in red wines and adds richness to whites. Oak also imparts flavor compounds such as vanillin (vanilla), lactones (coconut), and spice notes, depending on the type of oak, its toasting level, and whether the barrel is new or used. Smaller barrels have more surface contact with the wine, leading to a stronger oak impact, while larger or older barrels provide more subtle influence. The two primary types of oak used in winemaking are French and American. French oak, often sourced from forests like Allier and Tronçais, has a tight grain and offers refined, subtle flavors—ideal for wines where elegance is desired. American oak, from places like Missouri and the Appalachians, has a looser grain and imparts more intense aromas such as coconut, dill, and sweet vanilla. Hungarian and Slavonian oak, used primarily in Central and Eastern Europe, offer an intermediate profile, with restrained flavor and good structure. In red wines, oak contributes structure, depth, and aromatic complexity, enhancing grapes like Cabernet Sauvignon, Tempranillo, and Syrah. For whites, especially Chardonnay, it adds texture and notes of toast, spice, and creaminess. When thoughtfully used, oak becomes an integral element of a wine’s identity, complementing varietal character and supporting long-term development in the bottle."
+    "definition": "Oak in wine refers to the use of oak vessels, most commonly barrels, during fermentation, aging, or both. Its influence depends on the type of oak, barrel size, toast level, age of the vessel, and length of contact, making extraction a central factor in the final style.",
+    "definition2": "Oak can contribute aromas and flavors such as vanilla, clove, smoke, coconut, cedar, baking spice, and toast, while also shaping texture through slow oxygen exposure. When used carefully, oak supports structure and complexity; when excessive, it can obscure fruit, place, and balance.",
+    "relatedArticle": {
+    "url": "/articles/a-primer-on-oak-in-wine",
+    "label": "Oak Treatment"
+  }
   },
   {
     "term": "Oechsle",

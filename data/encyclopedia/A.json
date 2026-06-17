@@ -42,7 +42,11 @@
   },
   {
     "term": "Aconcagua",
-    "definition": "Aconcagua is a prominent wine region in central Chile, named after the towering Aconcagua Mountain, and is known for producing bold, structured red wines, particularly from Cabernet Sauvignon and Syrah. The region benefits from a Mediterranean climate with cooling Pacific breezes and Andean influences, allowing for balanced ripening and expressive fruit. Sub-regions like Aconcagua Valley and Aconcagua Costa are gaining recognition for their high-quality wines, with producers such as Errázuriz leading the charge in both innovation and international acclaim."
+    "definition": "Aconcagua is a prominent wine region in central Chile, named after the towering Aconcagua Mountain, and is known for producing bold, structured red wines, particularly from Cabernet Sauvignon and Syrah. The region benefits from a Mediterranean climate with cooling Pacific breezes and Andean influences, allowing for balanced ripening and expressive fruit. Sub-regions like Aconcagua Valley and Aconcagua Costa are gaining recognition for their high-quality wines, with producers such as Errázuriz leading the charge in both innovation and international acclaim.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-south-america",
+    "label": "South America"
+  }
   },
   {
     "term": "Adega",
@@ -50,11 +54,19 @@
   },
   {
     "term": "Adelaide",
-    "definition": "Adelaide, located in South Australia, is a major hub for the country's wine industry and sits at the center of several renowned wine regions, including Barossa Valley, McLaren Vale, and Adelaide Hills. The surrounding areas produce a wide range of styles—from rich Shiraz and Cabernet Sauvignon to cool-climate Chardonnay, Pinot Noir, and Sauvignon Blanc—thanks to the region’s varied elevations and maritime influences. Adelaide Hills is known for its elegant, high-acid whites and refined reds, making the greater Adelaide zone one of Australia’s most diverse and influential wine-producing areas."
+    "definition": "Adelaide, located in South Australia, is a major hub for the country's wine industry and sits at the center of several renowned wine regions, including Barossa Valley, McLaren Vale, and Adelaide Hills. The surrounding areas produce a wide range of styles—from rich Shiraz and Cabernet Sauvignon to cool-climate Chardonnay, Pinot Noir, and Sauvignon Blanc—thanks to the region’s varied elevations and maritime influences. Adelaide Hills is known for its elegant, high-acid whites and refined reds, making the greater Adelaide zone one of Australia’s most diverse and influential wine-producing areas.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-australia-and-new-zealand",
+    "label": "Australia"
+  }
   },
   {
     "term": "Adeliade Hills",
-    "definition": "Adelaide Hills is a cool-climate wine region located just east of the city of Adelaide, known for its high elevation, crisp air, and diverse microclimates. Unlike the warmer nearby regions of Barossa and McLaren Vale, Adelaide Hills specializes in vibrant, aromatic white wines like Sauvignon Blanc and Chardonnay, as well as elegant, lighter-bodied reds such as Pinot Noir and Syrah. Its altitude and maritime breezes help preserve acidity and freshness, resulting in wines with precision, subtlety, and strong site expression—making it a standout among Australia’s more fruit-forward regions."
+    "definition": "Adelaide Hills is a cool-climate wine region located just east of the city of Adelaide, known for its high elevation, crisp air, and diverse microclimates. Unlike the warmer nearby regions of Barossa and McLaren Vale, Adelaide Hills specializes in vibrant, aromatic white wines like Sauvignon Blanc and Chardonnay, as well as elegant, lighter-bodied reds such as Pinot Noir and Syrah. Its altitude and maritime breezes help preserve acidity and freshness, resulting in wines with precision, subtlety, and strong site expression—making it a standout among Australia’s more fruit-forward regions.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-australia-and-new-zealand",
+    "label": "Australia"
+  }
   },
   {
     "term": "Ageing",
@@ -178,11 +190,11 @@
   },
   {
     "term": "Alsace",
-    "definition": "Alsace, located in northeastern France along the German border, is a distinctive wine region with a unique blend of French and German cultural influences. Its wine history dates back to Roman times, but it was shaped significantly by centuries of shifting rule between France and Germany, which impacted both grape selection and winemaking style. Today, Alsace is known for its focus on varietal labeling—rare in France—and for producing aromatic, food-friendly white wines that reflect purity and terroir. The region specializes in noble white grapes such as Riesling, Gewurztraminer, Pinot Gris, and Muscat, which thrive in Alsace’s cool, dry climate and diverse soils. These wines are typically vinified dry, with crisp acidity, floral and mineral profiles, and a strong sense of place. Pinot Blanc and Sylvaner also appear, while Pinot Noir has gained traction in recent years, especially in warmer sites, producing fresh, elegant reds. Alsace is also known for its exceptional sparkling wine, Crémant d’Alsace, made using the traditional method. Wines from Alsace are often labeled by grape variety and sometimes by vineyard, including the prestigious Grand Cru sites.",
-    "definition2": "The region also produces late-harvest wines—Vendanges Tardives and Sélection de Grains Nobles—that show remarkable richness and aging potential. With a focus on precision, balance, and expression of terroir, Alsace continues to stand out as one of France’s most distinctive and characterful wine regions.",  
+    "definition": "Alsace is a major wine region of northeastern France, situated between the Vosges Mountains and the Rhine River along the German border. Its vineyards occupy sheltered eastern slopes with exceptional geological diversity, while the Vosges create a dry continental climate marked by long growing seasons, abundant sunlight, and pronounced differences between sites.",
+    "definition2": "The region is identified primarily with varietally labeled white wines from Riesling, Gewurztraminer, Pinot Gris, Muscat, Pinot Blanc, and Sylvaner, alongside Pinot Noir and Crémant d’Alsace. Its highest-classified vineyards are designated Alsace Grand Cru, and its wines range from dry, mineral expressions to opulent late-harvest styles, reflecting a distinctive intersection of French appellation culture and Germanic wine tradition.",  
     "relatedArticle": {
-    "url": "/study-guides/wines-of-france",
-    "label": "France"
+    "url": "/articles/wines-of-alsace-terroir-tradition",
+    "label": "Alsace"
   }
   },
   {

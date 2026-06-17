@@ -17,7 +17,11 @@
   },
     {
     "term": "Calvados",
-    "definition": "Calvados is a distinguished French apple brandy from the Normandy region, produced by distilling fermented apple cider (and sometimes pear cider) in copper pot stills, then aging the spirit in oak barrels for a minimum of two years to develop complex flavors ranging from fresh orchard fruits to rich caramel, vanilla, and spice notes. The production process begins with specific apple varieties—often a blend of sweet, bitter, and acidic apples—that are fermented into cider, then double-distilled and aged in used oak barrels that allow the spirit to gradually develop depth and smoothness while retaining the essential apple character that defines quality Calvados. Three main appellations exist within Calvados: Calvados AOC (the broadest category), Calvados Pays d'Auge AOC (requiring double distillation in pot stills), and Calvados Domfrontais AOC (which must contain at least 30% pear), with age statements ranging from VS (minimum 2 years) to XO (minimum 6 years) and vintage bottlings that showcase exceptional years. This versatile spirit serves excellently as a digestif, pairs beautifully with apple-based desserts and aged cheeses, and represents one of France's most authentic regional spirits, offering wine and spirits enthusiasts a taste of Norman terroir and centuries-old distillation traditions that transform humble orchard fruit into liquid elegance."
+    "definition": "Calvados is a distinguished French apple brandy from the Normandy region, produced by distilling fermented apple cider (and sometimes pear cider) in copper pot stills, then aging the spirit in oak barrels for a minimum of two years to develop complex flavors ranging from fresh orchard fruits to rich caramel, vanilla, and spice notes. The production process begins with specific apple varieties—often a blend of sweet, bitter, and acidic apples—that are fermented into cider, then double-distilled and aged in used oak barrels that allow the spirit to gradually develop depth and smoothness while retaining the essential apple character that defines quality Calvados. Three main appellations exist within Calvados: Calvados AOC (the broadest category), Calvados Pays d'Auge AOC (requiring double distillation in pot stills), and Calvados Domfrontais AOC (which must contain at least 30% pear), with age statements ranging from VS (minimum 2 years) to XO (minimum 6 years) and vintage bottlings that showcase exceptional years. This versatile spirit serves excellently as a digestif, pairs beautifully with apple-based desserts and aged cheeses, and represents one of France's most authentic regional spirits, offering wine and spirits enthusiasts a taste of Norman terroir and centuries-old distillation traditions that transform humble orchard fruit into liquid elegance.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-france",
+    "label": "France"
+  }
   },
   {
     "term": "Campania",
@@ -65,7 +69,12 @@
   },
   {
     "term": "Cava",
-    "definition": "Cava is Spain’s premier traditional method sparkling wine, primarily produced in the Penedès region of Catalonia, though it can legally be made in several other designated zones. Crafted using the same méthode traditionnelle as Champagne, Cava undergoes a second fermentation in bottle, which gives it its fine bubbles and toasty complexity. The classic blend features indigenous white grapes—Macabeo (for freshness), Xarel·lo (for body and structure), and Parellada (for finesse and floral notes)—though Chardonnay and Pinot Noir are increasingly used in premium cuvées. Cava ranges from crisp and light to rich and aged, with categories like Reserva (minimum 18 months aging) and Gran Reserva (30 months) offering deeper flavors and greater complexity. Recent efforts to elevate quality have led to the creation of Cava de Paraje Calificado, a designation for single-estate, long-aged, terroir-driven Cava. In parallel, some top producers have left the Cava DO to form Corpinnat, focusing on organic farming, longer aging, and 100% estate-grown fruit. Often undervalued compared to Champagne, Cava delivers excellent quality and a wide range of styles, from refreshing aperitifs to structured, food-friendly sparklers."
+    "definition": "Cava is a Spanish sparkling wine designation produced by the <strong>traditional method</strong>, in which secondary fermentation occurs in the bottle. Although production is permitted in several defined areas of Spain, its historical center is the Penedès region of Catalonia, where the limestone-rich soils and Mediterranean climate support Spain’s most important sparkling wine industry.",
+    "definition2": "The traditional grapes are Macabeo, Xarel-lo, and Parellada, often supplemented by Chardonnay, Pinot Noir, and other authorized varieties. Extended aging on the lees can develop notes of bread, nuts, and dried fruit alongside citrus, orchard fruit, acidity, and fine mousse, with style and complexity determined largely by vineyard origin, blending, dosage, and maturation.",
+    "relatedArticle": {
+    "url": "/articles/cava-is-spain-s-generous-sparkler",
+    "label": "Cava"
+  }
   },
   {
     "term": "Cellaring",
@@ -114,7 +123,12 @@
   },
   {
     "term": "Châteauneuf-du-Pape",
-    "definition": "Châteauneuf-du-Pape is one of the most prestigious appellations in France’s southern Rhône Valley, known for its powerful, complex red wines and historic ties to the papacy, dating back to the 14th century when the Popes resided in nearby Avignon. The region’s vineyards are marked by galets roulés—large, round stones that retain heat and help ripen grapes in the warm Mediterranean climate. While up to 13 grape varieties are permitted, Grenache dominates most blends, often accompanied by Syrah, Mourvèdre, and other traditional Rhône varieties, resulting in bold, full-bodied wines with notes of ripe red fruit, herbs, leather, and spice. A small amount of white Châteauneuf-du-Pape is also produced, using grapes like Grenache Blanc, Roussanne, and Clairette, offering rich yet fresh wines with floral and stone fruit notes. The wines are known for their ageability, depth, and reflection of terroir, making them highly prized among collectors and enthusiasts."
+    "definition": "Châteauneuf-du-Pape is an appellation of the southern Rhône Valley in southeastern France, located near <strong>Avignon</strong>. It is one of the historic benchmarks of French appellation law, associated with the early development of controlled origin standards and named for the “new castle of the pope,” a reference to the Avignon papacy.",
+    "definition2": "The appellation produces red and white wines, though red wine is dominant. <strong>Grenache</strong> is the principal grape in many blends, supported by varieties such as Syrah, Mourvèdre, Cinsault, Counoise, Clairette, and Roussanne; the wines are generally defined by ripe fruit, Mediterranean herbs, warmth, and structural density.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-france",
+    "label": "France"
+  }
   },
   {
     "term": "Chenin Blanc",
@@ -139,7 +153,11 @@
   },
   {
     "term": "Chinon",
-    "definition": "Chinon is a respected appellation in France’s Loire Valley, best known for its red wines made primarily from Cabernet Franc, which thrive in the region’s limestone and gravel soils. These wines range in style from light and fresh with bright red fruit and herbal notes to more structured and age-worthy expressions with earth, tobacco, and spice. A small amount of white Chinon is also produced from Chenin Blanc, offering vibrant acidity and minerality. With its balance of freshness, elegance, and food-friendly appeal, Chinon is a favorite among lovers of cool-climate reds."
+    "definition": "Chinon is a respected appellation in France’s Loire Valley, best known for its red wines made primarily from Cabernet Franc, which thrive in the region’s limestone and gravel soils. These wines range in style from light and fresh with bright red fruit and herbal notes to more structured and age-worthy expressions with earth, tobacco, and spice. A small amount of white Chinon is also produced from Chenin Blanc, offering vibrant acidity and minerality. With its balance of freshness, elegance, and food-friendly appeal, Chinon is a favorite among lovers of cool-climate reds.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-france",
+    "label": "France"
+  }
   },
   {
     "term": "Cider",
@@ -175,7 +193,8 @@
   },
     {
     "term": "Coffee",
-    "definition": "Coffee is produced from the roasted seeds (beans) of the Coffea plant, primarily Coffea arabica and Coffea robusta species, with arabica representing about 70% of global production and prized for its superior flavor complexity, while robusta contains higher caffeine content and provides the crema and body found in espresso blends. The journey from coffee cherry to cup involves multiple critical stages: growing conditions (altitude, climate, soil), processing methods (washed, natural, or honey process), roasting profiles (light to dark that develop different flavor compounds), and brewing techniques, with each step dramatically influencing the final flavor profile from bright and acidic to rich and chocolatey. Terroir plays a fundamental role in coffee quality, with factors like altitude (higher elevations typically produce denser, more complex beans), volcanic soil, rainfall patterns, and temperature variations creating distinct regional characteristics—Ethiopian coffees often display floral and fruity notes, Central American beans tend toward bright acidity and chocolate notes, while Indonesian coffees frequently exhibit earthy, herbal qualities. Roasting transforms the green coffee beans through chemical reactions called Maillard browning and caramelization, with lighter roasts preserving origin characteristics and acidity while darker roasts develop roasted flavors like caramel and chocolate while diminishing the bean's inherent terroir expressions. Brewing methods—from pour-over and French press to espresso and cold brew—extract different compounds from the ground coffee, requiring specific grind sizes, water temperatures (195-205°F for most methods), and contact times to achieve optimal extraction and balance between desirable flavors and bitter compounds, making coffee appreciation as nuanced and rewarding as wine or spirits exploration."
+    "definition": "Coffee is produced from the roasted seeds (beans) of the Coffea plant, primarily Coffea arabica and Coffea robusta species, with arabica representing about 70% of global production and prized for its superior flavor complexity, while robusta contains higher caffeine content and provides the crema and body found in espresso blends. The journey from coffee cherry to cup involves multiple critical stages: growing conditions (altitude, climate, soil), processing methods (washed, natural, or honey process), roasting profiles (light to dark that develop different flavor compounds), and brewing techniques, with each step dramatically influencing the final flavor profile from bright and acidic to rich and chocolatey. Terroir plays a fundamental role in coffee quality, with factors like altitude (higher elevations typically produce denser, more complex beans), volcanic soil, rainfall patterns, and temperature variations creating distinct regional characteristics—Ethiopian coffees often display floral and fruity notes, Central American beans tend toward bright acidity and chocolate notes, while Indonesian coffees frequently exhibit earthy, herbal qualities. Roasting transforms the green coffee beans through chemical reactions called Maillard browning and caramelization, with lighter roasts preserving origin characteristics and acidity while darker roasts develop roasted flavors like caramel and chocolate while diminishing the bean's inherent terroir expressions.",
+    "definition2": "Brewing methods—from pour-over and French press to espresso and cold brew—extract different compounds from the ground coffee, requiring specific grind sizes, water temperatures (195-205°F for most methods), and contact times to achieve optimal extraction and balance between desirable flavors and bitter compounds, making coffee appreciation as nuanced and rewarding as wine or spirits exploration."
   },
   {
     "term": "Cognac",
@@ -191,7 +210,11 @@
   },
   {
     "term": "Corsica",
-    "definition": "Corsica, a rugged Mediterranean island located southeast of mainland France, boasts a wine culture that reflects both French and Italian influences, shaped by centuries of shifting rule and a unique island terroir. Though part of France today, Corsica’s history includes long periods under Genoese control, which introduced Italian grape varieties and winemaking traditions that still shape the island’s wines. The region’s diverse microclimates—from sun-drenched coastal plains to mountainous inland vineyards—allow for a wide range of styles, often marked by freshness, minerality, and wild herb aromatics. Corsica’s main appellation is Vin de Corse AOC, but more specific regions like Patrimonio and Ajaccio have earned reputations for higher quality. Indigenous grapes such as Niellucciu (related to Sangiovese), Sciaccarellu, and Vermentinu (Vermentino) dominate production, yielding characterful reds with Mediterranean spice and whites that are crisp, floral, and saline. Many producers focus on organic and sustainable practices, and the island’s remoteness has helped preserve old vines and traditional methods. Corsican wines, once largely consumed locally, are now gaining international attention for their authenticity and distinct sense of place, making the island one of France’s most intriguing and underappreciated wine regions."
+    "definition": "Corsica, a rugged Mediterranean island located southeast of mainland France, boasts a wine culture that reflects both French and Italian influences, shaped by centuries of shifting rule and a unique island terroir. Though part of France today, Corsica’s history includes long periods under Genoese control, which introduced Italian grape varieties and winemaking traditions that still shape the island’s wines. The region’s diverse microclimates—from sun-drenched coastal plains to mountainous inland vineyards—allow for a wide range of styles, often marked by freshness, minerality, and wild herb aromatics. Corsica’s main appellation is Vin de Corse AOC, but more specific regions like Patrimonio and Ajaccio have earned reputations for higher quality. Indigenous grapes such as Niellucciu (related to Sangiovese), Sciaccarellu, and Vermentinu (Vermentino) dominate production, yielding characterful reds with Mediterranean spice and whites that are crisp, floral, and saline. Many producers focus on organic and sustainable practices, and the island’s remoteness has helped preserve old vines and traditional methods. Corsican wines, once largely consumed locally, are now gaining international attention for their authenticity and distinct sense of place, making the island one of France’s most intriguing and underappreciated wine regions.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-france",
+    "label": "France"
+  }
   },
   {
     "term": "Cosecha",
