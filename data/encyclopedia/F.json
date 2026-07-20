@@ -86,7 +86,11 @@
   },
   {
     "term": "Franciacorta",
-    "definition": "Franciacorta is Italy's most prestigious sparkling wine region, located in Lombardy between Milan and Lake Garda, where producers create exceptional traditional method sparkling wines using only Chardonnay, Pinot Nero (Pinot Noir), and Pinot Bianco grapes with strict quality regulations that often exceed those of Champagne. This DOCG region, established in 1995, requires longer aging on lees than Champagne (18 months minimum versus 15 months) and prohibits the use of the term \"metodo classico,\" instead using only \"Franciacorta\" to distinguish these wines as a unique Italian expression of traditional sparkling winemaking. The region's continental climate, morainic soils left by ancient glaciers, and altitude variations create ideal conditions for producing sparkling wines with remarkable finesse, complexity, and aging potential that rival the best Champagnes while maintaining a distinctly Italian character. Franciacorta represents the pinnacle of Italian sparkling wine production, with top producers like Ca' del Bosco, Bellavista, and Ferrari demonstrating that Italy can compete at the highest levels of luxury sparkling wine while offering exceptional value compared to similarly crafted French Champagnes."
+    "definition": "Franciacorta is Italy's most prestigious sparkling wine region, located in Lombardy between Milan and Lake Garda, where producers create exceptional traditional method sparkling wines using only Chardonnay, Pinot Nero (Pinot Noir), and Pinot Bianco grapes with strict quality regulations that often exceed those of Champagne. This DOCG region, established in 1995, requires longer aging on lees than Champagne (18 months minimum versus 15 months) and prohibits the use of the term \"metodo classico,\" instead using only \"Franciacorta\" to distinguish these wines as a unique Italian expression of traditional sparkling winemaking. The region's continental climate, morainic soils left by ancient glaciers, and altitude variations create ideal conditions for producing sparkling wines with remarkable finesse, complexity, and aging potential that rival the best Champagnes while maintaining a distinctly Italian character. Franciacorta represents the pinnacle of Italian sparkling wine production, with top producers like Ca' del Bosco, Bellavista, and Ferrari demonstrating that Italy can compete at the highest levels of luxury sparkling wine while offering exceptional value compared to similarly crafted French Champagnes.",
+   "relatedArticle": {
+    "url": "/study-guides/wines-of-italy",
+    "label": "Italy"
+  }
   },
   {
     "term": "Free-run juice",
@@ -102,11 +106,19 @@
   },
   {
     "term": "Friulano",
-    "definition": "Name for the Sauvignonasse grape in Friuli. Formerly known as Tocai Friulano. A white wine grape that shows great promise when handled with care."
+    "definition": "Name for the Sauvignonasse grape in Friuli. Formerly known as Tocai Friulano. A white wine grape that shows great promise when handled with care.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-italy",
+    "label": "Italy"
+  }
   },
   {
     "term": "Friuli",
-    "definition": "Friuli-Venezia Giulia, located in northeastern Italy bordering Austria and Slovenia, represents one of Italy's most dynamic and quality-focused white wine regions, where the cool Alpine climate and diverse soils create ideal conditions for producing exceptionally crisp, mineral-driven wines from both international and indigenous grape varieties. The region gained international recognition through pioneering producers like Mario Schiopetto and Josko Gravner who revolutionized Italian white winemaking in the 1970s and 80s, introducing temperature-controlled fermentation and later natural winemaking techniques that showcase varieties like Friulano, Ribolla Gialla, and Pinot Grigio at their most expressive."
+    "definition": "Friuli-Venezia Giulia, located in northeastern Italy bordering Austria and Slovenia, represents one of Italy's most dynamic and quality-focused white wine regions, where the cool Alpine climate and diverse soils create ideal conditions for producing exceptionally crisp, mineral-driven wines from both international and indigenous grape varieties. The region gained international recognition through pioneering producers like Mario Schiopetto and Josko Gravner who revolutionized Italian white winemaking in the 1970s and 80s, introducing temperature-controlled fermentation and later natural winemaking techniques that showcase varieties like Friulano, Ribolla Gialla, and Pinot Grigio at their most expressive.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-italy",
+    "label": "Italy"
+  }
   },
   {
     "term": "Furmint",

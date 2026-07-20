@@ -61,7 +61,8 @@
   },
   {
     "term": "Riesling",
-    "definition": "A grape that needs no introduction, yet is often misunderstood as a sweet, quaffing wine relegated to porch pounder status for those not enjoying dry wine. However, there was a time not too long ago that Riesling commanded higher prices than Bordeaux or Burgundy. Germany is the most notable country who produces the grape, having a wine range of styles and sweetness levels. The German wine laws are the most confusing thing in the world of wine, only adding to the general confusion about the quality and potential of the grape. The dry examples of German Riesling may be the most underrated white wines in the world. Austria makes great Riesling, tending to be more on the dry side of the spectrum. The Danube River valley is well suited to Riesling production, that thrives in cold, harsh condition where vintners must use their skill, ingenuity and historical guidelines to ripen the fruit properly. Countries such as Germany and Austria will utilize the sunshine that reflects off the rivers and tributaries to raise the ambient temperatures in the vineyard just enough to get more ripeness out of the hanging grapes. You can find both outstanding and historically significant examples in Alsace as well, the French outpost for the Riesling grape. New world areas making strides with the grape are Oregon, Washington State and California, along with New York State, which has a long history of growing Riesling in the Finger Lakes region. New Zealand, Australia and Chile all make great examples of the grape, with drier styles being the star performers of the new world examples."
+    "definition": "Riesling is a white grape variety of German origin, valued for its high natural acidity, aromatic precision, and ability to transmit site differences with unusual clarity. It is closely associated with the Mosel, Rheingau, Pfalz, Alsace, Austria, Australia’s Clare and Eden Valleys, and parts of the Finger Lakes, where <strong>climate</strong> strongly shapes its balance of ripeness and tension.",
+    "definition2": "The grape can produce bone-dry, off-dry, sweet, sparkling, and botrytized wines, often with marked longevity. Typical aromas include lime, green apple, peach, apricot, white flowers, honey, petrol, and wet stone, with <strong>acidity</strong> serving as the structural feature that allows both freshness in youth and complexity with age."
   },
   {
     "term": "Rioja",
@@ -69,7 +70,11 @@
   },
   {
     "term": "Rootstock",
-    "definition": "The plant material (base of the grapevine) that is utilized to grow the grapevines, usually chosen for their disease and drought resistance."
+    "definition": "The plant material (base of the grapevine) that is utilized to grow the grapevines, usually chosen for their disease and drought resistance.",
+    "relatedArticle": {
+    "url": "/articles/cycle-in-the-vineyard",
+    "label": "Viticulture"
+  }
   },
   {
     "term": "Rosé",

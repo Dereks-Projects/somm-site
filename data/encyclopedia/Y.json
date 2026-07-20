@@ -17,7 +17,11 @@
   },
   {
     "term": "Yield",
-    "definition": "The number of grapes (or liquid from the crushed grapes) that is available (or allowed by law) from a particular vineyard. The European Union often has laws regulating the amount of liquid can be derived from any on plot of land, as a way to promote higher quality wines."
+    "definition": "The number of grapes (or liquid from the crushed grapes) that is available (or allowed by law) from a particular vineyard. The European Union often has laws regulating the amount of liquid can be derived from any on plot of land, as a way to promote higher quality wines.",
+    "relatedArticle": {
+    "url": "/articles/cycle-in-the-vineyard",
+    "label": "Viticulture"
+  }
   },
   {
     "term": "Yountville",

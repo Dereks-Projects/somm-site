@@ -5,7 +5,11 @@
   },
   {
     "term": "Eden Valley",
-    "definition": "Wine region located in South Australia, next to the Barossa Valley. Location of the famed vineyard Hill of Grace by Henschke."
+    "definition": "Wine region located in South Australia, next to the Barossa Valley. Location of the famed vineyard Hill of Grace by Henschke.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-australia-and-new-zealand",
+    "label": "Australia"
+  }
   },
   {
     "term": "Edes",

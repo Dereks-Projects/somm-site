@@ -212,7 +212,11 @@
   },
   {
     "term": "Brachetto",
-    "definition": "Brachetto is a red grape variety from Italy’s Piedmont region, best known for producing lightly sparkling, sweet wines with vibrant aromas of rose, strawberry, and raspberry. Most famously used in Brachetto d’Acqui DOCG, it creates low-alcohol, aromatic wines that are often enjoyed chilled as a refreshing dessert pairing."
+    "definition": "Brachetto is a red grape variety from Italy’s Piedmont region, best known for producing lightly sparkling, sweet wines with vibrant aromas of rose, strawberry, and raspberry. Most famously used in Brachetto d’Acqui DOCG, it creates low-alcohol, aromatic wines that are often enjoyed chilled as a refreshing dessert pairing.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-italy",
+    "label": "Italy"
+  }
   },
   {
     "term": "Brandy",

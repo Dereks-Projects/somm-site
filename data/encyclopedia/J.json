@@ -7,10 +7,7 @@
     "term": "Jammy",
     "definition": "A wine tasting term for a wine that is showing intensity of fruit flavor, bordering on the candied or liqueur side of richness."
   },
-  {
-    "term": "Japan",
-    "definition": "Japan has become one of the world’s most respected whisky-producing nations, known for crafting precise, elegant, and harmonious whiskies that often draw inspiration from Scottish tradition while expressing a distinct Japanese sensibility. Japanese whisky production began in the early 20th century, with pioneers like Masataka Taketsuru and Shinjiro Torii, and iconic distilleries such as Yamazaki, Hakushu, Nikka, and Chichibu now leading the industry. Many Japanese whiskies are made using pure local water sources, long fermentation, and a variety of cask types—including American oak, sherry casks, and Japanese Mizunara oak, which imparts subtle sandalwood and incense-like aromas. Rather than emphasizing boldness, Japanese whisky tends to favor balance, refinement, and nuance, often designed to pair well with food. The category has grown from cult status to global acclaim, with limited releases and aged expressions becoming highly collectible, positioning Japan as a top-tier whisky nation alongside Scotland, Ireland, and the U.S."
-  },
+
   {
     "term": "Japanese Whisky",
     "definition": "Japanese whisky emerged in the 1920s when <strong>Masataka Taketsuru</strong>, after studying Scotch whisky production in Scotland, returned to Japan and co-founded the country's first commercial distillery with Shinjiro Torii, establishing a whisky-making tradition that closely follows Scottish methods while incorporating distinctly Japanese elements like mizunara oak aging, local water sources, and meticulous attention to craftsmanship. The industry gained international recognition in the early 2000s when Japanese whiskies began winning prestigious awards and blind tastings against established Scotch brands, with distilleries like Yamazaki, Hakushu, Nikka, and Hibiki producing whiskies that showcase remarkable balance, complexity, and refinement that reflect Japanese aesthetic principles of harmony and precision. ",
@@ -34,7 +31,11 @@
   },
   {
     "term": "Jura",
-    "definition": "The Jura is a small, mountainous wine region in eastern France, nestled between Burgundy and the Swiss border, known for its distinctive and often oxidative wine styles. It produces a range of wines including elegant Chardonnays, savory reds from Poulsard, Trousseau, and Pinot Noir, and its signature Vin Jaune—a sherry-like wine made from the Savagnin grape and aged under a veil of yeast. Jura’s cool climate and limestone-rich soils contribute to the region’s vibrant acidity and unique expression. Though historically overlooked, the Jura has gained cult status among sommeliers and enthusiasts for its authenticity, originality, and age-worthy wines."
+    "definition": "The Jura is a small, mountainous wine region in eastern France, nestled between Burgundy and the Swiss border, known for its distinctive and often oxidative wine styles. It produces a range of wines including elegant Chardonnays, savory reds from Poulsard, Trousseau, and Pinot Noir, and its signature Vin Jaune—a sherry-like wine made from the Savagnin grape and aged under a veil of yeast. Jura’s cool climate and limestone-rich soils contribute to the region’s vibrant acidity and unique expression. Though historically overlooked, the Jura has gained cult status among sommeliers and enthusiasts for its authenticity, originality, and age-worthy wines.",
+    "relatedArticle": {
+    "url": "/articles/france-radical-wine-region-jura",
+    "label": "Jura"
+  }
   },
   {
     "term": "Jurançon",
