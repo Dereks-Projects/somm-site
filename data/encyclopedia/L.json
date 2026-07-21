@@ -4,10 +4,6 @@
     "definition": "One of the main acids found in beverages, especially wines that have a creamy or buttery mouthfeel. This becomes prevalent in wines that have gone through malolactic fermentation, the process by which a second fermentation takes place, turning the harsher malic acid (green apples) into the softer lactic acid (cream, half & half)."
   },
   {
-    "term": "Lagar",
-    "definition": "Lager is the other major category of beer (alongside ale), defined by its use of bottom-fermenting yeast (Saccharomyces pastorianus) that ferments slowly at cooler temperatures (typically 45–55°F / 7–13°C) and requires a longer aging process, known as lagering, which gives the beer its signature clean, crisp, and smooth character. Lagers are generally lighter in body and more restrained in aroma and flavor than ales, though the category includes a wide range of styles—from pale lagers and pilsners, to amber lagers, dark lagers (like Dunkel and Schwarzbier), and strong varieties like Bock and Doppelbock. The cooler fermentation and extended conditioning help reduce fruity esters and other fermentation byproducts, resulting in a more refined, malt- or hop-balanced beer with high drinkability. Though often associated with mass-produced, light-bodied beers, lagers can be richly complex and nuanced, and they remain the most widely consumed beer style in the world, especially in Central Europe and the Americas."
-  },
-  {
     "term": "Lager",
     "definition": "A type of beer made with bottom-fermenting yeast at cold temperatures, known for its clean, crisp flavor profile and high carbonation—styles include Pilsner, Helles, and Dunkel."
   },
@@ -37,7 +33,11 @@
   },
   {
     "term": "Late harvest",
-    "definition": "A winemaking term used to indicate a process by which the grapes are left on the vine past the “optimal” harvest date in order to inhibit “passillerage”, the shriveling of the grapes and the concentration of sugars. There are many wine regions that make late harvest style wines, with Germany and France being the most historically notable countries."
+    "definition": "A winemaking term used to indicate a process by which the grapes are left on the vine past the “optimal” harvest date in order to inhibit “passillerage”, the shriveling of the grapes and the concentration of sugars. There are many wine regions that make late harvest style wines, with Germany and France being the most historically notable countries.",
+    "relatedArticle": {
+    "url": "/articles/cycle-in-the-vineyard",
+    "label": "Viticulture"
+  }
   },
   {
     "term": "Laying down",

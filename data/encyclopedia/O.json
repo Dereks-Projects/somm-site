@@ -22,7 +22,11 @@
   },
   {
     "term": "Old Vines",
-    "definition": "You'll often find the term “old vines” (vieilles vignes) on wine labels, indicating a grapevine that has been producing fruit for a sustained period. Although rarely regulated, this timeframe is usually more than 25 years, with some examples being up to 100 years old."
+    "definition": "You'll often find the term “old vines” (vieilles vignes) on wine labels, indicating a grapevine that has been producing fruit for a sustained period. Although rarely regulated, this timeframe is usually more than 25 years, with some examples being up to 100 years old.",
+    "relatedArticle": {
+    "url": "/articles/cycle-in-the-vineyard",
+    "label": "Viticulture"
+  }
   },
   {
     "term": "Olfactory epithelium",

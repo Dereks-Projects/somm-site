@@ -2,7 +2,7 @@
 
 .header {
   background-color: #000000;
-  padding: 18px 20px;
+  padding: 12px 20px;
   display: grid;
   grid-template-columns: 40px 1fr 40px;
   align-items: center;
@@ -21,7 +21,7 @@
 }
 
 .logo {
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 600;
   color: white;
   margin: 0;
@@ -180,7 +180,7 @@
 /* DESKTOP */
 @media (min-width: 768px) {
   .header {
-    padding: 16px 100px;
+    padding: 11px 100px;
   }
 
   .headerSpacer {

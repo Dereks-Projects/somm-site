@@ -94,7 +94,11 @@
   },
   {
     "term": "Powdery Mildew",
-    "definition": "A vine disease, originating in North America, that slowly kills off the grapevine, with the vine giving meager yields of fruit once affected. Also known as Oidium."
+    "definition": "A vine disease, originating in North America, that slowly kills off the grapevine, with the vine giving meager yields of fruit once affected. Also known as Oidium.",
+    "relatedArticle": {
+    "url": "/articles/cycle-in-the-vineyard",
+    "label": "Viticulture"
+  }
   },
   {
     "term": "Prädikat",

@@ -173,7 +173,11 @@
   },
   {
     "term": "Vitis vinifera",
-    "definition": "Vitis vinifera is the primary species of grapevine used in the production of nearly all the world’s fine wines. Native to the Mediterranean and Central Asia, it includes thousands of cultivars such as Cabernet Sauvignon, Chardonnay, and Riesling. Unlike hybrid or native American grape species, Vitis vinifera is prized for its ability to produce wines with complexity, balance, and aging potential."
+    "definition": "Vitis vinifera is the primary species of grapevine used in the production of nearly all the world’s fine wines. Native to the Mediterranean and Central Asia, it includes thousands of cultivars such as Cabernet Sauvignon, Chardonnay, and Riesling. Unlike hybrid or native American grape species, Vitis vinifera is prized for its ability to produce wines with complexity, balance, and aging potential.",
+    "relatedArticle": {
+    "url": "/articles/cycle-in-the-vineyard",
+    "label": "Viticulture"
+  }
   },
   {
     "term": "Vodka",

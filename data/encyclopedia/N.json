@@ -39,7 +39,11 @@
   },
   {
     "term": "Noble Rot",
-    "definition": "A viticultural term for Botrytis cinerea, the fungus necessary to produce some of the greatest sweet wines in the world. The mold attaches itself to the outer layers of the grape, eventually piercing the grapes and leaking the juice out, concentrating the remaining sugars and laying the groundwork to produce naturally sweet wines. Places like Sauternes in Bordeaux and the Coteaux du Layon in the Loire Valley."
+    "definition": "A viticultural term for Botrytis cinerea, the fungus necessary to produce some of the greatest sweet wines in the world. The mold attaches itself to the outer layers of the grape, eventually piercing the grapes and leaking the juice out, concentrating the remaining sugars and laying the groundwork to produce naturally sweet wines. Places like Sauternes in Bordeaux and the Coteaux du Layon in the Loire Valley.",
+    "relatedArticle": {
+    "url": "/articles/cycle-in-the-vineyard",
+    "label": "Viticulture"
+  }
   },
   {
     "term": "NV",
