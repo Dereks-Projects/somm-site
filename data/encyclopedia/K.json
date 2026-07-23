@@ -1,7 +1,8 @@
 [
   {
     "term": "Kabinett",
-    "definition": "One of the “pradikats” (ripeness levels, essentially) of Germany. The Oechsle scale, a measurement of specific gravity and the way growers measure ripeness levels, has certain ranges where each pradikat level falls."
+    "definition": "Kabinett is the lightest Prädikat category in Germany, traditionally associated with wines made from fully ripe grapes at the lower end of the Prädikat ripeness scale.",
+    "definition2": "Germany’s Prädikat terms indicate minimum grape must weight at harvest, measured in degrees Oechsle, and are important pieces of label language rather than direct guarantees of sweetness."
   },
   {
     "term": "Kamptal",
@@ -21,7 +22,11 @@
   },
   {
     "term": "Knights Valley",
-    "definition": "An appellation in Sonoma County known for Cabernet Sauvignon production. This valley is the extension of Napa Valley, as you pass over the county line into Sonoma. Beringer is the largest producer here."
+    "definition": "Knights Valley is Sonoma County’s warm, remote eastern AVA, tucked against Mount St. Helena and shaped by elevated vineyards, volcanic soils, and dramatic day-to-night temperature shifts. Cabernet Sauvignon and other Bordeaux varieties thrive here, producing deeply colored, structured wines that combine ripe dark fruit with firm tannins, freshness, and a distinctly mountain-grown character.",
+    "relatedArticle": {
+    "url": "/articles/discovering-sonoma-county-wine",
+    "label": "Sonoma County"
+  }
   },
   {
     "term": "Kremstal",
@@ -33,11 +38,11 @@
   },
   {
     "term": "Kombucha",
-    "definition": "Kombucha is a fermented tea beverage that naturally produces trace amounts of alcohol (typically 0.5-3% ABV) through the fermentation process involving a symbiotic culture of bacteria and yeast (SCOBY), placing it in a regulatory gray area where most commercial versions are kept below 0.5% ABV to avoid alcohol licensing requirements, though some craft producers intentionally create higher-alcohol versions marketed as hard kombucha with 4-8% ABV. The fermentation process that creates kombucha's characteristic tangy, effervescent profile is fundamentally similar to other alcoholic beverages—yeast consumes sugars from sweetened tea and produces alcohol and carbon dioxide—but the bacterial component typically converts much of the alcohol into acetic acid, giving kombucha its distinctive sour flavor while maintaining relatively low alcohol content. Hard kombucha has emerged as a popular category in the craft beverage market, appealing to health-conscious consumers seeking alternatives to beer and wine, with producers using techniques like longer fermentation periods, additional sugar sources, or secondary fermentation with wine or beer yeasts to achieve higher alcohol levels while preserving kombucha's probiotic benefits and unique flavor profile."
+    "definition": "Kombucha is a fermented tea made by adding a culture of bacteria and yeast, often called a SCOBY, to sweetened tea. During fermentation, the culture converts much of the sugar into organic acids, light carbonation, and trace alcohol, creating a tart, refreshing drink that is often flavored with fruit, herbs, or spices."
   },
   {
     "term": "Kosher wine",
-    "definition": "Wine that is produced under the supervision of a Rabbi and suitable for observing religions."
+    "definition": "Kosher wine is produced according to Jewish dietary law, with approved ingredients and supervision throughout handling and production, rather than being defined by a particular grape or flavor. Some wines are also labeled <strong>mevushal</strong>, meaning they have been heat-treated so they may remain kosher even when served by someone who is not Sabbath-observant."
   },
   {
     "term": "Kvas (Kvass)",

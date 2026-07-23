@@ -5,7 +5,11 @@
   },
   {
     "term": "Head training",
-    "definition": "A viticultural term describing a vine training system where the trunk and the cane that the grapes grow upon are left to grow on their own, without wire trellising. This style is found in older wine regions, most notably the Rhône Valley of France."
+    "definition": "A viticultural term describing a vine training system where the trunk and the cane that the grapes grow upon are left to grow on their own, without wire trellising. This style is found in older wine regions, most notably the Rhône Valley of France.",
+    "relatedArticle": {
+    "url": "/articles/cycle-in-the-vineyard",
+    "label": "Viticulture"
+  }
   },
   {
     "term": "Hectare",
@@ -43,10 +47,7 @@
     "term": "Hops",
     "definition": "The flower cones of the Humulus lupulus plant used in brewing to add bitterness, aroma, and stability to beer, with flavor notes ranging from floral and citrusy to piney and dank."
   },
-  {
-    "term": "Hybrid",
-    "definition": "A viticultural term for a grapevine that has been “crossed” with another vine of a different species to propagate the best characteristics of each species together into one plant. This can be utilized in harsh climates where traditional grapes may not thrive, especially in the cooler, more northerly latitudes."
-  },
+  
   {
     "term": "Hungary",
     "definition": "Hungary is one of Europe’s oldest wine-producing countries, with a rich vinous heritage that dates back over a thousand years and a remarkable diversity of indigenous grape varieties and terroirs. The most internationally renowned Hungarian wine is <strong>Tokaji</strong>, a golden, sweet wine made primarily from the Furmint grape, prized for its honeyed complexity, vibrant acidity, and legendary ageability—it was famously called “the wine of kings, king of wines” by Louis XIV.",
@@ -62,7 +63,11 @@
   }
   },
   {
-    "term": "Hybrids",
-    "definition": "Hybrid vines are grape varieties created by crossing two different grape species—typically European vinifera grapes with native American species like labrusca or riparia—to combine the wine quality of vinifera with the disease resistance and cold hardiness of American rootstock varieties. These hybrids were initially developed in the late 19th and early 20th centuries to combat phylloxera and other vineyard diseases, with varieties like Seyval Blanc, Vidal, and Chambourcin proving successful in challenging climates where pure vinifera struggles, particularly in the eastern United States, Canada, and northern European regions. While hybrid wines often display distinctive \"foxy\" or non-vinifera flavors that can be polarizing, modern breeding programs have created increasingly sophisticated hybrids that produce wines closer to vinifera quality while maintaining their practical advantages of disease resistance and cold tolerance. The use of hybrids remains controversial in traditional European wine regions where they're often prohibited under appellation laws, but they've proven essential for establishing viable wine industries in climates too harsh for vinifera, offering winemakers practical solutions for sustainable viticulture while expanding the geographic boundaries of commercial wine production."
+    "term": "Hybrid",
+    "definition": "A viticultural term for a grapevine that has been “crossed” with another vine of a different species to propagate the best characteristics of each species together into one plant. This can be utilized in harsh climates where traditional grapes may not thrive, especially in the cooler, more northerly latitudes.",
+    "relatedArticle": {
+    "url": "/articles/cycle-in-the-vineyard",
+    "label": "Viticulture"
+  }
   }
 ]

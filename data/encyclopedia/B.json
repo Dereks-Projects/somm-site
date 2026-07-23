@@ -130,7 +130,8 @@
   },
   {
     "term": "Beerenauslese",
-    "definition": "A wine affected by botrytis-cinerea and made into a sweet offering in Germany or Austria. These wines are rare and only made in the best vintages."
+    "definition": "A wine affected by botrytis-cinerea and made into a sweet offering in Germany or Austria. These wines are rare and only made in the best vintages.",
+    "definition2": "Germany’s Prädikat terms indicate minimum grape must weight at harvest, measured in degrees Oechsle, and are important pieces of label language rather than direct guarantees of sweetness."
   },
   {
     "term": "Berthomeau Report",
@@ -196,7 +197,8 @@
   },
   {
     "term": "Botrytis cinerea",
-    "definition": "Botrytis cinerea, commonly known as noble rot, is a beneficial fungus that plays a critical role in the production of some of the world’s most prized sweet wines. Under specific conditions—humid mornings followed by dry, sunny afternoons—this fungus infects ripe grapes and dehydrates them slowly, concentrating their sugars, acids, and aromatic compounds. The result is a shriveled berry with intensified flavor and complexity, ideal for creating lusciously sweet, long-lived wines. This form of botrytis is distinct from its destructive counterpart (grey rot), which occurs under persistently wet conditions and ruins the fruit. Winemakers must carefully manage the vineyard and harvest by hand, often in multiple passes (tries), to select only the perfectly botrytized grapes. The most famous wines made from botrytized grapes include Sauternes and Barsac in Bordeaux, where the foggy mornings near the Ciron and Garonne rivers help encourage noble rot on Sémillon, Sauvignon Blanc, and Muscadelle grapes. Other key regions include Tokaj in Hungary, where Furmint and Hárslevelű are used to craft Tokaji Aszú; Beerenauslese and Trockenbeerenauslese wines in Germany and Austria, made from Riesling; and Monbazillac in southwest France. These wines are characterized by intense sweetness balanced by vibrant acidity, with complex flavors of honey, apricot, citrus peel, ginger, and sometimes saffron or botrytis-specific aromatics like marmalade and beeswax. Noble rot wines are often aged in oak and develop incredible depth over time, capable of aging for decades due to their high sugar and acid content. While challenging and risky to produce—since the fungus is highly dependent on precise weather conditions—these wines represent a unique intersection of nature and craftsmanship. Their richness and aromatic intensity make them ideal partners for foie gras, blue cheese, or fruit-based desserts, and their rarity contributes to their prestige. As a hallmark of some of the world’s most historic and celebrated wine styles, botrytized wines showcase how a fungal infection, when perfectly timed, can elevate grapes to their most luxurious expression."
+    "definition": "Botrytis cinerea, commonly known as <strong>noble rot</strong>, is a beneficial fungus that plays a critical role in the production of some of the world’s most prized sweet wines.",
+    "definition2": "Under specific conditions; humid mornings followed by dry, sunny afternoons—this fungus infects ripe grapes and dehydrates them slowly, concentrating their sugars, acids, and aromatic compounds. The result is a shriveled berry with intensified flavor and complexity, ideal for creating lusciously sweet, long-lived wines. This form of botrytis is distinct from its destructive counterpart (grey rot), which occurs under persistently wet conditions and ruins the fruit. Winemakers must carefully manage the vineyard and harvest by hand, often in multiple passes (tries), to select only the perfectly botrytized grapes. The most famous wines made from botrytized grapes include Sauternes and Barsac in Bordeaux, where the foggy mornings near the Ciron and Garonne rivers help encourage noble rot on Sémillon, Sauvignon Blanc, and Muscadelle grapes. Other key regions include Tokaj in Hungary, where Furmint and Hárslevelű are used to craft Tokaji Aszú; Beerenauslese and Trockenbeerenauslese wines in Germany and Austria, made from Riesling; and Monbazillac in southwest France. These wines are characterized by intense sweetness balanced by vibrant acidity, with complex flavors of honey, apricot, citrus peel, ginger, and sometimes saffron or botrytis-specific aromatics like marmalade and beeswax. Noble rot wines are often aged in oak and develop incredible depth over time, capable of aging for decades due to their high sugar and acid content. While challenging and risky to produce—since the fungus is highly dependent on precise weather conditions—these wines represent a unique intersection of nature and craftsmanship. Their richness and aromatic intensity make them ideal partners for foie gras, blue cheese, or fruit-based desserts, and their rarity contributes to their prestige. As a hallmark of some of the world’s most historic and celebrated wine styles, botrytized wines showcase how a fungal infection, when perfectly timed, can elevate grapes to their most luxurious expression."
   },
   {
     "term": "Bottle fermentation",
@@ -273,6 +275,10 @@
   },
   {
     "term": "Buttery",
-    "definition": "A wine tasting term. Most often used for the rich, creamy characteristics found in barrel-fermented and/or malolactic fermented Chardonnay."
+    "definition": "A wine tasting term. Most often used for the rich, creamy characteristics found in barrel-fermented and/or malolactic fermented Chardonnay.",
+    "relatedArticle": {
+    "url": "/articles/how-wine-tasting-became-a-discipline",
+    "label": "Wine Tasting"
+  }
   }
 ]

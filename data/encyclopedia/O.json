@@ -14,7 +14,11 @@
   },
   {
     "term": "Okanagan Valley",
-    "definition": "British Columbia, Canada. The Okanagan Valley is Canada’s premier wine region, known for its dramatic landscapes, diverse microclimates, and a wide range of high-quality wines—from crisp Riesling and Pinot Gris to structured Pinot Noir and bold Merlot."
+    "definition": "British Columbia, Canada. The Okanagan Valley is Canada’s premier wine region, known for its dramatic landscapes, diverse microclimates, and a wide range of high-quality wines—from crisp Riesling and Pinot Gris to structured Pinot Noir and bold Merlot.",
+    "relatedArticle": {
+    "url": "/articles/wines-of-canada-explained",
+    "label": "Canada"
+  }
   },
   {
     "term": "Oktoberfest",

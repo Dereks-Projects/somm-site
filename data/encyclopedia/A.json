@@ -265,7 +265,7 @@
   },
   {
     "term": "Andalucia",
-    "definition": "Andalucía, located in southern Spain along the Mediterranean and Atlantic coasts, is a historic and culturally rich wine region best known for producing Sherry—a fortified wine with centuries of tradition. The heart of Sherry production lies in the \"Sherry Triangle\", formed by the towns of Jerez de la Frontera, Sanlúcar de Barrameda, and El Puerto de Santa María, where the unique albariza chalky soils and hot, dry climate are ideal for the main grape, Palomino Fino. Other key grapes include Pedro Ximénez (PX), used in lusciously sweet wines, and Moscatel, which adds floral richness to some styles. Sherry comes in a wide range of expressions, from the bone-dry, saline Fino and Manzanilla, aged under a veil of yeast called flor, to richer, oxidized styles like Oloroso, Amontillado, and sweet dessert wines like PX and Cream Sherry.",
+    "definition": "Andalucía, located in southern Spain along the Mediterranean and Atlantic coasts, is a historic and culturally rich wine region best known for producing Sherry; a fortified wine with centuries of tradition. The heart of Sherry production lies in the \"Sherry Triangle\", formed by the towns of Jerez de la Frontera, Sanlúcar de Barrameda, and El Puerto de Santa María, where the unique albariza chalky soils and hot, dry climate are ideal for the main grape, Palomino Fino. Other key grapes include Pedro Ximénez (PX), used in lusciously sweet wines, and Moscatel, which adds floral richness to some styles. Sherry comes in a wide range of expressions, from the bone-dry, saline Fino and Manzanilla, aged under a veil of yeast called flor, to richer, oxidized styles like Oloroso, Amontillado, and sweet dessert wines like PX and Cream Sherry.",
     "definition2": "Beyond Sherry, Andalucía also produces unfortified wines in emerging areas like Sierras de Málaga, Montilla-Moriles, and Cádiz, where winemakers are reviving local varieties and experimenting with modern styles. With a deep winemaking legacy and growing diversity, Andalucía offers both timeless classics and exciting new expressions rooted in its sun-soaked terroir."
   },
   {
@@ -367,11 +367,16 @@
   },
   {
     "term": "Auslese",
-    "definition": "German term that means literally 'selected harvest'. It is one of the sweeter official quality levels in German wine. These wines command high prices and are rare finds on restaurant wine lists."
+    "definition": "German term that means literally 'selected harvest'. It is one of the sweeter official quality levels in German wine. These wines command high prices and are rare finds on restaurant wine lists.",
+    "definition2": "Germany’s Prädikat terms indicate minimum grape must weight at harvest, measured in degrees Oechsle, and are important pieces of label language rather than direct guarantees of sweetness."
   },
   {
     "term": "Austerity",
-    "definition": "A wine that is not showing well at the time of opening, not produced properly or just not ready to drink. A wine that is “not showing right” is said to be austere."
+    "definition": "A wine that is not showing well at the time of opening, not produced properly or just not ready to drink. A wine that is harsh or off-putting when first opened is said to be austere.",
+    "relatedArticle": {
+    "url": "/articles/how-wine-tasting-became-a-discipline",
+    "label": "Wine Tasting"
+  }
   },
   {
     "term": "Australia",

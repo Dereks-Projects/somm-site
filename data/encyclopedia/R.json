@@ -45,7 +45,8 @@
   },
   {
     "term": "Rhône Valley",
-    "definition": "The Rhône Valley, stretching from Lyon to the Mediterranean, is one of France’s most influential wine regions, divided into two distinct parts: the cooler, narrower Northern Rhône and the warmer, broader Southern Rhône. The Northern Rhône is famed for Syrah-based reds from appellations like Hermitage and Côte-Rôtie, and elegant whites from Viognier, Marsanne, and Roussanne. In the Southern Rhône, Grenache dominates in blends alongside Syrah and Mourvèdre, producing bold, spicy reds such as Châteauneuf-du-Pape and Côtes du Rhône. With diverse terroirs, rich history, and approachable to age-worthy styles, the Rhône offers some of France’s most characterful and food-friendly wines."
+    "definition": "The Rhône Valley, stretching from Lyon to the Mediterranean, is one of France’s most influential wine regions, divided into two distinct parts: the cooler, narrower Northern Rhône and the warmer, broader Southern Rhône. The Northern Rhône is famed for Syrah-based reds from appellations like Hermitage and Côte-Rôtie, and elegant whites from Viognier, Marsanne, and Roussanne.",
+    "definition2": "In the Southern Rhône, Grenache dominates in blends alongside Syrah and Mourvèdre, producing bold, spicy reds such as Châteauneuf-du-Pape and Côtes du Rhône. With diverse terroirs, rich history, and approachable to age-worthy styles, the Rhône offers some of France’s most characterful and food-friendly wines."
   },
   {
     "term": "Rías Baixas",
@@ -66,7 +67,11 @@
   },
   {
     "term": "Rioja",
-    "definition": "Rioja, located in northern Spain along the Ebro River, is the country’s most iconic wine region, known for its age-worthy red wines primarily made from the Tempranillo grape. The region has a unique classification system based on aging: Crianza wines must age at least two years (one in oak), Reserva wines at least three years (with a minimum of one in oak and six months in bottle), and Gran Reserva wines at least five years (two in oak and two in bottle), resulting in layered, complex wines with soft tannins and integrated flavors. Rioja also produces elegant whites from Viura and increasingly fresh, modern styles across all categories. Traditional producers like López de Heredia and La Rioja Alta remain benchmarks, while a new wave of winemakers brings innovation and terroir focus to the region. Rioja’s combination of history, structure, and approachability makes it a cornerstone of Spanish wine."
+    "definition": "Rioja, located in northern Spain along the Ebro River, is the country’s most iconic wine region, known for its age-worthy red wines primarily made from the Tempranillo grape. The region has a unique classification system based on aging: Crianza wines must age at least two years (one in oak), Reserva wines at least three years (with a minimum of one in oak and six months in bottle), and Gran Reserva wines at least five years (two in oak and two in bottle), resulting in layered, complex wines with soft tannins and integrated flavors. Rioja also produces elegant whites from Viura and increasingly fresh, modern styles across all categories. Traditional producers like López de Heredia and La Rioja Alta remain benchmarks, while a new wave of winemakers brings innovation and terroir focus to the region. Rioja’s combination of history, structure, and approachability makes it a cornerstone of Spanish wine.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-spain",
+    "label": "Spain"
+  }
   },
   {
     "term": "Rootstock",
@@ -78,7 +83,8 @@
   },
   {
     "term": "Rosé",
-    "definition": "Rosé wine achieves its distinctive pink hue through limited skin contact between red grape juice and grape skins, typically lasting anywhere from a few hours to several days depending on the desired color intensity and style, with the most common production methods being direct pressing (gently pressing red grapes to extract minimal color), saignée or bleeding, drawing off pink juice from red wine tanks early in fermentation, and blending (mixing white and red wines, though this is only permitted in Champagne for still wines). The key to quality rosé production lies in maintaining the wine's fresh, vibrant character through careful temperature control, gentle handling, and often stainless steel fermentation that preserves the delicate fruit flavors and crisp acidity that define the style, with most rosés intended for immediate consumption rather than long-term aging. France's Provence region sets the global standard for dry rosé with its pale, elegant wines made primarily from Grenache, Cinsault, and Syrah, though excellent rosés are now produced worldwide from virtually any red grape variety, ranging from light and mineral-driven to rich and fruit-forward styles that pair beautifully with summer cuisine, seafood, and Mediterranean flavors."
+    "definition": "Rosé achieves its distinctive pink hue through limited skin contact between red grape juice and grape skins, typically lasting anywhere from a few hours to several days depending on the desired color intensity and style, with the most common production methods being direct pressing (gently pressing red grapes to extract minimal color), saignée or bleeding, drawing off pink juice from red wine tanks early in fermentation, and blending (mixing white and red wines, though this is only permitted in Champagne for still wines). The key to quality rosé production lies in maintaining the wine's fresh, vibrant character through careful temperature control, gentle handling, and often stainless steel fermentation that preserves the delicate fruit flavors and crisp acidity that define the style, with most rosés intended for immediate consumption rather than long-term aging.",
+    "definition2": "France's <strong>Provence</strong> region sets the global standard for dry rosé with its pale, elegant wines made primarily from Grenache, Cinsault, and Syrah, though excellent rosés are now produced worldwide from virtually any red grape variety, ranging from light and mineral-driven to rich and fruit-forward styles that pair beautifully with summer cuisine, seafood, and Mediterranean flavors."
   },
   {
     "term": "Roussillon",
@@ -102,7 +108,7 @@
   },
   {
     "term": "Rutherglen",
-    "definition": "Victoria, Australia. Rutherglen, in northeast Victoria, is legendary for its intensely sweet and unctuous fortified Muscat and Tokay (Topaque) wines, made using a solera system and showcasing complex layers of caramel, dried fruit, and spice."
+    "definition": "Rutherglen, in northeast Victoria, is legendary for its intensely sweet and unctuous fortified Muscat and Tokay (Topaque) wines, made using a solera system and showcasing complex layers of caramel, dried fruit, and spice."
   },
   {
     "term": "Rye Whiskey",

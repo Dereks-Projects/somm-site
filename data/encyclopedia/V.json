@@ -159,11 +159,16 @@
     "term": "Vintage Port",
     "definition": "Vintage Port is the most prestigious style of Port, made only in declared years from the best grapes of a single vintage, aged briefly in barrels before bottling and then matured for decades in glass, evolving from intense, dark fruit and tannins to a complex, velvety wine with notes of spice, dried fruit, and chocolate."
   },
-    {
+  {
     "term": "Viognier",
     "definition": "Viognier is an aromatic white grape that hails from the southern areas of France, grown in famous communes like Condrieu and around the city of Avignon. In the Rhône Valley, this variety produces serious wines with a lot of diverse aromatics and flavors. It often has the aromas of Riesling and the body style of Chardonnay, offering more a more fruit forward version of a full-bodied white wine. In the central coast region of California, it can be made in a wide array of styles, with some achieving fairly good quality levels. Some of these offerings have oak and a medium to full body, while others are made without oak and are on the lighter side."
   },
-    {
+  {
+    "term": "Virginia",
+    "definition": "Virginia wine has evolved into one of the most important emerging regions in the eastern United States, combining a long colonial history with a modern industry built around site selection and careful farming. Its humid climate creates real viticultural challenges, but skilled producers are finding success with grapes such as Cabernet Franc, Petit Verdot, Viognier, Chardonnay, and increasingly diverse regional varieties.",
+    "definition2": "The strongest wines often balance ripeness with freshness, showing that Virginia’s identity is less about power and more about structure, restraint, and food-friendly character. With distinct areas ranging from the Blue Ridge foothills to the Chesapeake Bay, Virginia is proving that serious American wine is not limited to the West Coast."
+  },
+  {
     "term": "Viscosity",
     "definition": "A wine tasting term that describes the weight of the wine on the palate or the apparent thickness (or lack thereof) of the liquid in the glass."
   },
@@ -185,7 +190,11 @@
   },
   {
     "term": "Volatile acidity",
-    "definition": "Wine contains many different types of acids, some of which have detrimental impacts on the finished wine. Volatile acidity, also know simply as VA, can resemble acetone if levels are too high, but add an interesting dimension to some wines that are typical to these aromas and flavors."
+    "definition": "Wine contains many different types of acids, some of which have detrimental impacts on the finished wine. Volatile acidity, also know simply as VA, can resemble acetone if levels are too high, but add an interesting dimension to some wines that are typical to these aromas and flavors.",
+    "relatedArticle": {
+    "url": "/articles/how-wine-tasting-became-a-discipline",
+    "label": "Wine Tasting"
+  }
   },
   {
     "term": "Volnay",

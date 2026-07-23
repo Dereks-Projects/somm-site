@@ -58,7 +58,11 @@
   },
   {
     "term": "Erbaluce",
-    "definition": "A white wine grape from Caluso in the Piedmont region of northern Italy."
+    "definition": "A white wine grape from Caluso in the Piedmont region of northern Italy.",
+     "relatedArticle": {
+    "url": "/study-guides/wines-of-italy",
+    "label": "Italy"
+  }
   },
   {
     "term": "Erzeugerabfüllung",

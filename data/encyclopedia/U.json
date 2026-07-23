@@ -13,7 +13,11 @@
   },
   {
     "term": "Umami",
-    "definition": "A Japanese term describing the convergence of sour, sweet, salty and savory on the palate; rendering and intense flavor experience with a food or beverage product."
+    "definition": "A Japanese term describing the convergence of sour, sweet, salty and savory on the palate; rendering and intense flavor experience with a food or beverage product.",
+    "relatedArticle": {
+    "url": "/articles/how-wine-tasting-became-a-discipline",
+    "label": "Wine Tasting"
+  }
   },
   {
     "term": "Umbria",

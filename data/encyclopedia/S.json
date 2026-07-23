@@ -77,7 +77,7 @@
   },
   {
     "term": "Santorini",
-    "definition": "Greece. Santorini is a windswept volcanic island in the Aegean Sea famed for its bone-dry, intensely mineral white wines made from the Assyrtiko grape, grown in ancient bush vines shaped into basket-like coils to protect them from the harsh sun and sea winds."
+    "definition": "Santorini is a windswept volcanic island in the Aegean Sea of Greece, famed for its bone-dry, intensely mineral white wines made from the Assyrtiko grape, grown in ancient bush vines shaped into basket-like coils to protect them from the harsh sun and sea winds."
   },
   {
     "term": "Sardinia",
@@ -102,7 +102,11 @@
   },
   {
     "term": "Savoie",
-    "definition": "Savoie is a small, alpine wine region in eastern France, nestled in the foothills of the French Alps near the borders of Switzerland and Italy. Its cool climate, high elevation, and limestone-rich soils produce light, refreshing wines that reflect their mountain origins. Although relatively under the radar, Savoie’s wines are gaining attention for their purity, minerality, and versatility—especially as interest in alpine and cool-climate wines grows. The region specializes in indigenous white grapes, most notably Jacquère, which yields crisp, low-alcohol wines with delicate floral and mineral notes. Other key white varieties include Altesse (also known as Roussette), Chasselas, and Gringet, the latter used exclusively in the tiny Ayze appellation for sparkling wines. For reds, Mondeuse is the signature variety, offering peppery, savory wines with good acidity, while Gamay and Pinot Noir also play supporting roles. Savoie includes several appellations, the largest being Vin de Savoie AOC, which encompasses much of the region’s production. Sub-appellations like Roussette de Savoie, Crépy, and Seyssel highlight specific grapes or styles. With its alpine freshness, native varieties, and growing number of quality-focused producers, Savoie offers a compelling and distinctive alternative to more mainstream French wine regions."
+    "definition": "Savoie is a small, alpine wine region in eastern France, nestled in the foothills of the French Alps near the borders of Switzerland and Italy. Its cool climate, high elevation, and limestone-rich soils produce light, refreshing wines that reflect their mountain origins. Although relatively under the radar, Savoie’s wines are gaining attention for their purity, minerality, and versatility—especially as interest in alpine and cool-climate wines grows. The region specializes in indigenous white grapes, most notably Jacquère, which yields crisp, low-alcohol wines with delicate floral and mineral notes. Other key white varieties include Altesse (also known as Roussette), Chasselas, and Gringet, the latter used exclusively in the tiny Ayze appellation for sparkling wines. For reds, Mondeuse is the signature variety, offering peppery, savory wines with good acidity, while Gamay and Pinot Noir also play supporting roles. Savoie includes several appellations, the largest being Vin de Savoie AOC, which encompasses much of the region’s production. Sub-appellations like Roussette de Savoie, Crépy, and Seyssel highlight specific grapes or styles.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-france",
+    "label": "France"
+  }
   },
   {
     "term": "Schnapps",
@@ -130,7 +134,7 @@
   },
   {
     "term": "Semillon",
-    "definition": "Golden-skinned grape from Bordeaux, essential in Sauternes and blended with Sauvignon Blanc for dry or sweet wines."
+    "definition": "Sémillon is a white grape known for its waxy texture, moderate acidity, and flavors of lemon, pear, herbs, and honey as it ages. It is central to Bordeaux’s dry and sweet wines, especially Sauternes, and also produces distinctive, long-lived styles in Australia’s Hunter Valley."
   },
   {
     "term": "Sherry",
@@ -170,7 +174,12 @@
   },
   {
     "term": "Sonoma County",
-    "definition": "Sonoma County, located just north of San Francisco, is one of California’s most diverse and respected wine regions, with a winemaking history dating back to the early 1800s. Influenced by Spanish missionaries and later European settlers, the area’s wine industry flourished in the 20th century alongside Napa, though with a more laid-back, grower-driven identity. Its cool coastal climate, varied elevations, and patchwork of soil types make it ideal for a wide range of grape varieties and styles. The region is divided into over 18 AVAs (American Viticultural Areas), each with its own character. Russian River Valley is famed for its cool-climate Pinot Noir and Chardonnay, while Alexander Valley produces powerful, fruit-driven Cabernet Sauvignon. Dry Creek Valley is best known for old-vine Zinfandel, and the Sonoma Coast offers elegant, high-acid wines thanks to maritime influence. With such diversity in terroir, Sonoma supports both artisanal small-lot producers and established estates, often emphasizing sustainability and site expression. Sonoma grows a wide range of grapes, with Chardonnay, Pinot Noir, and Cabernet Sauvignon leading the way, followed by Zinfandel, Merlot, and Sauvignon Blanc. The region’s commitment to sustainable farming, family-owned vineyards, and balanced winemaking has earned it global recognition. Sonoma wines often combine California richness with Old World restraint, offering both approachability and depth for wine lovers at all levels."
+    "definition": "Sonoma County is a major wine-producing area in Northern California, located west of Napa Valley and extending from the Pacific Coast to the Mayacamas Mountains. Its <strong>geography</strong> is defined by coastal fog, varied elevation, river valleys, volcanic and marine soils, and pronounced climatic diversity across a relatively compact area.",
+    "definition2": "The county supports a wide range of varieties, with Chardonnay, Pinot Noir, Cabernet Sauvignon, Zinfandel, Sauvignon Blanc, Syrah, and Merlot among the most important. Key appellations include Russian River Valley, Sonoma Coast, Alexander Valley, Dry Creek Valley, Knights Valley, and Sonoma Valley, each contributing distinct expressions of <strong>climate</strong>, soil, and site.",
+    "relatedArticle": {
+    "url": "/articles/discovering-sonoma-county-wine",
+    "label": "Sonoma County"
+  }
   },
   {
     "term": "Sour beer",
@@ -178,11 +187,21 @@
   },
   {
     "term": "South Africa",
-    "definition": "South Africa is an exciting and dynamic wine-producing country that bridges Old World tradition with New World innovation. With vineyards dating back to the 1600s, it has a long winemaking history rooted in European influence, but in recent decades has reinvented itself with a focus on quality, sustainability, and terroir expression. The country’s wine regions—most notably Stellenbosch, Swartland, and Walker Bay—benefit from a Mediterranean climate, cooling ocean breezes, and diverse soils that support a wide range of grape varieties. Signature wines include Chenin Blanc, which ranges from crisp and mineral-driven to rich and textured, and Pinotage, a uniquely South African red grape that blends earthy depth with bold fruit character. The Swartland region in particular has gained international attention for its old-vine, dry-farmed wines and minimal-intervention winemaking. South African wines often offer excellent value and balance, combining the elegance and structure of European wines with the ripeness and vibrancy typical of the Southern Hemisphere. For wine lovers exploring new regions, South Africa offers both tradition and innovation in every glass."
+    "definition": "South Africa is one of the historic wine-producing countries of the Southern Hemisphere, with a viticultural tradition centered on the Western Cape and dating to the seventeenth century. Its vineyards are shaped by <strong>maritime</strong> influence from the Atlantic and Indian Oceans, mountain ranges, varied soils, and the cooling effect of the Cape Doctor wind.",
+    "definition2": "The country produces a broad range of wines, with Chenin Blanc, Cabernet Sauvignon, Syrah, Chardonnay, Sauvignon Blanc, Pinotage, and traditional-method Cap Classique among its most important categories. Key regions include Stellenbosch, Paarl, Swartland, Franschhoek, Walker Bay, and Constantia, with the best wines showing a strong balance between ripe fruit, freshness, structure, and <strong>regionality</strong>.",
+    "relatedArticle": {
+    "url": "/articles/exploring-wines-of-south-africa",
+    "label": "South Africa"
+  }
   },
   {
     "term": "Southwest France",
-    "definition": "Southwest France (Sud-Ouest) is one of the country’s most varied and under-the-radar wine regions, offering a rich tapestry of indigenous grapes, traditional methods, and exceptional value. Located to the south of Bordeaux and stretching toward the Pyrenees and the Spanish border, the region encompasses a patchwork of distinct appellations, each with its own personality, climate, and soil types—from mountain foothills to river valleys. One of the best-known subregions is Cahors, famous for its bold, inky reds made from Malbec (locally called Côt), often blended with Merlot or Tannat. These wines are structured and earthy, with aging potential and a character quite distinct from their Argentine counterparts. In Madiran, Tannat takes center stage, producing deeply tannic reds that mellow beautifully over time—though modern techniques have made them more accessible in youth. The whites of Southwest France are equally impressive. In areas like Jurançon, winemakers craft both dry and sweet wines from native grapes such as Gros Manseng and Petit Manseng, known for their vibrant acidity and flavors of tropical fruit, citrus, and honey. Gaillac, one of France’s oldest wine regions, offers a wide range of styles—including sparkling wines made via the ancestral method, and reds from unique varieties like Duras and Fer Servadou. Unlike Bordeaux, where international varieties dominate, the Southwest is a stronghold of native grapes and traditional blends, often grown organically or sustainably."
+    "definition": "Southwest France (Sud-Ouest) is one of the country’s most varied and under-the-radar wine regions, offering a rich tapestry of indigenous grapes, traditional methods, and exceptional value. Located to the south of Bordeaux and stretching toward the Pyrenees and the Spanish border, the region encompasses a patchwork of distinct appellations, each with its own personality, climate, and soil types—from mountain foothills to river valleys. One of the best-known subregions is Cahors, famous for its bold, inky reds made from Malbec (locally called Côt), often blended with Merlot or Tannat. These wines are structured and earthy, with aging potential and a character quite distinct from their Argentine counterparts. In Madiran, Tannat takes center stage, producing deeply tannic reds that mellow beautifully over time—though modern techniques have made them more accessible in youth. The whites of Southwest France are equally impressive. In areas like Jurançon, winemakers craft both dry and sweet wines from native grapes such as Gros Manseng and Petit Manseng, known for their vibrant acidity and flavors of tropical fruit, citrus, and honey.",
+    "definition2": "Gaillac, one of France’s oldest wine regions, offers a wide range of styles—including sparkling wines made via the ancestral method, and reds from unique varieties like Duras and Fer Servadou. Unlike Bordeaux, where international varieties dominate, the Southwest is a stronghold of native grapes and traditional blends, often grown organically or sustainably.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-france",
+    "label": "France"
+  }
   },
   {
     "term": "Soutirage",
@@ -190,7 +209,8 @@
   },
   {
     "term": "Spätlese",
-    "definition": "A German label term denoting a “late harvest”, letting the fruit hang on the vine past the point of physiological ripeness. This increases the sugar content, or “must weight”, and thus the resulting wine will have sweetness, if not fermented dry. If the wine is harvested late and fermented to dryness, the wine will have a higher alcohol level than usually found, along with high amounts of dry extract."
+    "definition": "A German label term denoting a “late harvest”, letting the fruit hang on the vine past the point of physiological ripeness. This increases the sugar content, or “must weight”, and thus the resulting wine will have sweetness, if not fermented dry. If the wine is harvested late and fermented to dryness, the wine will have a higher alcohol level than usually found, along with high amounts of dry extract.",
+    "definition2": "Germany’s Prädikat terms indicate minimum grape must weight at harvest, measured in degrees Oechsle, and are important pieces of label language rather than direct guarantees of sweetness."
   },
   {
     "term": "Spumante",
@@ -202,7 +222,11 @@
   },
   {
     "term": "Stellenbosch",
-    "definition": "Coastal Region, South Africa. Stellenbosch is South Africa’s most prestigious wine region, nestled among mountains and cooled by ocean breezes, where a mix of old-world tradition and modern innovation produces structured red wines—especially Cabernet Sauvignon and Bordeaux-style blends—as well as vibrant Chenin Blanc, all shaped by diverse soils and a Mediterranean climate."
+    "definition": "Stellenbosch is South Africa’s most prestigious wine region, nestled among mountains and cooled by ocean breezes, where a mix of old-world tradition and modern innovation produces structured red wines—especially Cabernet Sauvignon and Bordeaux-style blends—as well as vibrant Chenin Blanc, all shaped by diverse soils and a Mediterranean climate.",
+    "relatedArticle": {
+    "url": "/articles/exploring-wines-of-south-africa",
+    "label": "South Africa"
+  }
   },
   {
     "term": "Steinfeder",
@@ -238,7 +262,11 @@
   },
   {
     "term": "Swartland",
-    "definition": "South Africa. Swartland, once overlooked and now a darling of South African wine, is a warm, dry inland region producing concentrated yet elegant wines from old-vine Syrah, Chenin Blanc, and Mediterranean blends, known for its artisanal, minimal-intervention winemaking and rugged, granitic soils."
+    "definition": "Swartland, once overlooked and now a darling of South African wine, is a warm, dry inland region producing concentrated yet elegant wines from old-vine Syrah, Chenin Blanc, and Mediterranean blends, known for its artisanal, minimal-intervention winemaking and rugged, granitic soils.",
+    "relatedArticle": {
+    "url": "/articles/exploring-wines-of-south-africa",
+    "label": "South Africa"
+  }
   },
   {
     "term": "Syrah",

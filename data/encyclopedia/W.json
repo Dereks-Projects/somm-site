@@ -42,8 +42,13 @@
     "definition": "A rare Belgian Trappist brewery making limited, highly sought-after beers, often considered among the best in the world."
   },
   {
-    "term": "WO",
-    "definition": "The Wine of Origin (WO) system, established in 1973, serves as South Africa's appellation system that guarantees the geographic origin, vintage, and grape variety stated on wine labels through rigorous certification and tasting panels. The system creates a hierarchical structure of geographic units, from broad regions like Western Cape down to specific wards (the smallest designated areas), with stricter regulations requiring higher percentages of stated components as you move to smaller, more defined areas. To qualify for WO certification, wines must contain at least 85% of the stated vintage, 85% of the declared grape variety, and 100% of grapes from the specified geographic area, ensuring authenticity and traceability. The system also includes an official tasting panel that evaluates wines for typicity and quality before granting certification, with approved wines receiving a distinctive seal on the bottle. Unlike European systems that focus heavily on traditional methods and specific terroir classifications, South Africa's WO system emphasizes geographic origin while allowing winemakers flexibility in grape varieties and winemaking techniques. This approach has helped establish credibility for South African wines in international markets while protecting consumers from misleading labeling practices."
+    "term": "WO - Wine of Origin",
+    "definition": "The Wine of Origin (WO) system, established in 1973, serves as South Africa's appellation system that guarantees the geographic origin, vintage, and grape variety stated on wine labels through rigorous certification and tasting panels. The system creates a hierarchical structure of geographic units, from broad regions like Western Cape down to specific wards (the smallest designated areas), with stricter regulations requiring higher percentages of stated components as you move to smaller, more defined areas. To qualify for WO certification, wines must contain at least 85% of the stated vintage, 85% of the declared grape variety, and 100% of grapes from the specified geographic area, ensuring authenticity and traceability. The system also includes an official tasting panel that evaluates wines for typicity and quality before granting certification, with approved wines receiving a distinctive seal on the bottle.",
+    "definition2": "Unlike European systems that focus heavily on traditional methods and specific terroir classifications, South Africa's WO system emphasizes geographic origin while allowing winemakers flexibility in grape varieties and winemaking techniques. This approach has helped establish credibility for South African wines in international markets while protecting consumers from misleading labeling practices.",
+    "relatedArticle": {
+    "url": "/articles/exploring-wines-of-south-africa",
+    "label": "South Africa"
+  }
   },
   {
     "term": "Wheat beer",
