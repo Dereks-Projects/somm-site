@@ -314,7 +314,11 @@
   },
   {
     "term": "Arbois",
-    "definition": "Arbois is the most well-known appellation in France’s Jura region, located between Burgundy and the Swiss border. It produces a range of distinctive wines, including oxidative whites from Savagnin, classic Vin Jaune, and fresh reds from Trousseau, Poulsard, and Pinot Noir. The area’s limestone-rich soils and cool climate contribute to the region’s signature minerality and vibrant acidity. As Jura’s wine capital, Arbois showcases both traditional and modern styles, making it a key destination for fans of distinctive, terroir-driven wines."
+    "definition": "Arbois is the most well-known appellation in France’s Jura region, located between Burgundy and the Swiss border. It produces a range of distinctive wines, including oxidative whites from Savagnin, classic Vin Jaune, and fresh reds from Trousseau, Poulsard, and Pinot Noir. The area’s limestone-rich soils and cool climate contribute to the region’s signature minerality and vibrant acidity. As Jura’s wine capital, Arbois showcases both traditional and modern styles, making it a key destination for fans of distinctive, terroir-driven wines.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-france",
+    "label": "France"
+  }
   },
   {
     "term": "Argentina",

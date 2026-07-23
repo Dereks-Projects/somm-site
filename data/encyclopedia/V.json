@@ -99,6 +99,10 @@
   }
   },
   {
+    "term": "Vidal",
+    "definition": "Vidal, or Vidal Blanc, is a white hybrid grape created from Ugni Blanc and Rayon d’Or, valued for its thick skins, high acidity, and ability to ripen well in cool climates. It is best known for Canadian icewine, where it produces concentrated flavors of tropical fruit, citrus, honey, and pear, though it can also make crisp dry and off-dry wines."
+  },
+  {
     "term": "Vieilles vignes",
     "definition": "A French term for “old vines”, denoting a vine that has been producing fruit for a sustained period of time."
   },
@@ -198,14 +202,26 @@
   },
   {
     "term": "Volnay",
-    "definition": "Burgundy, France. Volnay, in Burgundy’s Côte de Beaune, is cherished for its silky, perfumed Pinot Noir that embodies finesse, floral aromatics, and graceful aging potential."
+    "definition": "Burgundy, France. Volnay, in Burgundy’s Côte de Beaune, is cherished for its silky, perfumed Pinot Noir that embodies finesse, floral aromatics, and graceful aging potential.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-france",
+    "label": "France"
+  }
   },
   {
     "term": "Vosne-Romanée",
-    "definition": "Burgundy, France. A jewel of the Côte de Nuits, Vosne-Romanée produces some of the world’s most revered and sensual Pinot Noirs, including legendary Grand Crus like Romanée-Conti and La Tâche."
+    "definition": "Burgundy, France. A jewel of the Côte de Nuits, Vosne-Romanée produces some of the world’s most revered and sensual Pinot Noirs, including legendary Grand Crus like Romanée-Conti and La Tâche.",
+     "relatedArticle": {
+    "url": "/study-guides/wines-of-france",
+    "label": "France"
+  }
   },
   {
     "term": "Vouvray",
-    "definition": "Vouvray is a celebrated white wine appellation in the Loire Valley of France, made exclusively from the Chenin Blanc grape, known locally for its ability to reflect both terroir and vintage variation with remarkable versatility. Depending on the year and producer, Vouvray can range from bone-dry (sec) to lusciously sweet (moelleux), and even sparkling (mousseux), often showcasing flavors of quince, honey, lanolin, and vibrant acidity with excellent aging potential."
+    "definition": "Vouvray is a celebrated white wine appellation in the Loire Valley of France, made exclusively from the Chenin Blanc grape, known locally for its ability to reflect both terroir and vintage variation with remarkable versatility. Depending on the year and producer, Vouvray can range from bone-dry (sec) to lusciously sweet (moelleux), and even sparkling (mousseux), often showcasing flavors of quince, honey, lanolin, and vibrant acidity with excellent aging potential.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-france",
+    "label": "France"
+  }
   }
 ]

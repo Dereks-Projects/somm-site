@@ -4,12 +4,16 @@
     "definition": "This is a style of Sherry that is rare and often expensive, as a winemaker never really sets out to make a Palo Cortado, it just happens on its own; sometimes. These offerings often resemble an intense and more refined version of Fino Sherry."
   },
   {
+    "term": "Palomino",
+    "definition": "Palomino is Spain’s principal Sherry grape, valued less for intense fruitiness than for its neutral profile, moderate acidity, and ability to express biological and oxidative aging. In Jerez, it becomes everything from pale, saline Fino and Manzanilla to rich, nutty Oloroso, making winemaking and maturation more influential than the grape’s primary flavors."
+  },
+  {
     "term": "Passerillage",
     "definition": "A French viticultural term for allowing the grapes to shrivel on the vine before they are harvested. This concentrates the sugar, allowing for either a sweeter wine or, if fermented to dryness, a higher alcohol and fuller bodied wine."
   },
   {
     "term": "Passito",
-    "definition": "An Italian term for wine made from dried grapes.",
+    "definition": "Passito is an Italian wine made from grapes that are dried after harvest, a process called appassimento, which concentrates their sugars, flavors, and acidity. Most passito wines are rich and sweet, often showing dried fruit, honey, spice, and nutty notes, although some regions also use dried grapes to produce powerful dry styles.",
     "relatedArticle": {
     "url": "/study-guides/wines-of-italy",
     "label": "Italy"
@@ -49,7 +53,8 @@
   },
   {
     "term": "Phylloxera",
-    "definition": "A vine pest that has been destroying fine wine vineyards around the worlds for hundreds of years. This malady devastated some of the greatest vineyards in the world in the second half of the 20th century."
+    "definition": "Phylloxera is a microscopic vineyard pest that attacks grapevine roots and contributed to one of the most destructive agricultural crises in wine history. Native to North America, it spread through European vineyards in the nineteenth century, devastating Vitis vinifera vines that had little natural <strong>resistance</strong> to the insect.",
+    "definition2": "The long-term solution was grafting European grape varieties onto resistant American rootstocks, a practice that reshaped global viticulture. Phylloxera remains significant because it altered vineyard management, changed the economics of wine production, and revealed the vulnerability of even the most established wine regions to biological <strong>disruption</strong>."
   },
   {
     "term": "Pierce's disease",
@@ -75,6 +80,10 @@
     "url": "/articles/look-at-pinot-noir",
     "label": "Pinot Noir"
   }  
+  },
+  {
+    "term": "Pinotage",
+    "definition": "Pinotage is one of South Africa’s signature red grape varieties, created by crossing Pinot Noir with Cinsaut, locally once called Hermitage. It can produce styles ranging from juicy and smoky to deeply structured, with flavors of dark berries, plum, spice, earth, and sometimes a distinctive roasted or savory character."
   },
   {
     "term": "Pisco",
