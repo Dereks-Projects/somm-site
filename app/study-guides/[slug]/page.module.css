@@ -1,4 +1,4 @@
-/* MOBILE FIRST - Study Guide [slug] Page */
+/* app/study-guides/[slug]/page.module.css — Mobile first */
 
 .pageWrapper {
   background-color: #ffffff;
@@ -238,13 +238,25 @@
   color: #000000;
 }
 
+/* Pull quote: burgundy rules above and below, centered bold text */
 .bodyContent blockquote {
-  border-left: 4px solid #ffde59;
-  padding-left: 24px;
-  margin: 32px 0;
-  font-style: italic;
-  color: #374151;
+  margin: 40px 0;
+  padding: 20px 0;
+  border-top: 3px solid #7b1f2b;
+  border-bottom: 3px solid #7b1f2b;
+  text-align: center;
   font-size: 18px;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #333333;
+}
+
+/* Quote text renders inside a paragraph. Reset inherited body margin. */
+.bodyContent blockquote p {
+  margin: 0;
+  font-size: inherit;
+  font-weight: inherit;
+  color: inherit;
 }
 
 .bodyContent a {
@@ -259,23 +271,6 @@
   text-decoration-color: #000000;
 }
 
-/* Body images */
-.imageWrapper {
-  margin: 32px 0;
-}
-
-.bodyImage {
-  width: 100%;
-  display: block;
-}
-
-.imageCaption {
-  font-size: 13px !important;
-  color: #777777 !important;
-  margin-top: 2px;
-  font-family: var(--font-inter), sans-serif;
-}
-
 /* Section separator in body */
 .bodySeparator {
   border: none;
@@ -284,11 +279,11 @@
 }
 
 @media (min-width: 768px) {
-  .imageWrapper {
-    width: 130%;
-    margin-left: -15%;
-    margin-top: 40px;
-    margin-bottom: 40px;
+  /* Quote narrows to three-quarters of the 896px body column */
+  .bodyContent blockquote {
+    width: 75%;
+    margin: 48px auto;
+    font-size: 20px;
   }
 }
 

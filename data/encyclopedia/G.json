@@ -43,7 +43,7 @@
   },
   {
     "term": "Gavi",
-    "definition": "Wine region (DOCG) in the Piedmont region of northern Italy, based on the white Cortese grape.",
+    "definition": "Wine region (DOCG) in the Piedmont region of northern Italy, based on the white <strong>Cortese</strong> grape.",
     "relatedArticle": {
     "url": "/study-guides/wines-of-italy",
     "label": "Italy"
@@ -69,7 +69,12 @@
   },
   {
     "term": "Gigondas",
-    "definition": "Gigondas is a prestigious Côtes du Rhône appellation in southern France, located on the dramatic terraced slopes beneath the Dentelles de Montmirail mountains, where the combination of Mediterranean climate, limestone and clay soils, and elevation creates ideal conditions for producing powerful, age-worthy red wines primarily from Grenache and Syrah. The wines of Gigondas are known for their robust structure, concentrated dark fruit flavors, and distinctive garrigue herbs and spice notes that reflect the region's wild, scrubland landscape, often requiring several years of cellaring to fully integrate their substantial tannins and reveal their complexity. Elevated to its own AOC status in 1971 after decades as a Côtes du Rhône-Villages, Gigondas represents exceptional value in the Rhône Valley hierarchy, producing wines that rival nearby Châteauneuf-du-Pape in quality and aging potential while typically commanding significantly lower prices."
+    "definition": "Gigondas is a prestigious Southern Rhône appellation set beneath the Dentelles de Montmirail, where elevated, rocky vineyards produce powerful yet aromatic red wines led by Grenache and supported by Syrah and Mourvèdre.",
+    "definition2": "The wines typically show ripe blackberry and cherry, dried herbs, pepper, and firm structure, often offering greater freshness and aging potential than their warm Mediterranean setting might suggest.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-france",
+    "label": "France"
+  }
   },
   {
     "term": "Gin",

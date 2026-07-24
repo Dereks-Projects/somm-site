@@ -48,7 +48,11 @@
   },
   {
     "term": "Canary Islands",
-    "definition": "The Canary Islands, an autonomous Spanish archipelago off the northwest coast of Africa, produce some of Europe’s most distinctive and volcanic-influenced wines. With high elevations, intense sunlight, cooling trade winds, and mineral-rich soils from ancient lava flows, the islands offer extreme growing conditions that yield wines of striking freshness and character. Indigenous grape varieties such as Listán Blanco (Palomino), Listán Negro, and Malvasía thrive here, often grown on old, ungrafted vines due to the region’s immunity from phylloxera. Each island—particularly Tenerife, Lanzarote, and La Palma—has its own DO (Denominación de Origen) and unique viticultural practices, including the dramatic, hand-dug vine pits of Lanzarote. Wines from the Canary Islands are gaining international acclaim for their saline minerality, vibrant acidity, and expression of volcanic terroir."
+    "definition": "The Canary Islands, an autonomous Spanish archipelago off the northwest coast of Africa, produce some of Europe’s most distinctive and volcanic-influenced wines. With high elevations, intense sunlight, cooling trade winds, and mineral-rich soils from ancient lava flows, the islands offer extreme growing conditions that yield wines of striking freshness and character. Indigenous grape varieties such as Listán Blanco (Palomino), Listán Negro, and Malvasía thrive here, often grown on old, ungrafted vines due to the region’s immunity from phylloxera. Each island—particularly Tenerife, Lanzarote, and La Palma—has its own DO (Denominación de Origen) and unique viticultural practices, including the dramatic, hand-dug vine pits of Lanzarote. Wines from the Canary Islands are gaining international acclaim for their saline minerality, vibrant acidity, and expression of volcanic terroir.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-spain",
+    "label": "Spain"
+  }
   },
   {
     "term": "Canopy management",
@@ -56,7 +60,12 @@
   },
   {
     "term": "Catalonia",
-    "definition": "Catalonia, in northeastern Spain, is one of the country’s most historically rich and innovative wine regions. With winemaking traditions dating back to Roman times, it became a viticultural stronghold during the Middle Ages and later played a key role in reviving European vineyards after the phylloxera crisis. In the 19th century, Catalonia pioneered sparkling wine production with the creation of Cava, modeled after Champagne, and by the 20th century, it led Spanish wine’s modernization through advanced viticulture and a growing focus on quality. The region is home to 12 recognized DOs and one DOQ—Priorat—one of only two Spanish wine zones with that highest-level designation. Priorat is celebrated for bold, age-worthy reds made from Garnacha and Cariñena, grown on steep, slate-covered slopes. Surrounding regions like Montsant offer similar grapes with softer expression, while Penedès is the heart of sparkling wine production and also produces a wide variety of still wines. Other regions such as Empordà, Costers del Segre, and Conca de Barberà reflect Catalonia’s climate and soil diversity, offering both traditional styles and international blends. Grape varieties in Catalonia range from indigenous to international. White grapes like Xarel·lo, Macabeo, and Parellada are central to both still and sparkling wines, while reds include Garnacha, Cariñena, Tempranillo, and increasingly, Syrah, Merlot, and Cabernet Sauvignon. A growing movement toward organic, biodynamic, and terroir-driven winemaking is helping Catalonia distinguish itself on the global stage, offering wines that blend Mediterranean character with modern finesse and authenticity."
+    "definition": "Catalonia, in northeastern Spain, is one of the country’s most historically rich and innovative wine regions. With winemaking traditions dating back to Roman times, it became a viticultural stronghold during the Middle Ages and later played a key role in reviving European vineyards after the phylloxera crisis. In the 19th century, Catalonia pioneered sparkling wine production with the creation of Cava, modeled after Champagne, and by the 20th century, it led Spanish wine’s modernization through advanced viticulture and a growing focus on quality. The region is home to 12 recognized DOs and one DOQ—Priorat—one of only two Spanish wine zones with that highest-level designation. Priorat is celebrated for bold, age-worthy reds made from Garnacha and Cariñena, grown on steep, slate-covered slopes. Surrounding regions like Montsant offer similar grapes with softer expression, while Penedès is the heart of sparkling wine production and also produces a wide variety of still wines. Other regions such as Empordà, Costers del Segre, and Conca de Barberà reflect Catalonia’s climate and soil diversity, offering both traditional styles and international blends.",
+    "definition2": "Grape varieties in Catalonia range from indigenous to international. White grapes like Xarel·lo, Macabeo, and Parellada are central to both still and sparkling wines, while reds include Garnacha, Cariñena, Tempranillo, and increasingly, Syrah, Merlot, and Cabernet Sauvignon. A growing movement toward organic, biodynamic, and terroir-driven winemaking is helping Catalonia distinguish itself on the global stage, offering wines that blend Mediterranean character with modern finesse and authenticity.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-spain",
+    "label": "Spain"
+  }
   },
   {
     "term": "Carbonic maceration",
@@ -236,7 +245,11 @@
   },
   {
     "term": "Cosecha",
-    "definition": "Spanish word for vintage."
+    "definition": "Spanish word for vintage.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-spain",
+    "label": "Spain"
+  }
   },
   {
     "term": "Côte",
@@ -260,7 +273,11 @@
   },
   {
     "term": "Crianza",
-    "definition": "An ageing term used in Spain indicating a younger wine that has seen little additional ageing processes."
+    "definition": "An ageing term used in Spain indicating a younger wine that has seen little additional ageing processes.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-spain",
+    "label": "Spain"
+  }
   },
   {
     "term": "Crossing (viticulture)",

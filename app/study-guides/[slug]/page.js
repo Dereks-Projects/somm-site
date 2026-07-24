@@ -1,9 +1,12 @@
+// app/study-guides/[slug]/page.js
+
 import { client } from '../../../sanity/lib/client';
 import { studyGuideBySlugQuery, childArticlesQuery } from '../../../sanity/queries';
 import { urlFor } from '../../../sanity/lib/imageUrl';
 import { PortableText } from '@portabletext/react';
 import Header from '../../../components/layout/Header';
 import Footer from '../../../components/layout/Footer';
+import ImageLightbox from '../../../components/ImageLightbox';
 import Image from 'next/image';
 import Link from 'next/link';
 import styles from './page.module.css';
@@ -75,19 +78,11 @@ const portableTextComponents = {
       if (!imageUrl) return null;
 
       return (
-        <div className={styles.imageWrapper}>
-          <Image
-            src={imageUrl}
-            alt={value.alt || ''}
-            width={896}
-            height={500}
-            className={styles.bodyImage}
-            style={{ width: '100%', height: 'auto' }}
-          />
-          {value.caption && (
-            <p className={styles.imageCaption}>{value.caption}</p>
-          )}
-        </div>
+        <ImageLightbox
+          src={imageUrl}
+          alt={value.alt || ''}
+          caption={value.caption}
+        />
       );
     },
     separator: () => <hr className={styles.bodySeparator} />,

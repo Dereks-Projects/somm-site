@@ -60,7 +60,7 @@ export default function CourseCatalog() {
         "name": "Who are these wine courses designed for?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Our courses serve learners at every level, from someone beginning their wine education to experienced sommeliers and beverage directors looking for structured reference material. The Introduction to Wine course is built for beginners, The Sommelier Position targets working wine service professionals, and the Beverage Management Proseminar is designed for current and aspiring food and beverage directors."
+          "text": "Our courses serve learners at every level, from someone beginning their wine education to experienced sommeliers and beverage directors looking for structured reference material. The Introduction to Wine course is built for beginners, The Sommelier Position targets working wine service professionals, and the Beverage Management Proseminar is designed for current and aspiring wine and beverage directors."
         }
       },
       {
@@ -68,7 +68,7 @@ export default function CourseCatalog() {
         "name": "Do these courses prepare me for sommelier certification exams?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Our courses build foundational and intermediate wine knowledge that supports preparation for certification exams through the Court of Master Sommeliers and the Wine and Spirit Education Trust. They cover grape varieties, wine regions, tasting methodology, service technique, and beverage program management. While no online course replaces hands-on tasting practice, these lessons provide the theoretical framework that certification study requires."
+          "text": "Our courses build foundational and intermediate wine knowledge that supports preparation for (but is not affiliated with) certification exams through the Court of Master Sommeliers and the Wine and Spirit Education Trust. They cover grape varieties, wine regions, tasting methodology, service technique, and beverage program management. While no online course replaces hands-on tasting practice, these lessons provide the theoretical framework that certification study requires."
         }
       },
       {
@@ -154,13 +154,13 @@ export default function CourseCatalog() {
               <details className={styles.faqItem}>
                 <summary className={styles.faqQuestion}>Who are these wine courses designed for?</summary>
                 <p className={styles.faqAnswer}>
-                  Our courses serve learners at every level, from someone beginning their wine education to experienced sommeliers and beverage directors looking for structured reference material. The Introduction to Wine course is built for beginners, The Sommelier Position targets working wine service professionals, and the Beverage Management Proseminar is designed for current and aspiring food and beverage directors.
+                  Our courses serve learners at every level, from someone beginning their wine education to experienced sommeliers and beverage directors looking for structured reference material. The Introduction to Wine course is built for beginners, The Sommelier Position targets working wine service professionals, and the Beverage Management Proseminar is designed for current and aspiring wine and beverage directors.
                 </p>
               </details>
               <details className={styles.faqItem}>
                 <summary className={styles.faqQuestion}>Do these courses prepare me for sommelier certification exams?</summary>
                 <p className={styles.faqAnswer}>
-                  Our courses build foundational and intermediate wine knowledge that supports preparation for certification exams through the Court of Master Sommeliers and the Wine and Spirit Education Trust. They cover grape varieties, wine regions, tasting methodology, service technique, and beverage program management. While no online course replaces hands-on tasting practice, these lessons provide the theoretical framework that certification study requires.
+                  Our courses build foundational and intermediate wine knowledge that supports preparation for, but is not affiliated with, certification exams through the Court of Master Sommeliers and the Wine and Spirit Education Trust. They cover grape varieties, wine regions, tasting methodology, service technique, and beverage program management. While no online course replaces hands-on tasting practice, these lessons provide the theoretical framework that certification study requires.
                 </p>
               </details>
               <details className={styles.faqItem}>
