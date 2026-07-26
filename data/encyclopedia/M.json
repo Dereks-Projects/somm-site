@@ -12,12 +12,21 @@
     "definition": "A viticulture term for the immediate area surrounding a wine region, and the climate that is most prevalent."
   },
   {
+    "term": "Maderia",
+    "definition": "Madeira is a fortified wine from the Portuguese island of Madeira, located in the Atlantic Ocean southwest of mainland Portugal. Its defining feature is deliberate exposure to heat and oxygen during aging, a process that gives the wine unusual <strong>stability</strong> and allows many examples to age for decades or longer.",
+    "definition2": "The principal noble varieties are Sercial, Verdelho, Bual, and Malvasia, traditionally associated with styles ranging from dry to richly sweet, while Tinta Negra is also widely used. Madeira commonly shows citrus peel, dried fruit, caramel, nuts, spice, and saline complexity, with <strong>acidity</strong> providing balance across its full range of sweetness."
+  },
+  {
     "term": "Madeirization",
     "definition": "A wine tasting term that describes a “cooked” or “caramelized” aroma and flavor to a wine. This refers to the estufa process that some Madeira’s go through, rendering the wine with these unique characteristics."
   },
   {
     "term": "Magnum",
     "definition": "A larger format style bottle which holds 1.5 liters of wine, or the equivalent of 2 bottles."
+  },
+  {
+    "term": "Malbec",
+    "definition": "Malbec is a deeply colored red grape of French origin, historically associated with Cahors, but now most closely identified with Argentina, especially Mendoza. It typically produces full-bodied wines with blackberry and plum fruit, violet aromas, moderate to firm tannins, and notes of spice, cocoa, or tobacco, with high-altitude examples often showing greater freshness and aromatic lift."
   },
   {
     "term": "Malic acid",
@@ -38,6 +47,14 @@
   {
     "term": "Marc",
     "definition": "A winemaking term that describes the left-over solid matter after the grapes are pressed for their juice. A rough type of brandy is produced from this material, and Italy is prized for its grappa which is made from the marc."
+  },
+  {
+    "term": "Marche",
+    "definition": "Marche is a central Italian wine region stretching from the Apennine Mountains to the Adriatic Sea, with rolling hills and coastal influences supporting both fresh whites and structured reds. It is best known for Verdicchio from Castelli di Jesi and Matelica, alongside Montepulciano- and Sangiovese-based reds such as Rosso Conero and Rosso Piceno, plus local specialties including Pecorino and Lacrima di Morro d’Alba.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-italy",
+    "label": "Italy"
+  }
   },
   {
     "term": "Margaret River",
@@ -110,6 +127,15 @@
     "url": "/study-guides/wines-of-france",
     "label": "France"
   }
+  },
+  {
+    "term": "Montelpuciano",
+    "definition": "Montepulciano is a dark-skinned red grape grown mainly in central and southern Italy, especially Abruzzo, where it forms the basis of Montepulciano d’Abruzzo. It typically produces deeply colored, medium- to full-bodied wines with black cherry, plum, herbs, moderate acidity, and soft to firm tannins, and it should not be confused with Vino Nobile di Montepulciano, a Tuscan wine made primarily from Sangiovese."
+  },
+  {
+    "term": "Morocco",
+    "definition": "Morocco is a North African wine-producing country with a viticultural history shaped by Roman settlement, French colonial influence, and modern investment in quality-oriented vineyards. Most production is concentrated near the Atlantic-influenced zones around Meknès, Rabat, Casablanca, and the foothills of the Atlas Mountains, where elevation and ocean breezes help moderate <strong>heat</strong>.",
+    "definition2": "The country is best known for red and rosé wines from varieties such as Syrah, Grenache, Carignan, Cinsault, Cabernet Sauvignon, and Mourvèdre, with smaller amounts of white wine also produced. Moroccan wine is significant because it shows how <strong>Mediterranean</strong> grape culture extends beyond southern Europe into North Africa, adapting French varieties and regional traditions to a warmer, drier climate."
   },
   {
     "term": "Mourvèdre",

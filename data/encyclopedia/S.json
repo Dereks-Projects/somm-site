@@ -121,9 +121,13 @@
     "definition": "Scotland is considered the spiritual home of whisky, producing a wide range of Scotch whiskies that are globally revered for their tradition, complexity, and regional character. Legally, Scotch must be distilled and aged in Scotland for a minimum of three years in oak casks, and it must be made from water, malted barley (or other grains for grain whisky), and yeast. The country is divided into five primary whisky-producing regions—Highlands, Lowlands, Islay, Speyside, and Campbeltown—each known for distinct styles: from the peaty and smoky malts of Islay, to the elegant and fruity single malts of Speyside. Scotch whisky comes in several classifications including Single Malt, Blended Malt, Single Grain, and Blended Scotch, and is renowned for its aging potential, use of oak casks (often ex-bourbon or sherry), and strict quality controls. Scotland’s whisky heritage is not only a cornerstone of its economy and culture, but also serves as a benchmark for whisky production around the world."
   },
   {
+    "term": "Screaming Eagle",
+    "definition": "Screaming Eagle is a tiny, highly prestigious winery in Napa Valley’s Oakville AVA, best known for a Cabernet Sauvignon-based red produced in extremely limited quantities. Its combination of critical acclaim, scarcity, mailing-list allocation, and collector demand has made it one of California’s most expensive and influential <strong>cult wines</strong>."
+  },
+  {
     "term": "Screwcaps",
     "definition": "Screw caps, often referred to by the brand name Stelvin, are a modern alternative to traditional cork closures and have become increasingly popular, especially in New World wine regions like Australia and New Zealand. Made of aluminum with a threaded seal, screw caps offer a tight, consistent closure that prevents cork taint (TCA) and reduces the risk of oxidation or spoilage, making them ideal for preserving freshness in white wines, rosés, and youthful reds. A major advantage is their reliability and convenience—they are easy to open, reseal, and ideal for casual or on-the-go settings. However, some critics argue that screw caps may limit the slow, beneficial aging that natural cork allows due to lower oxygen exchange, and traditionalists may view them as less romantic or prestigious. Despite these concerns, many winemakers use high-grade screw caps with controlled oxygen ingress for age-worthy wines, and growing scientific evidence supports their effectiveness in maintaining wine quality over time."
-  },
+  },  
   {
     "term": "Sec",
     "definition": "French term for 'dry'."
@@ -157,8 +161,13 @@
     "definition": "A British liqueur made by infusing sloe berries (a type of wild plum) in gin, creating a rich, fruity, slightly tart spirit often used in winter drinks."
   },
   {
+    "term": "Slovenia",
+    "definition": "Slovenia is a small but important Central European wine nation located between the Alps, the Adriatic Sea, the Pannonian Plain, and the Balkans. Its three main wine regions, Primorska, Podravje, and Posavje, reflect strong climatic and cultural <strong>diversity</strong>, ranging from Mediterranean-influenced coastal vineyards to cooler continental hillsides.",
+    "definition2": "The country produces wines from both international and regional varieties, including Rebula, Furmint, Malvazija, Sauvignon Blanc, Chardonnay, Pinot Noir, Refosco, and Blaufränkisch. Slovenia is especially noted for precise white wines, skin-contact traditions, and small-scale producers whose best examples show clear <strong>terroir</strong> expression and a close relationship to neighboring Italy, Austria, Hungary, and Croatia."
+  },
+  {
     "term": "Smaragd",
-    "definition": "The top category in a classification system in the Wachau region of Austria, based on ripeness level at harvest. This level has the highest alcohol levels and the most body, with some of these wines having high extract levels and intense richness on the palate."
+    "definition": "The top category in a classification system in the <strong>Wachau</strong> region of Austria, based on ripeness level at harvest. This level has the highest alcohol levels and the most body, with some of these wines having high extract levels and intense richness on the palate."
   },
   {
     "term": "Soave",
@@ -276,6 +285,11 @@
     "url": "/articles/exploring-wines-of-south-africa",
     "label": "South Africa"
   }
+  },
+  {
+    "term": "Switzerland",
+    "definition": "Switzerland is a small but historically significant wine-producing nation, with vineyards concentrated around Alpine valleys, lakesides, and terraced slopes. Its <strong>topography</strong> creates strong regional variation, with Valais, Vaud, Geneva, Ticino, and German-speaking Switzerland producing distinctive wines from compact and often labor-intensive vineyard areas.",
+    "definition2": "The country is best known for Chasselas, Pinot Noir, Gamay, Merlot, and regional varieties such as Petite Arvine, Humagne Rouge, Cornalin, and Amigne. Swiss wine remains relatively underrepresented internationally because much of it is consumed domestically, but its best examples show precision, freshness, and a clear relationship between <strong>place</strong>, language, and mountain-influenced viticulture."
   },
   {
     "term": "Syrah",

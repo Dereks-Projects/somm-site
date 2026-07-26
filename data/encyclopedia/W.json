@@ -10,7 +10,11 @@
   },
   {
     "term": "Walker Bay",
-    "definition": "A South African coastal region producing elegant Chardonnay and Pinot Noir with strong maritime influence."
+    "definition": "A South African coastal region producing elegant Chardonnay and Pinot Noir with strong maritime influence.",
+    "relatedArticle": {
+    "url": "/articles/exploring-wines-of-south-africa",
+    "label": "South Africa"
+  }
   },
   {
     "term": "Washington State",
@@ -56,7 +60,8 @@
   },
   {
     "term": "Whiskey",
-    "definition": "Whiskey (or whisky, depending on the region) is a broad and historic category of distilled spirit made from fermented grain mash—most commonly barley, corn, rye, or wheat—and typically aged in wooden barrels, which impart complexity, color, and character over time. Originating in Ireland and Scotland, whiskey has since become a global phenomenon, with distinct styles emerging in America, Canada, Japan, and beyond. Each country has its own rules: Scotch must be aged at least three years in oak and is often peated and smoky; bourbon must be made from at least 51% corn and aged in new charred oak; rye whiskey offers a spicier profile; and Japanese whisky often mimics Scotch’s elegance while incorporating local finesse. Whiskey’s flavor profile is shaped by its ingredients, distillation method, barrel type, and aging time, ranging from light and floral to rich, smoky, and intense, making it one of the most diverse and revered spirit categories in the world."
+    "definition": "Whiskey (or whisky, depending on the region) is a broad and historic category of distilled spirit made from fermented grain mash—most commonly barley, corn, rye, or wheat—and typically aged in wooden barrels, which impart complexity, color, and character over time. Originating in Ireland and Scotland, whiskey has since become a global phenomenon, with distinct styles emerging in America, Canada, Japan, and beyond.",
+    "definition2": "Each country has its own rules: Scotch must be aged at least three years in oak and is often peated and smoky; bourbon must be made from at least 51% corn and aged in new charred oak; rye whiskey offers a spicier profile; and Japanese whisky often mimics Scotch’s elegance while incorporating local finesse. Whiskey’s flavor profile is shaped by its ingredients, distillation method, barrel type, and aging time, ranging from light and floral to rich, smoky, and intense, making it one of the most diverse and revered spirit categories in the world."
   },
   {
     "term": "White Zinfandel",
@@ -70,6 +75,11 @@
     "term": "Willamette Valley",
     "definition": "Willamette Valley is Oregon’s principal wine region, extending south from Portland through a broad basin bordered by the Coast Range and Cascade Mountains. Its cool, maritime-influenced climate, long growing season, and varied volcanic, marine sedimentary, and windblown soils favor grapes that retain acidity and develop gradually.",
     "definition2": "Pinot Noir is the region’s defining variety, supported by Chardonnay, Pinot Gris, Riesling, and smaller plantings of other cool-climate grapes. The valley contains several recognized subappellations, including Dundee Hills, Eola-Amity Hills, Yamhill-Carlton, McMinnville, Ribbon Ridge, and Chehalem Mountains, and is known for wines of aromatic detail, moderate body, and strong site expression."
+  },
+  {
+    "term": "Wine Pairing",
+    "definition": "Wine pairing is the practice of selecting wines whose structure, flavor, and texture complement or contrast with food. It is based on the <strong>interaction</strong> of acidity, sweetness, tannin, alcohol, body, aroma, fat, salt, spice, bitterness, and umami.",
+    "definition2": "Traditional pairing principles favor high-acid wines with rich or salty foods, sweeter wines with spicy dishes or desserts, and tannic red wines with protein and fat. The goal is not a fixed rule but <strong>balance</strong>, allowing both the wine and the dish to appear more complete together."
   },
   {
     "term": "Wine Press",

@@ -50,11 +50,27 @@
   },
   {
     "term": "Rías Baixas",
-    "definition": "Spain. Nestled along Spain’s rainy, Atlantic coast in Galicia, Rías Baixas is the spiritual home of Albariño, producing crisp, saline, and citrus-driven white wines that pair perfectly with seafood and reflect the region’s cool, coastal terroir."
+    "definition": "Nestled along Spain’s rainy, Atlantic coast in <strong>Galicia</strong>, Rías Baixas is the spiritual home of Albariño, producing crisp, saline, and citrus-driven white wines that pair perfectly with seafood and reflect the region’s cool, coastal terroir.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-spain",
+    "label": "Spain"
+  }
   },
   {
     "term": "Ribera del Duero",
-    "definition": "Spain. Ribera del Duero, set along the high-altitude plains of the Duero River, is famed for bold, age-worthy reds made primarily from Tempranillo (locally known as Tinto Fino), offering intense dark fruit, firm tannins, and a reputation rivaling Rioja."
+    "definition": "Spain. Ribera del Duero, set along the high-altitude plains of the Duero River, is famed for bold, age-worthy reds made primarily from Tempranillo (locally known as Tinto Fino), offering intense dark fruit, firm tannins, and a reputation rivaling Rioja.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-spain",
+    "label": "Spain"
+  }
+  },
+  {
+    "term": "Ribolla Gialla",
+    "definition": "A high-acid white grape closely associated with Friuli-Venezia Giulia, especially Collio, where it produces dry, fresh wines with citrus, orchard fruit, floral, and subtle savory notes. Known as Rebula across the Slovenian border, it is also well suited to sparkling wine and extended skin contact, which can create deeper color, greater texture, and complex herbal or nutty flavors",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-italy",
+    "label": "Italy"
+  }
   },
   {
     "term": "Rickhouse",
@@ -74,6 +90,11 @@
   }
   },
   {
+    "term": "Romania",
+    "definition": "Romania is a historic wine-producing nation in southeastern Europe, with viticulture shaped by the Carpathian Mountains, the Danube, the Black Sea, and a long cultural connection to grape growing. Its main wine regions include Moldova, Muntenia-Oltenia, Transylvania, Dobrogea, Banat, and Crișana-Maramureș, each reflecting different levels of <strong>continental</strong>, maritime, and mountain influence.",
+    "definition2": "The country produces wine from both international grapes and important native varieties such as Fetească Neagră, Fetească Albă, Fetească Regală, Tămâioasă Românească, and Grasă de Cotnari. Romania’s modern importance rests in its combination of ancient wine heritage, large vineyard area, and renewed focus on <strong>indigenous</strong> varieties with clearer regional identity."
+  },
+  {
     "term": "Rootstock",
     "definition": "The plant material (base of the grapevine) that is utilized to grow the grapevines, usually chosen for their disease and drought resistance.",
     "relatedArticle": {
@@ -88,7 +109,7 @@
   },
   {
     "term": "Roussillon",
-    "definition": "France. Roussillon, nestled in the sun-drenched corner of southern France near Spain, produces powerful reds and world-class vin doux naturels (fortified sweet wines) from Grenache, shaped by Mediterranean warmth, wind-swept slopes, and rugged schist soils.",
+    "definition": "Roussillon, nestled in the sun-drenched corner of southern France near Spain, produces powerful reds and world-class vin doux naturels (fortified sweet wines) from Grenache, shaped by Mediterranean warmth, wind-swept slopes, and rugged schist soils.",
      "relatedArticle": {
     "url": "/articles/long-memory-of-roussillon",
     "label": "Roussillon"
@@ -100,7 +121,11 @@
   },
   {
     "term": "Rueda",
-    "definition": "Located on Spain’s central plateau, Rueda specializes in fresh, zesty white wines made from the Verdejo grape, often showing notes of lime, fennel, and tropical fruit with a signature herbal edge and vibrant acidity."
+    "definition": "Located on Spain’s central plateau, Rueda specializes in fresh, zesty white wines made from the Verdejo grape, often showing notes of lime, fennel, and tropical fruit with a signature herbal edge and vibrant acidity.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-spain",
+    "label": "Spain"
+  }
   },
   {
     "term": "Rum",

@@ -21,7 +21,11 @@
   },
   {
     "term": "Langhe",
-    "definition": "The Langhe is a hilly wine region in Piedmont, northern Italy, renowned for its world-class reds made from Nebbiolo, especially Barolo and Barbaresco. It also produces expressive wines from Dolcetto and Barbera, as well as fresh, aromatic whites like Arneis. The region’s rolling vineyards, limestone-rich soils, and cool climate contribute to wines of structure, elegance, and aging potential. Langhe is both a prestigious appellation in its own right and a broader designation for wines made outside the stricter Barolo and Barbaresco DOCG zones."
+    "definition": "The Langhe is a hilly wine region in Piedmont, northern Italy, renowned for its world-class reds made from Nebbiolo, especially Barolo and Barbaresco. It also produces expressive wines from Dolcetto and Barbera, as well as fresh, aromatic whites like Arneis. The region’s rolling vineyards, limestone-rich soils, and cool climate contribute to wines of structure, elegance, and aging potential. Langhe is both a prestigious appellation in its own right and a broader designation for wines made outside the stricter Barolo and Barbaresco DOCG zones.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-italy",
+    "label": "Italy"
+  }
   },
   {
     "term": "Languedoc",
@@ -89,8 +93,20 @@
   }
   },
   {
+    "term": "Lombardy",
+    "definition": "Lombardy is a diverse northern Italian wine region shaped by the Alps, glacial lakes, and the <strong>Po Valley</strong>, with climates ranging from cool mountain vineyards to warmer plains. It is best known for traditional-method Franciacorta, Nebbiolo-based Valtellina, sparkling and still wines from Oltrepò Pavese, and fresh whites such as Lugana near Lake Garda.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-italy",
+    "label": "Italy"
+  }
+  },
+  {
     "term": "Long or length",
     "definition": "A wine tasting term for time a wine lingers on the palate after taking a sip. This is a subjective measurement of quality for some but is a nebulous description of the product for most."
+  },
+  {
+    "term": "Long Island",
+    "definition": "A maritime wine region east of New York City, moderated by the <strong>Atlantic Ocean</strong>, Long Island Sound, and Peconic Bay, with major subregions including the North Fork of Long Island and The Hamptons, Long Island. Its long growing season, sandy soils, and humid coastal climate favor Merlot, Cabernet Franc, Chardonnay, Sauvignon Blanc, and sparkling wine, often producing restrained, food-friendly styles with moderate alcohol and fresh acidity."
   },
   {
     "term": "LVMH",

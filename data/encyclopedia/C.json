@@ -187,6 +187,10 @@
     "definition": "An alcoholic beverage made from the fermentation of apple juice, ranging from dry and sparkling to sweet and still, with craft and regional variations around the world."
   },
   {
+    "term": "Cinsault",
+    "definition": "Cinsault is a heat-tolerant red grape associated with southern France, especially the Rhône, Languedoc, and Provence, where it is often blended with Grenache, Syrah, and Mourvèdre. It produces light- to medium-bodied wines and is most often found in a blend. It is also historically important in South Africa as one of the parent grapes of Pinotage."
+  },
+  {
     "term": "Claret",
     "definition": "Old-fashioned English term for red wines from the Bordeaux region. Sometimes used on wine labels in the new world to represent a blend of some or all of the Bordeaux grape varieties."
   },
@@ -232,6 +236,10 @@
   }
   },
   {
+    "term": "Coonawarra",
+    "definition": "Coonawarra is a small, cool-climate wine region on South Australia’s Limestone Coast, near the Victorian border, famous for its narrow strip of iron-rich terra rossa soil over limestone. It is best known for elegant, age-worthy Cabernet Sauvignon with cassis, dark cherry, mint, firm tannins, and notable freshness, while Shiraz and Riesling also perform well."
+  },
+  {
     "term": "Corked",
     "definition": "A wine tasting term that describes trichloroanisole (TCA). This chemical compound is most often found when cork forming and cleaning chemicals with mold, creating the foul aromas associated with TCA, or “corked” wines."
   },
@@ -242,6 +250,10 @@
     "url": "/study-guides/wines-of-france",
     "label": "France"
   }
+  },
+  {
+    "term": "Cortese",
+    "definition": "Cortese is a high-acid white grape from Piedmont in northwestern Italy, best known as the principal variety of Gavi. It typically produces light- to medium-bodied wines with lemon, green apple, white flowers, subtle herbal notes, and a faint almond or mineral finish."
   },
   {
     "term": "Cosecha",
@@ -265,7 +277,12 @@
   },
   {
     "term": "Crémant",
-    "definition": "Crémant refers to traditional method sparkling wines made in France outside of the Champagne region, using the same labor-intensive production technique—méthode traditionnelle—but typically with different grapes and at a more accessible price point. There are eight official Crémant AOCs, including Crémant de Bourgogne, Crémant d’Alsace, Crémant de Loire, Crémant de Limoux, and others, each reflecting the grapes and terroir of their respective regions. For example, Crémant d’Alsace often uses Pinot Blanc and Riesling, Crémant de Loire may include Chenin Blanc and Cabernet Franc, and Crémant de Bourgogne leans on Chardonnay and Pinot Noir, much like Champagne. These wines offer vibrant acidity, fine bubbles, and a wide range of flavor profiles—from crisp and citrusy to round and toasty—depending on region, grape blend, and aging. While Crémant and Champagne share the same production method, key differences lie in origin, grapes, and aging requirements. Champagne is made exclusively in the Champagne region with strict rules on grape varieties (mainly Chardonnay, Pinot Noir, and Pinot Meunier) and longer minimum aging periods (15 months for non-vintage Champagne). Crémant wines, by contrast, must age a minimum of 9 months on lees, use regionally approved grapes, and are often more fruit-forward and approachable in style. While Champagne holds greater prestige and complexity, Crémant offers exceptional value and quality, making it an excellent choice for restaurants, hotels, and wine lovers seeking elegant sparkling wine without the premium price tag."
+    "definition": "Crémant refers to traditional method sparkling wines made in France outside of the Champagne region, using the same labor-intensive production technique—méthode traditionnelle—but typically with different grapes and at a more accessible price point. There are eight official Crémant AOCs, including Crémant de Bourgogne, Crémant d’Alsace, Crémant de Loire, Crémant de Limoux, and others, each reflecting the grapes and terroir of their respective regions. For example, Crémant d’Alsace often uses Pinot Blanc and Riesling, Crémant de Loire may include Chenin Blanc and Cabernet Franc, and Crémant de Bourgogne leans on Chardonnay and Pinot Noir, much like Champagne. These wines offer vibrant acidity, fine bubbles, and a wide range of flavor profiles—from crisp and citrusy to round and toasty—depending on region, grape blend, and aging. While Crémant and Champagne share the same production method, key differences lie in origin, grapes, and aging requirements. Champagne is made exclusively in the Champagne region with strict rules on grape varieties (mainly Chardonnay, Pinot Noir, and Pinot Meunier) and longer minimum aging periods (15 months for non-vintage Champagne).",
+    "definition2": "Crémant wines, by contrast, must age a minimum of 9 months on lees, use regionally approved grapes, and are often more fruit-forward and approachable in style. While Champagne holds greater prestige and complexity, Crémant offers exceptional value and quality, making it an excellent choice for restaurants, hotels, and wine lovers seeking elegant sparkling wine without the premium price tag.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-france",
+    "label": "France"
+  }
   },
   {
     "term": "Crème de Cassis",

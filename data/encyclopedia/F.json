@@ -36,6 +36,10 @@
     "definition": "The removal of solid matter inside of wine, usually right before bottling."
   },
   {
+    "term": "Finger Lakes",
+    "definition": "The Finger Lakes AVA is a cool-climate wine region in central New York, shaped by deep glacial lakes that moderate temperatures, reduce frost risk, and extend the growing season. Riesling is its signature grape, joined by Cabernet Franc, Chardonnay, Gewürztraminer, sparkling wine, and hybrids, with the strongest vineyards concentrated around Seneca, Cayuga, and Keuka Lakes."
+  },
+  {
     "term": "Fining",
     "definition": "A form of filtration used in wine production."
   },
@@ -78,7 +82,12 @@
   },
   {
     "term": "Fortified wine",
-    "definition": "Fortified wine is a style of wine that has had a distilled spirit—usually grape brandy—added to it, either during or after fermentation. This process increases the alcohol content and can preserve natural sugars, resulting in a range of styles from dry to very sweet. Famous examples include Port, Sherry, Madeira, and Marsala, each with its own distinct production methods and flavor profiles. Fortified wines are often rich, complex, and long-lived, making them ideal for both sipping and pairing with food—especially cheeses, desserts, or even savory dishes depending on the style. For novice wine drinkers, exploring fortified wines offers a delicious introduction to tradition, technique, and the incredible diversity of wine."
+    "definition": "Fortified wine is wine strengthened with a distilled spirit, usually grape brandy, either during or after fermentation to increase alcohol, stabilize the wine, and shape its sweetness.",
+    "definition2": "Timing and aging define the style: early fortification preserves natural sugar in wines such as Port, while later fortification and oxidative or biological aging create the diverse profiles of Sherry, Madeira, Marsala, and vin doux naturel.",
+    "relatedArticle": {
+    "url": "/articles/fortified-wine-built-to-survive",
+    "label": "Fortified Wine"
+  }
   },
   {
     "term": "France",

@@ -13,7 +13,11 @@
   },
   {
     "term": "Yecla",
-    "definition": "A region in the Murcia area of southeastern Spain."
+    "definition": "Yecla is a hot, dry wine region in southeastern Spain’s Murcia province, centered around the town of Yecla and characterized by high-elevation vineyards, limestone-rich soils, intense sunlight, and strong day-to-night temperature shifts. Monastrell is the dominant grape, producing deeply colored, full-bodied reds with ripe blackberry and plum flavors, spice, firm tannins, and increasingly refined freshness.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-spain",
+    "label": "Spain"
+  }
   },
   {
     "term": "Yeso",

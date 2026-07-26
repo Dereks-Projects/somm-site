@@ -1,5 +1,13 @@
 [
   {
+    "term": "Paarl",
+    "definition": "Paarl is a warm, historic wine region in South Africa’s <strong>Western Cape</strong>, northeast of Cape Town, where granite-rich soils and Mediterranean conditions support a wide range of red and white grapes. It is especially known for Chenin Blanc, Shiraz, Cabernet Sauvignon, and Pinotage, often producing ripe, generous wines with good structure and concentration.",
+    "relatedArticle": {
+    "url": "/articles/exploring-wines-of-south-africa",
+    "label": "South Africa"
+  }
+  },
+  {
     "term": "Palo Cortado",
     "definition": "This is a style of Sherry that is rare and often expensive, as a winemaker never really sets out to make a Palo Cortado, it just happens on its own; sometimes. These offerings often resemble an intense and more refined version of Fino Sherry."
   },
@@ -128,7 +136,11 @@
   {
     "term": "Provence",
     "definition": "Provence, located in southeastern France along the Mediterranean coast, is the country’s oldest wine-producing region, with a history dating back over 2,600 years to when the ancient Greeks first introduced viticulture. Though the region produces red and white wines, it is most famous for its pale, dry rosé, which has become synonymous with the Provencal lifestyle and globally recognized for its delicate color and refreshing style. These rosés, typically blends of Grenache, Cinsault, Syrah, and Mourvèdre, are prized for their crisp acidity, subtle fruit, and herbal, mineral undertones known as garrigue. Provence is divided into several key appellations, including Côtes de Provence (the largest and most widely known), Coteaux d’Aix-en-Provence, and Coteaux Varois en Provence, each offering slightly different expressions based on terroir and elevation.",
-    "definition2": "The small but prestigious Bandol AOC is especially notable for its powerful, age-worthy reds made from Mourvèdre, as well as structured rosés with more depth and complexity. In recent decades, Provence has become a benchmark for premium rosé production, combining tradition with modern winemaking techniques, and continues to shape global trends in pink wine."
+    "definition2": "The small but prestigious Bandol AOC is especially notable for its powerful, age-worthy reds made from Mourvèdre, as well as structured rosés with more depth and complexity. In recent decades, Provence has become a benchmark for premium rosé production, combining tradition with modern winemaking techniques, and continues to shape global trends in pink wine.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-france",
+    "label": "France"
+  }
   },
   {
     "term": "Pruning",

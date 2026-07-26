@@ -1,11 +1,19 @@
 [
   {
     "term": "Valdeorras",
-    "definition": "A Spanish DO in Galicia producing high-quality Godello whites and Mencía reds."
+    "definition": "A Spanish DO in Galicia producing high-quality Godello whites and Mencía reds.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-spain",
+    "label": "Spain"
+  }
   },
   {
     "term": "Valencia",
-    "definition": "Valencia, on Spain’s southeastern coast, is a sun-drenched region producing aromatic Moscatel wines and juicy reds from Monastrell, increasingly recognized for its diverse styles and affordability."
+    "definition": "Valencia, on Spain’s southeastern coast, is a sun-drenched region producing aromatic Moscatel wines and juicy reds from Monastrell, increasingly recognized for its diverse styles and affordability.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-spain",
+    "label": "Spain"
+  }
   },
   {
     "term": "Valle de Guadalupe",
@@ -157,7 +165,11 @@
   },
   {
     "term": "Vino de Mesa",
-    "definition": "A term for “table wine” in Spain. Usually of low to moderate quality, when in country, these wines can be pleasant and sometimes very well made."
+    "definition": "A term for “table wine” in Spain. Usually of low to moderate quality, when in country, these wines can be pleasant and sometimes very well made.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-spain",
+    "label": "Spain"
+  }
   },
   {
     "term": "Vintage Port",

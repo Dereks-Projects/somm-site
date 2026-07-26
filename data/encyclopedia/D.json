@@ -33,7 +33,11 @@
   },
   {
     "term": "DO (Denominación de Origen)",
-    "definition": "A high quality level for Spanish wine. The equivalent to the AOC system in France and the DOC system in Italy."
+    "definition": "A high quality level for Spanish wine. The equivalent to the AOC system in France and the DOC system in Italy.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-spain",
+    "label": "Spain"
+  }
   },
   {
     "term": "Denominação de Origem Controlada",
@@ -41,7 +45,11 @@
   },
   {
     "term": "Denominación de Origen Calificada",
-    "definition": "The highest quality level for Spanish wine. Often abbreviated to DOC. Similar to Italy's DOCG."
+    "definition": "The highest quality level for Spanish wine. Often abbreviated to DOC. Similar to Italy's DOCG.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-spain",
+    "label": "Spain"
+  }
   },
   {
     "term": "Denominazione di Origine Controllata",
@@ -53,7 +61,11 @@
   },
   {
     "term": "Denominación de Origen de Pago",
-    "definition": "DO de Pago. A “Single Estate” designation given to a small number of wineries in Spain in which the wines are grown and produced on the estate."
+    "definition": "DO de Pago. A “Single Estate” designation given to a small number of wineries in Spain in which the wines are grown and produced on the estate.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-spain",
+    "label": "Spain"
+  }
   },
   {
     "term": "Dessert wine",
@@ -83,6 +95,14 @@
   {
     "term": "Distillation",
     "definition": "Distillation is the process of separating alcohol from fermented liquids by heating them to create vapor, then cooling that vapor back into liquid form, concentrating the alcohol content from wine's typical 12-15% to spirits' 40%+ alcohol levels. In wine production, distillation creates brandy (from wine), grappa (from grape pomace), and marc (from pressed grape skins), with the quality of the original wine directly impacting the final spirit's character. The process typically involves either pot stills, which produce more flavorful, artisanal spirits in small batches, or column stills, which create cleaner, more neutral spirits efficiently at larger scales."
+  },
+  {
+    "term": "Diurnal Swing",
+    "definition": "Diurnal swing is the difference between daytime and nighttime temperatures in a vineyard, often intensified by elevation, dry air, or proximity to mountains and water. Warm days encourage ripening and flavor development, while cool nights slow respiration and help grapes retain acidity, aromatic freshness, color, and structural balance."
+  },
+  {
+    "term": "Dogliani",
+    "definition": "Dogliani is a Piedmont wine region south of Barolo, centered on the town of Dogliani and recognized as one of the most important strongholds of the Dolcetto grape. Dogliani DOCG wines are made entirely from Dolcetto, producing deeply colored, dry reds with black cherry, plum, violet, almond, fresh acidity, and firmer structure than many everyday Dolcetto wines."
   },
   {
     "term": "Dolce",

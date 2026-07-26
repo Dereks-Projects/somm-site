@@ -155,7 +155,16 @@
   },
   {
     "term": "Bierzo",
-    "definition": "Bierzo is a rising wine region in northwestern Spain, located in the province of León, where Atlantic and continental climates converge to create ideal conditions for expressive, balanced wines. The region is best known for its red wines made from the indigenous Mencía grape, which thrives on the slate and clay soils of Bierzo’s hillside vineyards. Mencía produces aromatic, medium-bodied wines with fresh acidity, floral notes, and flavors of red berries and herbs, often compared to Pinot Noir or Cru Beaujolais in elegance and structure. Bierzo has gained attention for its old vines and a new generation of winemakers focused on low-intervention methods and terroir expression. With its mix of tradition, altitude, and innovation, Bierzo is now one of Spain’s most exciting and distinctive wine regions."
+    "definition": "Bierzo is a rising wine region in northwestern Spain, located in the province of León, where Atlantic and continental climates converge to create ideal conditions for expressive, balanced wines. The region is best known for its red wines made from the indigenous <strong>Mencía</strong> grape, which thrives on the slate and clay soils of Bierzo’s hillside vineyards. Mencía produces aromatic, medium-bodied wines with fresh acidity, floral notes, and flavors of red berries and herbs, often compared to Pinot Noir or Cru Beaujolais in elegance and structure. Bierzo has gained attention for its old vines and a new generation of winemakers focused on low-intervention methods and terroir expression. With its mix of tradition, altitude, and innovation, Bierzo is now one of Spain’s most exciting and distinctive wine regions.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-spain",
+    "label": "Spain"
+  }
+  },
+  {
+    "term": "Bitters",
+    "definition": "Bitters are intensely flavored alcoholic preparations made by infusing roots, bark, herbs, spices, citrus peel, and other botanicals, then using small amounts to add aroma, bitterness, and structural balance to cocktails.",
+    "definition2": "Aromatic and orange bitters are common behind the bar, while potable bitters such as amari are less concentrated and designed to be consumed in larger pours."
   },
   {
     "term": "Biodynamic viticulture",
@@ -164,7 +173,11 @@
   },
   {
     "term": "Bobal",
-    "definition": "A grape varietal found in central and southern Spain."
+    "definition": "A grape varietal found in central and southern Spain.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-spain",
+    "label": "Spain"
+  }
   },
   {
     "term": "Body",
@@ -263,7 +276,8 @@
   },
   {
     "term": "Bulgaria",
-    "definition": "Bulgaria is an emerging wine country with ancient roots, where winemaking dates back over 3,000 years. Nestled between the Black Sea and the Balkan Mountains, Bulgaria offers a range of climates and terroirs ideal for both native and international grape varieties. Key wine regions include the Thracian Valley in the south, known for ripe reds from Mavrud and Rubin, and the Danubian Plain in the north, which produces balanced whites and reds from grapes like Cabernet Sauvignon, Merlot, and Chardonnay. During the Soviet era, Bulgaria was one of the world’s top wine exporters, but much of the production was bulk-focused. In recent decades, however, a new generation of winemakers has revitalized the industry with a focus on quality, terroir, and indigenous varieties. Today, Bulgarian wines are gaining international attention for their character, value, and growing sophistication."
+    "definition": "Bulgaria is one of Europe’s historic wine-producing nations, with viticulture dating to Thracian, Greek, and Roman antiquity. Its vineyards are spread across diverse zones, including the Danube Plain, Thracian Lowlands, Struma Valley, Rose Valley, and Black Sea coast, where continental and Mediterranean influences create notable <strong>regional</strong> variation.",
+    "definition2": "The country produces wine from both international varieties and native grapes such as Mavrud, Melnik, Rubin, Gamza, and Dimyat. Modern Bulgarian wine is significant for its combination of ancient wine culture, renewed private investment, and growing attention to <strong>indigenous</strong> varieties that distinguish it from better-known European regions."
   },
   {
     "term": "Burgundy",
