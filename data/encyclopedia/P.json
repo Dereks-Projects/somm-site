@@ -40,6 +40,10 @@
     "definition": "A white grape that is most associated with the sweet wines of Montilla-Moriles in Andalucia, Spain. PX, as it is known, is often used as a blending partner in Jerez (Sherry), and rarely bottled on its own as it is in Montilla-Morilles."
   },
   {
+    "term": "Petaluma Gap",
+    "definition": "The Petaluma Gap is a low-elevation opening in California’s coastal mountains that channels cool Pacific fog and strong afternoon winds into southern Sonoma County. This maritime influence slows ripening, preserves acidity, and promotes thick grape skins, helping the Petaluma Gap AVA produce structured, aromatic Pinot Noir, Chardonnay, and Syrah."
+  },
+  {
     "term": "Pétillant",
     "definition": "A label term in France used to denote a slight carbonation to wine. Some regions specialize in a lightly sparkling version of Champagne, often adding more diverse flavor and a touch of sweetness."
   },
@@ -103,7 +107,8 @@
   },
   {
     "term": "Portugal",
-    "definition": "Portugal is a wine-producing country of remarkable diversity, known both for its historic fortified wines and a growing reputation for distinctive, terroir-driven still wines. Its most famous export is Port, a sweet, fortified wine from the Douro Valley, aged in cellars in Vila Nova de Gaia and made primarily from indigenous grapes like Touriga Nacional and Tinta Roriz. Beyond Port, Portugal produces vibrant dry reds and whites across a range of regions: the Alentejo for ripe, full-bodied reds; the Dão and Douro for structured, age-worthy wines; and Vinho Verde for crisp, low-alcohol whites often marked by citrus and slight spritz. Portugal is home to over 250 native grape varieties, many of which are rarely found outside the country, offering unique expressions not replicated elsewhere—grapes like Baga, Arinto, and Encruzado produce wines of character and complexity. In recent decades, a new generation of winemakers has revitalized traditional practices with modern precision, elevating Portugal’s profile among sommeliers and collectors. With its mix of history, value, and innovation, Portugal remains one of Europe’s most exciting and underrated wine destinations."
+    "definition": "Portugal is a wine-producing country of remarkable diversity, known both for its historic fortified wines and a growing reputation for distinctive, terroir-driven still wines. Its most famous export is Port, a sweet, fortified wine from the Douro Valley, aged in cellars in Vila Nova de Gaia and made primarily from indigenous grapes like Touriga Nacional and Tinta Roriz. Beyond Port, Portugal produces vibrant dry reds and whites across a range of regions: the Alentejo for ripe, full-bodied reds; the Dão and Douro for structured, age-worthy wines; and Vinho Verde for crisp, low-alcohol whites often marked by citrus and slight spritz.",
+    "definition2": "Portugal is home to over 250 native grape varieties, many of which are rarely found outside the country, offering unique expressions not replicated elsewhere—grapes like Baga, Arinto, and Encruzado produce wines of character and complexity. In recent decades, a new generation of winemakers has revitalized traditional practices with modern precision, elevating Portugal’s profile among sommeliers and collectors. With its mix of history, value, and innovation, Portugal remains one of Europe’s most exciting and underrated wine destinations."
   },
   {
     "term": "Port wine",

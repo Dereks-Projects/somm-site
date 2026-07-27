@@ -37,6 +37,10 @@
   }
   },
   {
+    "term": "Van Duzer Corridor",
+    "definition": "The Van Duzer Corridor is a natural break in Oregon’s Coast Range that funnels cool Pacific winds into the Willamette Valley, especially during the afternoon. These stronger winds moderate vineyard temperatures, slow ripening, preserve acidity, and can produce Pinot Noir with concentrated color, firm tannins, and notable freshness; the surrounding area is also recognized as the Van Duzer Corridor AVA."
+  },
+  {
     "term": "Varietal",
     "definition": "A term denoting “variety” or grape type, often used in the wine professional community but very rarely encountered otherwise."
   },
@@ -196,8 +200,8 @@
     "term": "Vitis vinifera",
     "definition": "Vitis vinifera is the primary species of grapevine used in the production of nearly all the world’s fine wines. Native to the Mediterranean and Central Asia, it includes thousands of cultivars such as Cabernet Sauvignon, Chardonnay, and Riesling. Unlike hybrid or native American grape species, Vitis vinifera is prized for its ability to produce wines with complexity, balance, and aging potential.",
     "relatedArticle": {
-    "url": "/articles/cycle-in-the-vineyard",
-    "label": "Viticulture"
+    "url": "/articles/one-species-vitis-vinifera",
+    "label": "Vitis vinifera"
   }
   },
   {

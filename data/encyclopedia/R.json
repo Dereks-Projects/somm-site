@@ -133,7 +133,11 @@
   },
   {
     "term": "Rutherglen",
-    "definition": "Rutherglen, in northeast Victoria, is legendary for its intensely sweet and unctuous fortified Muscat and Tokay (Topaque) wines, made using a solera system and showcasing complex layers of caramel, dried fruit, and spice."
+    "definition": "Rutherglen, in northeast Victoria, is legendary for its intensely sweet and unctuous fortified Muscat and Tokay (Topaque) wines, made using a solera system and showcasing complex layers of caramel, dried fruit, and spice.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-australia-and-new-zealand",
+    "label": "Australia"
+  }
   },
   {
     "term": "Rye Whiskey",

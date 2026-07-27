@@ -91,7 +91,11 @@
   },
   {
     "term": "Toro",
-    "definition": "Castilla y León , Spain. Toro is a Denominación de Origen (DO) in Spain’s Castilla y León region known for producing powerful, full-bodied red wines from the Tempranillo grape (locally called Tinta de Toro), often showing intense dark fruit, firm tannins, and remarkable structure due to the region’s high elevation and extreme climate."
+    "definition": "Castilla y León , Spain. Toro is a Denominación de Origen (DO) in Spain’s Castilla y León region known for producing powerful, full-bodied red wines from the Tempranillo grape (locally called Tinta de Toro), often showing intense dark fruit, firm tannins, and remarkable structure due to the region’s high elevation and extreme climate.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-spain",
+    "label": "Spain"
+  }
   },
   {
     "term": "Torrontés",

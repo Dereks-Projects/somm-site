@@ -67,6 +67,10 @@
   }
   },
   {
+    "term": "Bass Straight",
+    "definition": "The Bass Strait is the body of water separating Tasmania from mainland Australia, bringing cool maritime air, wind, and temperature moderation to northern Tasmania and southern Victorian regions such as the Mornington Peninsula. Its influence slows ripening and extends the growing season, helping Pinot Noir, Chardonnay, Riesling, and sparkling-wine grapes retain acidity, aromatic freshness, and moderate alcohol."
+  },
+  {
     "term": "Barrel fermentation",
     "definition": "Barrel fermentation is the process of fermenting wine—typically white—in oak barrels rather than stainless steel tanks, allowing the wine to integrate oak influence from the earliest stage. This technique enhances texture and complexity, often contributing flavors like vanilla, toast, spice, and a creamier mouthfeel due to lees contact and micro-oxygenation. Commonly used for varieties like Chardonnay, it can create a richer, more layered style of wine."
   },
@@ -146,6 +150,10 @@
     "definition": "Guessing the wine you are drinking without being told. Wine certification organizations often have their own version of what blind tasting entails, some more deductive and some more analytical than others."
   },
   {
+    "term": "Benguela Current",
+    "definition": "The Benguela Current is a cold Atlantic current flowing northward along the western coast of southern Africa, cooling South Africa’s coastal climate and generating fog, wind, and maritime influence. In wine regions such as the West Coast and areas near Cape Town, it slows grape ripening and helps preserve acidity, aromatics, and moderate alcohol, supporting fresher styles of wine."
+  },
+  {
     "term": "Bergerac",
     "definition": "Bergerac is a wine region in southwest France, just east of Bordeaux, known for producing wines that closely resemble its more famous neighbor but often offer better value. The region shares many of the same grape varieties—Merlot, Cabernet Sauvignon, and Cabernet Franc for reds; Sémillon, Sauvignon Blanc, and Muscadelle for whites—and produces a wide range of styles, from dry reds and whites to sweet dessert wines. Bergerac is home to several appellations, including Monbazillac, known for luscious botrytized sweet wines, and Pécharmant, which produces structured, age-worthy reds. With its rolling hills, river valleys, and a growing focus on quality and terroir, Bergerac is an excellent source of classic French wines with character and affordability.",
     "relatedArticle": {
@@ -210,8 +218,8 @@
   },
   {
     "term": "Botrytis cinerea",
-    "definition": "Botrytis cinerea, commonly known as <strong>noble rot</strong>, is a beneficial fungus that plays a critical role in the production of some of the world’s most prized sweet wines.",
-    "definition2": "Under specific conditions; humid mornings followed by dry, sunny afternoons—this fungus infects ripe grapes and dehydrates them slowly, concentrating their sugars, acids, and aromatic compounds. The result is a shriveled berry with intensified flavor and complexity, ideal for creating lusciously sweet, long-lived wines. This form of botrytis is distinct from its destructive counterpart (grey rot), which occurs under persistently wet conditions and ruins the fruit. Winemakers must carefully manage the vineyard and harvest by hand, often in multiple passes (tries), to select only the perfectly botrytized grapes. The most famous wines made from botrytized grapes include Sauternes and Barsac in Bordeaux, where the foggy mornings near the Ciron and Garonne rivers help encourage noble rot on Sémillon, Sauvignon Blanc, and Muscadelle grapes. Other key regions include Tokaj in Hungary, where Furmint and Hárslevelű are used to craft Tokaji Aszú; Beerenauslese and Trockenbeerenauslese wines in Germany and Austria, made from Riesling; and Monbazillac in southwest France. These wines are characterized by intense sweetness balanced by vibrant acidity, with complex flavors of honey, apricot, citrus peel, ginger, and sometimes saffron or botrytis-specific aromatics like marmalade and beeswax. Noble rot wines are often aged in oak and develop incredible depth over time, capable of aging for decades due to their high sugar and acid content. While challenging and risky to produce—since the fungus is highly dependent on precise weather conditions—these wines represent a unique intersection of nature and craftsmanship. Their richness and aromatic intensity make them ideal partners for foie gras, blue cheese, or fruit-based desserts, and their rarity contributes to their prestige. As a hallmark of some of the world’s most historic and celebrated wine styles, botrytized wines showcase how a fungal infection, when perfectly timed, can elevate grapes to their most luxurious expression."
+    "definition": "Botrytis cinerea is a fungus that affects grapevines and can develop either as destructive grey rot or as beneficial noble rot, depending on vineyard conditions. Under alternating moisture and dry weather, it can dehydrate berries, concentrate sugars and acids, and intensify <strong>aromatic</strong> compounds.",
+    "definition2": "In winemaking, noble rot is central to some of the world’s great sweet wines, including Sauternes, Tokaji Aszú, and selected German and Austrian dessert wines. Its influence can produce flavors of honey, apricot, saffron, marmalade, ginger, and dried fruit, while preserving the <strong>acidity</strong> needed to balance extreme sweetness."
   },
   {
     "term": "Bottle fermentation",
