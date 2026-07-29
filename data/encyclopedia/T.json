@@ -62,7 +62,11 @@
   },
   {
     "term": "Tempranillo",
-    "definition": "Tempranillo is Spain’s noble red grape, known for producing structured yet elegant wines with red fruit, tobacco, and earthy notes, and it serves as the backbone of classic Spanish appellations like Rioja and Ribera del Duero, where it can express both youthful vibrancy and long-lived complexity."
+    "definition": "Tempranillo is Spain’s noble red grape, known for producing structured yet elegant wines with red fruit, tobacco, and earthy notes, and it serves as the backbone of classic Spanish appellations like Rioja and Ribera del Duero, where it can express both youthful vibrancy and long-lived complexity.",
+    "relatedArticle": {
+    "url": "/articles/tempranillo-heart-of-spanish-red",
+    "label": "Tempranillo"
+  }
   },
   {
     "term": "Terroir",
@@ -112,6 +116,11 @@
   {
     "term": "Trebbiano (Ugni Blanc)",
     "definition": "Widely planted Italian white grape, known for crisp acidity and used in Cognac and Armagnac distillation in France."
+  },
+  {
+    "term": "Trellising system",
+    "definition": "A trellising system is the physical framework used to support grapevine growth, position shoots, and organize the fruiting zone within a vineyard. Its <strong>structure</strong> influences sunlight exposure, air movement, canopy density, labor efficiency, mechanization, and the vine’s balance between leaf growth and fruit production.",
+    "definition2": "Common systems include vertical shoot positioning, Geneva double curtain, lyre, pergola, and head-trained bush vines, each suited to different climates, varieties, slopes, and production goals. Trellising affects wine quality by shaping <strong>ripening</strong>, disease pressure, yield control, phenolic development, and the consistency of fruit harvested from the vineyard."
   },
   {
     "term": "Triple Sec",

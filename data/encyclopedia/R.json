@@ -1,5 +1,10 @@
 [
   {
+    "term": "Rain shadow",
+    "definition": "A rain shadow is a dry climatic zone created when moist air is forced upward by mountains, cools, condenses, and releases precipitation on the windward side. By the time the air descends on the leeward side, it has lost much of its moisture, creating a protected <strong>microclimate</strong> with lower rainfall and often greater sunlight.",
+    "definition2": "In wine regions, rain shadows can reduce disease pressure, extend ripening, and allow grapes to mature with more consistency in otherwise cool or humid areas. Alsace is a classic example, sheltered by the Vosges Mountains, while regions such as Washington’s Columbia Valley and parts of Patagonia also benefit from mountain-driven <strong>protection</strong>."
+  },
+  {
     "term": "Rancio",
     "definition": "This is a term that denotes a style of oxidized, almost burnt, styles of wines that are mostly fortified. Appellations such as Rivesaltes and Maury in the southern portion of France are noted for producing this style of wine."
   },
@@ -33,11 +38,13 @@
   },
   {
     "term": "Rheingau",
-    "definition": "Germany. Rheingau is one of Germany’s most prestigious wine regions, perched along a steep stretch of the Rhine River, where south-facing slopes and slate soils produce structured, age-worthy Rieslings with pronounced minerality and refined elegance."
+    "definition": "Rheingau is a historic wine region in western Germany, situated along a short east-west stretch of the Rhine River where many vineyards face south toward the sun. The Taunus Mountains provide shelter from cold northern weather, while the river moderates temperature, creating a favorable <strong>climate</strong> for slow-ripening Riesling.",
+    "definition2": "The region is strongly associated with dry and off-dry Riesling, as well as some of Germany’s most important noble sweet wines. Rheingau wines are often fuller and more structured than those of the Mosel, with citrus, peach, apricot, herbs, spice, and pronounced <strong>minerality</strong>, supported by firm acidity and notable aging potential."
   },
   {
     "term": "Rheinhessen",
-    "definition": "Germany. As Germany’s largest wine region, Rheinhessen has transformed from bulk production to a hotbed of innovation, with a new generation crafting expressive Rieslings, Silvaner, and increasingly complex dry wines across its varied hills and fertile valleys."
+    "definition": "Rheinhessen is Germany’s largest wine region, located on the west bank of the Rhine between Mainz, Worms, and Bingen. Its landscape is defined by rolling hills, broad vineyard exposure, varied soils, and a relatively dry, protected <strong>climate</strong> that allows consistent ripening across a wide range of grape varieties.",
+    "definition2": "Historically associated with large-volume white wine production, Rheinhessen has become increasingly important for quality-focused Riesling, Silvaner, Scheurebe, and Pinot varieties. Areas such as the Roter Hang near Nierstein show the region’s ability to produce concentrated, mineral wines, making modern Rheinhessen a study in <strong>reinvention</strong> within German wine."
   },
   {
     "term": "Rhum Agricole",
@@ -46,7 +53,11 @@
   {
     "term": "Rhône Valley",
     "definition": "The Rhône Valley, stretching from Lyon to the Mediterranean, is one of France’s most influential wine regions, divided into two distinct parts: the cooler, narrower Northern Rhône and the warmer, broader Southern Rhône. The Northern Rhône is famed for Syrah-based reds from appellations like Hermitage and Côte-Rôtie, and elegant whites from Viognier, Marsanne, and Roussanne.",
-    "definition2": "In the Southern Rhône, Grenache dominates in blends alongside Syrah and Mourvèdre, producing bold, spicy reds such as Châteauneuf-du-Pape and Côtes du Rhône. With diverse terroirs, rich history, and approachable to age-worthy styles, the Rhône offers some of France’s most characterful and food-friendly wines."
+    "definition2": "In the Southern Rhône, Grenache dominates in blends alongside Syrah and Mourvèdre, producing bold, spicy reds such as Châteauneuf-du-Pape and Côtes du Rhône. With diverse terroirs, rich history, and approachable to age-worthy styles, the Rhône offers some of France’s most characterful and food-friendly wines.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-france",
+    "label": "France"
+  }
   },
   {
     "term": "Rías Baixas",
@@ -79,7 +90,11 @@
   {
     "term": "Riesling",
     "definition": "Riesling is a white grape variety of German origin, valued for its high natural acidity, aromatic precision, and ability to transmit site differences with unusual clarity. It is closely associated with the Mosel, Rheingau, Pfalz, Alsace, Austria, Australia’s Clare and Eden Valleys, and parts of the Finger Lakes, where <strong>climate</strong> strongly shapes its balance of ripeness and tension.",
-    "definition2": "The grape can produce bone-dry, off-dry, sweet, sparkling, and botrytized wines, often with marked longevity. Typical aromas include lime, green apple, peach, apricot, white flowers, honey, petrol, and wet stone, with <strong>acidity</strong> serving as the structural feature that allows both freshness in youth and complexity with age."
+    "definition2": "The grape can produce bone-dry, off-dry, sweet, sparkling, and botrytized wines, often with marked longevity. Typical aromas include lime, green apple, peach, apricot, white flowers, honey, petrol, and wet stone, with <strong>acidity</strong> serving as the structural feature that allows both freshness in youth and complexity with age.",
+    "relatedArticle": {
+    "url": "/articles/riesling-the-misunderstood-noble-grape",
+    "label": "Riesling"
+  }
   },
   {
     "term": "Rioja",

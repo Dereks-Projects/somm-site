@@ -6,7 +6,11 @@
   {
     "term": "Cabernet Sauvignon",
     "definition": "Cabernet Sauvignon is one of the most widely planted and revered red wine grapes in the world, known for producing <strong>powerful</strong>, structured wines with deep color, firm tannins, and excellent aging potential. Originating in Bordeaux from a natural cross between Cabernet Franc and Sauvignon Blanc, it is the backbone of many of the world’s greatest wines, particularly in the Left Bank of Bordeaux where it is blended with Merlot and Cabernet Franc.",
-    "definition2": "Its thick skins and resistance to disease make it adaptable to a wide range of climates, and it has found great success in California’s Napa Valley, Chile’s Maipo Valley, Australia’s Coonawarra, and beyond. Cabernet Sauvignon typically shows flavors of blackcurrant, plum, cedar, tobacco, and graphite, often with noticeable oak influence when barrel aged. It thrives in well-drained, gravelly soil and benefits from warm days and cool nights, which help preserve acidity and complexity. Its bold character and ability to evolve for decades in bottle have made it a benchmark for collectors, winemakers, and consumers alike, solidifying its status as one of the world’s most iconic and age-worthy wine grapes."
+    "definition2": "Its thick skins and resistance to disease make it adaptable to a wide range of climates, and it has found great success in California’s Napa Valley, Chile’s Maipo Valley, Australia’s Coonawarra, and beyond. Cabernet Sauvignon typically shows flavors of blackcurrant, plum, cedar, tobacco, and graphite, often with noticeable oak influence when barrel aged. It thrives in well-drained, gravelly soil and benefits from warm days and cool nights, which help preserve acidity and complexity. Its bold character and ability to evolve for decades in bottle have made it a benchmark for collectors, winemakers, and consumers alike, solidifying its status as one of the world’s most iconic and age-worthy wine grapes.",
+    "relatedArticle": {
+    "url": "/articles/cabernet-sauvignon-rules-the-world",
+    "label": "Cabernet Sauvignon"
+  }
   },
   {
     "term": "Cachaça",
@@ -101,7 +105,7 @@
     "definition": "This refers to the process of ageing a wine before consumption. This can take place in the winery, in a restaurant cellar or in a private home."
   },
   {
-    "term": "Central Coast",
+    "term": "Central Coast AVA",
     "definition": "The Central Coast AVA is a vast American Viticultural Area stretching from San Francisco Bay down to Santa Barbara County, encompassing over 100,000 vineyard acres along California’s coast. Defined by its maritime influence, diverse microclimates, and varied soils, the region supports a wide range of grape varieties, most notably Chardonnay, Pinot Noir, Syrah, and Cabernet Sauvignon. Sub-AVAs like Paso Robles, Santa Maria Valley, and Santa Ynez Valley have gained prominence for their distinctive styles and quality-driven producers. The Central Coast AVA is known for innovation, diversity, and a balance between tradition and modern winemaking approaches."
   },
   {
@@ -132,7 +136,11 @@
   {
     "term": "Chardonnay",
     "definition": "Chardonnay is a white grape variety of Burgundian origin, widely planted for its adaptability to climate, soil, and winemaking technique. It can produce lean, mineral wines in cool regions such as Chablis, fuller styles in warmer climates, and some of the world’s most important sparkling wines, making <strong>adaptability</strong> central to its identity.",
-    "definition2": "The grape is relatively neutral compared with more aromatic varieties, which allows site and cellar decisions to shape its final expression. Chardonnay may show citrus, apple, pear, melon, stone fruit, cream, butter, toast, or hazelnut, with <strong>texture</strong> influenced by malolactic conversion, lees aging, oak use, and ripeness at harvest."
+    "definition2": "The grape is relatively neutral compared with more aromatic varieties, which allows site and cellar decisions to shape its final expression. Chardonnay may show citrus, apple, pear, melon, stone fruit, cream, butter, toast, or hazelnut, with <strong>texture</strong> influenced by malolactic conversion, lees aging, oak use, and ripeness at harvest.",
+    "relatedArticle": {
+    "url": "/articles/chardonnay-premier-white-grape",
+    "label": "Chardonnay"
+  }
   },
   {
     "term": "Charmat",

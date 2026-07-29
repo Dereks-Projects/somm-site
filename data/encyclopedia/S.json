@@ -98,7 +98,11 @@
   {
     "term": "Sauvignon Blanc",
     "definition": "Sauvignon Blanc is a white grape variety associated with high acidity, pronounced aromatics, and a wide range of regional expressions. Its character is often marked by citrus, green apple, gooseberry, grass, herbs, passion fruit, or flint, depending on climate, ripeness, and winemaking approach.",
-    "definition2": "The variety is historically important in the Loire Valley and Bordeaux, and it has become globally prominent through regions such as Marlborough, California, Chile, and South Africa. It is commonly produced as a dry, unoaked wine, though it may also be blended, oak-aged, or used in sweet wines, making versatility central to its identity."
+    "definition2": "The variety is historically important in the Loire Valley and Bordeaux, and it has become globally prominent through regions such as Marlborough, California, Chile, and South Africa. It is commonly produced as a dry, unoaked wine, though it may also be blended, oak-aged, or used in sweet wines, making versatility central to its identity.",
+    "relatedArticle": {
+    "url": "/articles/sauvignon-blanc-fresh-vibrant-wine",
+    "label": "Sauvignon Blanc"
+  }
   },
   {
     "term": "Savoie",
@@ -155,6 +159,10 @@
     "url": "/study-guides/wines-of-italy",
     "label": "Italy"
   }
+  },
+  {
+    "term": "Sierra Foothills",
+    "definition": "The Sierra Foothills AVA is a large, mountainous wine region along the western slopes of California’s Sierra Nevada, stretching through historic Gold Rush country and containing smaller appellations such as El Dorado, Fair Play, and Shenandoah Valley. Its warm days, cool nights, varied elevations, and granite-rich soils support bold Zinfandel, Barbera, Syrah, Rhône-style blends, and increasingly distinctive high-elevation whites."
   },
   {
     "term": "Sloe Gin",
@@ -290,6 +298,10 @@
     "term": "Switzerland",
     "definition": "Switzerland is a small but historically significant wine-producing nation, with vineyards concentrated around Alpine valleys, lakesides, and terraced slopes. Its <strong>topography</strong> creates strong regional variation, with Valais, Vaud, Geneva, Ticino, and German-speaking Switzerland producing distinctive wines from compact and often labor-intensive vineyard areas.",
     "definition2": "The country is best known for Chasselas, Pinot Noir, Gamay, Merlot, and regional varieties such as Petite Arvine, Humagne Rouge, Cornalin, and Amigne. Swiss wine remains relatively underrepresented internationally because much of it is consumed domestically, but its best examples show precision, freshness, and a clear relationship between <strong>place</strong>, language, and mountain-influenced viticulture."
+  },
+  {
+    "term": "Synonym",
+    "definition": "In wine, a synonym is an alternate name used for the same grape variety, often reflecting regional language, historical usage, or local tradition. Examples include Pinot Gris and Pinot Grigio, Mourvèdre and Monastrell, or Garnacha and Grenache, where the <strong>identity</strong> of the grape remains the same despite different naming conventions."
   },
   {
     "term": "Syrah",

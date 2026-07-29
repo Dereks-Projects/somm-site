@@ -62,7 +62,8 @@
   },
   {
     "term": "Veneto",
-    "definition": "Veneto, located in northeastern Italy, is one of the country’s most productive and diverse wine regions, stretching from the foothills of the Alps to the Adriatic Sea. It is internationally known for Prosecco, the crisp, sparkling wine made primarily from the Glera grape, and for the rich, powerful reds of Valpolicella, including Amarone della Valpolicella, a wine made from dried grapes using the appassimento method to achieve concentration and depth. Veneto also produces Soave, a refreshing white wine made mostly from Garganega, often characterized by its almond notes and stony minerality. The region’s landscape and climate vary widely, offering cool alpine influences in the north and warmer plains toward the coast, allowing for a wide range of grape varieties and styles. While it excels in quantity, Veneto also delivers significant quality across both everyday table wines and some of Italy’s most celebrated DOC and DOCG offerings.",
+    "definition": "Veneto, located in northeastern Italy, is one of the country’s most productive and diverse wine regions, stretching from the foothills of the Alps to the Adriatic Sea. It is internationally known for Prosecco, the crisp, sparkling wine made primarily from the Glera grape, and for the rich, powerful reds of Valpolicella, including Amarone della Valpolicella, a wine made from dried grapes using the appassimento method to achieve concentration and depth. Veneto also produces Soave, a refreshing white wine made mostly from Garganega, often characterized by its almond notes and stony minerality.",
+    "definition2": "The region’s landscape and climate vary widely, offering cool alpine influences in the north and warmer plains toward the coast, allowing for a wide range of grape varieties and styles. While it excels in quantity, Veneto also delivers significant quality across both everyday table wines and some of Italy’s most celebrated DOC and DOCG offerings.",
     "relatedArticle": {
     "url": "/study-guides/wines-of-italy",
     "label": "Italy"
@@ -86,7 +87,7 @@
   },
   {
     "term": "Vermentino",
-    "definition": "A Mediterranean white grape common in Sardinia, Corsica, and Liguria, yielding fresh, saline wines ideal for seafood.",
+    "definition": "A Mediterranean white grape common in Sardinia, Corsica, Liguria and Tuscany, yielding fresh, saline wines with a wide appeal.",
     "relatedArticle": {
     "url": "/study-guides/wines-of-italy",
     "label": "Italy"
@@ -94,7 +95,8 @@
   },
   {
     "term": "Vermouth",
-    "definition": "A fortified and aromatized wine, often flavored with herbs, roots, and spices, used in cocktails like the Martini, Manhattan, and Negroni."
+    "definition": "Vermouth is an <strong>aromatized fortified wine</strong> flavored with botanicals, traditionally including wormwood, herbs, roots, spices, citrus peel, and flowers. Its <strong>identity</strong> sits between wine and spirits, since it begins as a wine base but gains structure, stability, and flavor through fortification and botanical infusion.",
+    "definition2": "The main styles are dry, sweet, blanc, and other regional or producer-specific variations, with Italy, France, and Spain especially important to its history. Vermouth is central to classic cocktails such as the Martini, Manhattan, and Negroni, but it may also be served chilled on its own, where bitterness, sweetness, acidity, and <strong>aromatics</strong> define its balance."
   },
   {
     "term": "Vendange tardive",
@@ -139,7 +141,7 @@
     "definition": "A term for a very pale rose, which can appear almost gray in the glass."
   },
   {
-    "term": "Vine Cycle",
+    "term": "Vine cycle",
     "definition": "The grapevine cycle is the annual sequence of growth, reproduction, fruit development, harvest, and dormancy in a cultivated vine. It begins with winter dormancy, followed by budbreak, shoot growth, flowering, fruit set, and the gradual enlargement of berries during spring and early summer.",
     "definition2": "Veraison marks the onset of ripening, when berries soften, change color, accumulate sugar, and lose acidity before harvest. After the crop is removed, the vine stores carbohydrates, sheds its leaves, and returns to dormancy, while pruning prepares the plant for the following season.",
     "relatedArticle": {

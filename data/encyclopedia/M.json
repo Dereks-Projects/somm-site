@@ -97,6 +97,15 @@
   }
   },
   {
+    "term": "Merlot",
+    "definition": "Merlot is a red grape variety of Bordeaux origin, valued for its supple texture, moderate tannin, and ability to produce both accessible wines and age-worthy blends. It is one of the principal grapes of Bordeaux’s Right Bank, especially in Saint-Émilion and Pomerol, where <strong>clay</strong> soils often support wines of depth, flesh, and structural balance.",
+    "definition2": "The grape is widely planted internationally and commonly shows plum, black cherry, red currant, cocoa, cedar, herbs, and earthy notes depending on climate and ripeness. Merlot is important both as a varietal wine and as a blending partner with Cabernet Sauvignon, where it can add softness, mid-palate volume, and <strong>generosity</strong>.",
+    "relatedArticle": {
+    "url": "/articles/merlot-velvet-powerhouse-of-wine",
+    "label": "Merlot"
+  }
+  },
+  {
     "term": "Mezcal",
     "definition": "Mezcal is a traditional Mexican spirit made from the agave plant, typically produced in Oaxaca, though several states have official denomination of origin. Unlike tequila—which must be made from only Blue Weber agave—mezcal can be made from dozens of agave varieties, including Espadín, Tobalá, and Tepeztate, each imparting its own unique flavor. Mezcal is most famously known for its distinct smoky character, which comes from roasting the agave hearts (piñas) in underground earthen ovens lined with hot stones and covered with plant matter and soil. Artisanal and ancestral production methods are often employed, involving natural fermentation, wood-fired copper or clay stills, and small-scale, family-owned palenques (distilleries). Mezcal’s diversity in agave, terroir, and technique makes it one of the most complex and expressive spirits in the world—ranging from wild, rustic, and earthy to floral, delicate, and ethereal."
   },
@@ -140,6 +149,11 @@
     "term": "Morocco",
     "definition": "Morocco is a North African wine-producing country with a viticultural history shaped by Roman settlement, French colonial influence, and modern investment in quality-oriented vineyards. Most production is concentrated near the Atlantic-influenced zones around Meknès, Rabat, Casablanca, and the foothills of the Atlas Mountains, where elevation and ocean breezes help moderate <strong>heat</strong>.",
     "definition2": "The country is best known for red and rosé wines from varieties such as Syrah, Grenache, Carignan, Cinsault, Cabernet Sauvignon, and Mourvèdre, with smaller amounts of white wine also produced. Moroccan wine is significant because it shows how <strong>Mediterranean</strong> grape culture extends beyond southern Europe into North Africa, adapting French varieties and regional traditions to a warmer, drier climate."
+  },
+  {
+    "term": "Mosel",
+    "definition": "Mosel is one of Germany’s most important wine regions, following the Mosel River and its tributaries through a narrow, steep-sided valley near the borders of Luxembourg and France. Its vineyards are defined by dramatic slopes, slate soils, cool northern latitude, and river moderation, creating conditions where <strong>Riesling</strong> can ripen slowly while retaining high acidity.",
+    "definition2": "The region is known for wines of delicacy, precision, low to moderate alcohol, and pronounced aromatic detail, often showing citrus, green apple, peach, florals, herbs, and mineral character. Mosel Riesling ranges from dry to intensely sweet, with the best examples valued for balance, transparency, and exceptional <strong>longevity</strong>."
   },
   {
     "term": "Mourvèdre",
