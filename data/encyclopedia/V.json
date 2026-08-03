@@ -141,6 +141,18 @@
     "definition": "A term for a very pale rose, which can appear almost gray in the glass."
   },
   {
+    "term": "Vin jaune",
+    "definition": "Vin jaune is a rare, dry wine from France’s Jura region made entirely from Savagnin and aged for more than six years in partially filled barrels beneath a natural veil of yeast. This extended oxidative aging creates its distinctive walnut, curry spice, dried-apple, and saline flavors, and it is traditionally bottled in the squat 620-milliliter clavelin."
+  },
+  {
+    "term": "Vin de paille",
+    "definition": "Vin de paille, or “straw wine,” is a rich sweet wine made from grapes dried after harvest to concentrate their sugars, traditionally on straw mats or drying racks before pressing and fermentation. Closely associated with France’s Jura region, it typically shows dried apricot, fig, raisin, honey, spice, and candied-fruit flavors balanced by bright acidity."
+  },
+  {
+    "term": "Vihno licoroso",
+    "definition": "Fortified wine from Portugal."
+  },
+  {
     "term": "Vine cycle",
     "definition": "The grapevine cycle is the annual sequence of growth, reproduction, fruit development, harvest, and dormancy in a cultivated vine. It begins with winter dormancy, followed by budbreak, shoot growth, flowering, fruit set, and the gradual enlargement of berries during spring and early summer.",
     "definition2": "Veraison marks the onset of ripening, when berries soften, change color, accumulate sugar, and lose acidity before harvest. After the crop is removed, the vine stores carbohydrates, sheds its leaves, and returns to dormancy, while pruning prepares the plant for the following season.",
@@ -149,10 +161,7 @@
     "label": "Viticulture"
   }
   },
-  {
-    "term": "Vihno Licoroso",
-    "definition": "Fortified wine from Portugal."
-  },
+  
   {
     "term": "Vinho Verde",
     "definition": "Vinho Verde, in Portugal’s lush northwest, is known for its young, lightly fizzy white wines made from grapes like Alvarinho and Loureiro, offering zesty acidity and refreshing drinkability."

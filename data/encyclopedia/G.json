@@ -126,7 +126,8 @@
   },
   {
     "term": "Grappa",
-    "definition": "An Italian pomace brandy distilled from the leftover grape skins, seeds, and stems after winemaking, traditionally rustic but now often refined and artisanal.",
+    "definition": "Grappa is an Italian pomace brandy distilled from the skins, seeds, stems, and pulp left after winemaking. Its <strong>identity</strong> is tied to the transformation of grape residues into a spirit that preserves aromatic traces of the original variety, region, and fermentation.",
+    "definition2": "Traditionally associated with northern Italy, grappa may be clear and youthful or aged in wood for a softer, more complex style. Depending on grape source and production method, it can show floral, herbal, fruity, earthy, spicy, or nutty notes, with <strong>distillation</strong> shaping its purity, texture, and intensity.",
     "relatedArticle": {
     "url": "/study-guides/wines-of-italy",
     "label": "Italy"
@@ -163,7 +164,18 @@
   },
   {
     "term": "Grenache",
-    "definition": "Grenache is one of the world's most widely planted red grape varieties, thriving in hot, dry Mediterranean climates where it produces wines ranging from light, fruity rosés to powerful, age-worthy reds with characteristic flavors of red berries, spice, and herbs, while maintaining naturally high alcohol levels and relatively low tannins. The grape achieves its greatest expressions in France's Southern Rhône Valley (particularly Châteauneuf-du-Pape where it often dominates blends), Spain's Priorat and Campo de Borja regions (where it's called Garnacha), and increasingly in Australia's Barossa Valley and McLaren Vale, producing wines that showcase the variety's ability to reflect terroir while maintaining its distinctive generous, warm character. Grenache's versatility extends beyond red wine production—it creates some of the world's finest rosés (especially in Provence), contributes structure and fruit to GSM blends (Grenache-Syrah-Mourvèdre), and in its white mutation (Grenache Blanc) produces rich, full-bodied white wines with honeyed texture and Mediterranean herb notes that pair beautifully with the region's cuisine."
+    "definition": "Grenache is a red grape variety of Mediterranean origin, widely planted in Spain, southern France, Sardinia, and many warm-climate regions around the world. It is valued for its drought tolerance, generous fruit, high potential alcohol, and relatively soft <strong>tannin</strong>, making it well suited to dry, sunny vineyard environments.",
+    "definition2": "The grape is central to wines such as Châteauneuf-du-Pape, Gigondas, Priorat, Rioja blends, and Garnacha-based wines from Spain. Grenache commonly shows red cherry, raspberry, strawberry, white pepper, dried herbs, and spice, with its best examples balancing warmth, perfume, texture, and <strong>freshness</strong>."
+  },
+  {
+    "term": "Grosse Lage",
+    "definition": "VDP.Grosse Lage, meaning “great site,” is the highest vineyard designation in the private VDP classification and is broadly comparable to a Burgundy Grand Cru.",
+    "definition2": "Dry wines from these precisely defined top sites are labeled VDP.Grosses Gewächs (GG), while sweet wines retain traditional Prädikat terms such as Spätlese or Auslese."
+  },
+  {
+    "term": "Grosses Gewächs",
+    "definition": "VDP.Grosses Gewächs, commonly abbreviated GG, designates a dry wine produced from a VDP.Grosse Lage, one of the association’s highest-classified vineyard sites.",
+    "definition2": "It is essentially the VDP’s version of a German dry Grand Cru, made by member estates under strict rules for grape variety, yield, harvesting, and release."
   },
   {
     "term": "Grüner Veltliner",

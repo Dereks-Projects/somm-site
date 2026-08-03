@@ -62,6 +62,10 @@
     "term": "Canopy management",
     "definition": "Canopy management is a key viticultural practice involving the careful arrangement and maintenance of a grapevine’s leaves, shoots, and fruit to optimize sunlight exposure, airflow, and grape ripening. By controlling the canopy’s density and shape, growers can reduce the risk of disease, improve fruit quality, and influence flavor development and tannin structure. Techniques include shoot thinning, leaf removal, and trellising adjustments, all aimed at balancing vine vigor and maximizing grape potential."
   },
+   {
+    "term": "Cape Doctor",
+    "definition": "The Cape Doctor is not an ocean current but a strong southeasterly wind that blows across South Africa’s southwestern Cape during spring and summer, drawing cool maritime air inland from the Atlantic and False Bay. It moderates vineyard temperatures, slows ripening, reduces humidity and fungal pressure, and helps grapes retain acidity and freshness, although powerful gusts can damage young shoots and disrupt flowering."
+  },
   {
     "term": "Catalonia",
     "definition": "Catalonia, in northeastern Spain, is one of the country’s most historically rich and innovative wine regions. With winemaking traditions dating back to Roman times, it became a viticultural stronghold during the Middle Ages and later played a key role in reviving European vineyards after the phylloxera crisis. In the 19th century, Catalonia pioneered sparkling wine production with the creation of Cava, modeled after Champagne, and by the 20th century, it led Spanish wine’s modernization through advanced viticulture and a growing focus on quality. The region is home to 12 recognized DOs and one DOQ—Priorat—one of only two Spanish wine zones with that highest-level designation. Priorat is celebrated for bold, age-worthy reds made from Garnacha and Cariñena, grown on steep, slate-covered slopes. Surrounding regions like Montsant offer similar grapes with softer expression, while Penedès is the heart of sparkling wine production and also produces a wide variety of still wines. Other regions such as Empordà, Costers del Segre, and Conca de Barberà reflect Catalonia’s climate and soil diversity, offering both traditional styles and international blends.",
@@ -84,8 +88,8 @@
     "definition": "Carménère is a red grape originally from Bordeaux but now most famously grown in Chile, where it has become a signature varietal. Once thought to be Merlot, it was rediscovered in Chile in the 1990s and is prized for its deep color, soft tannins, and flavors of blackberry, plum, green pepper, and spice. Carménère thrives in Chile’s warm, dry climate—particularly in the Central Valley—and offers a distinctive, savory profile that balances ripe fruit with herbal complexity. When well-made, it produces smooth, approachable wines with moderate acidity and a unique identity."
   },
   {
-    "term": "Cape Doctor",
-    "definition": "The Cape Doctor is not an ocean current but a strong southeasterly wind that blows across South Africa’s southwestern Cape during spring and summer, drawing cool maritime air inland from the Atlantic and False Bay. It moderates vineyard temperatures, slows ripening, reduces humidity and fungal pressure, and helps grapes retain acidity and freshness, although powerful gusts can damage young shoots and disrupt flowering."
+    "term": "Carneros",
+    "definition": "Carneros AVA, also known as Los Carneros, straddles southern Napa and Sonoma counties near San Pablo Bay, where fog, wind, and cool maritime influence create one of California’s coolest wine-growing areas. It is best known for Pinot Noir, Chardonnay, and traditional-method sparkling wine, typically showing bright acidity, restrained fruit, and elegant structure."
   },
   {
     "term": "Cask strength",
@@ -246,6 +250,10 @@
     "url": "/study-guides/wines-of-italy",
     "label": "Italy"
   }
+  },
+  {
+    "term": "Constantia",
+    "definition": "Constantia is a historic, cool-climate wine region on the southern edge of Cape Town, where slopes, decomposed granite soils, and breezes from False Bay support Sauvignon Blanc and other refined styles."
   },
   {
     "term": "Coonawarra",

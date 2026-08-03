@@ -185,10 +185,6 @@
     "definition": "Alicante, located on Spain’s southeastern Mediterranean coast in the Valencia region, is known for its warm climate and diverse wine styles. The region is particularly famous for Monastrell (Mourvèdre), which thrives in the hot, dry conditions and produces bold, spicy reds with ripe fruit and earthy depth. Alicante is also home to Fondillón, a rare and historic oxidative dessert wine made from overripe Monastrell and aged for decades in barrel without fortification. With both traditional and modern producers at work, Alicante is gaining recognition for wines that combine Mediterranean richness with increasing balance and finesse."
   },
   {
-    "term": "Alluvial soil",
-    "definition": "A gravel and silt-based soil that has been transported by flooding and ancient waters."
-  },
-  {
     "term": "Alicante Bouschet",
     "definition": "Alicante Bouschet is a rare teinturier grape, meaning it has red flesh as well as red skin, originally developed in France but now widely planted in Portugal and parts of Spain. Known for its deep color and robust structure, it produces intensely pigmented, full-bodied reds often used in blends to add color and concentration."
   },
@@ -199,6 +195,10 @@
     "url": "/study-guides/wines-of-france",
     "label": "France"
   }
+  },
+  {
+    "term": "Alluvial soil",
+    "definition": "A gravel and silt-based soil that has been transported by flooding and ancient waters."
   },
   {
     "term": "Almacenista",

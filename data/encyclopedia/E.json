@@ -4,6 +4,10 @@
     "definition": "French for “water of life,” eau-de-vie refers to a clear, unaged fruit brandy (like pear or plum) that captures the pure essence of the fermented fruit."
   },
   {
+    "term": "Ecuador",
+    "definition": "Ecuador is a tiny, experimental wine nation where producers overcome equatorial heat through either extreme Andean elevation near Quito or coastal breezes in Guayas."
+  },
+  {
     "term": "Eden Valley",
     "definition": "Wine region located in South Australia, next to the Barossa Valley. Location of the famed vineyard Hill of Grace by Henschke.",
     "relatedArticle": {
@@ -49,6 +53,10 @@
     "definition": "En primeur, also known as wine futures, is a purchasing system primarily associated with Bordeaux's finest châteaux where consumers buy wines while they're still aging in barrel, typically 18-24 months before the wine is bottled and released to market. This centuries-old practice allows wine lovers to secure allocations of highly sought-after wines at lower prices than they'll command upon release, while providing châteaux with immediate cash flow to fund operations and subsequent vintages. The process involves tastings of barrel samples by wine critics and merchants during the spring following harvest, with scores and reviews driving demand and pricing for wines that won't be delivered for another two years. While en primeur offers the opportunity to purchase legendary wines like Château Pétrus or Le Pin at substantial discounts compared to mature bottle prices, it also carries risks including vintage variation, storage concerns, and the possibility that wines may not appreciate as expected, making it both an investment strategy and an act of faith in a producer's reputation and a vintage's potential."
   },
   {
+    "term": "En rama",
+    "definition": "A lightly clarified, <strong>raw</strong> version of fino or manzanilla Sherry."
+  },
+  {
     "term": "Entre-Deux-Mers",
     "definition": "A subregion in Bordeaux, known for its moderately priced (and moderate quality) white wines. The region sits between the Garonne and Dordogne rivers, surrounded by some of the most storied chateau in France.",
     "relatedArticle": {
@@ -58,11 +66,15 @@
   },
   {
     "term": "Erbaluce",
-    "definition": "A white wine grape from Caluso in the Piedmont region of northern Italy.",
+    "definition": "A white wine grape from <strong>Caluso</strong> in the Piedmont region of northern Italy.",
      "relatedArticle": {
     "url": "/study-guides/wines-of-italy",
     "label": "Italy"
   }
+  },
+  {
+    "term": "Erste Lage",
+    "definition": "VDP.Erste Lage, meaning “first site,” identifies a high-quality German vineyard within the private VDP classification and is broadly comparable to a Burgundy Premier Cru. It sits below VDP.Grosse Lage and above village-level VDP.Ortswein, with strict rules governing permitted grapes, yields, selective hand harvesting, and production."
   },
   {
     "term": "Erzeugerabfüllung",

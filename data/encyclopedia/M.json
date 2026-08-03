@@ -46,7 +46,7 @@
   },
   {
     "term": "Marc",
-    "definition": "A winemaking term that describes the left-over solid matter after the grapes are pressed for their juice. A rough type of brandy is produced from this material, and Italy is prized for its grappa which is made from the marc."
+    "definition": "Marc, or eau-de-vie de marc, is a French pomace brandy distilled from the grape skins, seeds, and other solids left after winemaking, making it France’s counterpart to Italian grappa. Styles vary by region, with examples such as Marc de Bourgogne and Marc de Champagne ranging from fiery and rustic to smooth, aromatic, and barrel-aged."
   },
   {
     "term": "Marche",
@@ -115,7 +115,7 @@
   },
   {
     "term": "Méthode Champenoise",
-    "definition": "France. The traditional method for making Champagne, in which the second fermentation occurs within the bottle. A legally protected term - only Champagne may wear this on the label - although the method is used the world over.",
+    "definition": "The traditional method for making Champagne, in which the second fermentation occurs within the bottle. A legally protected term - only Champagne may wear this on the label - although the method is used the world over.",
     "relatedArticle": {
     "url": "/study-guides/wines-of-france",
     "label": "France"
@@ -123,7 +123,7 @@
   },
   {
     "term": "Méthode Traditionelle",
-    "definition": "France. Winemakers outside Champagne using the Methode Champenoise may use this to describe the process on the label. They are legally prevented from using the term Methode Champenoise."
+    "definition": "Winemakers outside Champagne using the Methode Champenoise may use this to describe the process on the label. They are legally prevented from using the term Methode Champenoise."
   },
   {
     "term": "Methuselah",
@@ -138,12 +138,17 @@
   }
   },
   {
-    "term": "Montelpuciano",
+    "term": "Montepulciano",
     "definition": "Montepulciano is a dark-skinned red grape grown mainly in central and southern Italy, especially Abruzzo, where it forms the basis of Montepulciano d’Abruzzo. It typically produces deeply colored, medium- to full-bodied wines with black cherry, plum, herbs, moderate acidity, and soft to firm tannins, and it should not be confused with Vino Nobile di Montepulciano, a Tuscan wine made primarily from Sangiovese."
   },
   {
-    "term": "Monticello AVA",
+    "term": "Monticello",
     "definition": "The Monticello AVA is a historic Virginia wine region surrounding Charlottesville in the central Piedmont, along the eastern slopes of the Blue Ridge Mountains and near Thomas Jefferson’s Monticello estate. Its rolling terrain, clay and granite-derived soils, and long growing season support grapes such as Cabernet Franc, Petit Verdot, Viognier, Chardonnay, and Petit Manseng."
+  },
+  {
+    "term": "Morellino di Scansano",
+    "definition": "Morellino di Scansano is a red DOCG wine from southern Tuscany’s coastal Maremma, centered around the town of Scansano and made primarily from Sangiovese, locally called Morellino.",
+    "definition2": "The warmer maritime climate typically produces ripe, approachable wines with cherry, plum, herbs, moderate tannins, and softer structure than many inland Tuscan Sangiovese wines."
   },
   {
     "term": "Morocco",
@@ -166,6 +171,18 @@
   {
     "term": "Mulled Wine",
     "definition": "A warm, spiced red wine often served during colder months, typically infused with cinnamon, cloves, citrus, and sweeteners—popular in European holiday markets."
+  },
+  {
+    "term": "Müller-Thurgau",
+    "definition": "Müller-Thurgau is an early-ripening white grape created in Germany in 1882 by Hermann Müller, now understood to be a crossing of Riesling and Madeleine Royale. It typically produces light, soft, aromatic wines with apple, pear, peach, floral, and subtle muscat-like notes, but generally has lower acidity and less aging potential than Riesling."
+  },
+  {
+    "term": "Muscat",
+    "definition": "Muscat is an ancient, highly aromatic family of white and dark-skinned grapes, known by names such as Moscato and Moscatel, with Muscat Blanc à Petits Grains among its most prized members. It produces wines ranging from dry and sparkling to richly sweet and fortified, typically showing orange blossom, grape, peach, apricot, citrus, and spice."
+  },
+  {
+    "term": "Muscat of Alexandria",
+    "definition": "Muscat of Alexandria is an ancient, late-ripening member of the Muscat family, traditionally grown in warm Mediterranean climates for wine, raisins, and table grapes. Known as Zibibbo in Sicily and Muscat Gordo Blanco in Australia, it produces intensely aromatic wines with orange blossom, ripe peach, citrus, grape, and spice, ranging from dry to richly sweet and fortified."
   },
   {
     "term": "Must",
