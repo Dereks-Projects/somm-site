@@ -1,7 +1,7 @@
 [
   {
     "term": "Wachau",
-    "definition": "Wachau is a steep, terraced valley along the Danube River in Austria, known for producing some of the world’s finest dry Rieslings and Grüner Veltliners, often labeled by ripeness levels like Steinfeder, Federspiel, and Smaragd."
+    "definition": "Wachau is a prestigious wine region in Lower <strong>Austria</strong>, where steep terraced vineyards along the Danube produce concentrated, dry white wines shaped by rocky soils, warm days, and cool nighttime air. Grüner Veltliner and Riesling dominate, typically showing ripe citrus and stone fruit, firm acidity, spice, and mineral depth, with traditional styles labeled Steinfeder, Federspiel, and Smaragd according to ripeness and body."
   },
   {
     "term": "Walla Walla Valley",
@@ -80,6 +80,11 @@
     "term": "Wine Faults",
     "definition": "Wine faults are undesirable conditions that reduce a wine’s quality, clarity, aroma, flavor, or stability. They may arise from microbial activity, oxidation, reduction, heat damage, poor storage, unclean equipment, contaminated closures, or imbalanced chemistry, making <strong>fault</strong> recognition an important part of wine evaluation.",
     "definition2": "Common examples include cork taint, volatile acidity, oxidation, reduction, brettanomyces, mousiness, refermentation, lightstrike, and excess sulfur compounds. Some compounds are tolerated at low levels or even considered stylistic in certain contexts, but a true wine fault disrupts <strong>balance</strong> and obscures the intended character of the wine."
+  },
+  {
+    "term": "Wine Law",
+    "definition": "Wine law is the system of regulations that defines how wine may be produced, classified, labeled, and sold, including rules for geographic origin, permitted grapes, yields, alcohol levels, aging, and production methods.",
+    "definition2": "In regions such as France, Italy, Spain, and Austria, these laws protect traditional identities and help consumers understand where a wine comes from and what standards it is expected to meet."
   },
   {
     "term": "Wine Pairing",

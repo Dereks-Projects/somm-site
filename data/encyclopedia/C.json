@@ -109,7 +109,7 @@
     "definition": "This refers to the process of ageing a wine before consumption. This can take place in the winery, in a restaurant cellar or in a private home."
   },
   {
-    "term": "Central Coast AVA",
+    "term": "Central Coast",
     "definition": "The Central Coast AVA is a vast American Viticultural Area stretching from San Francisco Bay down to Santa Barbara County, encompassing over 100,000 vineyard acres along California’s coast. Defined by its maritime influence, diverse microclimates, and varied soils, the region supports a wide range of grape varieties, most notably Chardonnay, Pinot Noir, Syrah, and Cabernet Sauvignon. Sub-AVAs like Paso Robles, Santa Maria Valley, and Santa Ynez Valley have gained prominence for their distinctive styles and quality-driven producers. The Central Coast AVA is known for innovation, diversity, and a balance between tradition and modern winemaking approaches."
   },
   {
@@ -286,6 +286,10 @@
   {
     "term": "Côte",
     "definition": "A “côte” is a slope or hillside (France) that usually has a geographical or climactic impact on the wine. Otherwise, it is just a geographical indication."
+  },
+  {
+    "term": "Côte-Rôtie",
+    "definition": "Côte-Rôtie is a prestigious Northern <strong>Rhône Valley</strong> appellation of steep, terraced vineyards above the Rhône River, produced within the communes of Ampuis, Saint-Cyr-sur-le-Rhône, and Tupin-et-Semons. Its red wines are based on Syrah and may include Viognier, producing aromatic, age-worthy wines with blackberry, violet, black pepper, smoke, olive, and savory complexity."
   },
   {
     "term": "Coulure",

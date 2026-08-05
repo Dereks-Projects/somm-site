@@ -5,7 +5,11 @@
   },
   {
     "term": "Quarts de Chaume",
-    "definition": "A small, high-quality appellation in the Loire Valley of France specifically for sweet wines. This AOC sits inside of the greater Coteaux du Layon AOC, on banks of the Layon and its tributaries."
+    "definition": "A small, high-quality appellation in the Loire Valley of France specifically for sweet wines. This AOC sits inside of the greater Coteaux du Layon AOC, on banks of the Layon and its tributaries.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-france",
+    "label": "France"
+  }
   },
     {
     "term": "Quetsche",

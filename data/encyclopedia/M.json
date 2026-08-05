@@ -65,6 +65,14 @@
   }
   },
   {
+    "term": "Marlborough",
+    "definition": "Marlborough is New Zealand’s largest and most famous wine region, located at the northeastern tip of the South Island and shaped by abundant sunshine, cool nights, low rainfall, and strong maritime influence. It is the global benchmark for Sauvignon Blanc, producing intensely aromatic wines with passion fruit, citrus, gooseberry, fresh herbs, and bright acidity, while Pinot Noir, Chardonnay, and sparkling wine also perform well across the Wairau, Awatere, and Southern Valleys."
+  },
+  {
+    "term": "Marsala",
+    "definition": "Marsala is a <strong>fortified wine</strong> from western Sicily, traditionally made from grapes such as Grillo, Catarratto, and Inzolia, with styles ranging from dry to sweet and colors from golden to amber or ruby."
+  },
+  {
     "term": "Marselan",
     "definition": "Marselan is a red grape created in France by crossing Cabernet Sauvignon with Grenache, combining deep color and structure with good heat tolerance and adaptability. It typically produces aromatic, medium- to full-bodied wines with dark berry and plum flavors, supple tannins, and increasing importance in warm regions such as southern France and China."
   },
@@ -105,10 +113,7 @@
     "label": "Merlot"
   }
   },
-  {
-    "term": "Mezcal",
-    "definition": "Mezcal is a traditional Mexican spirit made from the agave plant, typically produced in Oaxaca, though several states have official denomination of origin. Unlike tequila—which must be made from only Blue Weber agave—mezcal can be made from dozens of agave varieties, including Espadín, Tobalá, and Tepeztate, each imparting its own unique flavor. Mezcal is most famously known for its distinct smoky character, which comes from roasting the agave hearts (piñas) in underground earthen ovens lined with hot stones and covered with plant matter and soil. Artisanal and ancestral production methods are often employed, involving natural fermentation, wood-fired copper or clay stills, and small-scale, family-owned palenques (distilleries). Mezcal’s diversity in agave, terroir, and technique makes it one of the most complex and expressive spirits in the world—ranging from wild, rustic, and earthy to floral, delicate, and ethereal."
-  },
+  
   {
     "term": "Mesoclimate",
     "definition": "A viticulture term describing the immediate climactic conditions surrounding a vineyard, referring to its impact on the viticulture of that area."
@@ -130,6 +135,14 @@
     "definition": "Large-format bottle that contains 6 liters of volume (8 bottles)."
   },
   {
+    "term": "Mexico",
+    "definition": "Mexico is a major beverage-producing nation best known for tequila and mezcal, geographically protected agave spirits rooted in regional raw materials, traditional methods, and distinct local cultures. Its wine industry dates to the early colonial period and now spans <strong>Baja California</strong>, Coahuila, Querétaro, Guanajuato, and other states."
+  },
+  {
+    "term": "Mezcal",
+    "definition": "Mezcal is a traditional Mexican spirit made from the agave plant, typically produced in <strong>Oaxaca</strong>, though several states have official denomination of origin. Unlike tequila—which must be made from only Blue Weber agave—mezcal can be made from dozens of agave varieties, including Espadín, Tobalá, and Tepeztate, each imparting its own unique flavor. Mezcal is most famously known for its distinct smoky character, which comes from roasting the agave hearts (piñas) in underground earthen ovens lined with hot stones and covered with plant matter and soil. Artisanal and ancestral production methods are often employed, involving natural fermentation, wood-fired copper or clay stills, and small-scale, family-owned palenques (distilleries)."
+  },
+  {
     "term": "Moelleux",
     "definition": "A French winemaking term denoting residual sugar in the wine, and the drinker can definitely expect sweetness from these wines.",
     "relatedArticle": {
@@ -143,7 +156,7 @@
   },
   {
     "term": "Monticello",
-    "definition": "The Monticello AVA is a historic Virginia wine region surrounding Charlottesville in the central Piedmont, along the eastern slopes of the Blue Ridge Mountains and near Thomas Jefferson’s Monticello estate. Its rolling terrain, clay and granite-derived soils, and long growing season support grapes such as Cabernet Franc, Petit Verdot, Viognier, Chardonnay, and Petit Manseng."
+    "definition": "The Monticello AVA is a historic <strong>Virginia</strong> wine region surrounding Charlottesville in the central Piedmont, along the eastern slopes of the Blue Ridge Mountains and near Thomas Jefferson’s Monticello estate. Its rolling terrain, clay and granite-derived soils, and long growing season support grapes such as Cabernet Franc, Petit Verdot, Viognier, Chardonnay, and Petit Manseng."
   },
   {
     "term": "Morellino di Scansano",

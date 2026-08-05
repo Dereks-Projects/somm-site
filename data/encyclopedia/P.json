@@ -125,7 +125,12 @@
   },
   {
     "term": "Port wine",
-    "definition": "Port is a fortified wine from the Douro Valley in northern Portugal, made by adding grape spirit (aguardente) during fermentation to halt sugar conversion, resulting in a sweet, high-alcohol wine. It’s typically made from indigenous grapes like Touriga Nacional, and comes in various styles, the most common being Ruby Port (bright, fruity, and aged in bulk), Tawny Port (nutty and oxidative, aged in smaller barrels), and Vintage Port (from a single exceptional harvest, meant to age in bottle). Port pairs beautifully with cheese, chocolate, and nuts, and is traditionally enjoyed as a dessert or after-dinner wine. All true Port must be produced in Portugal and is regulated under strict appellation laws to protect its origin and style."
+    "definition": "Port is a fortified wine from the Douro Valley in northern Portugal, made by adding grape spirit (aguardente) during fermentation to halt sugar conversion, resulting in a sweet, high-alcohol wine.",
+    "definition2": "It’s typically made from indigenous grapes like Touriga Nacional, and comes in various styles, the most common being Ruby Port (bright, fruity, and aged in bulk), Tawny Port (nutty and oxidative, aged in smaller barrels), and Vintage Port (from a single exceptional harvest, meant to age in bottle). Port pairs beautifully with cheese, chocolate, and nuts, and is traditionally enjoyed as a dessert or after-dinner wine. All true Port must be produced in Portugal and is regulated under strict appellation laws to protect its origin and style."
+  },
+  {
+    "term": "Pouilly-Fuissé",
+    "definition": "Pouilly-Fuissé is a white Burgundy appellation in the Mâconnais, made entirely from Chardonnay grown on limestone-rich hills around villages including Fuissé, Solutré-Pouilly, Vergisson, and Chaintré."
   },
   {
     "term": "Powdery Mildew",
