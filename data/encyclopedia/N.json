@@ -9,6 +9,15 @@
   }
   },
   {
+    "term": "Napa Valley subregions",
+    "definition": "Napa Valley subregions are the nested American Viticultural Areas within the larger Napa Valley AVA, created to recognize meaningful differences in climate, elevation, soils, exposure, and local growing conditions. These include well-known names such as Howell Mountain, Mount Veeder, Rutherford, Oakville, Stags Leap District, Calistoga, Coombsville, Los Carneros, and other legally defined <strong>appellations</strong>.",
+    "definition2":"Their importance lies in showing that Napa is not a single uniform wine style, even though Cabernet Sauvignon dominates its reputation. Valley-floor sites often emphasize ripeness, fruit density, and polished structure, while mountain and hillside AVAs can produce wines of firmer tannin, greater concentration, and stronger <strong>site</strong> expression.",
+    "relatedArticle": {
+    "url": "/articles/napa-valley-america-wine-region",
+    "label": "Napa Valley"
+  }
+  },
+  {
     "term": "Natural wine",
     "definition": "Natural wine is a style of wine made with minimal intervention in both the vineyard and the cellar. Grapes are typically grown organically or biodynamically, hand-harvested, and fermented with native (wild) yeasts. Winemakers avoid additives such as commercial yeasts, acids, or filtering agents, and often skip fining and filtration entirely. The result is a wine that may appear cloudy, taste unconventional, or show more variation from bottle to bottle—but that expresses a raw, unpolished sense of place. While celebrated for its authenticity and connection to nature, natural wine also divides opinion due to its unpredictability and lack of standardization."
   },
@@ -30,7 +39,11 @@
   },
   {
     "term": "New Mexico",
-    "definition": "New Mexico is one of America’s oldest wine-producing regions, with grape cultivation dating to 1629, and its high-elevation vineyards combine intense sunlight with cool nights that help preserve acidity and aroma. The state is especially respected for traditional-method sparkling wine, while varieties such as Chardonnay, Pinot Noir, Tempranillo, Syrah, and Cabernet Sauvignon are grown across the Middle Rio Grande Valley, Mimbres Valley, and Mesilla Valley AVAs."
+    "definition": "New Mexico is one of America’s oldest wine-producing regions, with grape cultivation dating to 1629, and its high-elevation vineyards combine intense sunlight with cool nights that help preserve acidity and aroma. The state is especially respected for traditional-method sparkling wine, while varieties such as Chardonnay, Pinot Noir, Tempranillo, Syrah, and Cabernet Sauvignon are grown across the Middle Rio Grande Valley, Mimbres Valley, and Mesilla Valley AVAs.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-north-america",
+    "label": "American Wine"
+  }
   },
   {
     "term": "New York State",

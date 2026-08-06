@@ -293,12 +293,25 @@
   }
   },
   {
+    "term": "Anderson Valley",
+    "definition": "Anderson Valley is a cool-climate American Viticultural Area in Mendocino County, located in a narrow valley that runs from the inland town of Boonville toward the Pacific-influenced coast near Navarro. Its <strong>maritime</strong> conditions, fog, wind, and pronounced diurnal shifts create a long growing season suited to grapes that retain acidity and aromatic precision.",
+    "definition2": "The region is best known for Pinot Noir, Chardonnay, sparkling wine, and aromatic white varieties such as Gewurztraminer, Riesling, and Pinot Gris. Anderson Valley’s wines are generally defined by freshness, moderate ripeness, and clear <strong>cool-climate</strong> structure, making it one of California’s important coastal-influenced appellations.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-north-america",
+    "label": "American Wine"
+  }
+  },
+  {
     "term": "Angostura bitters",
     "definition": "A concentrated bitters originally from Venezuela and now made in Trinidad, widely used in classic cocktails like the Old Fashioned and Manhattan."
   },
   {
     "term": "Anjou",
-    "definition": "Anjou, located in the western Loire Valley near the city of Angers, is a historic and versatile wine region known for both dry and sweet wines. It produces crisp whites from Chenin Blanc, ranging from zesty and mineral-driven to lusciously sweet in nearby Coteaux du Layon. Anjou also makes structured reds from Cabernet Franc, particularly in Anjou-Villages, and some of the Loire’s best rosés, including Rosé d’Anjou and Cabernet d’Anjou. The region’s diversity and Chenin Blanc’s adaptability make Anjou a key part of the Loire’s wine identity."
+    "definition": "Anjou, located in the western Loire Valley near the city of Angers, is a historic and versatile wine region known for both dry and sweet wines. It produces crisp whites from Chenin Blanc, ranging from zesty and mineral-driven to lusciously sweet in nearby Coteaux du Layon. Anjou also makes structured reds from Cabernet Franc, particularly in Anjou-Villages, and some of the Loire’s best rosés, including Rosé d’Anjou and Cabernet d’Anjou. The region’s diversity and Chenin Blanc’s adaptability make Anjou a key part of the Loire’s wine identity.",
+    "relatedArticle": {
+    "url": "/articles/traversing-loire-valley",
+    "label": "Loire Valley"
+  }
   },
   {
     "term": "Annata",

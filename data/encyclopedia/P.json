@@ -91,11 +91,19 @@
   },
   {
     "term": "Pinot Gris",
-    "definition": "Pinot Gris, also known as Pinot Grigio in Italy, is a lighter white variety found growing throughout the world. This wine tends to be light to medium bodied and is mostly produced on the drier side. The grape was made famous from the ocean of examples flooding the U.S. market in the 1990’s and onward, forever cementing itself into the lexicon of wine drinkers. The examples of different styles are far and wide, with sweet examples from Alsace that age gracefully to off dry bottles at the gas station. However, what we find on restaurant wine lists most often are the light, bright styles that go well with earlier courses in the dinner service. Oregon has made great strides with the grape, and the producers who make a great Willamette Valley pinot noir usually make a pretty good pinot gris as well."
+    "definition": "Pinot Gris, also known as Pinot Grigio in Italy, is a lighter white variety found growing throughout the world. This wine tends to be light to medium bodied and is mostly produced on the drier side. The grape was made famous from the ocean of examples flooding the U.S. market in the 1990’s and onward, forever cementing itself into the lexicon of wine drinkers. The examples of different styles are far and wide, with sweet examples from Alsace that age gracefully to off dry bottles at the gas station. However, what we find on restaurant wine lists most often are the light, bright styles that go well with earlier courses in the dinner service. Oregon has made great strides with the grape, and the producers who make a great Willamette Valley pinot noir usually make a pretty good pinot gris as well.",
+    "relatedArticle": {
+    "url": "/articles/one-species-vitis-vinifera",
+    "label": "Vitis vinifera"
+  }
   },
   {
     "term": "Pinot Meunier",
-    "definition": "Pinot Meunier is a dark-skinned mutation of Pinot Noir best known as one of Champagne’s three principal grapes, valued for early ripening, cold tolerance, and reliable performance in cooler sites."
+    "definition": "Pinot Meunier is a dark-skinned mutation of Pinot Noir best known as one of Champagne’s three principal grapes, valued for early ripening, cold tolerance, and reliable performance in cooler sites.",
+    "relatedArticle": {
+    "url": "/articles/one-species-vitis-vinifera",
+    "label": "Vitis vinifera"
+  }
   },
   {
     "term": "Pinot Noir",
@@ -167,7 +175,11 @@
   },
   {
     "term": "Prosecco",
-    "definition": "Prosecco is a sparkling wine from northeastern Italy, made primarily from the Glera grape, with production centered in Veneto and Friuli-Venezia Giulia and top examples coming from Conegliano Valdobbiadene and Asolo DOCG. Usually produced by the tank method, it is known for light body, fresh acidity, lively bubbles, and flavors of green apple, pear, peach, citrus, and white flowers."
+    "definition": "Prosecco is a sparkling wine from northeastern Italy, made primarily from the Glera grape, with production centered in Veneto and Friuli-Venezia Giulia and top examples coming from Conegliano Valdobbiadene and Asolo DOCG. Usually produced by the tank method, it is known for light body, fresh acidity, lively bubbles, and flavors of green apple, pear, peach, citrus, and white flowers.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-italy",
+    "label": "Italy"
+  }
   },
   {
     "term": "Pruning",
@@ -180,5 +192,13 @@
   {
     "term": "Puttonyo",
     "definition": "A viticulture term for a 25kg basket used to harvest of grapes in Hungary. Tokaji, Hungary’s famous sweet elixir, was known to use the amount of Puttonyos in each vat to quantify quality on the wine label. However, that practice is going away as wine regions try to make their label language more uniform and understandable."
+  },
+  {
+    "term": "Pyrenees",
+    "definition": "The Pyrenees form a major mountain barrier between France and Spain, influencing nearby wine regions through elevation, slope exposure, cooling airflow, and rain-shadow effects. They help create drier, sunnier conditions in areas such as Roussillon and northeastern Spain, while foothill regions including Jurançon benefit from altitude and large temperature swings that preserve acidity and aromatic freshness."
+  },
+  {
+    "term": "Pyrazine",
+    "definition": "Pyrazines are aromatic compounds in wine, especially methoxypyrazines, that create green bell pepper, fresh herbs, grass, and leafy flavors. They are common in Cabernet Sauvignon, Cabernet Franc, Carmenère, Merlot, and Sauvignon Blanc, becoming more noticeable in cooler climates or less-ripe grapes."
   }
 ]

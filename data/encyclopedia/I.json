@@ -42,7 +42,11 @@
   {
     "term": "Italian Wine Law",
     "definition": "Italian wine law follows the European DOP/IGP system: IGT corresponds to IGP, while DOC and DOCG are traditional Italian designations within the higher DOP category, with DOCG generally requiring stricter controls and certification.",
-    "definition2": "Each appellation’s disciplinare defines its production area, permitted grapes, yields, winemaking and aging requirements, while terms such as Classico, Superiore, and Riserva carry specific legal meanings within individual denominations."
+    "definition2": "Each appellation’s disciplinare defines its production area, permitted grapes, yields, winemaking and aging requirements, while terms such as Classico, Superiore, and Riserva carry specific legal meanings within individual denominations.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-italy",
+    "label": "Italy"
+  }
   },
   {
     "term": "Italy",

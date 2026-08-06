@@ -194,8 +194,8 @@
     "term": "Chinon",
     "definition": "Chinon is a respected appellation in France’s Loire Valley, best known for its red wines made primarily from Cabernet Franc, which thrive in the region’s limestone and gravel soils. These wines range in style from light and fresh with bright red fruit and herbal notes to more structured and age-worthy expressions with earth, tobacco, and spice. A small amount of white Chinon is also produced from Chenin Blanc, offering vibrant acidity and minerality. With its balance of freshness, elegance, and food-friendly appeal, Chinon is a favorite among lovers of cool-climate reds.",
     "relatedArticle": {
-    "url": "/study-guides/wines-of-france",
-    "label": "France"
+    "url": "/articles/traversing-loire-valley",
+    "label": "Loire Valley"
   }
   },
   {
@@ -288,8 +288,21 @@
     "definition": "A “côte” is a slope or hillside (France) that usually has a geographical or climactic impact on the wine. Otherwise, it is just a geographical indication."
   },
   {
+    "term": "Côte d'Or",
+    "definition": "Côte d’Or is the central and most prestigious wine district of Burgundy, running along a narrow limestone escarpment from the area south of Dijon toward Santenay. It is divided into the Côte de Nuits and Côte de Beaune, with vineyards arranged by village, vineyard, and <strong>climat</strong>, reflecting Burgundy’s intense focus on site-specific identity.",
+    "definition2": "The Côte de Nuits is most associated with Pinot Noir, including many of Burgundy’s most famous red grands crus, while the Côte de Beaune produces both major red wines and some of the world’s benchmark Chardonnay from villages such as Meursault, Puligny-Montrachet, and Chassagne-Montrachet. The region’s importance rests on its <strong>hierarchy</strong> of regional, village, premier cru, and grand cru appellations, which links wine quality and reputation directly to place.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-france",
+    "label": "France"
+  }
+  },
+  {
     "term": "Côte-Rôtie",
-    "definition": "Côte-Rôtie is a prestigious Northern <strong>Rhône Valley</strong> appellation of steep, terraced vineyards above the Rhône River, produced within the communes of Ampuis, Saint-Cyr-sur-le-Rhône, and Tupin-et-Semons. Its red wines are based on Syrah and may include Viognier, producing aromatic, age-worthy wines with blackberry, violet, black pepper, smoke, olive, and savory complexity."
+    "definition": "Côte-Rôtie is a prestigious Northern <strong>Rhône Valley</strong> appellation of steep, terraced vineyards above the Rhône River, produced within the communes of Ampuis, Saint-Cyr-sur-le-Rhône, and Tupin-et-Semons. Its red wines are based on Syrah and may include Viognier, producing aromatic, age-worthy wines with blackberry, violet, black pepper, smoke, olive, and savory complexity.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-france",
+    "label": "France"
+  }
   },
   {
     "term": "Coulure",
@@ -334,7 +347,11 @@
   },
   {
     "term": "Cru Bourgeois",
-    "definition": "A classification in Bordeaux, France. While this designation dates back hundreds of years, it was only in 1932 that the designation was revived, with new regulations coming in 2010. These properties tend to be in the outlying areas of Bordeaux and are recognized by industry professionals in the region."
+    "definition": "A classification in Bordeaux, France. While this designation dates back hundreds of years, it was only in 1932 that the designation was revived, with new regulations coming in 2010. These properties tend to be in the outlying areas of Bordeaux and are recognized by industry professionals in the region.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-france",
+    "label": "France"
+  }
   },
   {
     "term": "Cru Classé",

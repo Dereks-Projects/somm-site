@@ -89,12 +89,26 @@
     "definition": "An alcoholic beverage made from fermented honey, sometimes blended with fruit or spices, representing one of the oldest known alcoholic drinks in the world."
   },
   {
+    "term": "Médoc",
+    "definition": "Médoc is a major wine district of Bordeaux, located on the Left Bank between the Gironde estuary and the Atlantic Ocean. Its gravelly soils, maritime influence, and drainage capacity favor Cabernet Sauvignon, making <strong>structure</strong> a defining feature of the region’s most important red wines.",
+    "definition2": "The district includes the broader Médoc and Haut-Médoc appellations, along with famous communal appellations such as Saint-Estèphe, Pauillac, Saint-Julien, and Margaux. Médoc wines are typically Cabernet-led blends with Merlot, Cabernet Franc, Petit Verdot, and other permitted grapes, valued for tannin, cassis, cedar, graphite, longevity, and historic <strong>classification</strong> prestige.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-france",
+    "label": "France"
+  }
+  },
+  {
     "term": "Melon de Bourgogne",
     "definition": "Melon de Bourgogne is a white grape variety best known as the sole grape used in Muscadet wines from the Loire Valley’s Pays Nantais, producing light-bodied, crisp wines with notes of lemon, green apple, and saline minerality. Often aged sur lie (on the lees) to add texture and complexity, Melon de Bourgogne excels with oysters and seafood, showcasing its bracing acidity and subtle, ocean-influenced character.",
     "relatedArticle": {
     "url": "/study-guides/wines-of-france",
     "label": "France"
   }
+  },
+  {
+    "term": "Mendocino County",
+    "definition": "Mendocino County is a northern California wine region located above Sonoma County, with vineyards shaped by Pacific influence, inland valleys, mountain terrain, and significant organic and sustainable farming traditions. Its <strong>geography</strong> ranges from the cool Anderson Valley near the coast to warmer interior areas such as Redwood Valley, Ukiah Valley, and Potter Valley.",
+    "definition2": "The county is best known for Pinot Noir, Chardonnay, sparkling wine, Zinfandel, Cabernet Sauvignon, Petite Sirah, and aromatic white varieties, depending on site and climate. Mendocino’s importance lies in its contrast between coastal freshness and inland ripeness, giving the region a broad <strong>identity</strong> that is less commercially dominant than Napa or Sonoma but highly distinctive within California wine."
   },
   {
     "term": "Mendoza",
@@ -113,7 +127,14 @@
     "label": "Merlot"
   }
   },
-  
+  {
+    "term": "Meseta Plateau",
+    "definition": "The <strong>Meseta Central</strong> is Spain’s vast, high-elevation interior plateau, where intense sunlight, low rainfall, hot days, and cold nights create large temperature swings that help grapes ripen while retaining acidity. Its principal wine areas include Castilla y León in the north, home to Ribera del Duero, Rueda, Toro, and Cigales, and Castilla-La Mancha in the south, including La Mancha, Valdepeñas, Manchuela, and Almansa.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-spain",
+    "label": "Spain"
+  }
+  },
   {
     "term": "Mesoclimate",
     "definition": "A viticulture term describing the immediate climactic conditions surrounding a vineyard, referring to its impact on the viticulture of that area."
@@ -153,6 +174,11 @@
   {
     "term": "Montepulciano",
     "definition": "Montepulciano is a dark-skinned red grape grown mainly in central and southern Italy, especially Abruzzo, where it forms the basis of Montepulciano d’Abruzzo. It typically produces deeply colored, medium- to full-bodied wines with black cherry, plum, herbs, moderate acidity, and soft to firm tannins, and it should not be confused with Vino Nobile di Montepulciano, a Tuscan wine made primarily from Sangiovese."
+  },
+  {
+    "term": "Morellino di Scansano",
+    "definition": "Monterey County is a major wine region on California’s Central Coast, shaped by the cooling influence of Monterey Bay, the Salinas Valley, and the surrounding mountain ranges. Its vineyards extend from cold, wind-exposed northern sites to warmer southern zones, creating a long growing season where <strong>maritime</strong> influence preserves acidity while allowing gradual flavor development.",
+    "definition2": "The county is especially important for Chardonnay, Pinot Noir, Syrah, Riesling, Sauvignon Blanc, and Cabernet Sauvignon, depending on site and temperature. Key appellations include Santa Lucia Highlands, Arroyo Seco, Carmel Valley, Chalone, and the broader Monterey AVA, with the region’s identity rooted in climatic <strong>contrast</strong> and the movement of cool Pacific air through inland valleys."
   },
   {
     "term": "Monticello",

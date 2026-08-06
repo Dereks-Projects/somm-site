@@ -49,8 +49,8 @@
     "definition": "A wine region located in the Loire Valley of France, based on the Sauvignon Blanc grape. This are produces red and rose as well, however, the region is most known for its white wine production.",
     "definition2": "The region is also known for its historic architecture, including the UNESCO World Heritage-listed town of Sancerre, which adds to its charm and cultural significance.",
     "relatedArticle": {
-    "url": "/study-guides/wines-of-france",
-    "label": "France"
+    "url": "/articles/traversing-loire-valley",
+    "label": "Loire Valley"
   }
   },
   {
@@ -65,12 +65,34 @@
   {
     "term": "San Luis Obispo County",
     "definition": "San Luis Obispo County is a Central Coast wine region positioned between Monterey and Santa Barbara, with vineyards shaped by Pacific influence, coastal gaps, inland heat, and the Santa Lucia Range. Its <strong>diversity</strong> is unusually broad, ranging from the warm, limestone-influenced hills of Paso Robles to the cool, fog-moderated vineyards of Edna Valley, Arroyo Grande Valley, and the San Luis Obispo Coast.",
-    "definition2": "The county produces Cabernet Sauvignon, Rhône varieties, Zinfandel, Pinot Noir, Chardonnay, Albariño, and other grapes across markedly different growing conditions. Its importance rests on the contrast between powerful inland reds and coastal wines of freshness, aromatic detail, and <strong>maritime</strong> character."
+    "definition2": "The county produces Cabernet Sauvignon, Rhône varieties, Zinfandel, Pinot Noir, Chardonnay, Albariño, and other grapes across markedly different growing conditions. Its importance rests on the contrast between powerful inland reds and coastal wines of freshness, aromatic detail, and <strong>maritime</strong> character.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-north-america",
+    "label": "American Wine"
+  }
+  },
+  {
+    "term": "San Luis Obispo County subregions",
+    "definition": "San Luis Obispo County subregions are legally recognized American Viticultural Areas that divide the county into distinct coastal, inland, and mountain-influenced growing zones. The major AVAs include Paso Robles, San Luis Obispo Coast, Edna Valley, Arroyo Grande Valley, and York Mountain, with Paso Robles further divided into smaller districts that reflect differences in elevation, rainfall, soil, and <strong>temperature</strong>.",
+    "definition2": "The county’s subregional identity is defined by contrast: Paso Robles produces powerful reds from warmer inland conditions, while Edna Valley, Arroyo Grande Valley, and the San Luis Obispo Coast emphasize cooler maritime influence suited to Chardonnay, Pinot Noir, Albariño, and aromatic whites. These AVAs show how short distances from the Pacific Ocean can create major shifts in ripeness, acidity, body, and <strong>style</strong>.",
+    "relatedArticle": {
+    "url": "/study-guides/wines-of-north-america",
+    "label": "American Wine"
+  }
   },
   {
     "term": "Santa Barbara County",
     "definition": "Santa Barbara County is one of California’s most distinctive and exciting wine regions, prized for its cool-climate viticulture and world-class Pinot Noir, Chardonnay, and Syrah. What sets it apart geographically is its unique transverse valley system—unlike most of California, the mountains here run east-west instead of north-south, allowing cool Pacific Ocean breezes and fog to funnel deep inland.",
     "definition2": "This maritime influence moderates the climate and extends the growing season, preserving acidity and promoting slow, even ripening—ideal for Burgundian varieties. The region is home to several important American Viticultural Areas (AVAs), each with its own microclimate and expression. Santa Maria Valley AVA, one of the oldest AVAs in California, produces ethereal and aromatic Pinot Noir and Chardonnay with vibrant acidity. Sta. Rita Hills AVA, located further south, is globally celebrated for its structured, mineral-rich Pinot Noir and restrained Chardonnay, shaped by relentless ocean winds and chalky soils. Ballard Canyon AVA specializes in Syrah and Rhône varieties, showing balance, spice, and savory complexity. Los Olivos District and Happy Canyon AVAs to the east are warmer, more suited for Bordeaux and Rhône blends, including Cabernet Sauvignon and Sauvignon Blanc.", 
+     "relatedArticle": {
+    "url": "/articles/understanding-santa-barbara",
+    "label": "Santa Barbara"
+  }
+  },
+  {
+    "term": "Santa Barbara County subregions",
+    "definition": "Santa Barbara County subregions are legally defined American Viticultural Areas that clarify the county’s unusually varied coastal and inland growing conditions. The major AVAs include Santa Maria Valley, Santa Ynez Valley, Sta. Rita Hills, Ballard Canyon, Los Olivos District, Happy Canyon of Santa Barbara, and Alisos Canyon, each shaped by different combinations of <strong>marine</strong> influence, wind, fog, elevation, soil, and exposure.",
+    "definition2": "Santa Ynez Valley functions as an important larger appellation containing several smaller AVAs, moving from the cool Sta. Rita Hills in the west toward warmer Happy Canyon in the east. These subregions explain why Santa Barbara can excel with Pinot Noir, Chardonnay, Syrah, Grenache, Sauvignon Blanc, Cabernet Sauvignon, and other varieties, making <strong>geography</strong> central to the county’s wine identity.", 
      "relatedArticle": {
     "url": "/articles/understanding-santa-barbara",
     "label": "Santa Barbara"
@@ -194,6 +216,15 @@
     "term": "Sonoma County",
     "definition": "Sonoma County is a major wine-producing area in Northern California, located west of Napa Valley and extending from the Pacific Coast to the Mayacamas Mountains. Its <strong>geography</strong> is defined by coastal fog, varied elevation, river valleys, volcanic and marine soils, and pronounced climatic diversity across a relatively compact area.",
     "definition2": "The county supports a wide range of varieties, with Chardonnay, Pinot Noir, Cabernet Sauvignon, Zinfandel, Sauvignon Blanc, Syrah, and Merlot among the most important. Key appellations include Russian River Valley, Sonoma Coast, Alexander Valley, Dry Creek Valley, Knights Valley, and Sonoma Valley, each contributing distinct expressions of <strong>climate</strong>, soil, and site.",
+    "relatedArticle": {
+    "url": "/articles/discovering-sonoma-county-wine",
+    "label": "Sonoma County"
+  }
+  },
+  {
+    "term": "Sonoma County subregions",
+    "definition": "The subregions of Sonoma County are its legally recognized winegrowing areas, usually discussed as American Viticultural Areas rather than a single unified hierarchy. These <strong>appellations</strong> reflect major differences in coastal exposure, fog, elevation, soil, rainfall, wind, and temperature across one of California’s most geographically varied wine counties.",
+    "definition2": "Key areas include Russian River Valley, Sonoma Coast, West Sonoma Coast, Alexander Valley, Dry Creek Valley, Sonoma Valley, Knights Valley, Rockpile, Moon Mountain, Petaluma Gap, Fort Ross-Seaview, Chalk Hill, Green Valley, and Los Carneros. Their importance lies in showing Sonoma’s <strong>diversity</strong>: cool coastal zones favor Pinot Noir and Chardonnay, while warmer inland valleys and mountain sites support Cabernet Sauvignon, Zinfandel, Syrah, Merlot, and other structured red wines.",
     "relatedArticle": {
     "url": "/articles/discovering-sonoma-county-wine",
     "label": "Sonoma County"
