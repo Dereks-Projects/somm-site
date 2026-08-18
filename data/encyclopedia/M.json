@@ -14,7 +14,11 @@
   {
     "term": "Maderia",
     "definition": "Madeira is a fortified wine from the Portuguese island of Madeira, located in the Atlantic Ocean southwest of mainland Portugal. Its defining feature is deliberate exposure to heat and oxygen during aging, a process that gives the wine unusual <strong>stability</strong> and allows many examples to age for decades or longer.",
-    "definition2": "The principal noble varieties are Sercial, Verdelho, Bual, and Malvasia, traditionally associated with styles ranging from dry to richly sweet, while Tinta Negra is also widely used. Madeira commonly shows citrus peel, dried fruit, caramel, nuts, spice, and saline complexity, with <strong>acidity</strong> providing balance across its full range of sweetness."
+    "definition2": "The principal noble varieties are Sercial, Verdelho, Bual, and Malvasia, traditionally associated with styles ranging from dry to richly sweet, while Tinta Negra is also widely used. Madeira commonly shows citrus peel, dried fruit, caramel, nuts, spice, and saline complexity, with <strong>acidity</strong> providing balance across its full range of sweetness.",
+    "relatedArticle": {
+    "url": "/articles/the-portugal-primer",
+    "label": "Portugal"
+  }
   },
   {
     "term": "Madeirization",

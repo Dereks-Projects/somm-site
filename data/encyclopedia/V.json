@@ -164,7 +164,11 @@
   
   {
     "term": "Vinho Verde",
-    "definition": "Vinho Verde, in Portugal’s lush northwest, is known for its young, lightly fizzy white wines made from grapes like Alvarinho and Loureiro, offering zesty acidity and refreshing drinkability."
+    "definition": "Vinho Verde, in Portugal’s lush northwest, is known for its young, lightly fizzy white wines made from grapes like Alvarinho and Loureiro, offering zesty acidity and refreshing drinkability.",
+    "relatedArticle": {
+    "url": "/articles/the-portugal-primer",
+    "label": "Portugal"
+  }
   },
   {
     "term": "Vintage",

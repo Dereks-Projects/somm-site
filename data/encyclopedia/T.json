@@ -107,7 +107,11 @@
   },
   {
     "term": "Touriga Nacional",
-    "definition": "Touriga Nacional is Portugal’s most prestigious red grape, revered for its role in both Port production and dry red wines, offering deep color, floral aromatics, and dense, age-worthy structure, and thriving in the country’s hot, mountainous vineyards."
+    "definition": "Touriga Nacional is Portugal’s most prestigious red grape, revered for its role in both Port production and dry red wines, offering deep color, floral aromatics, and dense, age-worthy structure, and thriving in the country’s hot, mountainous vineyards.",
+    "relatedArticle": {
+    "url": "/articles/the-portugal-primer",
+    "label": "Portugal"
+  }
   },
   {
     "term": "Trappist beer",

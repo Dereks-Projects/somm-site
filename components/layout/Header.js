@@ -47,7 +47,7 @@ export default function Header() {
         </button>
 
         <Link href="/" className={styles.logoLink}>
-          <h1 className={styles.logo}>Somm.Site</h1>
+          <h1 className={styles.logo}>Somm<span className={styles.logoDot}>.</span>Site</h1>
         </Link>
 
         <HamburgerMenu

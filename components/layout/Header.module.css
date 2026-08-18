@@ -28,6 +28,10 @@
   letter-spacing: normal;
 }
 
+.logoDot {
+  color: #ffde59;
+}
+
 .headerSpacer {
   height: 64px;
 }

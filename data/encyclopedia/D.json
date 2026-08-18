@@ -5,7 +5,11 @@
   },
   {
     "term": "Dão",
-    "definition": "The Dão region, nestled in Portugal's mountainous interior, represents one of the country's most respected wine areas, protected by granite mountains that create a unique continental climate. This region excels at producing elegant red wines primarily from the indigenous Touriga Nacional grape, often blended with Tinta Roriz and other native varieties that showcase remarkable finesse and aging potential. The high-altitude vineyards, planted on granite and schist soils, combined with significant temperature variations between day and night, create wines with excellent acidity and complex mineral character. Dão reds are known for their refined tannin structure and ability to develop beautifully over decades, while the region's whites, particularly from Encruzado, offer crisp minerality and surprising longevity. For wine enthusiasts seeking to understand Portuguese wine beyond Port, Dão represents the perfect introduction to the country's sophisticated dry wine tradition."
+    "definition": "The Dão region, nestled in Portugal's mountainous interior, represents one of the country's most respected wine areas, protected by granite mountains that create a unique continental climate. This region excels at producing elegant red wines primarily from the indigenous Touriga Nacional grape, often blended with Tinta Roriz and other native varieties that showcase remarkable finesse and aging potential. The high-altitude vineyards, planted on granite and schist soils, combined with significant temperature variations between day and night, create wines with excellent acidity and complex mineral character. Dão reds are known for their refined tannin structure and ability to develop beautifully over decades, while the region's whites, particularly from Encruzado, offer crisp minerality and surprising longevity.",
+    "relatedArticle": {
+    "url": "/articles/the-portugal-primer",
+    "label": "Portugal"
+  }
   },
   {
     "term": "DAC",
