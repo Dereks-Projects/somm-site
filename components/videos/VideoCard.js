@@ -5,7 +5,7 @@
 // locked aspect ratio, so there is no layout shift as thumbnails load.
 
 import Link from 'next/link';
-import styles from './VideoCard.module.css';
+import styles from './VideoCardStyles.module.css';
 
 export default function VideoCard({ video, href }) {
   if (!video) return null;
