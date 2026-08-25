@@ -1,0 +1,51 @@
+/* app/videos/page.module.css — Mobile first */
+
+.container {
+  background-color: #fafafa;
+  min-height: 100vh;
+}
+
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.heading {
+  font-family: var(--font-montserrat), sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+  color: #000000;
+  margin: 0 0 32px 0;
+}
+
+/* Mobile: 2-across. */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+.empty {
+  text-align: center;
+  color: #6b7280;
+  font-size: 16px;
+}
+
+/* Desktop: 4-across (exact double of mobile). */
+@media (min-width: 768px) {
+  .content {
+    padding: 60px 40px;
+  }
+
+  .heading {
+    font-size: 36px;
+    margin-bottom: 48px;
+  }
+
+  .grid {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+  }
+}

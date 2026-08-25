@@ -1,9 +1,16 @@
+// app/page.js
+// Purpose: Homepage. Section-labeled article hero, a "Latest Videos" rail sourced
+// from Vimeo, the Regional Reports slider, and the infinite article list.
+
 import { client } from '../sanity/lib/client.ts';
 import { allArticlesQuery, allStudyGuidesQuery } from '../sanity/queries';
+import { getVideos } from '../lib/vimeo';
 import Header from '../components/layout/Header';
 import Footer from '../components/layout/Footer';
+import SectionHeading from '../components/homepage/SectionHeading';
 import FeaturedArticle from '../components/homepage/FeaturedArticle';
 import SubFeaturedArticles from '../components/homepage/SubFeaturedArticles';
+import VideoRail from '../components/homepage/VideoRail';
 import StudyGuideSlider from '../components/homepage/StudyGuideSlider';
 import InfiniteArticleList from '../components/homepage/InfiniteArticleList';
 import styles from './page.module.css';
@@ -25,6 +32,19 @@ export default async function Home() {
   // Fetch study guides published to somm.site
   const studyGuides = await client.fetch(allStudyGuidesQuery, {}, { cache: 'no-store' });
 
+  // Videos for the "Latest Videos" rail, newest first, capped at 12.
+  // Wrapped in try/catch so a Vimeo outage can never take down the homepage:
+  // on failure the rail simply does not render and the rest of the page is fine.
+  let latestVideos = [];
+  try {
+    const videos = await getVideos();
+    latestVideos = [...videos]
+      .sort((a, b) => new Date(b.uploadDate) - new Date(a.uploadDate))
+      .slice(0, 12);
+  } catch (err) {
+    console.error('Homepage video rail failed to load:', err);
+  }
+
   // Split articles: [0] = featured, [1,2] = sub-featured, [3+] = infinite scroll
   const featuredArticle = articles[0];
   const subFeaturedArticles = articles.slice(1, 3);
@@ -33,26 +53,36 @@ export default async function Home() {
   return (
     <div>
       <Header />
-      
+
+
+
       {/* Hero Grid - Editorial layout (side-by-side on desktop) */}
       <div className={styles.heroGrid}>
         {/* Featured Article - Latest */}
         {featuredArticle && <FeaturedArticle article={featuredArticle} />}
-        
+
         {/* Sub-Featured Articles - 2nd & 3rd Latest */}
         {subFeaturedArticles.length > 0 && (
           <SubFeaturedArticles articles={subFeaturedArticles} />
         )}
       </div>
 
+      {/* Latest Videos - Vimeo rail (hidden if no videos load) */}
+      {latestVideos.length > 0 && (
+        <>
+          <SectionHeading title="Latest Videos" />
+          <VideoRail videos={latestVideos} />
+        </>
+      )}
+
       {/* Regional Reports - Study Guide Slider */}
       <StudyGuideSlider guides={studyGuides} />
-      
+
       {/* Infinite Scroll - 4th Article Onward */}
       {infiniteScrollArticles.length > 0 && (
         <InfiniteArticleList articles={infiniteScrollArticles} />
       )}
-      
+
       <Footer />
     </div>
   );

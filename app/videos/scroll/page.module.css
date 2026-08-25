@@ -1,0 +1,236 @@
+/* app/videos/scroll/page.module.css */
+
+.container {
+  position: fixed;
+  inset: 0;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  background-color: #000000;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+
+.container::-webkit-scrollbar {
+  display: none;
+}
+
+.slide {
+  position: relative;
+  width: 100%;
+  height: 100dvh;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  overflow: hidden;
+  background-color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Mobile: a 9:16 media box scaled to cover the screen; the sides crop. */
+.media {
+  position: relative;
+  aspect-ratio: 9 / 16;
+  height: 100dvh;
+  min-width: 100%;
+}
+
+/* Poster sits behind the player as a soft, dark backdrop. brightness() is the
+   darkness knob (lower = darker); scale hides the blurred edges. */
+.poster {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: blur(18px) brightness(0.55);
+  transform: scale(1.08);
+}
+
+/* Mount container for the SDK-created iframe. React owns this div; the SDK owns
+   the iframe placed inside it. */
+.player {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.player iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+/* Title / description / hashtags over a bottom gradient. */
+.overlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+  padding: 60px 20px 28px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0) 100%);
+  pointer-events: none;
+}
+
+.overlayTitle {
+  font-family: var(--font-montserrat), sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0 0 6px 0;
+  line-height: 1.25;
+}
+
+.overlayDesc {
+  font-size: 14px;
+  line-height: 1.45;
+  color: #f0f0f0;
+  margin: 0 0 6px 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.overlayTags {
+  font-size: 13px;
+  font-weight: 600;
+  color: #ffde59;
+  margin: 0;
+}
+
+/* Transparent tap target over the active video. */
+.tapLayer {
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  padding: 0;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+/* "Description" trigger over the active video (mobile only). */
+.descTrigger {
+  position: absolute;
+  bottom: 28px;
+  right: 16px;
+  z-index: 4;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  font-family: var(--font-inter), sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* Fixed corner controls. */
+.close,
+.sound {
+  position: fixed;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border: none;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.45);
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.close {
+  top: 16px;
+  right: 16px;
+}
+
+.sound {
+  top: 16px;
+  left: 16px;
+}
+
+/* Centered paused indicator, non-interactive so taps still resume. */
+.pauseIndicator {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  color: rgba(255, 255, 255, 0.85);
+  pointer-events: none;
+}
+
+/* Desktop next/previous, hidden on mobile (swipe there). */
+.desktopNav {
+  display: none;
+}
+
+/* DESKTOP CONTROLS (mouse present) */
+@media (min-width: 768px) {
+  .media {
+    min-width: 0;
+    width: auto;
+  }
+
+  .overlay {
+    padding: 70px 24px 32px;
+  }
+
+  .overlayTitle {
+    font-size: 20px;
+  }
+
+  .desktopNav {
+    position: fixed;
+    right: 24px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 20;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .navButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    border: none;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.12);
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+
+  .navButton:hover {
+    background-color: rgba(255, 255, 255, 0.22);
+  }
+}
+
+/* SIDE-PANEL MODE: the always-open panel takes over the Description, so the
+   on-video teaser and the mobile trigger are no longer needed. */
+@media (min-width: 1100px) {
+  .overlayDesc {
+    display: none;
+  }
+
+  .descTrigger {
+    display: none;
+  }
+}

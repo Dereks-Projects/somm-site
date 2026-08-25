@@ -1,0 +1,94 @@
+/* components/homepage/VideoRail.module.css */
+
+.rail {
+  background-color: #fafafa;
+  padding-bottom: 32px;
+}
+
+/* Relative wrapper so the arrow buttons can sit over the strip edges. */
+.viewport {
+  position: relative;
+}
+
+/* Native horizontal scroll. Hidden scrollbar; fixed-width cards so the next one
+   peeks in at the edge. */
+.track {
+  display: flex;
+  gap: 12px;
+  overflow-x: auto;
+  scroll-snap-type: x proximity;
+  scroll-padding-left: 20px;
+  padding: 0 20px 8px;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+
+.track::-webkit-scrollbar {
+  display: none;
+}
+
+.railItem {
+  flex: 0 0 auto;
+  width: 160px;
+  scroll-snap-align: start;
+}
+
+/* Arrows hidden on mobile (native swipe). */
+.arrow {
+  display: none;
+}
+
+/* DESKTOP */
+@media (min-width: 768px) {
+  .rail {
+    padding-bottom: 56px;
+  }
+
+  .track {
+    gap: 20px;
+    scroll-padding-left: 60px;
+    padding: 0 60px 12px;
+  }
+
+  .railItem {
+    width: 200px;
+  }
+
+  .arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 44px;
+    height: 44px;
+    border: none;
+    border-radius: 50%;
+    background-color: #ffffff;
+    color: #1a1a1a;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.18);
+    cursor: pointer;
+    z-index: 2;
+    opacity: 1;
+    transition: opacity 0.2s ease, background-color 0.2s ease;
+  }
+
+  .arrow:hover {
+    background-color: #ffde59;
+  }
+
+  .arrowLeft {
+    left: 16px;
+  }
+
+  .arrowRight {
+    right: 16px;
+  }
+
+  /* Faded and inert when there is nothing more to scroll that way. */
+  .arrowHidden {
+    opacity: 0;
+    pointer-events: none;
+  }
+}

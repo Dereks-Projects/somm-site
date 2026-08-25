@@ -1,0 +1,28 @@
+/* components/videos/VideoCard.module.css */
+
+.card {
+  display: block;
+  text-decoration: none;
+}
+
+/* 9:16 box reserves space before the image loads, preventing layout shift. */
+.thumbWrapper {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 9 / 16;
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: #1a1a1a;
+}
+
+.thumb {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: opacity 0.2s ease;
+}
+
+.card:hover .thumb {
+  opacity: 0.85;
+}

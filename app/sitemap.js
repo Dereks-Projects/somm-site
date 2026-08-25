@@ -1,9 +1,12 @@
+// app/sitemap.js
+
 import { client } from '../sanity/lib/client';
+import { getVideos } from '../lib/vimeo';
 import courseData from '../data/courseData.json';
 
 export default async function sitemap() {
   const baseUrl = 'https://somm.site';
-  
+
   // Static pages
   const staticPages = [
     {
@@ -23,6 +26,12 @@ export default async function sitemap() {
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/videos`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.8,
     },
     {
       url: `${baseUrl}/about`,
@@ -78,6 +87,15 @@ export default async function sitemap() {
     }
   `);
 
+  // Fetch videos. /videos/scroll is intentionally left out (noindex feed).
+  // Wrapped so a Vimeo outage can never break the whole sitemap.
+  let videos = [];
+  try {
+    videos = await getVideos();
+  } catch (err) {
+    console.error('Sitemap: video fetch failed:', err);
+  }
+
   // Dynamic article pages
   const articlePages = articles.map((article) => ({
     url: `${baseUrl}/articles/${article.slug}`,
@@ -102,5 +120,19 @@ export default async function sitemap() {
     priority: 0.6,
   }));
 
-  return [...staticPages, ...articlePages, ...studyGuidePages, ...coursePages];
+  // Dynamic video pages (lastmod from Vimeo upload date)
+  const videoPages = videos.map((video) => ({
+    url: `${baseUrl}/videos/${video.slug}`,
+    lastModified: video.uploadDate ? new Date(video.uploadDate) : new Date(),
+    changeFrequency: 'monthly',
+    priority: 0.7,
+  }));
+
+  return [
+    ...staticPages,
+    ...articlePages,
+    ...studyGuidePages,
+    ...coursePages,
+    ...videoPages,
+  ];
 }
