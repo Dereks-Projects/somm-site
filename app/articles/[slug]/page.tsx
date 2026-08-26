@@ -7,6 +7,7 @@ import styles from './article.module.css'
 import Link from 'next/link'
 import { urlFor } from '../../../sanity/lib/imageUrl'
 import ImageLightbox from '../../../components/ImageLightbox'
+import ScrollToTop from '../../../components/shared/ScrollToTop';
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params
@@ -434,6 +435,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
           </a>
         </div>
       </main>
+      <ScrollToTop />
       <Footer />
     </>
   )

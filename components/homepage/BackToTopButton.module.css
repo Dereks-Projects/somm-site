@@ -1,0 +1,36 @@
+/* components/homepage/BackToTopButton.module.css */
+
+.wrap {
+  background-color: #e6e6e6;
+  padding: 40px 20px 60px;
+  text-align: center;
+}
+
+.button {
+  display: inline-block;
+  padding: 14px 32px;
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #333333;
+}
+
+/* DESKTOP */
+@media (min-width: 768px) {
+  .wrap {
+    padding: 50px 20px 70px;
+  }
+
+  .button {
+    padding: 16px 40px;
+    font-size: 15px;
+  }
+}

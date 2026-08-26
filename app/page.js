@@ -17,6 +17,7 @@ import StudyGuideSlider from '../components/homepage/StudyGuideSlider';
 import InfiniteArticleList from '../components/homepage/InfiniteArticleList';
 import CategorySection from '../components/homepage/CategorySection';
 import styles from './page.module.css';
+import BackToTopButton from '../components/homepage/BackToTopButton';
 
 export const metadata = {
   title: "Somm.Site - Wine Education & Articles",
@@ -101,6 +102,8 @@ export default async function Home() {
 
       {/* Explore Wine Regions - oldest first */}
       <CategorySection title="Explore Wine Regions" articles={regionsArticles} variant="light" />
+
+      <BackToTopButton />
 
       <Footer />
     </div>

@@ -1,0 +1,40 @@
+/* components/shared/ScrollToTop.module.css */
+
+.button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 46px;
+  height: 46px;
+  border: none;
+  border-radius: 50%;
+  background-color: #000000;
+  color: #ffffff;
+  cursor: pointer;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(8px);
+  transition: opacity 0.25s ease, visibility 0.25s ease, transform 0.25s ease, background-color 0.2s ease;
+}
+
+.visible {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.button:hover {
+  background-color: #333333;
+}
+
+/* Mobile only: never shown on desktop. */
+@media (min-width: 768px) {
+  .button {
+    display: none;
+  }
+}
