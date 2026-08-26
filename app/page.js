@@ -1,7 +1,8 @@
 // app/page.js
 // Purpose: Homepage. Section-labeled article hero (one featured + three
-// sub-featured), a "Latest Videos" rail sourced from Vimeo, the Regional Reports
-// slider, and the infinite article list.
+// sub-featured), a "Latest Videos" rail, the Regional Reports slider, the
+// infinite article list, and two subcategory showcases (Grapes, Regions)
+// presented oldest-to-newest to resurface older articles.
 
 import { client } from '../sanity/lib/client.ts';
 import { allArticlesQuery, allStudyGuidesQuery } from '../sanity/queries';
@@ -14,6 +15,7 @@ import SubFeaturedArticles from '../components/homepage/SubFeaturedArticles';
 import VideoRail from '../components/homepage/VideoRail';
 import StudyGuideSlider from '../components/homepage/StudyGuideSlider';
 import InfiniteArticleList from '../components/homepage/InfiniteArticleList';
+import CategorySection from '../components/homepage/CategorySection';
 import styles from './page.module.css';
 
 export const metadata = {
@@ -25,6 +27,14 @@ export const metadata = {
     description: "Comprehensive wine education covering grape varieties, regions, and sommelier knowledge"
   }
 };
+
+// Oldest-to-newest slice of a single subcategory, capped at four.
+function bySubcategoryOldestFirst(articles, subcategory, limit = 4) {
+  return articles
+    .filter((a) => a.subcategory === subcategory)
+    .sort((a, b) => new Date(a.publishedAt) - new Date(b.publishedAt))
+    .slice(0, limit);
+}
 
 export default async function Home() {
   // Fetch all Wine articles from Sanity
@@ -50,6 +60,10 @@ export default async function Home() {
   const featuredArticle = articles[0];
   const subFeaturedArticles = articles.slice(1, 4);
   const infiniteScrollArticles = articles.slice(4);
+
+  // Subcategory showcases, oldest-to-newest
+  const grapesArticles = bySubcategoryOldestFirst(articles, 'Grapes');
+  const regionsArticles = bySubcategoryOldestFirst(articles, 'Regions');
 
   return (
     <div>
@@ -77,10 +91,16 @@ export default async function Home() {
       {/* Regional Reports - Study Guide Slider */}
       <StudyGuideSlider guides={studyGuides} />
 
-      {/* Infinite Scroll - 5th Article Onward */}
+      {/* More Articles - Infinite Scroll (5th Article Onward) */}
       {infiniteScrollArticles.length > 0 && (
         <InfiniteArticleList articles={infiniteScrollArticles} />
       )}
+
+      {/* Explore Wine Grapes - oldest first */}
+      <CategorySection title="Explore Wine Grapes" articles={grapesArticles} variant="dark" />
+
+      {/* Explore Wine Regions - oldest first */}
+      <CategorySection title="Explore Wine Regions" articles={regionsArticles} variant="light" />
 
       <Footer />
     </div>

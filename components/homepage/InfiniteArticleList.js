@@ -1,25 +1,28 @@
+// components/homepage/InfiniteArticleList.js
+
 'use client';
 
 import { useState } from 'react';
 import ArticleCard from './ArticleCard';
+import SectionHeading from './SectionHeading';
 import styles from './InfiniteArticleList.module.css';
 
 export default function InfiniteArticleList({ articles }) {
   const [visibleCount, setVisibleCount] = useState(9);
-  
+
   if (!articles || articles.length === 0) return null;
 
   const visibleArticles = articles.slice(0, visibleCount);
   const hasMore = visibleCount < articles.length;
 
   const loadMore = () => {
-    setVisibleCount(prev => prev + 9);
+    setVisibleCount((prev) => prev + 9);
   };
 
   return (
     <section className={styles.container}>
-      {/* "MORE STORIES" heading */}
-      <h2 className={styles.heading}>MORE ARTICLES</h2>
+      {/* Section heading — shared style with "Latest Videos" */}
+      <SectionHeading title="More Articles" />
 
       {/* Grid of article cards */}
       <div className={styles.articleGrid}>
