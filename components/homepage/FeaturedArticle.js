@@ -1,3 +1,5 @@
+// components/homepage/FeaturedArticle.js
+
 import Image from 'next/image';
 import Link from 'next/link';
 import styles from './FeaturedArticle.module.css';
@@ -14,19 +16,21 @@ export default function FeaturedArticle({ article }) {
 
   return (
     <article className={styles.container}>
-      {/* Full-width hero image */}
-      <div className={styles.imageWrapper}>
-        <Image
-          src={heroImageUrl}
-          alt={article.mainImage.alt || article.title}
-          fill
-          sizes="100vw"
-          className={styles.image}
-          priority
-          unoptimized
-          fetchPriority="high"
-        />
-      </div>
+      {/* Full-width hero image (linked to the article) */}
+      <Link href={`/articles/${article.slug.current}`} className={styles.imageLink}>
+        <div className={styles.imageWrapper}>
+          <Image
+            src={heroImageUrl}
+            alt={article.mainImage.alt || article.title}
+            fill
+            sizes="100vw"
+            className={styles.image}
+            priority
+            unoptimized
+            fetchPriority="high"
+          />
+        </div>
+      </Link>
 
       {/* Content below image */}
       <div className={styles.content}>
@@ -43,14 +47,6 @@ export default function FeaturedArticle({ article }) {
         {article.subtitle && (
           <p className={styles.subtitle}>{article.subtitle}</p>
         )}
-
-        <Link
-          href={`/articles/${article.slug.current}`}
-          className={styles.readMore}
-          aria-label={`Read more about ${article.title}`}
-        >
-          Read More
-        </Link>
       </div>
     </article>
   );

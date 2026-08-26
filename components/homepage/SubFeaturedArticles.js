@@ -1,3 +1,5 @@
+// components/homepage/SubFeaturedArticles.js
+
 import Image from 'next/image';
 import Link from 'next/link';
 import styles from './SubFeaturedArticles.module.css';
@@ -17,17 +19,19 @@ export default function SubFeaturedArticles({ articles }) {
 
         return (
           <article key={article._id} className={styles.card}>
-            {/* Image */}
-            <div className={styles.imageWrapper}>
-              <Image
-                src={cardImageUrl}
-                alt={article.mainImage.alt || article.title}
-                fill
-                sizes="(max-width: 768px) 100vw, 50vw"
-                className={styles.image}
-                unoptimized
-              />
-            </div>
+            {/* Image (linked to the article) */}
+            <Link href={`/articles/${article.slug.current}`} className={styles.imageLink}>
+              <div className={styles.imageWrapper}>
+                <Image
+                  src={cardImageUrl}
+                  alt={article.mainImage.alt || article.title}
+                  fill
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                  className={styles.image}
+                  unoptimized
+                />
+              </div>
+            </Link>
 
             {/* Content */}
             <div className={styles.content}>

@@ -7,6 +7,10 @@
   padding-top: 16px;
 }
 
+.imageLink {
+  display: block;
+}
+
 .imageWrapper {
   position: relative;
   width: auto;
@@ -21,12 +25,12 @@
   transition: transform 0.3s ease;
 }
 
-.container:hover .image {
+.imageLink:hover .image {
   transform: scale(1.03);
 }
 
 .content {
-  padding: 0 20px 20px;
+  padding: 0 20px 14px;
 }
 
 .subcategory {
@@ -34,7 +38,7 @@
   font-size: 12px;
   font-weight: 700;
   letter-spacing: 1px;
-  margin: 0 0 12px 0;
+  margin: 0 0 8px 0;
   text-decoration: none;
   display: inline-block;
   cursor: pointer;
@@ -50,7 +54,7 @@
   font-size: 24px;
   font-weight: 700;
   line-height: 1.2;
-  margin: 0 0 16px 0;
+  margin: 0 0 10px 0;
 }
 
 .titleLink {
@@ -68,35 +72,11 @@
   color: #333333;
   font-size: 16px;
   line-height: 1.5;
-  margin: 0 0 16px 0;
+  margin: 0;
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
-}
-
-.readMore {
-  color: #595959;
-  font-size: 14px;
-  font-weight: 600;
-  text-decoration: none;
-  display: inline-block;
-  position: relative;
-}
-
-.readMore::after {
-  content: '';
-  position: absolute;
-  bottom: -2px;
-  left: 0;
-  width: 0;
-  height: 1px;
-  background-color: #595959;
-  transition: width 0.3s ease;
-}
-
-.readMore:hover::after {
-  width: 100%;
 }
 
 /* DESKTOP - restores the full-width image, no top padding, full subtitle */
@@ -128,13 +108,9 @@
 
   .subtitle {
     font-size: 18px;
-    margin: 0 0 20px 0;
+    margin: 0;
     max-width: 90%;
     display: block;
     overflow: visible;
-  }
-
-  .readMore {
-    font-size: 15px;
   }
 }
