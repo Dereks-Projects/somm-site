@@ -39,14 +39,6 @@ export default function SubFeaturedArticles({ articles }) {
               <Link href={`/articles/${article.slug.current}`} className={styles.titleLink}>
                 <h2 className={styles.title}>{article.title}</h2>
               </Link>
-
-              <Link
-                href={`/articles/${article.slug.current}`}
-                className={styles.readMore}
-                aria-label={`Read more about ${article.title}`}
-              >
-                Read More
-              </Link>
             </div>
           </article>
         );

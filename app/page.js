@@ -1,6 +1,7 @@
 // app/page.js
-// Purpose: Homepage. Section-labeled article hero, a "Latest Videos" rail sourced
-// from Vimeo, the Regional Reports slider, and the infinite article list.
+// Purpose: Homepage. Section-labeled article hero (one featured + three
+// sub-featured), a "Latest Videos" rail sourced from Vimeo, the Regional Reports
+// slider, and the infinite article list.
 
 import { client } from '../sanity/lib/client.ts';
 import { allArticlesQuery, allStudyGuidesQuery } from '../sanity/queries';
@@ -45,23 +46,21 @@ export default async function Home() {
     console.error('Homepage video rail failed to load:', err);
   }
 
-  // Split articles: [0] = featured, [1,2] = sub-featured, [3+] = infinite scroll
+  // Split articles: [0] = featured, [1,2,3] = sub-featured (3), [4+] = infinite
   const featuredArticle = articles[0];
-  const subFeaturedArticles = articles.slice(1, 3);
-  const infiniteScrollArticles = articles.slice(3);
+  const subFeaturedArticles = articles.slice(1, 4);
+  const infiniteScrollArticles = articles.slice(4);
 
   return (
     <div>
       <Header />
-
-
 
       {/* Hero Grid - Editorial layout (side-by-side on desktop) */}
       <div className={styles.heroGrid}>
         {/* Featured Article - Latest */}
         {featuredArticle && <FeaturedArticle article={featuredArticle} />}
 
-        {/* Sub-Featured Articles - 2nd & 3rd Latest */}
+        {/* Sub-Featured Articles - 2nd, 3rd & 4th Latest */}
         {subFeaturedArticles.length > 0 && (
           <SubFeaturedArticles articles={subFeaturedArticles} />
         )}
@@ -78,7 +77,7 @@ export default async function Home() {
       {/* Regional Reports - Study Guide Slider */}
       <StudyGuideSlider guides={studyGuides} />
 
-      {/* Infinite Scroll - 4th Article Onward */}
+      {/* Infinite Scroll - 5th Article Onward */}
       {infiniteScrollArticles.length > 0 && (
         <InfiniteArticleList articles={infiniteScrollArticles} />
       )}
