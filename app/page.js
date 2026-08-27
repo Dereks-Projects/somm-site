@@ -25,8 +25,25 @@ export const metadata = {
   keywords: "wine education, sommelier training, grape varieties, wine regions, wine tasting, Cabernet Sauvignon, Pinot Noir, Chardonnay, Bordeaux, Burgundy, Napa Valley, wine knowledge, free wine course, hospitality training",
   openGraph: {
     title: "Somm.Site - Free Wine Education & Articles",
-    description: "Comprehensive wine education covering grape varieties, regions, and sommelier knowledge"
-  }
+    description: "Comprehensive wine education covering grape varieties, regions, and sommelier knowledge",
+    url: "https://somm.site",
+    siteName: "Somm.Site",
+    type: "website",
+    images: [
+      {
+        url: "https://somm.site/ss-social-card.png",
+        width: 1200,
+        height: 630,
+        alt: "Somm.Site - Free Wine Education",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Somm.Site - Free Wine Education & Articles",
+    description: "Comprehensive wine education covering grape varieties, regions, and sommelier knowledge",
+    images: ["https://somm.site/ss-social-card.png"],
+  },
 };
 
 // Oldest-to-newest slice of a single subcategory, capped at four.
