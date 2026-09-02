@@ -20,7 +20,7 @@ export const metadata = {
 
 async function getArticles(subcategory: string | null, tag: string | null) {
   // "Other" catches everything that is NOT Grapes, Regions, or Producers
-  const otherExclusions = '&& !(subcategory in ["Grapes", "Regions", "Producers"])';
+  const otherExclusions = '&& !(subcategory in ["Grapes", "Regions", "History"])';
 
   let filter = '';
 
@@ -78,7 +78,7 @@ export default async function ArticlesPage({ searchParams }: { searchParams: any
     { label: 'All', href: '/articles', value: null },
     { label: 'Grapes', href: '/articles?subcategory=grapes', value: 'grapes' },
     { label: 'Regions', href: '/articles?subcategory=regions', value: 'regions' },
-    { label: 'Producers', href: '/articles?subcategory=producers', value: 'producers' },
+    { label: 'History', href: '/articles?subcategory=history', value: 'history' },
     { label: 'Other', href: '/articles?subcategory=other', value: 'other' },
   ];
 
