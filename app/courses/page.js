@@ -146,9 +146,9 @@ export default function CourseCatalog() {
             <h2 className={styles.faqTitle}>Frequently Asked Questions</h2>
             <div className={styles.faqList}>
               <details className={styles.faqItem}>
-                <summary className={styles.faqQuestion}>Are these wine courses free?</summary>
+                <summary className={styles.faqQuestion}>Are these courses free?</summary>
                 <p className={styles.faqAnswer}>
-                  Yes. Every course on Somm.Site is completely free with no paywalls, subscriptions, or hidden costs. Our mission is to make professional wine and sommelier education accessible to everyone in the hospitality community.
+                  Yes. Every course on Somm.Site is completely free with no paywalls, subscriptions, or hidden costs. Our mission is to make wine and sommelier education accessible to everyone in the hospitality community. look for these offerings to evolve and expand over time, with new courses and lessons added regularly.
                 </p>
               </details>
               <details className={styles.faqItem}>
@@ -160,7 +160,7 @@ export default function CourseCatalog() {
               <details className={styles.faqItem}>
                 <summary className={styles.faqQuestion}>Do these courses prepare me for sommelier certification exams?</summary>
                 <p className={styles.faqAnswer}>
-                  Our courses build foundational and intermediate wine knowledge that supports preparation for, but is not affiliated with, certification exams through the Court of Master Sommeliers and the Wine and Spirit Education Trust. They cover grape varieties, wine regions, tasting methodology, service technique, and beverage program management. While no online course replaces hands-on tasting practice, these lessons provide the theoretical framework that certification study requires.
+                  Our courses build foundational and intermediate wine knowledge that supports preparation for, but is not affiliated with, certification exams. They cover grape varieties, wine regions, tasting methodology, service technique, and beverage program management. While no online course replaces hands-on practice and experience, these lessons provide the theoretical framework that certification study requires.
                 </p>
               </details>
               <details className={styles.faqItem}>

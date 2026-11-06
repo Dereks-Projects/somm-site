@@ -178,7 +178,11 @@
   {
     "term": "Biodynamic viticulture",
     "definition": "Biodynamic viticulture is a holistic, organic approach to farming that treats the vineyard as a self-sustaining ecosystem, rooted in the ideas of Austrian philosopher Rudolf Steiner. Like organic farming, it avoids synthetic chemicals and emphasizes soil health but goes a step further by incorporating natural preparations made from herbs, minerals, and compost, as well as farming practices tied to lunar and cosmic cycles. The goal is to enhance the vitality of the vines and the balance of the vineyard environment, which many believe leads to healthier grapes and more expressive, terroir-driven wines. While it may sound mystical, biodynamics has gained credibility among top winemakers around the world who claim it improves vine resilience, grape quality, and even the character of the wine.",
-    "definition2": "Certified biodynamic vineyards must follow strict standards, often overseen by organizations like Demeter. For the wine drinker, biodynamic wines offer not just a natural, low-intervention option, but a taste of the vineyard's unique rhythm and energy."
+    "definition2": "Certified biodynamic vineyards must follow strict standards, often overseen by organizations like Demeter. For the wine drinker, biodynamic wines offer not just a natural, low-intervention option, but a taste of the vineyard's unique rhythm and energy.",
+    "relatedArticle": {
+    "url": "/articles/unpacking-organic-and-biodynamic-wine",
+    "label": "Biodynamic wine"
+  }
   },
   {
     "term": "Bobal",

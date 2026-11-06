@@ -46,7 +46,11 @@
   },
   {
     "term": "Organic viticulture",
-    "definition": "A farming system that indicates the reduction and/or elimination of man-made interventions, specifically chemicals and additives. This is a broad definition, as there are many different laws, caveats and idiosyncrasies of organics."
+    "definition": "A farming system that indicates the reduction and/or elimination of man-made interventions, specifically chemicals and additives. This is a broad definition, as there are many different laws, caveats and idiosyncrasies of organics.",
+    "relatedArticle": {
+    "url": "/articles/unpacking-organic-and-biodynamic-wine",
+    "label": "Biodynamic wine"
+  }
   },
   {
     "term": "Oregon",
