@@ -1,3 +1,8 @@
+// components/ImageLightbox.js
+// Inline image that opens full screen on click or tap. In the full-screen view,
+// tapping the image toggles between "fit to screen" and "full size" (scroll to
+// pan) so infographics stay readable on phones. Used by study guides and lessons.
+
 'use client'
 
 import { useState, useEffect, useCallback } from 'react'
@@ -6,9 +11,22 @@ import styles from './ImageLightbox.module.css'
 
 export default function ImageLightbox({ src, alt, caption }) {
   const [isOpen, setIsOpen] = useState(false)
+  const [isZoomed, setIsZoomed] = useState(false)
 
   const openLightbox = () => setIsOpen(true)
-  const closeLightbox = useCallback(() => setIsOpen(false), [])
+  const closeLightbox = useCallback(() => {
+    setIsOpen(false)
+    setIsZoomed(false)
+  }, [])
+  const toggleZoom = () => setIsZoomed((zoomed) => !zoomed)
+
+  // Enter or Space opens the lightbox for keyboard users
+  const handleWrapperKeyDown = (e) => {
+    if (e.key === 'Enter' || e.key === ' ') {
+      e.preventDefault()
+      openLightbox()
+    }
+  }
 
   useEffect(() => {
     if (!isOpen) return
@@ -28,7 +46,7 @@ export default function ImageLightbox({ src, alt, caption }) {
 
   return (
     <>
-      <div className={styles.imageWrapper} onClick={openLightbox} role="button" tabIndex={0} aria-label={`Expand image: ${alt}`}>
+      <div className={styles.imageWrapper} onClick={openLightbox} onKeyDown={handleWrapperKeyDown} role="button" tabIndex={0} aria-label={`Expand image: ${alt}`}>
         <Image
           src={src}
           alt={alt || ''}
@@ -51,7 +69,7 @@ export default function ImageLightbox({ src, alt, caption }) {
       </div>
 
       {isOpen && (
-        <div className={styles.overlay} onClick={closeLightbox}>
+        <div className={isZoomed ? `${styles.overlay} ${styles.overlayZoomed}` : styles.overlay} onClick={closeLightbox}>
           <button
             className={styles.closeButton}
             onClick={closeLightbox}
@@ -67,11 +85,15 @@ export default function ImageLightbox({ src, alt, caption }) {
               src={src}
               alt={alt || ''}
               className={styles.lightboxImage}
+              onClick={toggleZoom}
             />
             {caption && (
               <span className={styles.imageCaption}>{caption}</span>
             )}
           </div>
+          <span className={styles.zoomHint} aria-hidden="true">
+            {isZoomed ? 'Tap image to fit screen' : 'Tap image to zoom'}
+          </span>
         </div>
       )}
     </>

@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation';
 import Header from '../../../../components/layout/Header';
 import Footer from '../../../../components/layout/Footer';
 import ProjectsCTA from '../../../../components/ProjectsCTA';
+import ImageLightbox from '../../../../components/ImageLightbox';
 import { getCourseBySlug, getLessonsByCourse, getLesson } from '../../../../data/getCourseData';
 import Link from 'next/link';
 import styles from './page.module.css';
@@ -215,10 +216,9 @@ export default async function ClassPage({ params }) {
 
               {lesson.bodyImage && (
                 <div className={styles.articleImageContainer}>
-                  <img
+                  <ImageLightbox
                     src={lesson.bodyImage}
                     alt={lesson.bodyImageAlt}
-                    className={styles.articleImage}
                   />
                 </div>
               )}

@@ -1,3 +1,8 @@
+// components/ProjectsCTA.js
+// Cross-marketing CTA for Somm.Tips and RestaurantStandards.com, with a small
+// Informative Media credit. Links keep the referrer so the destination sites'
+// analytics can see the traffic came from Somm.Site.
+
 import styles from './ProjectsCTA.module.css';
 
 export default function ProjectsCTA() {
@@ -11,38 +16,20 @@ export default function ProjectsCTA() {
           <a
             href="https://somm.tips"
             target="_blank"
-            rel="noopener noreferrer"
+            rel="noopener"
             className={styles.siteCard}
           >
             <span className={styles.siteName}>Somm.Tips</span>
-            <span className={styles.siteDescription}>Wine Pairings & Shopping Insights</span>
-          </a>
-          <a
-            href="https://beverage.fyi"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.siteCard}
-          >
-            <span className={styles.siteName}>Beverage.fyi</span>
-            <span className={styles.siteDescription}>Online Beverage Magazine</span>
-          </a>
-          <a
-            href="https://hospitality.fyi"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.siteCard}
-          >
-            <span className={styles.siteName}>Hospitality.fyi</span>
-            <span className={styles.siteDescription}>Online Hospitality Magazine</span>
+            <span className={styles.siteDescription}>Wine Recommendations</span>
           </a>
           <a
             href="https://restaurantstandards.com"
             target="_blank"
-            rel="noopener noreferrer"
+            rel="noopener"
             className={styles.siteCard}
           >
             <span className={styles.siteName}>RestaurantStandards.com</span>
-            <span className={styles.siteDescription}>Training & Development</span>
+            <span className={styles.siteDescription}>Restaurant Training & Development</span>
           </a>
         </div>
 
@@ -51,7 +38,7 @@ export default function ProjectsCTA() {
           <a
             href="https://informativemedia.com"
             target="_blank"
-            rel="noopener noreferrer"
+            rel="noopener"
             className={styles.parentLink}
           >
             Informative Media
