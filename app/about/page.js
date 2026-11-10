@@ -284,27 +284,25 @@ export default function AboutPage() {
 
             <div className={styles.storyBody}>
               <p className={styles.storyLead}>
-                I spent more than twenty years on restaurant floors, many of them in Las Vegas,
-                where a guest’s question about a bottle could come at any moment and the answer
-                had to be right.
+                Twenty years on restaurant floors gave me a deep well of wine knowledge, much of
+                it gathered from places that are hard to find: dense textbooks, old maps, and
+                years of my own notes and flashcards.
               </p>
               <p className={styles.bodyText}>
-                Earning my Advanced certification from the Court of Master Sommeliers showed me
-                what great wine education looks like. Years of training service teams showed me
-                how few people ever get access to it. The best material was locked behind
-                expensive programs, scattered across dozens of sources, or hidden behind a
-                signup form.
+                When it came time to share it, I wanted it done right. So I taught myself the
+                technology to build and deliver it exactly the way I pictured: fast, clean, and
+                easy to use on any device. 
               </p>
               <p className={styles.bodyText}>
-                So I built the resource I wanted when I started: clear, accurate, and free.
-                Somm.Site covers the grapes, regions, and history behind the bottle, with
-                courses, quizzes, and short videos for every level. Whether you are studying for
-                an exam or just want to understand what’s in your glass, it’s here for you.
+                Somm.Site is the result: a free resource for curious beginners and working
+                professionals alike. Every course, article, and video is written and produced to
+                be easy to digest, so you can learn the grapes, regions, and history behind the
+                bottle at your own pace.
               </p>
               <div className={styles.signature}>
                 <span className={styles.signatureName}>Derek Engles</span>
                 <span className={styles.signatureRole}>
-                  Founder, Somm.Site · CEO, Informative Media
+                  Founder, Somm.Site · Informative Media
                 </span>
               </div>
             </div>
@@ -410,7 +408,7 @@ export default function AboutPage() {
               >
                 Informative Media
               </a>
-              , a hospitality education and technology company founded by Derek Engles.
+              , a hospitality education and technology company.
             </p>
           </div>
         </section>

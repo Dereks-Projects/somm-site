@@ -19,7 +19,12 @@
     "bodyImageAlt": "White Wine in action",
     "paragraph3title": "Expanding Your White Wine Vocabulary",
     "paragraph3": "Other white varieties offer additional perspectives on style and flavor. Pinot Grigio typically delivers light, refreshing wines with pear and lemon notes, though Alsatian Pinot Gris shows fuller body with stone fruit and honey characteristics. Viognier produces aromatic wines rich in apricot, peach, and floral notes, often with a viscous, almost oily texture despite being dry. Grüner Veltliner from Austria combines citrus and green apple with distinctive white pepper and herbal qualities, offering both refreshment and complexity. Each variety demonstrates different aromatic profiles, body weights, and acid levels. Some grapes naturally produce lighter wines suited to warm weather drinking, while others create substantial wines that pair with richer foods. Understanding these differences helps you identify patterns in what you enjoy and builds a framework for exploring unfamiliar bottles confidently.",
-    "conclusion": "White wine styles range from delicate and crisp to opulent and complex, offering something for every preference and occasion. Through Chardonnay you learn about winemaking technique, through Sauvignon Blanc and Riesling you discover aromatic intensity and acid structure, and through other varieties you expand your understanding of texture and flavor diversity. Each glass represents decisions made in vineyard and cellar, inviting you to appreciate white wine as both scientific process and creative expression."
+    "conclusion": "White wine styles range from delicate and crisp to opulent and complex, offering something for every preference and occasion. Through Chardonnay you learn about winemaking technique, through Sauvignon Blanc and Riesling you discover aromatic intensity and acid structure, and through other varieties you expand your understanding of texture and flavor diversity. Each glass represents decisions made in vineyard and cellar, inviting you to appreciate white wine as both scientific process and creative expression.",
+    "furtherReading": [
+      { "title": "Chardonnay is the World's Premier White Grape", "slug": "chardonnay-premier-white-grape" },
+      { "title": "How Sauvignon Blanc Became the Benchmark for Fresh, Vibrant White Wine", "slug": "sauvignon-blanc-fresh-vibrant-wine" },
+      { "title": "Riesling: The Misunderstood Noble Grape", "slug": "riesling-the-misunderstood-noble-grape" }
+    ]
   },
   {
     "id": 2,

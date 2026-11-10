@@ -1,3 +1,5 @@
+// app/courses/[courseSlug]/[lessonSlug]/page.js
+
 import { notFound } from 'next/navigation';
 import Header from '../../../../components/layout/Header';
 import Footer from '../../../../components/layout/Footer';
@@ -5,6 +7,23 @@ import ProjectsCTA from '../../../../components/ProjectsCTA';
 import { getCourseBySlug, getLessonsByCourse, getLesson } from '../../../../data/getCourseData';
 import Link from 'next/link';
 import styles from './page.module.css';
+
+// Optional "Further Reading" links from the lesson JSON. Each entry needs a
+// non-empty title and article slug; incomplete entries are skipped so a typo
+// can never render a broken link.
+function getFurtherReading(lesson) {
+  if (!Array.isArray(lesson.furtherReading)) return [];
+
+  return lesson.furtherReading
+    .filter(
+      (item) =>
+        typeof item?.title === 'string' &&
+        item.title.trim() !== '' &&
+        typeof item?.slug === 'string' &&
+        item.slug.trim() !== ''
+    )
+    .map((item) => ({ title: item.title.trim(), slug: item.slug.trim() }));
+}
 
 export async function generateMetadata({ params }) {
   const resolvedParams = await params;
@@ -56,6 +75,7 @@ export default async function ClassPage({ params }) {
   const prevLesson = currentIndex > 0 ? lessons[currentIndex - 1] : null;
   const nextLesson = currentIndex < totalLessons - 1 ? lessons[currentIndex + 1] : null;
   const progressPercent = ((currentIndex + 1) / totalLessons) * 100;
+  const furtherReading = getFurtherReading(lesson);
 
   const courseJsonLd = {
     "@context": "https://schema.org",
@@ -211,6 +231,31 @@ export default async function ClassPage({ params }) {
               <section className={styles.articleConclusion}>
                 <p className={styles.sectionText}>{lesson.conclusion}</p>
               </section>
+
+              {/* Further Reading: only renders when the lesson lists at least one article */}
+              {furtherReading.length > 0 && (
+                <aside
+                  className={styles.furtherReading}
+                  aria-labelledby="further-reading-title"
+                >
+                  <h2 id="further-reading-title" className={styles.furtherReadingTitle}>
+                    Further Reading on This Topic
+                  </h2>
+                  <ul className={styles.furtherReadingList}>
+                    {furtherReading.map((item) => (
+                      <li key={item.slug} className={styles.furtherReadingItem}>
+                        <Link
+                          href={`/articles/${item.slug}`}
+                          className={styles.furtherReadingLink}
+                        >
+                          <span className={styles.furtherReadingText}>{item.title}</span>
+                          <span className={styles.furtherReadingArrow} aria-hidden="true">→</span>
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                </aside>
+              )}
             </div>
           </article>
 
