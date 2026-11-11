@@ -2,11 +2,13 @@
 // Purpose: Homepage. Section-labeled article hero (one featured + three
 // sub-featured), a "Latest Videos" rail, the Regional Reports slider, the
 // infinite article list, and two subcategory showcases (Grapes, Regions)
-// presented oldest-to-newest to resurface older articles.
+// presented oldest-to-newest to resurface older articles, with a 16:9 Featured
+// Video between them (chosen in data/featuredVideo.json).
 
 import { client } from '../sanity/lib/client.ts';
 import { allArticlesQuery, allStudyGuidesQuery } from '../sanity/queries';
-import { getVideos } from '../lib/vimeo';
+import { getVideos, getFeatureVideo } from '../lib/vimeo';
+import featuredVideoConfig from '../data/featuredVideo.json';
 import Header from '../components/layout/Header';
 import Footer from '../components/layout/Footer';
 import SectionHeading from '../components/homepage/SectionHeading';
@@ -16,6 +18,7 @@ import VideoRail from '../components/homepage/VideoRail';
 import StudyGuideSlider from '../components/homepage/StudyGuideSlider';
 import InfiniteArticleList from '../components/homepage/InfiniteArticleList';
 import CategorySection from '../components/homepage/CategorySection';
+import FeaturedVideoSection from '../components/homepage/FeaturedVideoSection';
 import styles from './page.module.css';
 import BackToTopButton from '../components/homepage/BackToTopButton';
 
@@ -74,6 +77,10 @@ export default async function Home() {
     console.error('Homepage video rail failed to load:', err);
   }
 
+  // Featured Video (16:9). Returns null if the id is blank or Vimeo fails, so the
+  // section simply does not render and the rest of the page is unaffected.
+  const featuredVideo = await getFeatureVideo(featuredVideoConfig.videoId);
+
   // Split articles: [0] = featured, [1,2,3] = sub-featured (3), [4+] = infinite
   const featuredArticle = articles[0];
   const subFeaturedArticles = articles.slice(1, 4);
@@ -116,6 +123,17 @@ export default async function Home() {
 
       {/* Explore Wine Grapes - oldest first */}
       <CategorySection title="Explore Wine Grapes" articles={grapesArticles} variant="dark" />
+
+      {/* Featured Video - set in data/featuredVideo.json (hidden if it does not load) */}
+      {featuredVideo && (
+        <FeaturedVideoSection
+          video={featuredVideo}
+          headline={featuredVideoConfig.headline}
+          summary={featuredVideoConfig.summary}
+          link={featuredVideoConfig.link}
+          linkLabel={featuredVideoConfig.linkLabel}
+        />
+      )}
 
       {/* Explore Wine Regions - oldest first */}
       <CategorySection title="Explore Wine Regions" articles={regionsArticles} variant="light" />

@@ -50,17 +50,23 @@
   width: 64px;
   height: 64px;
   border-radius: 50%;
-  background-color: rgba(0, 0, 0, 0.6);
-  color: #ffffff;
+  background-color: #ffde59;
+  color: #000000;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
   transform: translate(-50%, -50%);
-  transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Icon scales with the button */
+.playButton svg {
+  width: 45%;
+  height: 45%;
 }
 
 .facade:hover .playButton,
 .facade:focus-visible .playButton {
-  background-color: #ffde59;
-  color: #000000;
-  transform: translate(-50%, -50%) scale(1.06);
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.45);
+  transform: translate(-50%, -50%) scale(1.08);
 }
 
 .duration {
@@ -88,8 +94,8 @@
 /* ---- DESKTOP ---- */
 @media (min-width: 768px) {
   .playButton {
-    width: 76px;
-    height: 76px;
+    width: 84px;
+    height: 84px;
   }
 }
 

@@ -1,0 +1,175 @@
+/* components/homepage/FeaturedVideoSection.module.css */
+/* Magazine spread: stacked below 1024px; video left, text right at 1024px+. */
+
+.section {
+  background-color: #fafafa;
+  padding: 56px 20px;
+}
+
+.inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  grid-template-areas:
+    "eyebrow"
+    "headline"
+    "media"
+    "summary"
+    "action";
+}
+
+.eyebrow {
+  grid-area: eyebrow;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0 0 16px;
+  font-family: var(--font-montserrat), sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #5c5c5c;
+}
+
+.eyebrowBar {
+  display: block;
+  width: 28px;
+  height: 3px;
+  background-color: #ffde59;
+}
+
+.headline {
+  grid-area: headline;
+  margin: 0 0 20px;
+  font-family: var(--font-montserrat), sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  color: #111111;
+}
+
+.media {
+  grid-area: media;
+  min-width: 0;
+}
+
+.summary {
+  grid-area: summary;
+  margin: 20px 0 0;
+  font-family: var(--font-inter), sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #444444;
+}
+
+/* Centered while stacked; left-aligned in the desktop spread */
+.action {
+  grid-area: action;
+  justify-self: center;
+  margin-top: 24px;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  padding: 0 24px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  font-family: var(--font-montserrat), sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+
+.button:hover {
+  background-color: #000000;
+}
+
+.button:focus-visible {
+  outline: 2px solid #1a1a1a;
+  outline-offset: 3px;
+}
+
+/* ---- TABLET ---- */
+@media (min-width: 768px) {
+  .section {
+    padding: 72px 40px;
+  }
+
+  .inner {
+    max-width: 760px;
+  }
+
+  .eyebrow {
+    font-size: 12px;
+  }
+
+  .eyebrowBar {
+    width: 32px;
+  }
+
+  .headline {
+    font-size: 36px;
+  }
+
+  .summary {
+    font-size: 17px;
+  }
+}
+
+/* ---- DESKTOP: spread; spacer rows center the text beside the video ---- */
+@media (min-width: 1024px) {
+  .section {
+    padding: 96px 60px;
+  }
+
+  .inner {
+    max-width: 1200px;
+    grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
+    grid-template-rows: 1fr auto auto auto auto 1fr;
+    grid-template-areas:
+      "media ."
+      "media eyebrow"
+      "media headline"
+      "media summary"
+      "media action"
+      "media .";
+    column-gap: 64px;
+  }
+
+  .media {
+    align-self: center;
+  }
+
+  .eyebrow {
+    margin-bottom: 20px;
+  }
+
+  .headline {
+    font-size: 44px;
+    line-height: 1.08;
+  }
+
+  .summary {
+    margin-top: 0;
+  }
+
+  .action {
+    justify-self: start;
+    margin-top: 28px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .button {
+    transition: none;
+  }
+}
