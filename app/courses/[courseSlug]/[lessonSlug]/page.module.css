@@ -169,18 +169,44 @@
   margin-bottom: 16px;
 }
 
-/* Quote */
+/* Lesson Video (after the first section) */
+.lessonVideo {
+  margin: 0 auto 40px;
+}
+
+/* Quote: dark box with a faint quote mark behind the text */
 .articleQuote {
-  padding: 30px 30px 30px 20px;
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  padding: 30px 30px 30px 24px;
   margin: 40px 0;
   font-family: var(--font-inter);
-  font-size: 20px;
-  font-style: italic;
-  font-weight: 500;
-  color: #333333;
-  line-height: 1.7;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 700;
+  color: #e8e8e8;
+  line-height: 1.6;
   border-left: 5px solid #ffde59;
-  background-color: #f9f9f9;
+  border-radius: 4px;
+  background-color: #1a1a1a;
+}
+
+/* Decorative only; the second content line hides it from screen readers */
+.articleQuote::before {
+  content: '\201C';
+  content: '\201C' / '';
+  position: absolute;
+  top: -18px;
+  right: 14px;
+  z-index: -1;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 140px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1;
+  color: rgba(255, 255, 255, 0.07);
+  pointer-events: none;
 }
 
 /* Body Image */
@@ -409,10 +435,22 @@
     margin-bottom: 24px;
   }
 
+  /* 80% of the text column on desktop */
+  .lessonVideo {
+    width: 80%;
+    margin-bottom: 60px;
+  }
+
   .articleQuote {
-    padding: 40px 50px 40px 60px;
+    padding: 40px 56px 40px 48px;
     margin: 60px 0;
-    font-size: 24px;
+    font-size: 22px;
+  }
+
+  .articleQuote::before {
+    top: -26px;
+    right: 24px;
+    font-size: 190px;
   }
 
   .articleImageContainer {

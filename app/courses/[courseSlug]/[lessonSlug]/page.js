@@ -5,6 +5,8 @@ import Header from '../../../../components/layout/Header';
 import Footer from '../../../../components/layout/Footer';
 import ProjectsCTA from '../../../../components/ProjectsCTA';
 import ImageLightbox from '../../../../components/ImageLightbox';
+import FeatureVideo from '../../../../components/FeatureVideo';
+import { getFeatureVideo } from '../../../../lib/vimeo';
 import { getCourseBySlug, getLessonsByCourse, getLesson } from '../../../../data/getCourseData';
 import Link from 'next/link';
 import styles from './page.module.css';
@@ -77,6 +79,8 @@ export default async function ClassPage({ params }) {
   const nextLesson = currentIndex < totalLessons - 1 ? lessons[currentIndex + 1] : null;
   const progressPercent = ((currentIndex + 1) / totalLessons) * 100;
   const furtherReading = getFurtherReading(lesson);
+  // Optional lesson video. No videoId means no Vimeo call; any failure returns null.
+  const lessonVideo = await getFeatureVideo(lesson.videoId);
 
   const courseJsonLd = {
     "@context": "https://schema.org",
@@ -202,6 +206,18 @@ export default async function ClassPage({ params }) {
                 <h2 className={styles.sectionTitle}>{lesson.paragraph1title}</h2>
                 <p className={styles.sectionText}>{lesson.paragraph1}</p>
               </section>
+
+              {/* Lesson Video: only renders when the lesson has a working videoId */}
+              {lessonVideo && (
+                <div className={styles.lessonVideo}>
+                  <FeatureVideo
+                    id={lessonVideo.id}
+                    title={lessonVideo.title}
+                    thumbnail={lessonVideo.thumbnail}
+                    duration={lessonVideo.duration}
+                  />
+                </div>
+              )}
 
               {lesson.bodyquote && (
                 <blockquote className={styles.articleQuote}>

@@ -1,0 +1,101 @@
+/* components/FeatureVideo.module.css */
+/* 16:9 click-to-play video. The frame keeps its size before and after play. */
+
+.frame {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border-radius: 8px;
+  background-color: #000000;
+}
+
+.facade {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+}
+
+/* Inset outline, since the frame clips anything drawn outside it */
+.facade:focus-visible {
+  outline: 3px solid #ffde59;
+  outline-offset: -3px;
+}
+
+.thumbnail {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.facade:hover .thumbnail {
+  transform: scale(1.02);
+}
+
+.playButton {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #ffffff;
+  transform: translate(-50%, -50%);
+  transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
+}
+
+.facade:hover .playButton,
+.facade:focus-visible .playButton {
+  background-color: #ffde59;
+  color: #000000;
+  transform: translate(-50%, -50%) scale(1.06);
+}
+
+.duration {
+  position: absolute;
+  right: 12px;
+  bottom: 12px;
+  padding: 3px 8px;
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.75);
+  color: #ffffff;
+  font-family: var(--font-inter), sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+/* ---- DESKTOP ---- */
+@media (min-width: 768px) {
+  .playButton {
+    width: 76px;
+    height: 76px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .thumbnail,
+  .playButton {
+    transition: none;
+  }
+}
