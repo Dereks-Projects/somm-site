@@ -1,3 +1,5 @@
+// app/articles/[slug]/page.tsx
+
 import { client } from '../../../sanity/lib/client'
 import { PortableText } from '@portabletext/react'
 import Header from '../../../components/layout/Header'
@@ -7,6 +9,8 @@ import styles from './article.module.css'
 import Link from 'next/link'
 import { urlFor } from '../../../sanity/lib/imageUrl'
 import ImageLightbox from '../../../components/ImageLightbox'
+import FeatureVideo from '../../../components/FeatureVideo'
+import { getFeatureVideo } from '../../../lib/vimeo'
 import ScrollToTop from '../../../components/shared/ScrollToTop';
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
@@ -135,6 +139,7 @@ const portableTextComponents = {
         />
       )
     },
+    separator: () => <hr className={styles.bodySeparator} />,
   },
 }
 
@@ -154,6 +159,35 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
         <Footer />
       </>
     )
+  }
+
+  // Vimeo videos placed in the body, fetched up front so each block can render
+  // the player. An invalid id or a Vimeo failure returns null and the block is skipped.
+  const videoBlocks = (article.body || []).filter((block: any) => block._type === 'vimeoVideo')
+  const videos = await Promise.all(videoBlocks.map((block: any) => getFeatureVideo(block.vimeo)))
+  const videosByKey: Record<string, any> = Object.fromEntries(
+    videoBlocks.map((block: any, i: number) => [block._key, videos[i]])
+  )
+
+  const bodyComponents = {
+    ...portableTextComponents,
+    types: {
+      ...portableTextComponents.types,
+      vimeoVideo: ({ value }: any) => {
+        const video = videosByKey[value?._key]
+        if (!video) return null
+        return (
+          <div className={styles.videoWrapper}>
+            <FeatureVideo
+              id={video.id}
+              title={video.title}
+              thumbnail={video.thumbnail}
+              duration={video.duration}
+            />
+          </div>
+        )
+      },
+    },
   }
 
   // Build optimized main image URL
@@ -323,7 +357,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
 
         {/* BODY — First section */}
         <article className={styles.bodyContent}>
-          <PortableText value={bodyBeforeRelated} components={portableTextComponents} />
+          <PortableText value={bodyBeforeRelated} components={bodyComponents} />
         </article>
 
         {/* RELATED READING BOX */}
@@ -348,7 +382,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
         {/* BODY — Remainder */}
         {bodyAfterRelated.length > 0 && (
           <article className={styles.bodyContent}>
-            <PortableText value={bodyAfterRelated} components={portableTextComponents} />
+            <PortableText value={bodyAfterRelated} components={bodyComponents} />
           </article>
         )}
 

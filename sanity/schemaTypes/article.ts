@@ -231,6 +231,54 @@ export default defineType({
             },
           ],
         },
+        // VIDEO: a 16:9 Vimeo video placed anywhere in the body.
+        // Accepted formats match parseVimeoId() in lib/vimeo.js.
+        {
+          type: 'object',
+          name: 'vimeoVideo',
+          title: 'Vimeo Video',
+          fields: [
+            {
+              name: 'vimeo',
+              title: 'Vimeo Link or ID',
+              type: 'string',
+              description: 'Paste the Vimeo link (https://vimeo.com/1245846349) or just the number. 16:9 videos from the Somm.Site Features folder.',
+              validation: (Rule: any) =>
+                Rule.required().custom((value: string | undefined) => {
+                  if (!value) return true
+                  const v = value.trim()
+                  if (/^\d+$/.test(v) || /vimeo\.com\/(?:manage\/videos\/|video\/)?\d+/.test(v)) return true
+                  return 'Enter a Vimeo link like https://vimeo.com/1245846349, or just the number.'
+                }),
+            },
+          ],
+          preview: {
+            select: { vimeo: 'vimeo' },
+            prepare({ vimeo }: { vimeo?: string }) {
+              return { title: 'Vimeo Video', subtitle: vimeo || 'No video link yet' }
+            },
+          },
+        },
+        // LINE SEPARATOR: a medium gray divider between sections of the body.
+        // Sanity requires one field on an object; this one is hidden.
+        {
+          type: 'object',
+          name: 'separator',
+          title: 'Line Separator',
+          fields: [
+            {
+              name: 'style',
+              type: 'string',
+              initialValue: 'line',
+              hidden: true,
+            },
+          ],
+          preview: {
+            prepare() {
+              return { title: 'Line Separator', subtitle: 'Medium gray divider' }
+            },
+          },
+        },
       ],
       validation: (Rule) => Rule.required(),
     }),

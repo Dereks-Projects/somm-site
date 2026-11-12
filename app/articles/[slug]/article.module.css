@@ -1,3 +1,4 @@
+/* app/articles/[slug]/article.module.css */
 /* MOBILE FIRST - Article Slug Page */
 
 .pageWrapper {
@@ -174,6 +175,19 @@
   color: #777777 !important;
   margin-top: 6px;
   font-family: var(--font-inter), sans-serif;
+}
+
+/* Vimeo video block in the body (80% of the text column on desktop) */
+.videoWrapper {
+  margin: 32px auto;
+}
+
+/* Line separator block in the body */
+.bodySeparator {
+  height: 0;
+  margin: 40px 0;
+  border: 0;
+  border-top: 1px solid #999999;
 }
 
 /* RELATED READING BOX */
@@ -416,6 +430,16 @@ details[open] .faqQuestion::after {
     margin: 0 auto 32px;
     border-radius: 6px;
     overflow: hidden;
+  }
+
+  .videoWrapper {
+    width: 80%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .bodySeparator {
+    margin: 48px 0;
   }
 
   /* Body images - 30% wider than text column, centered breakout */
