@@ -1,6 +1,9 @@
+// app/layout.js
+
 import "./globals.css";
 import Script from 'next/script';
 import { Montserrat, Inter } from 'next/font/google';
+import MobileNav from '../components/layout/MobileNav';
 
 const montserrat = Montserrat({
   subsets: ['latin'],
@@ -105,6 +108,8 @@ export default function RootLayout({ children }) {
 
       <body>
         {children}
+        {/* Phone-only bottom nav and back-to-top button (hidden at 768px+) */}
+        <MobileNav />
       </body>
     </html>
   );

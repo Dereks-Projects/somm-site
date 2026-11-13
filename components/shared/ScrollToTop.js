@@ -1,8 +1,8 @@
 // components/shared/ScrollToTop.js
-// Purpose: A floating "back to top" button for long pages (articles, study
-// guides). Mobile only, bottom-left, fades in once the reader has scrolled down,
-// smooth-scrolls to the top on tap. Placed directly in the two templates that
-// need it, so it never appears anywhere else.
+// Purpose: A floating "back to top" button. Mobile only, bottom-right just above
+// the mobile nav bar, fades in once the reader has scrolled down, smooth-scrolls
+// to the top on tap. Rendered once site-wide by components/layout/MobileNav.js,
+// so it appears on every page where the nav does.
 
 'use client';
 

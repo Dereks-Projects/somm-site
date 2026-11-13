@@ -2,7 +2,8 @@
 
 .button {
   position: fixed;
-  bottom: 20px;
+  /* 16px above the mobile nav bar; matches its height in MobileNav.module.css */
+  bottom: calc(64px + env(safe-area-inset-bottom, 0px) + 16px);
   right: 20px;
   z-index: 999;
   display: flex;

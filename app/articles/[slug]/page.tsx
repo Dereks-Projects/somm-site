@@ -11,7 +11,6 @@ import { urlFor } from '../../../sanity/lib/imageUrl'
 import ImageLightbox from '../../../components/ImageLightbox'
 import FeatureVideo from '../../../components/FeatureVideo'
 import { getFeatureVideo } from '../../../lib/vimeo'
-import ScrollToTop from '../../../components/shared/ScrollToTop';
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params
@@ -469,7 +468,6 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
           </a>
         </div>
       </main>
-      <ScrollToTop />
       <Footer />
     </>
   )

@@ -1,0 +1,81 @@
+/* components/layout/MobileNav.module.css */
+/* Phones only. Bar height is 64px plus the iPhone home-bar inset; the spacer */
+/* and ScrollToTop.module.css use the same value, so keep all three in sync.  */
+
+.nav {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 990;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  height: calc(64px + env(safe-area-inset-bottom, 0px));
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+  box-sizing: border-box;
+  background-color: #0b0b0b;
+  border-top: 1px solid #222222;
+}
+
+/* Reserves room at the end of every page so the bar never covers the footer */
+.spacer {
+  height: calc(64px + env(safe-area-inset-bottom, 0px));
+  background-color: #000000;
+}
+
+.tab {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  min-width: 0;
+  color: #b3b3b3;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  transition: color 0.2s ease;
+}
+
+.tab:focus-visible {
+  outline: 2px solid #ffde59;
+  outline-offset: -4px;
+  border-radius: 8px;
+}
+
+.active {
+  color: #ffde59;
+}
+
+.icon {
+  width: 22px;
+  height: 22px;
+}
+
+.label {
+  font-family: var(--font-montserrat), sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1.2;
+  white-space: nowrap;
+}
+
+/* Tablet and desktop: no bottom bar */
+@media (min-width: 768px) {
+  .nav,
+  .spacer {
+    display: none;
+  }
+}
+
+@media print {
+  .nav,
+  .spacer {
+    display: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .tab {
+    transition: none;
+  }
+}
