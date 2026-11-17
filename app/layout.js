@@ -29,11 +29,11 @@ export const metadata = {
   authors: [{ name: "Derek Engles" }],
   creator: "Derek Engles",
   publisher: "Somm.Site",
-  metadataBase: new URL("https://somm.site"),
+  // The live address. Must match the primary domain in Vercel (www) and app/sitemap.js.
+  metadataBase: new URL("https://www.somm.site"),
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://somm.site",
     siteName: "Somm.Site",
     title: "Somm.Site - Free Wine & Hospitality Education",
     description: "Free wine and hospitality education for professionals and enthusiasts",

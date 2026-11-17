@@ -1,7 +1,9 @@
+# public/robots.txt
+
 User-agent: *
 Allow: /
 Disallow: /api/
 Disallow: /admin/
-Disallow: /studio/
+Disallow: /studio
 
-Sitemap: https://somm.site/sitemap.xml
+Sitemap: https://www.somm.site/sitemap.xml

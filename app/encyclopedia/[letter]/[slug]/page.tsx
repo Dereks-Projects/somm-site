@@ -1,473 +1,105 @@
-// app/articles/[slug]/page.tsx
+// app/encyclopedia/[letter]/[slug]/page.tsx
 
-import { client } from '../../../sanity/lib/client'
-import { PortableText } from '@portabletext/react'
-import Header from '../../../components/layout/Header'
-import Footer from '../../../components/layout/Footer'
-import Image from 'next/image'
-import styles from './article.module.css'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
-import { urlFor } from '../../../sanity/lib/imageUrl'
-import ImageLightbox from '../../../components/ImageLightbox'
-import FeatureVideo from '../../../components/FeatureVideo'
-import { getFeatureVideo } from '../../../lib/vimeo'
+import Header from '../../../../components/layout/Header'
+import Footer from '../../../../components/layout/Footer'
+import styles from './definition.module.css'
 
-export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
-  const { slug } = await params
-  const article = await getArticle(slug)
-  
-  if (!article) {
-    return {
-      title: 'Article Not Found',
-    }
+import A from '../../../../data/encyclopedia/A.json'
+import B from '../../../../data/encyclopedia/B.json'
+import C from '../../../../data/encyclopedia/C.json'
+import D from '../../../../data/encyclopedia/D.json'
+import E from '../../../../data/encyclopedia/E.json'
+import F from '../../../../data/encyclopedia/F.json'
+import G from '../../../../data/encyclopedia/G.json'
+import H from '../../../../data/encyclopedia/H.json'
+import I from '../../../../data/encyclopedia/I.json'
+import J from '../../../../data/encyclopedia/J.json'
+import K from '../../../../data/encyclopedia/K.json'
+import L from '../../../../data/encyclopedia/L.json'
+import M from '../../../../data/encyclopedia/M.json'
+import N from '../../../../data/encyclopedia/N.json'
+import O from '../../../../data/encyclopedia/O.json'
+import P from '../../../../data/encyclopedia/P.json'
+import Q from '../../../../data/encyclopedia/Q.json'
+import R from '../../../../data/encyclopedia/R.json'
+import S from '../../../../data/encyclopedia/S.json'
+import T from '../../../../data/encyclopedia/T.json'
+import U from '../../../../data/encyclopedia/U.json'
+import V from '../../../../data/encyclopedia/V.json'
+import W from '../../../../data/encyclopedia/W.json'
+import X from '../../../../data/encyclopedia/X.json'
+import Y from '../../../../data/encyclopedia/Y.json'
+import Z from '../../../../data/encyclopedia/Z.json'
+
+const letterData: { [key: string]: { term: string; definition: string; definition2?: string; relatedArticle?: { url: string; label: string } }[] } = {
+  a: A, b: B, c: C, d: D, e: E, f: F, g: G, h: H, i: I, j: J, k: K, l: L, m: M,
+  n: N, o: O, p: P, q: Q, r: R, s: S, t: T, u: U, v: V, w: W, x: X, y: Y, z: Z
+}
+
+function generateSlug(term: string): string {
+  return term
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '')
+}
+
+export async function generateMetadata({ params }: { params: Promise<{ letter: string; slug: string }> }) {
+  const { letter, slug } = await params
+  const terms = letterData[letter.toLowerCase()]
+  const term = terms?.find((t) => generateSlug(t.term) === slug)
+
+  if (!term) {
+    return { title: 'Term Not Found' }
   }
 
   return {
-    title: article.title,
-    description: article.subtitle || `Read about ${article.title} on SOMM.SITE`,
-    openGraph: {
-      title: article.title,
-      description: article.subtitle || `Read about ${article.title}`,
-      images: article.imageUrl ? [article.imageUrl] : [],
-      type: 'article',
-      publishedTime: article.publishedAt,
-      authors: [article.author || 'Derek Engles'],
-    },
-    twitter: {
-      card: 'summary_large_image',
-      title: article.title,
-      description: article.subtitle || `Read about ${article.title}`,
-      images: article.imageUrl ? [article.imageUrl] : [],
-    }
+    title: `${term.term} - Wine Encyclopedia | Somm.Site`,
+    description: term.definition.slice(0, 160),
   }
 }
 
-async function getArticle(slug: string) {
-  // Only articles published to Somm.Site; anything else returns a 404 here.
-  const query = `*[_type == "article" && slug.current == $slug && "somm" in sites][0] {
-    _id,
-    title,
-    subtitle,
-    body[]{
-      ...,
-      _type == "image" => {
-        ...,
-        "url": asset->url
-      },
-      markDefs[]{
-        ...,
-        _type == "internalLink" => {
-          ...,
-          "slug": reference->slug.current,
-          "docType": reference->_type
-        }
-      }
-    },
-    publishedAt,
-    category,
-    subcategory,
-    author,
-    tags,
-    faq,
-    mainImage {
-      asset-> {
-        _id,
-        url
-      },
-      alt
-    },
-    "handPickedRelated": relatedArticles[]->{
-      title,
-      slug,
-      sites
-    },
-    "subcategoryArticles": *[_type == "article" && subcategory == ^.subcategory && "somm" in sites && _id != ^._id] | order(publishedAt desc) [0...3]{
-      title,
-      slug,
-      mainImage {
-        asset-> {
-          _id,
-          url
-        },
-        alt
-      }
-    }
-  }`
-  
-  const article = await client.fetch(query, { slug }, { cache: 'no-store' })
-  
-  if (!article) return null
+export default async function DefinitionPage({ params }: { params: Promise<{ letter: string; slug: string }> }) {
+  const { letter, slug } = await params
+  const terms = letterData[letter.toLowerCase()]
+  const term = terms?.find((t) => generateSlug(t.term) === slug)
 
-  // Keep hand-picked links to Somm.Site articles only, so none can point at a 404
-  const handPickedRelated = (article.handPickedRelated || []).filter(
-    (item: any) => item?.slug?.current && (item.sites || []).includes('somm')
-  )
-
-  return {
-    ...article,
-    handPickedRelated,
-    imageUrl: article.mainImage?.asset?.url
-  }
-}
-
-const portableTextComponents = {
-  block: {
-    normal: ({ children }: any) => <p>{children}</p>,
-    h2: ({ children }: any) => <h2>{children}</h2>,
-    blockquote: ({ children }: any) => <blockquote>{children}</blockquote>,
-  },
-  marks: {
-    link: ({ children, value }: any) => (
-      <a href={value.href} target="_blank" rel="noopener noreferrer">
-        {children}
-      </a>
-    ),
-    internalLink: ({ children, value }: any) => {
-      const path = value.docType === 'studyGuide' 
-        ? `/study-guides/${value.slug}` 
-        : `/articles/${value.slug}`
-      return (
-        <Link href={path}>
-          {children}
-        </Link>
-      )
-    },
-  },
-  types: {
-    image: ({ value }: any) => {
-      const imageUrl = value?.url
-      if (!imageUrl) return null
-      
-      return (
-        <ImageLightbox
-          src={imageUrl}
-          alt={value.alt || ''}
-          caption={value.caption}
-        />
-      )
-    },
-    separator: () => <hr className={styles.bodySeparator} />,
-  },
-}
-
-export default async function ArticlePage({ params }: { params: Promise<{ slug: string }> }) {
-  const { slug } = await params
-  const article = await getArticle(slug)
-
-  // No article for this address on Somm.Site: return a real 404
-  if (!article) {
+  if (!term) {
     notFound()
   }
-
-  // Vimeo videos placed in the body, fetched up front so each block can render
-  // the player. An invalid id or a Vimeo failure returns null and the block is skipped.
-  const videoBlocks = (article.body || []).filter((block: any) => block._type === 'vimeoVideo')
-  const videos = await Promise.all(videoBlocks.map((block: any) => getFeatureVideo(block.vimeo)))
-  const videosByKey: Record<string, any> = Object.fromEntries(
-    videoBlocks.map((block: any, i: number) => [block._key, videos[i]])
-  )
-
-  const bodyComponents = {
-    ...portableTextComponents,
-    types: {
-      ...portableTextComponents.types,
-      vimeoVideo: ({ value }: any) => {
-        const video = videosByKey[value?._key]
-        if (!video) return null
-        return (
-          <div className={styles.videoWrapper}>
-            <FeatureVideo
-              id={video.id}
-              title={video.title}
-              thumbnail={video.thumbnail}
-              duration={video.duration}
-            />
-          </div>
-        )
-      },
-    },
-  }
-
-  // Build optimized main image URL
-  const mainImageUrl = article.mainImage
-    ? urlFor(article.mainImage).width(1200).format('webp').quality(80).url()
-    : null
-
-  // Structured data for article
-  const articleSchema = {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    "headline": article.title,
-    "description": article.subtitle || article.title,
-    "image": article.imageUrl || "https://somm.site/ss-social-card.png",
-    "author": {
-      "@type": "Person",
-      "name": article.author || "Derek Engles"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "SOMM.SITE",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://somm.site/ss-favicon.png"
-      }
-    },
-    "datePublished": article.publishedAt,
-    "dateModified": article.publishedAt,
-    "articleSection": article.subcategory || article.category,
-    "keywords": article.tags ? article.tags.join(", ") : "wine education",
-    "inLanguage": "en-US",
-    "about": {
-      "@type": "Thing",
-      "name": article.subcategory || "Wine"
-    }
-  };
-
-  // FAQ structured data for Google rich results
-  const hasFaq = article.faq && article.faq.length > 0
-  const faqSchema = hasFaq ? {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": article.faq.map((item: any) => ({
-      "@type": "Question",
-      "name": item.question,
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": item.answer,
-      }
-    }))
-  } : null
-
-  // Split body at first image to insert Related Reading box after it
-  const firstImageIndex = article.body 
-    ? article.body.findIndex((block: any) => block._type === 'image') 
-    : -1
-  
-  const hasHandPickedRelated = article.handPickedRelated && article.handPickedRelated.length > 0
-  
-  const bodyBeforeRelated = (hasHandPickedRelated && firstImageIndex >= 0) 
-    ? article.body.slice(0, firstImageIndex + 1) 
-    : article.body
-  
-  const bodyAfterRelated = (hasHandPickedRelated && firstImageIndex >= 0) 
-    ? article.body.slice(firstImageIndex + 1) 
-    : []
 
   return (
     <>
       <Header />
-      
-      {/* Article Structured Data */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
-      />
-
-      {/* FAQ Structured Data */}
-      {faqSchema && (
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-        />
-      )}
-      
-      <main className={styles.pageWrapper}>
-        {/* BREADCRUMB */}
-        <div className={styles.breadcrumb}>
-          <p className={styles.breadcrumbText}>
-            {article.category}
-            {article.subcategory && (
-              <>
-                {' > '}
-                <Link href={`/articles?subcategory=${article.subcategory.toLowerCase()}`}>
-                  {article.subcategory}
-                </Link>
-              </>
+      <div className={styles.container}>
+        <div className={styles.content}>
+          <div className={styles.card}>
+            <h1 className={styles.term}>{term.term}</h1>
+            <p className={styles.definition} dangerouslySetInnerHTML={{ __html: term.definition }} />
+            {term.definition2 && (
+              <p className={styles.definition2} dangerouslySetInnerHTML={{ __html: term.definition2 }} />
             )}
-          </p>
-        </div>
-
-        {/* TITLE & SUBTITLE */}
-        <div className={styles.titleSection}>
-          <h1 className={styles.title}>
-            {article.title}
-          </h1>
-          {article.subtitle && (
-            <p className={styles.subtitle}>
-              {article.subtitle}
-            </p>
-          )}
-        </div>
-
-        {/* MAIN IMAGE */}
-        {mainImageUrl && (
-          <div className={styles.mainImageWrapper}>
-            <Image
-              src={mainImageUrl}
-              alt={article.mainImage?.alt || article.title}
-              width={1200}
-              height={675}
-              className={styles.mainImage}
-              style={{ width: '100%', height: 'auto' }}
-              priority
-            />
-          </div>
-        )}
-
-        {/* AUTHOR & SOCIAL SHARE */}
-        <div className={styles.authorSection}>
-          <p className={styles.authorName}>
-            {article.author || 'Derek Engles'}
-          </p>
-          <div className={styles.socialLinks}>
-            <a 
-              href={`https://twitter.com/intent/tweet?url=${encodeURIComponent('https://somm.site/articles/' + slug)}&text=${encodeURIComponent(article.title)}`} 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className={styles.socialLink}
-            >
-              <svg className={styles.socialIcon} fill="currentColor" viewBox="0 0 24 24">
-                <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
-              </svg>
-            </a>
-            <a 
-              href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent('https://somm.site/articles/' + slug)}`} 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className={styles.socialLink}
-            >
-              <svg className={styles.socialIcon} fill="currentColor" viewBox="0 0 24 24">
-                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
-              </svg>
-            </a>
-            <a 
-              href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent('https://somm.site/articles/' + slug)}`} 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className={styles.socialLink}
-            >
-              <svg className={styles.socialIcon} fill="currentColor" viewBox="0 0 24 24">
-                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
-              </svg>
-            </a>
-          </div>
-        </div>
-
-        {/* BODY — First section */}
-        <article className={styles.bodyContent}>
-          <PortableText value={bodyBeforeRelated} components={bodyComponents} />
-        </article>
-
-        {/* RELATED READING BOX */}
-        {hasHandPickedRelated && (
-          <div className={styles.relatedReadingBox}>
-            <h4 className={styles.relatedReadingHeading}>Related Reading</h4>
-            <ul className={styles.relatedReadingList}>
-              {article.handPickedRelated.map((item: any) => (
-                <li key={item.slug.current} className={styles.relatedReadingItem}>
-                  <Link 
-                    href={`/articles/${item.slug.current}`} 
-                    className={styles.relatedReadingLink}
-                  >
-                    {item.title}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-        )}
-
-        {/* BODY — Remainder */}
-        {bodyAfterRelated.length > 0 && (
-          <article className={styles.bodyContent}>
-            <PortableText value={bodyAfterRelated} components={bodyComponents} />
-          </article>
-        )}
-
-        {/* FAQ */}
-        {hasFaq && (
-          <div className={styles.faqSection}>
-            <h3 className={styles.faqHeading}>Frequently Asked Questions</h3>
-            <div className={styles.faqList}>
-              {article.faq.map((item: any, i: number) => (
-                <details key={i} className={styles.faqItem}>
-                  <summary className={styles.faqQuestion}>{item.question}</summary>
-                  <p className={styles.faqAnswer}>{item.answer}</p>
-                </details>
-              ))}
-            </div>
-          </div>
-        )}
-
-        {/* DIVIDER */}
-        <div className={styles.dividerSection}>
-          <hr className={styles.divider} />
-        </div>
-
-        {/* TAGS */}
-        {article.tags && article.tags.length > 0 && (
-          <div className={styles.tagsSection}>
-            <div className={styles.tagsContainer}>
-              {article.tags.map((tag: string, i: number) => (
-                <Link 
-                  key={i} 
-                  href={`/articles?tag=${encodeURIComponent(tag.toLowerCase())}`} 
-                  className={styles.tag}
-                >
-                  {tag}
+            {term.relatedArticle && (
+              <p className={styles.relatedArticle}>
+                Read more about{' '}
+                <Link href={term.relatedArticle.url} className={styles.relatedArticleLink}>
+                  {term.relatedArticle.label}
                 </Link>
-              ))}
-            </div>
+                {' '}on Somm.Site
+              </p>
+            )}
           </div>
-        )}
 
-        {/* BOTTOM 3 RELATED ARTICLES */}
-        {article.subcategoryArticles && article.subcategoryArticles.length > 0 && (
-          <div className={styles.relatedSection}>
-            <h3 className={styles.relatedHeading}>Related Articles</h3>
-            <div className={styles.relatedGrid}>
-              {article.subcategoryArticles.map((related: any) => {
-                const relatedImageUrl = related.mainImage
-                  ? urlFor(related.mainImage).width(600).format('webp').quality(80).url()
-                  : null
-
-                return (
-                  <Link
-                    key={related.slug.current}
-                    href={`/articles/${related.slug.current}`}
-                    className={styles.relatedCard}
-                  >
-                    {relatedImageUrl && (
-                      <div style={{ position: 'relative', width: '100%', height: '192px' }}>
-                        <Image
-                          src={relatedImageUrl}
-                          alt={related.mainImage?.alt || related.title}
-                          fill
-                          sizes="(max-width: 768px) 100vw, 33vw"
-                          className={styles.relatedImage}
-                          style={{ objectFit: 'cover', borderRadius: '8px' }}
-                        />
-                      </div>
-                    )}
-                    <h4 className={styles.relatedTitle}>{related.title}</h4>
-                  </Link>
-                )
-              })}
-            </div>
+          <div className={styles.navSection}>
+            <Link href={`/encyclopedia/${letter.toLowerCase()}`} className={styles.navButton}>
+              ← Back to List
+            </Link>
           </div>
-        )}
-
-        {/* NAVIGATION BUTTONS */}
-        <div className={styles.navigationSection}>
-          <a href="/articles" className={styles.navButton}>
-            ← Back to Articles
-          </a>
-          <a href="/" className={styles.navButton}>
-            ← Back to Home
-          </a>
         </div>
-      </main>
+      </div>
       <Footer />
     </>
   )

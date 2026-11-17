@@ -1,3 +1,5 @@
+// next.config.mjs
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
@@ -10,6 +12,7 @@ const nextConfig = {
   },
   async redirects() {
     return [
+      // Retired course addresses (English and Spanish) now live under /courses
       {
         source: '/intro-course',
         destination: '/courses/introduction-to-wine',
@@ -28,6 +31,17 @@ const nextConfig = {
       {
         source: '/curso-introductorio/:slug',
         destination: '/courses/introduction-to-wine/:slug',
+        permanent: true,
+      },
+      // Retired study guide addresses now live under /study-guides
+      {
+        source: '/guides',
+        destination: '/study-guides',
+        permanent: true,
+      },
+      {
+        source: '/guides/:slug',
+        destination: '/study-guides/:slug',
         permanent: true,
       },
     ];
