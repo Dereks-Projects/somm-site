@@ -1,9 +1,9 @@
 // app/layout.js
 
 import "./globals.css";
-import Script from 'next/script';
 import { Montserrat, Inter } from 'next/font/google';
 import MobileNav from '../components/layout/MobileNav';
+import GoogleAnalytics from '../components/analytics/GoogleAnalytics';
 
 const montserrat = Montserrat({
   subsets: ['latin'],
@@ -67,9 +67,12 @@ export default function RootLayout({ children }) {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "EducationalOrganization",
+    // Entity IDs match the About page and every page's publisher, so Google
+    // reads Somm.Site, Derek Engles, and Informative Media as one connected set.
+    "@id": "https://somm.site/#organization",
     "name": "Somm.Site",
-    "url": "https://somm.site",
-    "logo": "https://somm.site/ss-favicon.png",
+    "url": "https://www.somm.site",
+    "logo": "https://www.somm.site/ss-favicon.png",
     "description": "Free wine and hospitality education for professionals and enthusiasts",
     "sameAs": [
       "https://www.instagram.com/somm.site/",
@@ -78,7 +81,13 @@ export default function RootLayout({ children }) {
     ],
     "founder": {
       "@type": "Person",
+      "@id": "https://derekengles.com/#person",
       "name": "Derek Engles"
+    },
+    "parentOrganization": {
+      "@type": "Organization",
+      "@id": "https://informativemedia.com/#organization",
+      "name": "Informative Media"
     }
   };
 
@@ -90,26 +99,14 @@ export default function RootLayout({ children }) {
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
         />
-        
-        {/* Google Analytics */}
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-JCX7CLCX4B"
-          strategy="afterInteractive"
-        />
-        <Script id="google-analytics" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-JCX7CLCX4B');
-          `}
-        </Script>
       </head>
 
       <body>
         {children}
         {/* Phone-only bottom nav and back-to-top button (hidden at 768px+) */}
         <MobileNav />
+        {/* Google Analytics: live site only, never on /studio or local testing */}
+        <GoogleAnalytics />
       </body>
     </html>
   );
