@@ -22,7 +22,8 @@ export async function generateMetadata({ params }) {
 
   return {
     title: `${guide.title} | Regional Reports`,
-    description: guide.subtitle || `Read about ${guide.title} on SOMM.SITE`,
+    description: guide.subtitle || `Read about ${guide.title} on Somm.Site`,
+    alternates: { canonical: `/study-guides/${slug}` },
     openGraph: {
       title: guide.title,
       description: guide.subtitle || `Read about ${guide.title}`,
@@ -117,17 +118,18 @@ export default async function StudyGuidePage({ params }) {
     '@type': 'Article',
     headline: guide.title,
     description: guide.subtitle || guide.title,
-    image: guide.imageUrl || 'https://somm.site/ss-social-card.png',
+    image: guide.imageUrl || 'https://www.somm.site/ss-social-card.png',
     author: {
       '@type': 'Person',
       name: guide.author || 'Derek Engles',
     },
     publisher: {
       '@type': 'Organization',
-      name: 'SOMM.SITE',
+      '@id': 'https://somm.site/#organization',
+      name: 'Somm.Site',
       logo: {
         '@type': 'ImageObject',
-        url: 'https://somm.site/ss-favicon.png',
+        url: 'https://www.somm.site/ss-favicon.png',
       },
     },
     datePublished: guide.publishedAt,
@@ -146,19 +148,19 @@ export default async function StudyGuidePage({ params }) {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://somm.site',
+        item: 'https://www.somm.site',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'Regional Reports',
-        item: 'https://somm.site/study-guides',
+        item: 'https://www.somm.site/study-guides',
       },
       {
         '@type': 'ListItem',
         position: 3,
         name: guide.title,
-        item: `https://somm.site/study-guides/${guide.slug.current}`,
+        item: `https://www.somm.site/study-guides/${guide.slug.current}`,
       },
     ],
   };
@@ -243,7 +245,7 @@ export default async function StudyGuidePage({ params }) {
           <p className={styles.authorName}>{guide.author || 'Derek Engles'}</p>
           <div className={styles.socialLinks}>
             <a
-              href={`https://twitter.com/intent/tweet?url=${encodeURIComponent('https://somm.site/study-guides/' + slug)}&text=${encodeURIComponent(guide.title)}`}
+              href={`https://twitter.com/intent/tweet?url=${encodeURIComponent('https://www.somm.site/study-guides/' + slug)}&text=${encodeURIComponent(guide.title)}`}
               target="_blank"
               rel="noopener noreferrer"
               className={styles.socialLink}
@@ -253,7 +255,7 @@ export default async function StudyGuidePage({ params }) {
               </svg>
             </a>
             <a
-              href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent('https://somm.site/study-guides/' + slug)}`}
+              href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent('https://www.somm.site/study-guides/' + slug)}`}
               target="_blank"
               rel="noopener noreferrer"
               className={styles.socialLink}
@@ -263,7 +265,7 @@ export default async function StudyGuidePage({ params }) {
               </svg>
             </a>
             <a
-              href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent('https://somm.site/study-guides/' + slug)}`}
+              href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent('https://www.somm.site/study-guides/' + slug)}`}
               target="_blank"
               rel="noopener noreferrer"
               className={styles.socialLink}

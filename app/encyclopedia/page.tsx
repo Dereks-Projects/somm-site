@@ -37,7 +37,7 @@ export const metadata = {
   title: 'Wine Encyclopedia',
   description: 'A comprehensive encyclopedia of wine and beverage terminology. Explore definitions for grape varieties, wine regions, tasting terms, and more.',
   alternates: {
-    canonical: 'https://somm.site/encyclopedia'
+    canonical: '/encyclopedia'
   }
 }
 

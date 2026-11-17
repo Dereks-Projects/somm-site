@@ -56,12 +56,12 @@ export async function generateMetadata({ params }) {
   return {
     title: video.title,
     description,
-    alternates: { canonical: `https://somm.site/videos/${video.slug}` },
+    alternates: { canonical: `/videos/${video.slug}` },
     openGraph: {
       title: video.title,
       description,
       type: 'video.other',
-      url: `https://somm.site/videos/${video.slug}`,
+      url: `/videos/${video.slug}`,
       images: video.thumbnail ? [video.thumbnail] : [],
     },
     twitter: {
@@ -97,10 +97,11 @@ export default async function VideoPage({ params }) {
     embedUrl: `https://player.vimeo.com/video/${video.id}`,
     publisher: {
       '@type': 'Organization',
-      name: 'SOMM.SITE',
+      '@id': 'https://somm.site/#organization',
+      name: 'Somm.Site',
       logo: {
         '@type': 'ImageObject',
-        url: 'https://somm.site/ss-favicon.png',
+        url: 'https://www.somm.site/ss-favicon.png',
       },
     },
   };
@@ -109,13 +110,13 @@ export default async function VideoPage({ params }) {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://somm.site' },
-      { '@type': 'ListItem', position: 2, name: 'Videos', item: 'https://somm.site/videos' },
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.somm.site' },
+      { '@type': 'ListItem', position: 2, name: 'Videos', item: 'https://www.somm.site/videos' },
       {
         '@type': 'ListItem',
         position: 3,
         name: video.title,
-        item: `https://somm.site/videos/${video.slug}`,
+        item: `https://www.somm.site/videos/${video.slug}`,
       },
     ],
   };

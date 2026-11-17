@@ -57,8 +57,9 @@ export async function generateMetadata({ params }: { params: Promise<{ letter: s
   }
 
   return {
-    title: `${term.term} - Wine Encyclopedia | Somm.Site`,
+    title: `${term.term} - Wine Encyclopedia`,
     description: term.definition.slice(0, 160),
+    alternates: { canonical: `/encyclopedia/${letter.toLowerCase()}/${generateSlug(term.term)}` },
   }
 }
 

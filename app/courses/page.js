@@ -1,3 +1,5 @@
+// app/courses/page.js
+
 import Header from '../../components/layout/Header';
 import Footer from '../../components/layout/Footer';
 import ProjectsCTA from '../../components/ProjectsCTA';
@@ -8,6 +10,7 @@ import styles from './page.module.css';
 export const metadata = {
   title: "Free Sommelier Courses & Wine Education",
   description: "Free sommelier courses covering wine fundamentals, professional wine service, and beverage management. Comprehensive wine education for hospitality professionals and enthusiasts at every level.",
+  alternates: { canonical: '/courses' },
   openGraph: {
     title: "Free Sommelier Courses & Wine Education - Somm.Site",
     description: "Free sommelier courses covering wine fundamentals, professional wine service, and beverage management. Built for the hospitality community.",
@@ -33,12 +36,13 @@ export default function CourseCatalog() {
         "description": course.courseDescription,
         "provider": {
           "@type": "Organization",
-          "name": "SOMM.SITE",
-          "url": "https://somm.site"
+          "@id": "https://somm.site/#organization",
+          "name": "Somm.Site",
+          "url": "https://www.somm.site"
         },
         "isAccessibleForFree": true,
         "educationalLevel": course.difficulty,
-        "url": `https://somm.site/courses/${course.courseSlug}`
+        "url": `https://www.somm.site/courses/${course.courseSlug}`
       }
     }))
   };

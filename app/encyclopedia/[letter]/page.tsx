@@ -54,6 +54,7 @@ export async function generateMetadata({ params }: { params: Promise<{ letter: s
   return {
     title: `${upperLetter} - Wine Encyclopedia`,
     description: `Browse wine and beverage terms starting with ${upperLetter}. Definitions for grape varieties, regions, and tasting terminology.`,
+    alternates: { canonical: `/encyclopedia/${letter.toLowerCase()}` },
   }
 }
 

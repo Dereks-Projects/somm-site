@@ -14,12 +14,12 @@ export const metadata = {
   description:
     'Short wine education videos covering grape varieties, regions, and sommelier knowledge. One-minute lessons from Somm.Site.',
   alternates: {
-    canonical: 'https://somm.site/videos',
+    canonical: '/videos',
   },
   openGraph: {
     title: 'Video Collection - Somm.Site',
     description: 'Short wine education videos from Somm.Site',
-    url: 'https://somm.site/videos',
+    url: '/videos',
   },
 };
 

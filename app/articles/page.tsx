@@ -1,3 +1,5 @@
+// app/articles/page.tsx
+
 import { client } from '../../sanity/lib/client';
 import Header from '../../components/layout/Header';
 import Footer from '../../components/layout/Footer';
@@ -5,34 +7,53 @@ import ArticleCard from '../../components/homepage/ArticleCard';
 import Link from 'next/link';
 import styles from './articles.module.css';
 
-export const metadata = {
-  title: "Wine Articles & Education",
-  description: "Comprehensive wine education articles covering grape varieties, wine regions, producers, and tasting techniques. Free professional wine knowledge for sommeliers and enthusiasts.",
-  alternates: {
-    canonical: 'https://somm.site/articles'
-  },
-  openGraph: {
-    title: "Wine Articles & Education - SOMM.SITE",
-    description: "Professional wine articles and educational resources",
-    url: 'https://somm.site/articles'
-  }
-};
+type SearchParams = Promise<{ [key: string]: string | string[] | undefined }>;
+
+// A query value can arrive as a list (?tag=a&tag=b); use the first one.
+function firstValue(value: string | string[] | undefined): string | null {
+  const first = Array.isArray(value) ? value[0] : value;
+  return first ? first : null;
+}
+
+export async function generateMetadata({ searchParams }: { searchParams: SearchParams }) {
+  const params = await searchParams;
+  const isFiltered = Boolean(firstValue(params?.tag) || firstValue(params?.subcategory));
+
+  return {
+    title: "Wine Articles & Education",
+    description: "Comprehensive wine education articles covering grape varieties, wine regions, producers, and tasting techniques. Free professional wine knowledge for sommeliers and enthusiasts.",
+    // Filtered views (?tag= and ?subcategory=) stay out of Google, but Google
+    // still follows their links to the articles. Only /articles is indexed.
+    ...(isFiltered
+      ? { robots: { index: false, follow: true } }
+      : { alternates: { canonical: '/articles' } }),
+    openGraph: {
+      title: "Wine Articles & Education - Somm.Site",
+      description: "Professional wine articles and educational resources",
+      url: '/articles'
+    }
+  };
+}
 
 async function getArticles(subcategory: string | null, tag: string | null) {
-  // "Other" catches everything that is NOT Grapes, Regions, or Producers
-  const otherExclusions = '&& !(subcategory in ["Grapes", "Regions", "History"])';
-
+  // Visitor input is passed as query parameters ($tag, $subcategory), never
+  // pasted into the query text, so no value can break or alter the query.
+  const base = '_type == "article" && category == "wine" && "somm" in sites';
   let filter = '';
+  let queryParams: Record<string, string> = {};
 
   if (tag) {
-    // Tag filter — search the tags array for a case-insensitive match
-    filter = `*[_type == "article" && category == "wine" && "somm" in sites && "${tag}" in tags] | order(publishedAt desc)`;
+    // Tag filter: case-insensitive match against the tags array
+    filter = `*[${base} && count(tags[lower(@) == lower($tag)]) > 0] | order(publishedAt desc)`;
+    queryParams = { tag };
   } else if (subcategory === 'other') {
-    filter = `*[_type == "article" && category == "wine" && "somm" in sites ${otherExclusions}] | order(publishedAt desc)`;
+    // "Other" catches everything that is NOT Grapes, Regions, or History
+    filter = `*[${base} && !(subcategory in ["Grapes", "Regions", "History"])] | order(publishedAt desc)`;
   } else if (subcategory) {
-    filter = `*[_type == "article" && category == "wine" && "somm" in sites && lower(subcategory) == lower("${subcategory}")] | order(publishedAt desc)`;
+    filter = `*[${base} && lower(subcategory) == lower($subcategory)] | order(publishedAt desc)`;
+    queryParams = { subcategory };
   } else {
-    filter = `*[_type == "article" && category == "wine" && "somm" in sites] | order(publishedAt desc)`;
+    filter = `*[${base}] | order(publishedAt desc)`;
   }
 
   const query = `${filter} {
@@ -53,13 +74,13 @@ async function getArticles(subcategory: string | null, tag: string | null) {
     author
   }`;
 
-  return await client.fetch(query, {}, { cache: 'no-store' });
+  return await client.fetch(query, queryParams, { cache: 'no-store' });
 }
 
 export default async function ArticlesPage({ searchParams }: { searchParams: any }) {
   const params = await searchParams;
-  const subcategoryFilter = params?.subcategory || null;
-  const tagFilter = params?.tag || null;
+  const subcategoryFilter = firstValue(params?.subcategory);
+  const tagFilter = firstValue(params?.tag);
 
   const articles = await getArticles(subcategoryFilter, tagFilter);
 

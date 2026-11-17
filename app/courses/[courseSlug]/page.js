@@ -1,3 +1,5 @@
+// app/courses/[courseSlug]/page.js
+
 import { notFound } from 'next/navigation';
 import Header from '../../../components/layout/Header';
 import Footer from '../../../components/layout/Footer';
@@ -25,6 +27,7 @@ export async function generateMetadata({ params }) {
   return {
     title: `${course.courseTitle} | ${suffix}`,
     description: `${course.courseDescription} ${course.lessonCount} free lessons covering ${course.difficulty.toLowerCase()}-level content. Self-paced sommelier education from Somm.Site.`,
+    alternates: { canonical: `/courses/${course.courseSlug}` },
     openGraph: {
       title: `${course.courseTitle} | ${suffix} - Somm.Site`,
       description: course.courseDescription,
@@ -59,8 +62,9 @@ export default async function CoursePage({ params }) {
     "description": course.courseDescription,
     "provider": {
       "@type": "Organization",
-      "name": "SOMM.SITE",
-      "url": "https://somm.site"
+      "@id": "https://somm.site/#organization",
+      "name": "Somm.Site",
+      "url": "https://www.somm.site"
     },
     "numberOfCredits": course.lessonCount,
     "educationalLevel": course.difficulty,
@@ -81,13 +85,13 @@ export default async function CoursePage({ params }) {
         "@type": "ListItem",
         "position": 1,
         "name": "Courses",
-        "item": "https://somm.site/courses"
+        "item": "https://www.somm.site/courses"
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": course.courseTitle,
-        "item": `https://somm.site/courses/${course.courseSlug}`
+        "item": `https://www.somm.site/courses/${course.courseSlug}`
       }
     ]
   };

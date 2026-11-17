@@ -25,7 +25,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
   return {
     title: article.title,
-    description: article.subtitle || `Read about ${article.title} on SOMM.SITE`,
+    description: article.subtitle || `Read about ${article.title} on Somm.Site`,
+    alternates: { canonical: `/articles/${slug}` },
     openGraph: {
       title: article.title,
       description: article.subtitle || `Read about ${article.title}`,
@@ -200,17 +201,18 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
     "@type": "Article",
     "headline": article.title,
     "description": article.subtitle || article.title,
-    "image": article.imageUrl || "https://somm.site/ss-social-card.png",
+    "image": article.imageUrl || "https://www.somm.site/ss-social-card.png",
     "author": {
       "@type": "Person",
       "name": article.author || "Derek Engles"
     },
     "publisher": {
       "@type": "Organization",
-      "name": "SOMM.SITE",
+      "@id": "https://somm.site/#organization",
+      "name": "Somm.Site",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://somm.site/ss-favicon.png"
+        "url": "https://www.somm.site/ss-favicon.png"
       }
     },
     "datePublished": article.publishedAt,
@@ -322,7 +324,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
           </p>
           <div className={styles.socialLinks}>
             <a 
-              href={`https://twitter.com/intent/tweet?url=${encodeURIComponent('https://somm.site/articles/' + slug)}&text=${encodeURIComponent(article.title)}`} 
+              href={`https://twitter.com/intent/tweet?url=${encodeURIComponent('https://www.somm.site/articles/' + slug)}&text=${encodeURIComponent(article.title)}`} 
               target="_blank" 
               rel="noopener noreferrer"
               className={styles.socialLink}
@@ -332,7 +334,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
               </svg>
             </a>
             <a 
-              href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent('https://somm.site/articles/' + slug)}`} 
+              href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent('https://www.somm.site/articles/' + slug)}`} 
               target="_blank" 
               rel="noopener noreferrer"
               className={styles.socialLink}
@@ -342,7 +344,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
               </svg>
             </a>
             <a 
-              href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent('https://somm.site/articles/' + slug)}`} 
+              href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent('https://www.somm.site/articles/' + slug)}`} 
               target="_blank" 
               rel="noopener noreferrer"
               className={styles.socialLink}

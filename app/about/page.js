@@ -10,14 +10,16 @@ import Header from '../../components/layout/Header';
 import Footer from '../../components/layout/Footer';
 import styles from './page.module.css';
 
-const SITE_URL = 'https://somm.site';
+const SITE_URL = 'https://www.somm.site';
 const PAGE_URL = `${SITE_URL}/about`;
 
 // Stable entity IDs. Reuse these exact strings anywhere these entities are
 // described (layout.js, derekengles.com, informativemedia.com) so search
 // engines merge them into one entity each.
 const PERSON_ID = 'https://derekengles.com/#person';
-const SITE_ORG_ID = `${SITE_URL}/#organization`;
+// The entity ID is an identifier, not a link, so it stays exactly as first
+// published even though the site lives at www.
+const SITE_ORG_ID = 'https://somm.site/#organization';
 const PARENT_ORG_ID = 'https://informativemedia.com/#organization';
 
 // Official Somm.Site profiles. Keep in sync with app/layout.js.
@@ -127,7 +129,7 @@ const structuredData = {
       url: 'https://informativemedia.com',
       founder: { '@id': PERSON_ID },
       brand: [
-        { '@type': 'Brand', name: 'Somm.Site', url: 'https://somm.site' },
+        { '@type': 'Brand', name: 'Somm.Site', url: 'https://www.somm.site' },
         { '@type': 'Brand', name: 'Somm.Tips', url: 'https://somm.tips' },
         { '@type': 'Brand', name: 'Beverage.fyi', url: 'https://beverage.fyi' },
         { '@type': 'Brand', name: 'RestaurantStandards.com', url: 'https://restaurantstandards.com' },
@@ -284,25 +286,27 @@ export default function AboutPage() {
 
             <div className={styles.storyBody}>
               <p className={styles.storyLead}>
-                Twenty years on restaurant floors gave me a deep well of wine knowledge, much of
-                it gathered from places that are hard to find: dense textbooks, old maps, and
-                years of my own notes and flashcards.
+                I spent more than twenty years on restaurant floors, many of them in Las Vegas,
+                where a guest’s question about a bottle could come at any moment and the answer
+                had to be right.
               </p>
               <p className={styles.bodyText}>
-                When it came time to share it, I wanted it done right. So I taught myself the
-                technology to build and deliver it exactly the way I pictured: fast, clean, and
-                easy to use on any device. 
+                Earning my Advanced certification from the Court of Master Sommeliers showed me
+                what great wine education looks like. Years of training service teams showed me
+                how few people ever get access to it. The best material was locked behind
+                expensive programs, scattered across dozens of sources, or hidden behind a
+                signup form.
               </p>
               <p className={styles.bodyText}>
-                Somm.Site is the result: a free resource for curious beginners and working
-                professionals alike. Every course, article, and video is written and produced to
-                be easy to digest, so you can learn the grapes, regions, and history behind the
-                bottle at your own pace.
+                So I built the resource I wanted when I started: clear, accurate, and free.
+                Somm.Site covers the grapes, regions, and history behind the bottle, with
+                courses, quizzes, and short videos for every level. Whether you are studying for
+                an exam or just want to understand what’s in your glass, it’s here for you.
               </p>
               <div className={styles.signature}>
                 <span className={styles.signatureName}>Derek Engles</span>
                 <span className={styles.signatureRole}>
-                  Founder, Somm.Site · Informative Media
+                  Founder, Somm.Site · CEO, Informative Media
                 </span>
               </div>
             </div>
@@ -408,7 +412,7 @@ export default function AboutPage() {
               >
                 Informative Media
               </a>
-              , a hospitality education and technology company.
+              , a hospitality education and technology company founded by Derek Engles.
             </p>
           </div>
         </section>

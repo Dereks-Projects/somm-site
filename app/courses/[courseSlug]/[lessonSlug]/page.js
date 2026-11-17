@@ -41,6 +41,7 @@ export async function generateMetadata({ params }) {
     title: `${lesson.lessonTitle} - ${course.courseTitle}`,
     description: lesson.introductionparagraph.slice(0, 160) + "...",
     keywords: lesson.tags,
+    alternates: { canonical: `/courses/${course.courseSlug}/${lesson.slug}` },
     openGraph: {
       title: `${lesson.lessonTitle} - ${course.courseTitle} - Somm.Site`,
       description: lesson.introductionparagraph.slice(0, 160) + "...",
@@ -89,8 +90,9 @@ export default async function ClassPage({ params }) {
     "description": lesson.introductionparagraph,
     "provider": {
       "@type": "Organization",
-      "name": "SOMM.SITE",
-      "url": "https://somm.site"
+      "@id": "https://somm.site/#organization",
+      "name": "Somm.Site",
+      "url": "https://www.somm.site"
     },
     "hasCourseInstance": {
       "@type": "CourseInstance",
@@ -109,7 +111,7 @@ export default async function ClassPage({ params }) {
     "isPartOf": {
       "@type": "Course",
       "name": course.courseTitle,
-      "url": `https://somm.site/courses/${course.courseSlug}`
+      "url": `https://www.somm.site/courses/${course.courseSlug}`
     }
   };
 
@@ -121,19 +123,19 @@ export default async function ClassPage({ params }) {
         "@type": "ListItem",
         "position": 1,
         "name": "Courses",
-        "item": "https://somm.site/courses"
+        "item": "https://www.somm.site/courses"
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": course.courseTitle,
-        "item": `https://somm.site/courses/${course.courseSlug}`
+        "item": `https://www.somm.site/courses/${course.courseSlug}`
       },
       {
         "@type": "ListItem",
         "position": 3,
         "name": lesson.lessonTitle,
-        "item": `https://somm.site/courses/${course.courseSlug}/${lesson.slug}`
+        "item": `https://www.somm.site/courses/${course.courseSlug}/${lesson.slug}`
       }
     ]
   };

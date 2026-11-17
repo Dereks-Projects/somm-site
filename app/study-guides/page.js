@@ -13,6 +13,7 @@ export const metadata = {
   title: 'Regional Reports - Wine Region Study Guides',
   description:
     'Comprehensive wine region guides covering the most important wine-producing areas in the world. Free, in-depth study guides for sommeliers, hospitality professionals, and wine enthusiasts.',
+  alternates: { canonical: '/study-guides' },
   openGraph: {
     title: 'Regional Reports - Wine Region Study Guides | Somm.Site',
     description:
@@ -33,13 +34,13 @@ export default async function StudyGuidesPage() {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://somm.site',
+        item: 'https://www.somm.site',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'Regional Reports',
-        item: 'https://somm.site/study-guides',
+        item: 'https://www.somm.site/study-guides',
       },
     ],
   };
@@ -51,13 +52,14 @@ export default async function StudyGuidesPage() {
     name: 'Regional Reports',
     description:
       'Comprehensive wine region guides covering the most important wine-producing areas in the world.',
-    url: 'https://somm.site/study-guides',
+    url: 'https://www.somm.site/study-guides',
     publisher: {
       '@type': 'Organization',
-      name: 'SOMM.SITE',
+      '@id': 'https://somm.site/#organization',
+      name: 'Somm.Site',
       logo: {
         '@type': 'ImageObject',
-        url: 'https://somm.site/ss-favicon.png',
+        url: 'https://www.somm.site/ss-favicon.png',
       },
     },
   };
