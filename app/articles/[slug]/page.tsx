@@ -7,6 +7,7 @@ import Footer from '../../../components/layout/Footer'
 import Image from 'next/image'
 import styles from './article.module.css'
 import Link from 'next/link'
+import { notFound } from 'next/navigation'
 import { urlFor } from '../../../sanity/lib/imageUrl'
 import ImageLightbox from '../../../components/ImageLightbox'
 import FeatureVideo from '../../../components/FeatureVideo'
@@ -43,7 +44,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 }
 
 async function getArticle(slug: string) {
-  const query = `*[_type == "article" && slug.current == $slug][0] {
+  // Only articles published to Somm.Site; anything else returns a 404 here.
+  const query = `*[_type == "article" && slug.current == $slug && "somm" in sites][0] {
     _id,
     title,
     subtitle,
@@ -77,7 +79,8 @@ async function getArticle(slug: string) {
     },
     "handPickedRelated": relatedArticles[]->{
       title,
-      slug
+      slug,
+      sites
     },
     "subcategoryArticles": *[_type == "article" && subcategory == ^.subcategory && "somm" in sites && _id != ^._id] | order(publishedAt desc) [0...3]{
       title,
@@ -96,8 +99,14 @@ async function getArticle(slug: string) {
   
   if (!article) return null
 
+  // Keep hand-picked links to Somm.Site articles only, so none can point at a 404
+  const handPickedRelated = (article.handPickedRelated || []).filter(
+    (item: any) => item?.slug?.current && (item.sites || []).includes('somm')
+  )
+
   return {
     ...article,
+    handPickedRelated,
     imageUrl: article.mainImage?.asset?.url
   }
 }
@@ -146,18 +155,9 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
   const { slug } = await params
   const article = await getArticle(slug)
 
+  // No article for this address on Somm.Site: return a real 404
   if (!article) {
-    return (
-      <>
-        <Header />
-        <div className={styles.pageWrapper}>
-          <div style={{ padding: '32px', fontFamily: 'var(--font-montserrat), sans-serif' }}>
-            Article not found
-          </div>
-        </div>
-        <Footer />
-      </>
-    )
+    notFound()
   }
 
   // Vimeo videos placed in the body, fetched up front so each block can render

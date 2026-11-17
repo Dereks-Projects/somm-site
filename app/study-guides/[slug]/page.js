@@ -9,6 +9,7 @@ import Footer from '../../../components/layout/Footer';
 import ImageLightbox from '../../../components/ImageLightbox';
 import Image from 'next/image';
 import Link from 'next/link';
+import { notFound } from 'next/navigation';
 import styles from './page.module.css';
 
 export async function generateMetadata({ params }) {
@@ -20,7 +21,7 @@ export async function generateMetadata({ params }) {
   }
 
   return {
-    title: `${guide.title} | Regional Reports | Somm.Site`,
+    title: `${guide.title} | Regional Reports`,
     description: guide.subtitle || `Read about ${guide.title} on SOMM.SITE`,
     openGraph: {
       title: guide.title,
@@ -93,16 +94,9 @@ export default async function StudyGuidePage({ params }) {
   const { slug } = await params;
   const guide = await getGuide(slug);
 
+  // No guide: return a real 404 so search engines drop the address
   if (!guide) {
-    return (
-      <>
-        <Header />
-        <div className={styles.pageWrapper}>
-          <div className={styles.notFound}>Guide not found</div>
-        </div>
-        <Footer />
-      </>
-    );
+    notFound();
   }
 
   // Fetch child articles for this guide

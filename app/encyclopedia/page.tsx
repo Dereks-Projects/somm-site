@@ -1,3 +1,5 @@
+// app/encyclopedia/page.tsx
+
 import Link from 'next/link'
 import Header from '../../components/layout/Header'
 import Footer from '../../components/layout/Footer'
@@ -32,7 +34,7 @@ import Y from '../../data/encyclopedia/Y.json'
 import Z from '../../data/encyclopedia/Z.json'
 
 export const metadata = {
-  title: 'Wine Encyclopedia | Somm.Site',
+  title: 'Wine Encyclopedia',
   description: 'A comprehensive encyclopedia of wine and beverage terminology. Explore definitions for grape varieties, wine regions, tasting terms, and more.',
   alternates: {
     canonical: 'https://somm.site/encyclopedia'

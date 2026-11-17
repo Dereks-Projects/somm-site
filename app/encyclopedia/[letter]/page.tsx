@@ -1,3 +1,5 @@
+// app/encyclopedia/[letter]/page.tsx
+
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import Header from '../../../components/layout/Header'
@@ -50,7 +52,7 @@ export async function generateMetadata({ params }: { params: Promise<{ letter: s
   const upperLetter = letter.toUpperCase()
   
   return {
-    title: `${upperLetter} - Wine Encyclopedia | Somm.Site`,
+    title: `${upperLetter} - Wine Encyclopedia`,
     description: `Browse wine and beverage terms starting with ${upperLetter}. Definitions for grape varieties, regions, and tasting terminology.`,
   }
 }

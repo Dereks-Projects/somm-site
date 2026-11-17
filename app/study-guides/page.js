@@ -1,3 +1,5 @@
+// app/study-guides/page.js
+
 import { client } from '../../sanity/lib/client';
 import { allStudyGuidesQuery } from '../../sanity/queries';
 import { urlFor } from '../../sanity/lib/imageUrl';
@@ -8,7 +10,7 @@ import Link from 'next/link';
 import styles from './page.module.css';
 
 export const metadata = {
-  title: 'Regional Reports - Wine Region Study Guides | Somm.Site',
+  title: 'Regional Reports - Wine Region Study Guides',
   description:
     'Comprehensive wine region guides covering the most important wine-producing areas in the world. Free, in-depth study guides for sommeliers, hospitality professionals, and wine enthusiasts.',
   openGraph: {
