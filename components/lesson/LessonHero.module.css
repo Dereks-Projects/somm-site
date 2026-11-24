@@ -1,0 +1,294 @@
+/* components/lesson/LessonHero.module.css */
+/* MOBILE FIRST - LESSON HERO AND LESSON BAR */
+/* Layout values (--lesson-*) are set on the lesson page's main element. */
+
+/* ---- Hero ---- */
+.hero {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  display: flex;
+  min-height: 440px;
+  padding: 24px var(--lesson-gutter, 20px) 40px;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+/* Dimmed so white text stays readable on bright photos */
+.heroImage {
+  z-index: -2;
+  object-fit: cover;
+  object-position: center;
+  filter: brightness(0.6);
+}
+
+/* Extra shade behind the breadcrumb (top) and title (bottom) */
+.hero::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.88) 0%,
+    rgba(0, 0, 0, 0.5) 45%,
+    rgba(0, 0, 0, 0.15) 75%,
+    rgba(0, 0, 0, 0.5) 100%
+  );
+}
+
+.heroInner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 56px;
+  width: 100%;
+  max-width: var(--lesson-max-width, 1160px);
+  margin: 0 auto;
+}
+
+/* ---- Breadcrumb ---- */
+.breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  row-gap: 4px;
+  list-style: none;
+  font-family: var(--font-inter), sans-serif;
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+/* Separator is decorative; the second content value hides it from screen readers */
+.crumb + .crumb::before {
+  content: '/';
+  content: '/' / '';
+  margin: 0 8px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.crumbLink {
+  color: rgba(255, 255, 255, 0.85);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.crumbLink:hover {
+  color: #ffde59;
+}
+
+.crumbLink:focus-visible {
+  outline: 2px solid #ffde59;
+  outline-offset: 2px;
+}
+
+/* The title repeats it on phones, so it shows on desktop only */
+.crumbCurrent {
+  display: none;
+  color: #ffffff;
+}
+
+/* ---- Title block ---- */
+.titleBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 960px;
+}
+
+.accentBar {
+  display: block;
+  width: 64px;
+  height: 6px;
+  background-color: #ffde59;
+}
+
+.subtitle {
+  font-family: var(--font-montserrat), sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #ffde59;
+}
+
+.title {
+  font-family: var(--font-montserrat), sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.02;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  overflow-wrap: break-word;
+  text-wrap: balance;
+  text-shadow: 0 2px 24px rgba(0, 0, 0, 0.4);
+}
+
+.titleMedium {
+  font-size: 36px;
+}
+
+.titleLong {
+  font-size: 32px;
+}
+
+.summary {
+  max-width: 560px;
+  font-family: var(--font-inter), sans-serif;
+  font-size: 18px;
+  line-height: 1.55;
+  color: #e6e6e6;
+}
+
+/* ---- Lesson bar: progress and jump links ---- */
+.lessonBar {
+  padding: 28px var(--lesson-gutter, 20px) 32px;
+  background-color: #000000;
+  color: #ffffff;
+  border-top: 1px solid #2a2a2a;
+}
+
+.lessonBarInner {
+  display: grid;
+  grid-template-columns: var(--lesson-columns, minmax(0, 1fr));
+  gap: 28px var(--lesson-column-gap, 24px);
+  max-width: var(--lesson-max-width, 1160px);
+  margin: 0 auto;
+}
+
+.barLabel {
+  margin-bottom: 12px;
+  font-family: var(--font-montserrat), sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.4;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #b8b8b8;
+}
+
+.progress {
+  display: flex;
+  gap: 6px;
+  max-width: 320px;
+}
+
+.segment {
+  flex: 1;
+  height: 6px;
+  background-color: #3a3a3a;
+}
+
+.segmentDone {
+  background-color: #ffde59;
+}
+
+.jumpList {
+  list-style: none;
+}
+
+.jumpLink {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  min-height: 52px;
+  padding: 10px 0;
+  border-top: 1px solid #333333;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.jumpItem:last-child .jumpLink {
+  border-bottom: 1px solid #333333;
+}
+
+.jumpNumber {
+  flex-shrink: 0;
+  min-width: 22px;
+  font-family: var(--font-montserrat), sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #ffde59;
+}
+
+.jumpTitle {
+  flex: 1;
+  min-width: 0;
+  font-family: var(--font-montserrat), sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.35;
+  transition: color 0.2s ease;
+}
+
+.jumpIcon {
+  flex-shrink: 0;
+  width: 18px;
+  height: 18px;
+  color: #8a8a8a;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.jumpLink:hover .jumpTitle,
+.jumpLink:hover .jumpIcon {
+  color: #ffde59;
+}
+
+.jumpLink:hover .jumpIcon {
+  transform: translateY(2px);
+}
+
+.jumpLink:focus-visible {
+  outline: 3px solid #ffde59;
+  outline-offset: 2px;
+}
+
+/* ---- DESKTOP ---- */
+@media (min-width: 768px) {
+  .hero {
+    min-height: 560px;
+    padding: 32px var(--lesson-gutter, 40px) 64px;
+  }
+
+  .crumbCurrent {
+    display: inline;
+  }
+
+  .subtitle {
+    font-size: 13px;
+  }
+
+  .title {
+    font-size: clamp(56px, 7.2vw, 104px);
+  }
+
+  .titleMedium {
+    font-size: clamp(48px, 5.6vw, 80px);
+  }
+
+  .titleLong {
+    font-size: clamp(44px, 4.8vw, 68px);
+  }
+
+  .summary {
+    font-size: 20px;
+  }
+
+  .lessonBar {
+    padding-top: 36px;
+    padding-bottom: 40px;
+  }
+
+  .jumpTitle {
+    font-size: 16px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .crumbLink,
+  .jumpTitle,
+  .jumpIcon {
+    transition: none;
+  }
+}
