@@ -8,6 +8,13 @@ import ImageLightbox from '../../../../components/ImageLightbox';
 import FeatureVideo from '../../../../components/FeatureVideo';
 import LessonHero from '../../../../components/lesson/LessonHero';
 import LessonSection from '../../../../components/lesson/LessonSection';
+import ToggleBuilder from '../../../../components/lesson/ToggleBuilder';
+import CompareSwitch from '../../../../components/lesson/CompareSwitch';
+import FlashCards from '../../../../components/lesson/FlashCards';
+import Scenario from '../../../../components/lesson/Scenario';
+import QuickCheck from '../../../../components/lesson/QuickCheck';
+import TryThisWeek from '../../../../components/lesson/TryThisWeek';
+import { getLessonBlocks } from '../../../../lib/lessonBlocks';
 import { splitLead, splitParagraphs } from '../../../../lib/splitParagraphs';
 import { getFeatureVideo } from '../../../../lib/vimeo';
 import { getCourseBySlug, getLessonsByCourse, getLesson } from '../../../../data/getCourseData';
@@ -94,6 +101,22 @@ export default async function ClassPage({ params }) {
   }));
   const { lead: introLead, rest: introRest } = splitLead(lesson.introductionparagraph);
   const conclusionParagraphs = splitParagraphs(lesson.conclusion);
+  // Optional interactive blocks from the lesson JSON; each is null when absent.
+  const blocks = getLessonBlocks(lesson);
+  // The rich blocks that follow a given numbered section, in a fixed order.
+  const renderBlocksAfter = (sectionNumber) => (
+    <>
+      {blocks.toggleBuilder?.afterSection === sectionNumber && (
+        <ToggleBuilder builder={blocks.toggleBuilder} />
+      )}
+      {blocks.compareSwitch?.afterSection === sectionNumber && (
+        <CompareSwitch compare={blocks.compareSwitch} />
+      )}
+      {blocks.flashCards?.afterSection === sectionNumber && (
+        <FlashCards flash={blocks.flashCards} />
+      )}
+    </>
+  );
   // Optional lesson video. No videoId means no Vimeo call; any failure returns null.
   const lessonVideo = await getFeatureVideo(lesson.videoId);
 
@@ -194,6 +217,7 @@ export default async function ClassPage({ params }) {
             )}
 
             <LessonSection {...sections[0]} />
+            {renderBlocksAfter(1)}
 
             {/* Lesson Video: only renders when the lesson has a working videoId */}
             {lessonVideo && (
@@ -232,6 +256,7 @@ export default async function ClassPage({ params }) {
             )}
 
             <LessonSection {...sections[1]} />
+            {renderBlocksAfter(2)}
 
             <LessonSection
               {...sections[2]}
@@ -241,6 +266,10 @@ export default async function ClassPage({ params }) {
                 ) : null
               }
             />
+            {renderBlocksAfter(3)}
+
+            {blocks.scenario && <Scenario scenario={blocks.scenario} />}
+            {blocks.quickCheck && <QuickCheck quiz={blocks.quickCheck} />}
 
             {/* The takeaway: replaces the old "In Conclusion" card */}
             {conclusionParagraphs.length > 0 && (
@@ -258,6 +287,7 @@ export default async function ClassPage({ params }) {
                         {paragraph}
                       </p>
                     ))}
+                    {blocks.tryThisWeek && <TryThisWeek tasks={blocks.tryThisWeek} />}
                   </div>
                 </div>
               </section>

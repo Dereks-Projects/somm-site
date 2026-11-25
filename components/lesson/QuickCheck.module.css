@@ -1,0 +1,157 @@
+/* components/lesson/QuickCheck.module.css */
+/* MOBILE FIRST - QUICK CHECK QUIZ BLOCK (light band) */
+
+.score {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-top: 8px;
+}
+
+.scoreValue {
+  font-family: var(--font-montserrat), sans-serif;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #111111;
+}
+
+.scoreLabel {
+  font-family: var(--font-inter), sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #5c5c5c;
+}
+
+/* Hidden visually, still read by screen readers */
+.srOnly {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+.questions {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  max-width: var(--lesson-text-width, 780px);
+  list-style: none;
+}
+
+.question {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.prompt {
+  font-family: var(--font-montserrat), sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.35;
+  color: #111111;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style: none;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  width: 100%;
+  min-height: 56px;
+  padding: 12px 18px;
+  border: 1px solid #8a8a8a;
+  border-radius: 8px;
+  background-color: #ffffff;
+  color: #111111;
+  font-family: var(--font-inter), sans-serif;
+  font-size: 17px;
+  line-height: 1.4;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+}
+
+.option:hover:not([aria-disabled='true']) {
+  border-color: #111111;
+}
+
+.option:focus-visible {
+  outline: 3px solid #111111;
+  outline-offset: 3px;
+}
+
+.option[aria-disabled='true'] {
+  cursor: default;
+}
+
+.option[data-state='correct'] {
+  background-color: #ffde59;
+  border-color: #000000;
+  color: #000000;
+}
+
+.option[data-state='wrong'] {
+  background-color: #1a1a1a;
+  border-color: #1a1a1a;
+  color: #ffffff;
+}
+
+.option[data-state='other'] {
+  border-color: #d0d0d0;
+  color: #5c5c5c;
+}
+
+.tag {
+  flex-shrink: 0;
+  font-family: var(--font-montserrat), sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.result {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.verdict {
+  font-family: var(--font-montserrat), sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #111111;
+}
+
+.explanation {
+  font-family: var(--font-inter), sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333333;
+}
+
+/* ---- DESKTOP ---- */
+@media (min-width: 768px) {
+  .prompt {
+    font-size: 20px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .option {
+    transition: none;
+  }
+}

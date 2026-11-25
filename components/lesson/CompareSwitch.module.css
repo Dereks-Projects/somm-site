@@ -1,0 +1,92 @@
+/* components/lesson/CompareSwitch.module.css */
+/* MOBILE FIRST - "SIDE BY SIDE" COMPARE BLOCK */
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));
+  gap: 24px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  min-width: 0;
+  padding: 28px;
+  background-color: #000000;
+}
+
+.cardName {
+  font-family: var(--font-montserrat), sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.range {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.rangeBar {
+  display: block;
+  height: 10px;
+  background-color: #ffde59;
+}
+
+.rangeEnds {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  font-family: var(--font-montserrat), sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.4;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #c4c4c4;
+}
+
+/* Hidden visually, still read by screen readers */
+.srOnly {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.headline {
+  font-family: var(--font-montserrat), sans-serif;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #ffde59;
+}
+
+.footnote {
+  font-family: var(--font-inter), sans-serif;
+  font-size: 15px;
+  line-height: 1.6;
+  color: #c4c4c4;
+}
+
+/* ---- DESKTOP ---- */
+@media (min-width: 768px) {
+  .cardName {
+    font-size: 24px;
+  }
+
+  .headline {
+    font-size: 20px;
+  }
+}

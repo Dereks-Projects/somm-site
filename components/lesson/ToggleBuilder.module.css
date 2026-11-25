@@ -1,0 +1,104 @@
+/* components/lesson/ToggleBuilder.module.css */
+/* MOBILE FIRST - "BUILD A WINE" TOGGLE BLOCK */
+
+.layout {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr));
+  gap: 32px 40px;
+  align-items: start;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.resultColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  min-width: 0;
+}
+
+.result {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 28px;
+  background-color: #000000;
+}
+
+.resultHead {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.glass {
+  flex-shrink: 0;
+  width: 88px;
+  height: 88px;
+  border: 4px solid #ffffff;
+  border-radius: 50%;
+  background-color: #d9d9d9;
+  transition: background-color 0.3s ease;
+}
+
+/* Glass swatches: names match GLASS_COLORS in lib/lessonBlocks.js */
+.glass[data-color='paleLemon'] { background-color: #eef2b0; }
+.glass[data-color='lemon'] { background-color: #f1e38a; }
+.glass[data-color='paleGold'] { background-color: #ecd96b; }
+.glass[data-color='gold'] { background-color: #e3bf45; }
+.glass[data-color='deepGold'] { background-color: #c9962b; }
+.glass[data-color='amber'] { background-color: #b8741a; }
+.glass[data-color='pink'] { background-color: #f4b6c2; }
+.glass[data-color='salmon'] { background-color: #f3a88a; }
+.glass[data-color='purple'] { background-color: #4a1033; }
+.glass[data-color='ruby'] { background-color: #8b1a2b; }
+.glass[data-color='garnet'] { background-color: #7b2a24; }
+.glass[data-color='tawny'] { background-color: #a0612e; }
+
+.resultTitle {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 0;
+}
+
+.resultLabel {
+  font-family: var(--font-montserrat), sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.4;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #c4c4c4;
+}
+
+.styleName {
+  font-family: var(--font-montserrat), sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.description {
+  font-family: var(--font-inter), sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #d6d6d6;
+}
+
+.footnote {
+  font-family: var(--font-inter), sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #b8b8b8;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .glass {
+    transition: none;
+  }
+}

@@ -1,0 +1,84 @@
+/* components/lesson/LessonStation.module.css */
+/* MOBILE FIRST - BAND THAT FRAMES EACH INTERACTIVE BLOCK */
+/* Layout values (--lesson-*) are set on the lesson page's main element. */
+
+.station {
+  padding: var(--lesson-band-padding, 56px) var(--lesson-gutter, 20px);
+  scroll-margin-top: var(--lesson-header-offset, 80px);
+}
+
+.dark {
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+.black {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.light {
+  background-color: #f4f4f4;
+  color: #111111;
+}
+
+.inner {
+  display: grid;
+  grid-template-columns: var(--lesson-columns, minmax(0, 1fr));
+  gap: 28px var(--lesson-column-gap, 24px);
+  max-width: var(--lesson-max-width, 1160px);
+  margin: 0 auto;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.eyebrow {
+  font-family: var(--font-montserrat), sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.4;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #ffde59;
+}
+
+.light .eyebrow {
+  color: #5c5c5c;
+}
+
+.title {
+  font-family: var(--font-montserrat), sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.15;
+}
+
+.intro {
+  font-family: var(--font-inter), sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #c4c4c4;
+}
+
+.light .intro {
+  color: #4a4a4a;
+}
+
+.content {
+  min-width: 0;
+}
+
+/* ---- DESKTOP ---- */
+@media (min-width: 768px) {
+  .eyebrow {
+    font-size: 13px;
+  }
+
+  .title {
+    font-size: 28px;
+  }
+}
