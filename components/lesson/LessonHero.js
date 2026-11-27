@@ -22,8 +22,14 @@ function formatNumber(number) {
   return String(number).padStart(2, '0');
 }
 
-export default function LessonHero({ course, lesson, lessonPosition, totalLessons, sections = [] }) {
-  const summary = typeof lesson.summary === 'string' ? lesson.summary.trim() : '';
+export default function LessonHero({
+  course,
+  lesson,
+  summary = '',
+  lessonPosition,
+  totalLessons,
+  sections = [],
+}) {
   const titleClassName = [styles.title, getTitleSizeClass(lesson.lessonTitle)]
     .filter(Boolean)
     .join(' ');

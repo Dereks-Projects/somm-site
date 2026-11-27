@@ -18,6 +18,7 @@ import { getLessonBlocks } from '../../../../lib/lessonBlocks';
 import { splitLead, splitParagraphs } from '../../../../lib/splitParagraphs';
 import { getFeatureVideo } from '../../../../lib/vimeo';
 import { getCourseBySlug, getLessonsByCourse, getLesson } from '../../../../data/getCourseData';
+import { getLessonBlockData } from '../../../../data/lesson-blocks/index';
 import Link from 'next/link';
 import styles from './page.module.css';
 
@@ -101,8 +102,9 @@ export default async function ClassPage({ params }) {
   }));
   const { lead: introLead, rest: introRest } = splitLead(lesson.introductionparagraph);
   const conclusionParagraphs = splitParagraphs(lesson.conclusion);
-  // Optional interactive blocks from the lesson JSON; each is null when absent.
-  const blocks = getLessonBlocks(lesson);
+  // Optional hero summary and interactive blocks from the lesson's own file in
+  // data/lesson-blocks/; each block is null when absent.
+  const blocks = getLessonBlocks(getLessonBlockData(course.courseSlug, lesson.slug), lesson.slug);
   // The rich blocks that follow a given numbered section, in a fixed order.
   const renderBlocksAfter = (sectionNumber) => (
     <>
@@ -193,6 +195,7 @@ export default async function ClassPage({ params }) {
           <LessonHero
             course={course}
             lesson={lesson}
+            summary={blocks.summary}
             lessonPosition={lessonPosition}
             totalLessons={totalLessons}
             sections={sections}
