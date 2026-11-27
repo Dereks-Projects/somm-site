@@ -13,10 +13,12 @@
 // receive only the content for the lesson they are reading.
 
 import introCourseWhiteWine from './introduction-to-wine/intro-course-white-wine.json';
+import introCourseRedWine from './introduction-to-wine/intro-course-red-wine.json';
 
 const LESSON_BLOCKS = {
   'introduction-to-wine': {
     'intro-course-white-wine': introCourseWhiteWine,
+    'intro-course-red-wine': introCourseRedWine,
   },
 };
 

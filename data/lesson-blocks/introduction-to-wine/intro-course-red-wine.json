@@ -1,0 +1,153 @@
+{
+  "fileLocation": "data/lesson-blocks/introduction-to-wine/intro-course-red-wine.json",
+  "lessonSlug": "intro-course-red-wine",
+  "summary": "How grape skins give red wine its color and tannin, from delicate Pinot Noir to powerful Cabernet Sauvignon.",
+  "compareSwitch": {
+    "afterSection": 2,
+    "eyebrow": "Compare",
+    "title": "Merlot and Cabernet, side by side",
+    "intro": "Bordeaux's two great grapes. They often blend together: Merlot softens Cabernet's structure, and Cabernet adds backbone to Merlot.",
+    "cards": [
+      {
+        "name": "Merlot",
+        "headline": "Soft and plush",
+        "notes": [
+          "Plum",
+          "Black cherry",
+          "Blackberry",
+          "Chocolate",
+          "Vanilla",
+          "Herbal"
+        ],
+        "footnote": "Ripens earlier and has less tannin. Famous on Bordeaux's Right Bank, in Pomerol and Saint-Émilion."
+      },
+      {
+        "name": "Cabernet Sauvignon",
+        "headline": "Bold and structured",
+        "notes": [
+          "Blackcurrant",
+          "Black cherry",
+          "Blackberry",
+          "Cedar",
+          "Tobacco",
+          "Graphite",
+          "Bell pepper"
+        ],
+        "footnote": "Thick skins give deep color and firm tannins. Famous on Bordeaux's Left Bank, in Pauillac and Margaux, and in Napa Valley."
+      }
+    ]
+  },
+  "flashCards": {
+    "afterSection": 3,
+    "eyebrow": "Flash cards",
+    "title": "Three more grapes to know",
+    "intro": "Tap a grape. One card each, in the words of this lesson.",
+    "chooseLabel": "Choose a grape",
+    "cards": [
+      {
+        "name": "Syrah",
+        "tag": "Called Shiraz in Australia",
+        "text": "The Northern Rhône makes elegant, age-worthy Syrah. Australia's Barossa Valley makes bold, jammy Shiraz.",
+        "notes": [
+          "Blackberry",
+          "Blueberry",
+          "Black pepper",
+          "Violet"
+        ],
+        "body": 4,
+        "bodyLabel": "Full"
+      },
+      {
+        "name": "Grenache",
+        "tag": "Spain and the Southern Rhône",
+        "text": "Thrives in hot, dry climates, giving generous, fruity wines with soft tannins. A key grape in Châteauneuf-du-Pape.",
+        "notes": [
+          "Red berries",
+          "Spice"
+        ],
+        "body": 3,
+        "bodyLabel": "Medium"
+      },
+      {
+        "name": "Malbec",
+        "tag": "Mendoza, Argentina",
+        "text": "High-altitude vineyards give inky, full-bodied wines with velvety tannins.",
+        "notes": [
+          "Plum",
+          "Blackberry",
+          "Violet"
+        ],
+        "body": 4,
+        "bodyLabel": "Full"
+      }
+    ]
+  },
+  "scenario": {
+    "eyebrow": "Your call",
+    "title": "Put it to work",
+    "intro": "Reading builds knowledge. Choosing builds judgment.",
+    "prompt": "A guest tells you: “I would like a red wine, but nothing heavy.” Which bottle do you reach for?",
+    "choices": [
+      {
+        "text": "A Pinot Noir",
+        "correct": true,
+        "feedback": "Pinot Noir is red wine's most delicate grape: lighter in color, with silky tannins and bright red fruit."
+      },
+      {
+        "text": "A Napa Valley Cabernet Sauvignon",
+        "correct": false,
+        "feedback": "Napa Cabernet is powerful and fruit-forward, with firm tannins. That is the heavy style this guest wants to skip. Pinot Noir is the better call."
+      },
+      {
+        "text": "A Malbec from Mendoza",
+        "correct": false,
+        "feedback": "Mendoza Malbec is inky and full-bodied. Pinot Noir is the better call."
+      }
+    ]
+  },
+  "quickCheck": {
+    "eyebrow": "Quick check",
+    "title": "Three questions",
+    "questions": [
+      {
+        "prompt": "Where does red wine get its color and tannin?",
+        "options": [
+          "From contact with the grape skins during fermentation",
+          "From the juice of the grape",
+          "From the yeast used in fermentation"
+        ],
+        "answer": 0,
+        "explanation": "Contact with the grape skins during fermentation gives red wine its color, its tannin, and much of its flavor."
+      },
+      {
+        "prompt": "Which grape ripens earlier and has less tannin?",
+        "options": [
+          "Cabernet Sauvignon",
+          "Merlot",
+          "Syrah"
+        ],
+        "answer": 1,
+        "explanation": "Merlot ripens earlier than Cabernet Sauvignon and has less tannin, which makes it rounder and easier to enjoy young."
+      },
+      {
+        "prompt": "Where has Malbec found its ideal home?",
+        "options": [
+          "Bordeaux's Left Bank",
+          "Mendoza, Argentina",
+          "Australia's Barossa Valley"
+        ],
+        "answer": 1,
+        "explanation": "Mendoza, where high-altitude vineyards make inky, full-bodied Malbec with velvety tannins."
+      }
+    ]
+  },
+  "tryThisWeek": {
+    "eyebrow": "Take it to the glass",
+    "title": "Three things to try this week",
+    "items": [
+      "Pour a Pinot Noir and a Cabernet Sauvignon side by side and compare the color and the grip of the tannins",
+      "Taste a Merlot and look for plum, black cherry, and chocolate",
+      "Smell a Syrah and look for black pepper and violet"
+    ]
+  }
+}
